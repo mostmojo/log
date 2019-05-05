@@ -14,6 +14,6 @@
 
 **Link(s) to work**
 
-1. [Codepen grids](https://codepen.io/mostmojo/pen/OYLqvN?editors=1100#0)
+1. [Codepen grids](https://codepen.io/most_mojo/pen/RmwKWd)
 
 ---
