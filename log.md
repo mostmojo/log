@@ -1,4 +1,6 @@
-⚡️[Previous 100DaysOfCode log](https://twitter.com/most_mojo/status/1085674532982214662)
+⚡️[Previous #100DaysOfCode log](https://twitter.com/most_mojo/status/1085674532982214662)
+
+---
 
 ### Day 1: Friday, 4th May, 2019
 
@@ -6,7 +8,10 @@
 
 • Key CSS grid terms: container, row, column, area, items, cells, display: grid
 
-•
+• Downloaded new Mozilla Firefox and checked out grids in dev tools w/ line numbers
+
+• Practiced moving grids around on codepen with grid-row & grid-column syntax
+
 **Link(s) to work**
 
 1. [Codepen grids](https://codepen.io/mostmojo/pen/OYLqvN?editors=1100#0)
