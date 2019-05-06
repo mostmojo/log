@@ -33,3 +33,21 @@
 1. [Codepen grids](https://codepen.io/most_mojo/pen/RmwKWd)
 
 ---
+### Day 3: Monday, 6th May, 2019
+
+**Today's Progress**
+
+• More on CSS grids. New elements: `grid-auto-rows` for `implicit` grids w/ keyword `dense` to avoid 'holes'.
+
+• Elements similar to flexbox: `justify-items` and `align-items` (and self) for X & Y axis alignment. Also, `max-content` and `min-content` for responsive layouts w/ `auto-fit`/ `auto-fill`.
+
+• Started NEXTER project by Jonas Schmedtmann to put all grid-work into practice. To remember: `grid-template-columns:
+    [sidebar-start]8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]
+    )[center-end] 1fr [full-end];` &rarr; All naming, numeric and minmax function in one place 🤓.
+
+**Link(s) to work**
+
+1. [Codepen grids](https://codepen.io/most_mojo/pen/EzagWr)
+2. [Nexter project](https://github.com/mostmojo/nexter)
+
+---
