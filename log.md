@@ -6,11 +6,11 @@
 
 **Today's Progress**
 
-• Key CSS grid terms: `container, row, column, area, items, cells, display: grid`
+• Key CSS grid terms: `container, row, column, area, items, cells, display: grid`.
 
-• Downloaded new Mozilla Firefox and checked out grids in dev tools w/ line numbers
+• Downloaded new Mozilla Firefox and checked out grids in dev tools w/ line numbers.
 
-• Practiced moving grids around on codepen with `grid-row` & `grid-column` syntax
+• Practiced moving grids around on codepen with `grid-row` & `grid-column` syntax.
 
 **Link(s) to work**
 
