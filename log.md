@@ -43,7 +43,7 @@
 
 • Started NEXTER project by Jonas Schmedtmann to put all grid-work into practice. To remember: `grid-template-columns:
     [sidebar-start]8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]
-    )[center-end] 1fr [full-end];` &rarr; All naming, numeric and minmax function in one place 🤓.
+    )[center-end] 1fr [full-end];` &rarr; All naming, numeric and minmax functions utilized in one place 🤓.
 
 **Link(s) to work**
 
