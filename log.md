@@ -6,11 +6,11 @@
 
 **Today's Progress**
 
-• Key CSS grid terms: container, row, column, area, items, cells, display: grid
+• Key CSS grid terms: `container, row, column, area, items, cells, display: grid`
 
 • Downloaded new Mozilla Firefox and checked out grids in dev tools w/ line numbers
 
-• Practiced moving grids around on codepen with grid-row & grid-column syntax
+• Practiced moving grids around on codepen with `grid-row` & `grid-column` syntax
 
 **Link(s) to work**
 
@@ -22,11 +22,11 @@
 
 **Today's Progress**
 
-• Continued learning CSS grid - infinite col span using -1
+• Continued learning CSS grid - infinite `col` span using -1
 
-• Name grid lines: ex. grid-template-rows: [ header-start ] 100px [ header-end box-start ] 200px [ box-end main-start ] 400px [ main-end footer-start ] 100px [ footer-end ];
+• Name grid lines: ex. `grid-template-rows: [ header-start ] 100px [ header-end box-start ] 200px [ box-end main-start ] 400px [ main-end footer-start ] 100px [ footer-end ];`
 
-• Functionality of cols using grid-template-columns: repeat(3, [ col-start ] 1fr [ col-end ]) 200px [ grid-end ]; &rarr; col-start-1 col-end-1, col-start-2 col-end-2, etc
+• Functionality of cols using `grid-template-columns: repeat(3, [ col-start ] 1fr [ col-end ]) 200px [ grid-end ]; &rarr; col-start-1 col-end-1, col-start-2 col-end-2`, etc
 
 **Link(s) to work**
 
