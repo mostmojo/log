@@ -33,6 +33,7 @@
 1. [Codepen grids](https://codepen.io/most_mojo/pen/RmwKWd)
 
 ---
+
 ### Day 3: Monday, 6th May, 2019
 
 **Today's Progress**
@@ -49,5 +50,22 @@
 
 1. [Codepen grids](https://codepen.io/most_mojo/pen/EzagWr)
 2. [Nexter project](https://github.com/mostmojo/nexter)
+
+---
+
+### Day 4: Tuesday, 7th May, 2019
+
+**Today's Progress**
+
+• Dissected website built in Craft CMS / PHP Twig. Familiarised myself with Twig syntax, ternary operators and framework. 
+
+• Looked into builds, compilers, SASS variables and began to break down logic to comprehend Twig.
+
+• Worked on layout of Nexter project.
+
+**Link(s) to work**
+
+1. [Nexter project](https://github.com/mostmojo/nexter)
+2. [NH](https://github.com/ten4design/nicholas-hare)
 
 ---
