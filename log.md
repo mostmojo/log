@@ -57,7 +57,7 @@
 
 **Today's Progress**
 
-• Dissected website built in Craft CMS / PHP Twig. Familiarised myself with Twig syntax, ternary operators and framework. 
+• Dissected website built in Craft CMS / PHP Twig. Familiarised myself with Twig syntax, ternary operators and framework. Content blocks within matrix fields can be selected. For loops with array indices can display images; with transform props! Remember: `{% set variable = entry.title %}`
 
 • Looked into builds, compilers, SASS variables, the asset pipeline and began to break down logic to comprehend Twig. 
 
