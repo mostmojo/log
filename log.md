@@ -59,13 +59,13 @@
 
 • Dissected website built in Craft CMS / PHP Twig. Familiarised myself with Twig syntax, ternary operators and framework. 
 
-• Looked into builds, compilers, SASS variables and began to break down logic to comprehend Twig.
+• Looked into builds, compilers, SASS variables, the asset pipeline and began to break down logic to comprehend Twig. 
 
-• Worked on layout of Nexter project.
+• Worked on layout of Nexter project. Used `line names` within `grid-column` method in practice to align sections. 
 
 **Link(s) to work**
 
 1. [Nexter project](https://github.com/mostmojo/nexter)
-2. [NH](https://github.com/ten4design/nicholas-hare)
+2. [NH - private but it's there!](https://github.com/ten4design/nicholas-hare)
 
 ---
