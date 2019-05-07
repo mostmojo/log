@@ -57,9 +57,9 @@
 
 **Today's Progress**
 
-• Dissected website built in Craft CMS / PHP Twig. Familiarised myself with Twig syntax, ternary operators and framework. Content blocks within matrix fields can be selected. For loops with array indices can display images; with transform props! Remember: `{% set variable = entry.title %}` for logic vs `<p>{{ entry.title }}</p>`for display. 
+• Dissected Craft CMS / PHP Twig site. Familiarized myself with Twig syntax, ternary operators and framework. Content blocks within matrix fields can be selected. For loops with array indices can display images; with transform props! Remember: `{% set variable = entry.title %}` for logic vs `<p>{{ entry.title }}</p>` for display. 
 
-• Looked into builds, compilers, SASS variables, the asset pipeline and began to break down logic to comprehend Twig. 
+• Looked into yarn builds, compilers, SASS variables, the asset pipeline and began to break down Twig logic. 
 
 • Worked on layout of Nexter project. Used `line names` within `grid-column` property in practice to align sections. Ex. `grid-column: col-start 7 / full-end;`
 
