@@ -69,3 +69,19 @@
 2. [NH - private but it's there!](https://github.com/ten4design/nicholas-hare)
 
 ---
+
+### Day 5: Wednesday, 8th May, 2019
+
+**Today's Progress**
+
+• Twig - ternary operators, variable declaration/reuse, base inheritance w/ `{% extends '_base' %}` `{% block content %} {% endblock %}`. Used global handles: `@assetUrl, {{ entry.url }}, {{ url( '/.../ ~ entry.slug' ) }}, {{ siteUrl }}` to display different url scenarios (page url, domain & storing local assets. 
+
+• JS `cloak` library, `% placeholder selectors` in SASS - `@extends` , `itemscope` using schema.org, `vendor` files and Craft CMS globals: `getPrev, orderBy, postDate, {% include x %}`, `paginated` entries and `craft.app.request`.
+
+• `Invisible` classes for larger project structure
+
+**Link(s) to work**
+
+1. [SASS @extends docs](https://sass-lang.com/documentation/at-rules/extend)
+
+---
