@@ -78,7 +78,7 @@
 
 • JS `cloak` library, `% placeholder selectors` in SASS - `@extends` , `itemscope` using schema.org, `vendor` files and Craft CMS globals: `getPrev, orderBy, postDate, {% include x %}`, `paginated` entries and `craft.app.request`.
 
-• `Invisible` classes for larger project structure to keep semantics: h1 > h2 > h3, etc. Also - `loop.last` & `|raw` filter for escaping in Twig.
+• `Invisible` classes for larger project structure to keep semantics: h1 > h2 > h3, etc. Also - `loop.last` & `|raw` filter for escaping in Twig. Continued on nexter project with features layout with CSS grids within `grid items`. Added svg files with `use xlink:href` and `sprite` files.
 
 **Link(s) to work**
 
