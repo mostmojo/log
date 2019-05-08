@@ -74,11 +74,11 @@
 
 **Today's Progress**
 
-• Twig - ternary operators, variable declaration/reuse, base inheritance w/ `{% extends '_base' %}` `{% block content %} {% endblock %}`. Used global handles: `@assetUrl, {{ entry.url }}, {{ url( '/.../ ~ entry.slug' ) }}, {{ siteUrl }}` to display different url scenarios (page url, domain & storing local assets. 
+• Twig - base inheritance w/ `{% extends '_base' %}` `{% block content %} {% endblock %}`. Used global handles: `@assetUrl, {{ entry.url }}, {{ url( '/.../ ~ entry.slug' ) }}, {{ siteUrl }}` to display different url scenarios. 
 
 • JS `cloak` library, `% placeholder selectors` in SASS - `@extends` , `itemscope` using schema.org, `vendor` files and Craft CMS globals: `getPrev, orderBy, postDate, {% include x %}`, `paginated` entries and `craft.app.request`.
 
-• `Invisible` classes for larger project structure to keep semantics: h1 > h2 > h3, etc. Also - `loop.last` & `|raw` filter for escaping.
+• `Invisible` classes for larger project structure to keep semantics: h1 > h2 > h3, etc. Also - `loop.last` & `|raw` filter for escaping in Twig.
 
 **Link(s) to work**
 
