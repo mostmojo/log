@@ -78,7 +78,7 @@
 
 • JS `cloak` library, `% placeholder selectors` in SASS - `@extends` , `itemscope` using schema.org, `vendor` files and Craft CMS globals: `getPrev, orderBy, postDate, {% include x %}`, `paginated` entries and `craft.app.request`.
 
-• `Invisible` classes for larger project structure to keep semantics: h1 > h2 > h3, etc.
+• `Invisible` classes for larger project structure to keep semantics: h1 > h2 > h3, etc. Also - `loop.last` & `|raw` filter for escaping.
 
 **Link(s) to work**
 
