@@ -101,8 +101,6 @@
 **Link(s) to work**
 
 1. [Breadcrumbs](https://www.nngroup.com/articles/breadcrumbs/)
-2. [NH - private](https://github.com/ten4design/nicholas-hare)
-3. [MDN graceful degredation](https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation)
-4. [CSS display](https://css-tricks.com/almanac/properties/d/display/)
+2. [CSS display](https://css-tricks.com/almanac/properties/d/display/)
 
 ---
