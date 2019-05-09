@@ -86,4 +86,23 @@
 2. [Schema](https://schema.org/)
 
 ---
-https://www.nngroup.com/articles/breadcrumbs/
+### Day 6: Thursday, 9th May, 2019
+
+**Today's Progress**
+
+• Researched `breadcrumbs` for general UI/UX design - extra navigation. Studied *graceful degredation* vs *progressive enhancement* for JS & non JS browsers.  
+
+• Continued exploring SASS `$variables`, reusable components and utilities; `@extend` with `%` selectors. Looked into the power of `display: inline-block` vs `block`
+
+• Deciphered variables in `twig` syntax with k:v pairs with arrays which hold social icon data (handles, urls, icon font, aria labels) to render them in HTML. Ex.`{% for class, content in footer_social if content[1] %}
+<li><a href="{{ content[1] }}" class="a icon icon--{{ class }}" aria-label="{{ content[0] }}"></a></li>
+{% endfor %}`
+
+**Link(s) to work**
+
+1. [Breadcrumbs](https://www.nngroup.com/articles/breadcrumbs/)
+2. [NH - private](https://github.com/ten4design/nicholas-hare)
+3. [MDN graceful degredation](https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation)
+4. [CSS display](https://css-tricks.com/almanac/properties/d/display/)
+
+---
