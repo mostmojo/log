@@ -104,3 +104,21 @@
 2. [CSS display](https://css-tricks.com/almanac/properties/d/display/)
 
 ---
+
+### Day 7: Friday, 10th May, 2019
+
+**Today's Progress**
+
+• Looked into JavaScript `(function() document.body.className += ' js')` to grab contents of the body in a document that contain JS and render them into `script` tags.
+
+• Twig logic with additional conditions for displaying contents within a footer of a Craft CMS-based site. 
+
+• Created `/casting` section, fields, design layout, entries in Craft CMS and made new page for Studio Ramsay. Made individual button component in asset pipepline and ensured responsiveness. Remember: `{% set casting_case = '' %}` syntax for loops. First deployment w/ `jupiter` - AWS & docker!
+
+**Link(s) to work**
+
+1. [document.body.className SO](https://stackoverflow.com/questions/2125993/setting-document-body-classname-as-a-variable)
+2. [Studio Ramsay](https://www.studioramsay.com/casting)
+3. [Casting commits](https://github.com/ten4design/studio-ramsay/commits?author=mostmojo)
+
+---
