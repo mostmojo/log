@@ -111,9 +111,9 @@
 
 • Looked into JavaScript `(function() document.body.className += ' js')` to grab contents of the body in a document that contain JS and render them into `script` tags.
 
-• Twig logic with additional conditions for displaying contents within a footer of a Craft CMS-based site. 
+• Twig logic with additional conditions for displaying contents within a footer of a Craft CMS-based site. Remember: `{% set casting_case = '' %}` syntax for loops - `objects` and `arrays` came handy with navbar segments.
 
-• Created `/casting` section, fields, design layout, entries in Craft CMS and made new page for Studio Ramsay. Made individual button component in asset pipepline and ensured responsiveness. Remember: `{% set casting_case = '' %}` syntax for loops. First deployment w/ `jupiter` - AWS & docker!
+• Created `/casting` section, fields, design layout, entries in Craft for new Studio Ramsay page. Made button component in asset pipepline and ensured responsiveness. First deployment w/ `jupiter` - AWS & docker!
 
 **Link(s) to work**
 
