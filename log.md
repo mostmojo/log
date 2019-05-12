@@ -130,7 +130,7 @@
 
 • Used `grid-template-columns: min-content 1fr;` on child grid to create cols based on content and adapt. Remember: `fill` property is used to define colors on `svg` icons.
 
-• Made `%heading` placeholder selector for typography - headings and `@extend` into relevant headings throughout project. 
+• Made `%heading` placeholder selector for typography and `@extend` into relevant headings throughout project. 
 
 **Link(s) to work**
 
