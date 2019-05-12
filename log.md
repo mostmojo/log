@@ -122,3 +122,16 @@
 3. [Casting commits](https://github.com/ten4design/studio-ramsay/commits?author=mostmojo)
 
 ---
+### Day 8: Saturday, 11th May, 2019
+
+**Today's Progress**
+
+• Continued Nexter project. Used auto-fit property on parent grid element with minmax to fit contents of the col-grid according to minimum width and 1fr. Anything < 250px would decreased the cols from 3 to 2 to 1, etc. using auto-fit. `grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));`
+
+• Used `grid-template-columns: min-content 1fr;` on child grid to create cols based on content and adapt. Remember: `fill` property is used to define colors on `svg` icons.
+
+**Link(s) to work**
+
+1. [Nexter](https://github.com/mostmojo/nexter)
+
+---
