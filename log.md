@@ -137,3 +137,20 @@
 1. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
+### Day 9: Sunday, 12th May, 2019
+
+**Today's Progress**
+
+• Built a `story` section with `display: grid` and `display: flex` solutions to align content with images.
+
+• Made reusable helper classes similar to `atomic css` for margins.
+
+• Worked with linear gradients on imgs to act as overlays and further studied `BEM` syntax.
+
+**Link(s) to work**
+
+1. [Nexter](https://github.com/mostmojo/nexter)
+2. [Atomic CSS](https://acss.io/)
+3. [BEM syntax](https://twitter.com/most_mojo/status/1127570130517544962)
+
+---
