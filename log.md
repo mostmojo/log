@@ -145,7 +145,7 @@
 
 • Made reusable helper classes similar to `atomic css` for margins.
 
-• Worked with linear gradients on imgs to act as overlays and further studied `BEM` syntax.
+• Worked with linear gradients to overlay images and further studied `BEM` syntax.
 
 **Link(s) to work**
 
