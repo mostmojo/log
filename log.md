@@ -166,10 +166,12 @@
 
 • Further dive into more complex conditionals in twig to display images with image transforms (Craft CMS), reverse--rows, helper tags for margins, typeset classes to style dynamic content and research `display: inline, block, inline-block`.
 
-• Started the house section of Nexter project w/ `<use xlink:href="img/sprite.svg#icon-heart-full"></use>` SVGs, , multi-nested classes and grid-items.
+• Started the house section of Nexter w/ `<use xlink:href="img/sprite.svg#icon-heart-full"></use>` SVGs, , multi-nested classes and grid-items.
 
 **Link(s) to work**
 
-1. [Nexter](https://github.com/mostmojo/nexter)
+1. [Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
+2. [Twig](https://twig.symfony.com/doc/2.x/templates.html#filters)
+3. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
