@@ -118,7 +118,7 @@
 
 **Link(s) to work**
 
-1. [document.body.className SO](https://stackoverflow.com/questions/2125993/setting-document-body-classname-as-a-variable)
+1. [document.body.className](https://stackoverflow.com/questions/2125993/setting-document-body-classname-as-a-variable)
 2. [Studio Ramsay](https://www.studioramsay.com/casting)
 3. [Casting commits](https://github.com/ten4design/studio-ramsay/commits?author=mostmojo)
 
