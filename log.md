@@ -86,6 +86,7 @@
 2. [Schema](https://schema.org/)
 
 ---
+
 ### Day 6: Thursday, 9th May, 2019
 
 **Today's Progress**
@@ -122,6 +123,7 @@
 3. [Casting commits](https://github.com/ten4design/studio-ramsay/commits?author=mostmojo)
 
 ---
+
 ### Day 8: Saturday, 11th May, 2019
 
 **Today's Progress**
@@ -137,6 +139,7 @@
 1. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
+
 ### Day 9: Sunday, 12th May, 2019
 
 **Today's Progress**
@@ -152,5 +155,21 @@
 1. [Nexter](https://github.com/mostmojo/nexter)
 2. [Atomic CSS](https://acss.io/)
 3. [BEM syntax](https://twitter.com/most_mojo/status/1127570130517544962)
+
+---
+
+### Day 10: Monday, 13th May, 2019
+
+**Today's Progress**
+
+• Looked into Eric Meyer's Reset CSS stylesheet to reduce browser inconsistencies. Read Twig docs to see how `|length` filter operates.
+
+• Further dive into more complex conditionals in twig to display images with image transforms (Craft CMS), reverse--rows, helper tags for margins, typeset classes to style dynamic content and research `display: inline, block, inline-block`.
+
+• Started the house section of Nexter project w/ `<use xlink:href="img/sprite.svg#icon-heart-full"></use>` SVGs, , multi-nested classes and grid-items.
+
+**Link(s) to work**
+
+1. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
