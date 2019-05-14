@@ -175,3 +175,20 @@
 3. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
+
+### Day 11: Tuesday, 14th May, 2019
+
+**Today's Progress**
+
+• Looked into NkdTV layout, craft setup to identify sections, fields, handles, entry types.
+
+• Analysed a nav item variable declaration, for loop with 2 parameters and more complex logic to display relevant nav items with highlighting styles. 
+
+• Finished home card section on Nexter project using CSS grids and flexbox. Used `transform: translateY(50%);` for positioning and `z-index` with `align-self: end` to place an svg file with grid system.
+
+**Link(s) to work**
+
+1. [NkdTV](https://www.nkdtv.com/)
+2. [Nexter](https://github.com/mostmojo/nexter)
+
+---
