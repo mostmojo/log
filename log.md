@@ -182,7 +182,7 @@
 
 • Looked into NkdTV layout, craft setup to identify sections, fields, handles, entry types.
 
-• Analysed a nav item variable declaration, for loop with 2 parameters and more complex logic to display relevant nav items with highlighting styles. 
+• Analysed a nav item variable declaration, for loop with 2 parameters and more complex logic to display relevant nav items with highlighting styles upon selection using ternary operators. 
 
 • Finished home card section on Nexter project using CSS grids and flexbox. Used `transform: translateY(50%);` for positioning and `z-index` with `align-self: end` to place an svg file with grid system.
 
