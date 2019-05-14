@@ -180,7 +180,7 @@
 
 **Today's Progress**
 
-• Looked into NkdTV layout, craft setup to identify sections, fields, handles, entry types.
+• Looked into NkdTV layout, craft setup to identify sections, fields, handles, entry types. Looked into image magick error with yarn dependencies, docker config files and node modules. Tip: don't `yarn install`, but `yarn build:js` otherwise it overwrites everything you've pasted from older files! 
 
 • Analysed a nav item variable declaration, for loop with 2 parameters and more complex logic to display relevant nav items with highlighting styles upon selection using ternary operators. 
 
