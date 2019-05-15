@@ -201,7 +201,7 @@
 
 • Learned about the kanban process, component delegation when working in groups, and maintainable code structure.
 
-• Started a gallery section in Nexter with another grid featuring gallery items, `object-fit: cover` property and `display: block` to prevent whitespace rendered by inline elements that behave similar to text. 
+• Started a gallery section in Nexter with another grid featuring gallery items, `object-fit: cover` property and `display: block` to prevent whitespace created by inline elements that behave like text. 
 
 **Link(s) to work**
 
