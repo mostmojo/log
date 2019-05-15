@@ -192,3 +192,20 @@
 2. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
+
+### Day 12: Wednesday, 15th May, 2019
+
+**Today's Progress**
+
+• Studied Craft's `category groups`, `field layouts` and relationships using `source` to identify a for loop that renders content to the browser using a 'work role' category, filtered by 'departments'.  
+
+• Learned about the kanban process, component delegation when working in groups, and maintainable code structure.
+
+• Started a gallery section in Nexter with another grid featuring gallery items, `object-fit: cover` property and `display: block` to prevent whitespace rendered by inline elements that behave similar to text. 
+
+**Link(s) to work**
+
+1. [Craft categories](https://docs.craftcms.com/v3/categories.html#category-groups)
+2. [Nexter](https://github.com/mostmojo/nexter)
+
+---
