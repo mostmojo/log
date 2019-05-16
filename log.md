@@ -209,3 +209,16 @@
 2. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
+
+### Day 13: Thursday, 16th May, 2019
+
+**Today's Progress**
+
+• Create a new section for NkdTV to showcase new shows.
+• Relate content by categories to display status using Craft CMS
+
+**Link(s) to work**
+
+1. [Craft categories](https://docs.craftcms.com/v3/categories.html#category-groups)
+
+---
