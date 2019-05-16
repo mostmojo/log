@@ -214,16 +214,15 @@
 
 **Today's Progress**
 
-• Create a new section for NkdTV to showcase new `shows`. Ensure all fields and design layout in the CMS was sufficient and had good instructions for client. 
+• Create a new section for client to showcase new `shows`. Ensure all fields and design layout in the CMS was sufficient and had good instructions for client. 
 
-• Relate content by category groups to display project status using Craft CMS. Indentation, variable naming and continuity is key. Brief look at JS polyfills for IE8 browsers for reference.
+• Relate content by `category groups` to display project status using Craft CMS. Indentation, variable naming and continuity is key. Brief look at `JS polyfills` for IE8 browser knowledge.
 
-• Imitate design & structure from related section and InVision mockup. Got a small taste of kanban agile methodology. Made relevant index and entry files in asset pipeline. 
+• Imitate design & structure from related section and InVision mockup. Got a small taste of `kanban` agile methodology. Made relevant index and entry files in asset pipeline. 
 
 **Link(s) to work**
 
-1. [Craft categories](https://docs.craftcms.com/v3/categories.html#category-groups)
-2. [Nkdtv](https://www.nkdtv.com/)
-3. [Kanban](https://www.atlassian.com/agile/kanban)
+1. [Nkdtv](https://www.nkdtv.com/)
+2. [Kanban](https://www.atlassian.com/agile/kanban)
 
 ---
