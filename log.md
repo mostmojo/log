@@ -226,3 +226,22 @@
 2. [Kanban](https://www.atlassian.com/agile/kanban)
 
 ---
+
+### Day 14: Friday, 17th May, 2019
+
+**Today's Progress**
+
+• Alter existing homepage to make transparent nav bar.
+
+• Begin for loop for featured shows `.slideshow` using BEM and ensuring the related `Show` section contained `showImage` class to successfully complete query and display related content from entry if asset exists. 
+
+• Use `position: absolute`to place headers and links on slideshow responsively. Get my first short code review - helpful to instill way of thought and good practice 🙂.
+
+**Link(s) to work**
+
+1. [Nkdtv](https://www.nkdtv.com/)
+2. [Kanban](https://www.atlassian.com/agile/kanban)
+
+---
+
+
