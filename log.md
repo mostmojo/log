@@ -257,6 +257,7 @@
 **Link(s) to work**
 
 1. [Nexter](https://github.com/mostmojo/nexter)
+2. [Inline& block](https://medium.com/swlh/understanding-css-display-none-block-inline-and-inline-block-63f6510df93)
 
 ---
 
