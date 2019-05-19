@@ -244,4 +244,19 @@
 
 ---
 
+### Day 15: Saturday, 18th May, 2019
+
+**Today's Progress**
+
+• Create gallery section for nexter project with `display: grid`and `template rows/cols` using span.
+
+• Read about `display: inline, display: block, display: inline-block;` properties to use for footer styling. Inline: <a>, <img>, <strong> inlines can behave like `blocks`with `display: block` property.
+
+• Hamburger menu for navbar using pseudo elements `::before, ::after` and assigning `content: ""` with `transform: translateY(-2rem);`
+
+*Link(s) to work**
+
+1. [Nexter](https://github.com/mostmojo/nexter
+
+---
 
