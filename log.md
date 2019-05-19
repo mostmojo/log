@@ -261,3 +261,19 @@
 
 ---
 
+### Day 16: Sunday, 19th May, 2019
+
+**Today's Progress**
+
+• Finish nexter project on desktop.
+
+• Add @media queries, change grid layouts to adapt to responsive layout and display on mobile devices with ``$bp-large, $bp-medium` breakpoints. 
+
+• Add @media queries to personal site to test using `@media only screen and (max-width: 900px)`. Look at `max-height, max-width and minmax(min-content, max-content)` properties for adjusting responsive layouts.
+
+**Link(s) to work**
+
+1. [Nexter github](https://github.com/mostmojo/nexter)
+2. [Nexter desktop](https://mostmojo.github.io/nexter/)
+
+---
