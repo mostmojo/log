@@ -254,9 +254,9 @@
 
 • Hamburger menu for navbar using pseudo elements `::before, ::after` and assigning `content: ""` with `transform: translateY(-2rem);`
 
-*Link(s) to work**
+**Link(s) to work**
 
-1. [Nexter](https://github.com/mostmojo/nexter
+1. [Nexter](https://github.com/mostmojo/nexter)
 
 ---
 
