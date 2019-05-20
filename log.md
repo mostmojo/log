@@ -286,7 +286,7 @@
 
 • Study JS properties: `window`, `strict mode`, `this`, `.call() & apply()`, `getAttribute(),` `classList` and `pips`.
 
-• Rendered a slideshow for a home page section where `slideshow addon` is placed within vendor file, `@import` into main scss and js asset pipeline files and relevant `<script>` tags inserted to ensure the class ids and JS was related. Ensure to understand `z-index` power, `::before` pseudo class with `content:"∙"` for slideshow pips and layout. 
+• Rendered a slideshow for a home page section where `slideshow addon` is placed within vendor file, `@import` into main scss and js files and relevant `<script>` tags inserted to ensure class ids and JS relationship. Understand `z-index` power, `::before` pseudo class with `content:"∙"` for slideshow pips and layout. 
 
 **Link(s) to work**
 
