@@ -277,3 +277,23 @@
 2. [Nexter desktop](https://mostmojo.github.io/nexter/)
 
 ---
+
+### Day 17: Monday, 20th May, 2019
+
+**Today's Progress**
+
+• Finished Nexter project entirely and got my certificate from udemy 🎉! Ran `npm run build:css` to finalize the compilation and build process including minification for production. Researched *caniuse* website to check CSS grid browser compatibility.
+
+• Study JS properties: `window`, `strict mode`, `this`, `.call() & apply()`, `getAttribute(),` `classList` and `pips`.
+
+• Rendered a slideshow for a home page section where `slideshow addon` is placed within vendor file, `@import` into main scss and js asset pipeline files and relevant `<script>` tags inserted to ensure the class ids and JS was related. Ensure to understand `z-index` power, `::before` pseudo class with `content:"∙"` for slideshow pips and layout. 
+
+**Link(s) to work**
+
+1. [Udemy certificate](https://www.udemy.com/certificate/UC-1TBM8CJY/)
+2. [Nexter complete](https://mostmojo.github.io/nexter/)
+3. [Caniuse](https://caniuse.com/#search=css%20grids)
+4. [window.object](https://developer.mozilla.org/en-US/docs/Web/API/Window)
+
+---
+
