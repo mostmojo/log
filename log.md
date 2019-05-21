@@ -297,3 +297,17 @@
 
 ---
 
+### Day 18: Tuesday, 21st May, 2019
+
+**Today's Progress**
+
+• Ternary operators in twig to select specific classes for a `header--transparent` vs `header--primary` class. E.g. `{{ site_area == '' ? ' header--transparent' : ' header--primary' }}`. Also, intermediate responsive queries for mobile layout including font & image sizing as per different setting. 
+
+• `style="background-image: url( 'image.getUrl( 'imageTransformName' )' )";` for more stretchable images with transforms for better performance, with hidden `img src` & `position: absolute; top: -999;` values present to contain ARIA & accessibility labels. 
+
+• Basic run-through of `bash` scripts that configure and prompt `nginx, docker, CraftCMS, Jupiter & Saturn` deployment / setup. Study `main & final.js` files with relevant scripts for pips & slideshows.
+
+**Link(s) to work**
+
+
+---
