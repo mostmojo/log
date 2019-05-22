@@ -320,7 +320,7 @@
 
 • Study `continue` statement in JavaScript - terminating execution vs ongoing execution for `addEventListener` and `classList` additions for selected classes for a pip `slideshow`.
 
-• Start Jonas Schmedtman's JS course w/ refresher on type coercion, var declaration, data types and operators.
+• Start Jonas Schmedtman's JS course w/ refresher on `type coercion`, var declaration, data types and operators.
 
 **Link(s) to work**
 
