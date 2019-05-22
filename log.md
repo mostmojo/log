@@ -312,7 +312,7 @@
 
 ---
 
-### Day 19: Wednesday, 22st May, 2019
+### Day 19: Wednesday, 22nd May, 2019
 
 **Today's Progress**
 
