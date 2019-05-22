@@ -311,3 +311,21 @@
 
 
 ---
+
+### Day 19: Wednesday, 22st May, 2019
+
+**Today's Progress**
+
+• Make dynamic privacy, cookies and terms section with CraftCMS and twig syntax. Use `typeset` to style for loop item in `legal section` with appropriate classes.
+
+• Study `continue` statement in JavaScript - terminating execution vs ongoing execution for `addEventListener` and `classList` additions for selected classes for a pip `slideshow`.
+
+• Start Jonas Schmedtman's JS course w/ refresher on type coercion, var declaration, data types and operators.
+
+**Link(s) to work**
+
+1. [NakedTV](https://www.nkdtv.com/)
+2. [Continue statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
+3. [JS type coercion](https://www.udemy.com/the-complete-javascript-course/learn/lecture/5869094#questions/7082126)
+
+---
