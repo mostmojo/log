@@ -329,3 +329,19 @@
 3. [JS type coercion](https://www.udemy.com/the-complete-javascript-course/learn/lecture/5869094#questions/7082126)
 
 ---
+
+### Day 20: Thursday, 23rd May, 2019
+
+**Today's Progress**
+
+• Analysed small JS slideshow library containing: `querySelectorAll`, `getElementById`, `addEventListener`, `continue` statement, `clearInterval`, `setInterval()`. These functions and tools were used to ex. restart timing and change slides. Also looked into twig's null coalescing operator `??` and whitespace trimming `{{- value -}}`. 
+
+• Looked into nesting, linting and framework using Block Element Modifier (BEM). Ex. nest modifiers but not elements, spell out their full classes instead of the `&` symbol. Looked into `role` attribute for `accessibility` paired with `ARIA` labels. Analysed use of `@extends %class` for typesets and variable labelling. 
+
+• Review operator precedence, data types and JavaScript ES5 vs ES6 syntax and carried on with Jonas' JS course; completed mini challenge. 
+
+**Link(s) to work**
+
+1. [Slideshow JS - private](https://github.com/ten4design/ten4-framework/blob/master/addons/slideshow/final.js)
+2. [JS code challenge](https://www.instagram.com/p/Bx0ljjJn8Co/)
+---
