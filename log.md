@@ -344,4 +344,5 @@
 
 1. [Slideshow JS - private](https://github.com/ten4design/ten4-framework/blob/master/addons/slideshow/final.js)
 2. [JS code challenge](https://www.instagram.com/p/Bx0ljjJn8Co/)
+3. [Continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
 ---
