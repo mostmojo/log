@@ -338,7 +338,7 @@
 
 • Look into nesting, linting and framework using Block Element Modifier (BEM). Ex. nest modifiers but not elements, spell out their full classes instead of the `&` symbol. Check out `role` attribute for `accessibility` paired with `ARIA` labels. Analyse `@extends %class` for typesets. 
 
-• Review operator precedence, boolean logic, data types, ES5 vs ES6 syntax and carried on with Jonas' JS course; completed mini challenge.
+• Review operator precedence, boolean logic (`ternary, if/else, switch` w/ `case`), data types, ES5 vs ES6 syntax and carried on with Jonas' JS course; completed mini challenge.
 
 **Link(s) to work**
 
