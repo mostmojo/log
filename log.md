@@ -346,3 +346,19 @@
 2. [JS code challenge](https://www.instagram.com/p/Bx0ljjJn8Co/)
 3. [Continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
 ---
+
+### Day 21: Friday, 24th May, 2019
+
+**Today's Progress**
+
+• Look into form creation with JavaScript `createElement('script')`, `innerHTML` & `appendChild`via `HubSpot.
+
+• Multiple `users` in CraftCMS PRO for website contact requests, permissions and ternary operators in twig using `getQueryParam.
+
+• Make first small form component from `inVision` to codepen to website. Experience `Jupiter` and Saturn (dB) hosting, GitHub staging and temporary "deployment" via pointing to staging environment. 
+
+**Link(s) to work**
+
+1. [Codepen](https://codepen.io/most_mojo/pen/gJeKLK)
+
+---
