@@ -351,9 +351,9 @@
 
 **Today's Progress**
 
-• Look into form creation with JavaScript `createElement('script')`, `innerHTML` & `appendChild`via `HubSpot.
+• Look into form creation with JavaScript `createElement('script')`, `innerHTML` & `appendChild`via `HubSpot`.
 
-• Multiple `users` in CraftCMS PRO for website contact requests, permissions and ternary operators in twig using `getQueryParam.
+• Multiple `users` in CraftCMS PRO for website contact requests, permissions and ternary operators in twig using `craft.app.request.getQueryParam( 'contact' )`.
 
 • Make first small form component from `inVision` to codepen to website. Experience `Jupiter` and Saturn (dB) hosting, GitHub staging and temporary "deployment" via pointing to staging environment. 
 
