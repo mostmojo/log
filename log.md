@@ -382,3 +382,19 @@
 5. [*PHP Rest API*](https://www.youtube.com/watch?time_continue=1&v=OEWXbpUMODk) - TraversyMedia must watch
 
 ---
+
+### Day 23: Sunday, 26th May, 2019
+
+**Today's Progress**
+
+• Fork Jonas-based portfolio page and recap `SVG` icons via icomoon. Use `sprite.svg` file with semantic HTML class `<svg class="x"><use xlink:href="img/sprite.svg#icon-github></use></svg>` and the `fill` property. 
+
+•  Recap `animation` property in CSS for title and subtitle entries. Fix error with `npm install -g node-sass` and use `npm-run-all compile:sass prefix:css compress:css` to rebuild asset pipeline for production. 
+
+• Continue JS course - recap ES5 `function calculateAge( birthYear ) {}`, arguments, parameters and functions within functions to calculate retirement; exercise. 
+
+**Link(s) to work**
+
+1. [Site](https://mostmojo.github.io/port-master)
+2. [Codepen - JS function](https://codepen.io/most_mojo/pen/YbLBMe)
+
