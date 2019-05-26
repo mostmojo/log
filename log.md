@@ -371,12 +371,14 @@
 
 • Complete short basketball challenge with ES6 `template literals`, const declarations and logical operators. 
 
-• Implement weekly learnings to personal site to test mobile responsiveness using `em`s. Create linktree account to better share content quickly.
+• Implement weekly learnings to personal site to test mobile responsiveness & new fonts using `em`s. Create linktree account to better share profile content. 
 
 **Link(s) to work**
 
 1. [Codepen](https://codepen.io/most_mojo/pen/pmVOjW?editors=1111)
 2. [Personal site](https://mostmojo.github.io/)
 3. [Linktree](https://linktr.ee/mostmojo)
+4. [Site inspiration](https://konradcodes.github.io/Konrad-Szerszen-Portfolio/)
+5. [*PHP REST API*](https://www.youtube.com/watch?time_continue=1&v=OEWXbpUMODk)
 
 ---
