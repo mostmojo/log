@@ -367,9 +367,9 @@
 
 **Today's Progress**
 
-• Continue JS course (Jonas Schmedtmann) - Falsy values: `null, undefined, 0, "", NaN` vs `truthy` values. Equality operators: strict `===` vs `==` which do `type coercion`.
+• Continue JS course (Jonas Schmedtmann) - Falsy values: `null, undefined, 0, "", NaN` vs `truthy` values. Equality operators: strict `===` vs `==`, which do `type coercion`.
 
-• Complete short basketball challenge with ES6 `template literals`, const declarations and logical operators. 
+• Complete short basketball challenge with ES6 `template literals`, `const` declarations and logical operators. 
 
 • Implement weekly learnings to personal site to test mobile responsiveness & new fonts using `em`s. Create linktree account to better share profile content. 
 
@@ -379,6 +379,6 @@
 2. [Personal site](https://mostmojo.github.io/)
 3. [Linktree](https://linktr.ee/mostmojo)
 4. [Site inspiration](https://konradcodes.github.io/Konrad-Szerszen-Portfolio/)
-5. [*PHP REST API*](https://www.youtube.com/watch?time_continue=1&v=OEWXbpUMODk)
+5. [*PHP Rest API*](https://www.youtube.com/watch?time_continue=1&v=OEWXbpUMODk) - TraversyMedia must watch
 
 ---
