@@ -362,3 +362,21 @@
 1. [Codepen](https://codepen.io/most_mojo/pen/gJeKLK)
 
 ---
+
+### Day 22: Saturday, 25th May, 2019
+
+**Today's Progress**
+
+• Continue JS course (Jonas Schmedtmann) - Falsy values: `null, undefined, 0, "", NaN` vs `truthy` values. Equality operators: strict `===` vs `==` which do `type coercion`.
+
+• Complete short basketball challenge with ES6 `template literals`, const declarations and logical operators. 
+
+• Implement weekly learnings to personal site to test mobile responsiveness using `em`s. Create linktree account to better share content quickly.
+
+**Link(s) to work**
+
+1. [Codepen](https://codepen.io/most_mojo/pen/pmVOjW?editors=1111)
+2. [Personal site](https://mostmojo.github.io/)
+3. [Linktree](https://linktr.ee/mostmojo)
+
+---
