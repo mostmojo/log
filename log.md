@@ -398,3 +398,23 @@
 1. [Site](https://mostmojo.github.io/port-master)
 2. [Codepen - JS function](https://codepen.io/most_mojo/pen/YbLBMe)
 
+---
+
+### Day 24: Monday, 27th May, 2019
+
+**Today's Progress**
+
+• Add content to my site, tweak widths, box-shadow, transitions and create link `utility` class.
+
+• Redo tip calculator challenge to instill `data structures` - accessing arrays, objects, functions within functions.
+
+• Continue Jonas' course. `Object literals` vs `new Object()` syntax, CRUD, `this` keyword within methods - i.e. `function() { this.age = 2019 - this.birthYear; }` to extract data from `key:value` pair object. Complete BMI challenge.
+
+**Link(s) to work**
+
+1. [Site](https://mostmojo.github.io/port-master)
+2. [Tip Calc](https://twitter.com/most_mojo/status/1132925274520207360)
+3. [Gist BMI](https://gist.github.com/mostmojo/6bdd5805d7780f153fb6d3f425bd4b96)
+
+---
+
