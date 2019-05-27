@@ -345,6 +345,7 @@
 1. [Slideshow JS - private](https://github.com/ten4design/ten4-framework/blob/master/addons/slideshow/final.js)
 2. [JS code challenge](https://www.instagram.com/p/Bx0ljjJn8Co/)
 3. [Continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
+
 ---
 
 ### Day 21: Friday, 24th May, 2019
@@ -406,7 +407,7 @@
 
 • Add content to my site, tweak widths, box-shadow, transitions and create link `utility` class.
 
-• Redo tip calculator challenge to instill `data structures` - accessing arrays, objects, functions within functions.
+• Redo tip calculator challenge to instil `data structures` - accessing arrays, objects, functions within functions.
 
 • Continue Jonas' course. `Object literals` vs `new Object()` syntax, CRUD, `this` keyword within methods - i.e. `function() { this.age = 2019 - this.birthYear; }` to extract data from `key:value` pair object. Complete BMI challenge.
 
@@ -417,4 +418,3 @@
 3. [Gist BMI](https://gist.github.com/mostmojo/6bdd5805d7780f153fb6d3f425bd4b96)
 
 ---
-
