@@ -425,7 +425,7 @@
 
 • Style form using reusable components made from scratch. Use CSS class `specificity` when styling form element to target label and border. Ex. `.property input[type = text] { ... }`.
 
-• Get comfortable with company framework, `importdb` when cloning CraftCMS site, and ensuring `yarn watch, build:js` is run. Understand category relationships, their URIs and entry filters. Read on `bash aliases`, and `null coalescing operator` => `??`.  
+• Use `importdb` when cloning CraftCMS site plus SequelPro, and ensure `yarn watch, build:js` is run. Understand category relationships, their URIs and entry filters. Read on `bash aliases`, and `null coalescing operator` => `??`.  
 
 • JS Course: Loops & iterators - `for` and `while`, `continue` / `break` statements and backwards loops using for `(i = john.length -1 ; i >= 0; i--);`
 
