@@ -418,3 +418,21 @@
 3. [Gist BMI](https://gist.github.com/mostmojo/6bdd5805d7780f153fb6d3f425bd4b96)
 
 ---
+
+### Day 25: Tuesday, 28th May, 2019
+
+**Today's Progress**
+
+• Style form using reusable components made from scratch. Use CSS class `specificity` when styling form element to target label and border. Ex. `.property input[type = text] { ... }`.
+
+• Get comfortable with company framework, `importdb` when cloning CraftCMS site, and ensuring `yarn watch, build:js` is run. Understand category relationships, their URIs and entry filters. Read on `bash aliases`, and `null coalescing operator` => `??`.  
+
+• JS Course: Loops & iterators - `for` and `while`, `continue` / `break` statements and backwards loops using for `(i = john.length -1 ; i >= 0; i--);`
+
+**Link(s) to work**
+
+1. [Bash alias](https://mijingo.com/blog/creating-bash-aliases)
+2. [?? operator](https://twig.symfony.com/doc/2.x/templates.html)
+
+---
+
