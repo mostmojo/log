@@ -436,3 +436,19 @@
 
 ---
 
+### Day 26: Wednesday, 29th May, 2019
+
+**Today's Progress**
+
+• Feedback on `position: absolute` vs `display: flex` - research on flexbox, default characteristics i.e. `align-items: stretch;` & `flex-direction: row;` and codepen implementation of twitter card.
+
+• Inline (`<a>, <img> <span>`) vs block (`<p>, <div>, <ul>, <li>`) level elements and how they affect layout from the start in HTML. General rule: when using margins - go for top, right and bottom as we read like that in English.
+
+• Study email forms with `getQuerySelector`, `getElementById('x').value`, `addEventListener('click', () => {});`. 
+
+**Link(s) to work**
+
+1. [Flexbox](https://daveceddia.com/implement-a-design-with-css/)
+2. [Codepen Twitter](https://codepen.io/most_mojo/pen/rgZKpQ)
+
+---
