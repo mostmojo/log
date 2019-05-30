@@ -450,5 +450,24 @@
 
 1. [Flexbox](https://daveceddia.com/implement-a-design-with-css/)
 2. [Codepen Twitter](https://codepen.io/most_mojo/pen/rgZKpQ)
+https://mostmojo.github.io/port-master/
+
+---
+
+### Day 27: Thursday, 30th May, 2019
+
+**Today's Progress**
+
+• Read hubspot docs to integrate hubspot form with JavaScript `createElement`, `innerHTML`, `getElementById` and `appendChild` selectors. Use HS-based classes to style sheet accordingly. 
+
+• Study `matrices` in craft and render them in `Twig`. Use `{% include x %}` to define `hashes` with `key:value pairs` using the `with` param for `_partials.twig`. Look into inline styling `background-image: url({{ image[0].getUrl(passImageTransformHere )}})` for this occassion only. 
+
+• Finish first iteration of for-fun personal site using latest Adv. CSS course projects and styling.
+
+**Link(s) to work**
+
+1. [JS: Hubspot form](https://designers.hubspot.com/docs/cos/hubspot-form-markup)
+2. [Twig include](https://craftquest.io/articles/passing-data-with-a-twig-include-statement)
+3. [Site](https://mostmojo.github.io/port-master/)
 
 ---
