@@ -396,7 +396,7 @@
 
 **Link(s) to work**
 
-1. [Site](https://mostmojo.github.io/port-master)
+1. [Site](https://mostmojo.github.io)
 2. [Codepen - JS function](https://codepen.io/most_mojo/pen/YbLBMe)
 
 ---
@@ -413,7 +413,7 @@
 
 **Link(s) to work**
 
-1. [Site](https://mostmojo.github.io/port-master)
+1. [Site](https://mostmojo.github.io/)
 2. [Tip Calc](https://twitter.com/most_mojo/status/1132925274520207360)
 3. [Gist BMI](https://gist.github.com/mostmojo/6bdd5805d7780f153fb6d3f425bd4b96)
 
@@ -450,7 +450,6 @@
 
 1. [Flexbox](https://daveceddia.com/implement-a-design-with-css/)
 2. [Codepen Twitter](https://codepen.io/most_mojo/pen/rgZKpQ)
-https://mostmojo.github.io/port-master/
 
 ---
 
@@ -468,6 +467,6 @@ https://mostmojo.github.io/port-master/
 
 1. [JS: Hubspot form](https://designers.hubspot.com/docs/cos/hubspot-form-markup)
 2. [Twig include](https://craftquest.io/articles/passing-data-with-a-twig-include-statement)
-3. [Site](https://mostmojo.github.io/port-master/)
+3. [Site](https://mostmojo.github.io)
 
 ---
