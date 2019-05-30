@@ -458,9 +458,9 @@ https://mostmojo.github.io/port-master/
 
 **Today's Progress**
 
-• Read hubspot docs to integrate hubspot form with JavaScript `createElement`, `innerHTML`, `getElementById` and `appendChild` selectors. Use HS-based classes to style sheet accordingly. 
+• Read hubspot docs to integrate form with JavaScript `createElement`, `innerHTML`, `getElementById` and `appendChild` selectors. Use HS-based classes to style sheet accordingly. 
 
-• Study `matrices` in craft and render them in `Twig`. Use `{% include x %}` to define `hashes` with `key:value pairs` using the `with` param for `_partials.twig`. Look into inline styling `background-image: url({{ image[0].getUrl(passImageTransformHere )}})` for this occassion only. 
+• Study `matrices` in craft and render them in `Twig`. Use `{% include x %}` to define `hashes` with `key:value` pairs using the `with` param for `_partials.twig`. Look into inline styling `background-image: url({{ image[0].getUrl(passImageTransformHere )}})` for this occassion only as it applies the image transforms with `getUrl()`. Tip: `.url` would render the image *without* the transforms!  
 
 • Finish first iteration of for-fun personal site using latest Adv. CSS course projects and styling.
 
