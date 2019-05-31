@@ -470,3 +470,22 @@
 3. [Site](https://mostmojo.github.io)
 
 ---
+
+### Day 28: Friday, 21st May, 2019
+
+**Today's Progress**
+
+• Look into `#content` attribute for location anchoring on a site. Also, use for onScroll effects with JS functions and CSS animations. 
+
+• How to build & use `macros` in `Twig` and their functionality for images, social links and slider transforms. E.g.  `{% macro macroName(parameter1, parameter2) %}` - similar to JS functions, with `for loops` and `hashes`.
+
+• Try Jonas course final restaurant challenge w/ data structures, objects, logical operators, loops and literals without solution. Tip: in JS we can utilize the `[i]` variable declared in the loop as placeholder for iteration. Use `this.bill = something` or `this.bill[i]` to refer to specific variable/value in an object. 
+
+**Link(s) to work**
+
+1. [Content attribute](https://developer.mozilla.org/en-US/docs/Web/CSS/content)
+2. [Git shortcuts](https://ohshitgit.com/)
+3. [Macros](https://www.google.com/amp/s/mijingo.com/blog/using-macros-in-twig-and-craft/amp)
+
+---
+
