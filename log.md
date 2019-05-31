@@ -475,11 +475,11 @@
 
 **Today's Progress**
 
-• Look into `#content` attribute for location anchoring on a site. Also, use for onScroll effects with JS functions and CSS animations. 
+• `#content` attribute for location anchoring on site. Use for onScroll effects with JS functions and CSS animations too. 
 
-• How to build & use `macros` in `Twig` and their functionality for images, social links and slider transforms. E.g.  `{% macro macroName(parameter1, parameter2) %}` - similar to JS functions, with `for loops` and `hashes`.
+• Build `macros` in `Twig` and their functionality for images, social links and slider transforms. E.g.  `{% macro macroName(parameter1, parameter2) %}` - similar to JS functions, with `for loops` and `hashes`.
 
-• Try Jonas course final restaurant challenge w/ data structures, objects, logical operators, loops and literals without solution. Tip: in JS we can utilize the `[i]` variable declared in the loop as placeholder for iteration. Use `this.bill = something` or `this.bill[i]` to refer to specific variable/value in an object. 
+• Jonas course final restaurant challenge w/ data structures, objects, logical operators, loops and literals without solution. Tip: in JS we can utilize the `[i]` variable declared in the loop as a placeholder for iteration. Use `this.bill = something` or `this.bill[i]` to refer to variable/value. 
 
 **Link(s) to work**
 
