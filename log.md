@@ -489,3 +489,17 @@
 
 ---
 
+### Day 29: Saturday, 22nd May, 2019
+
+**Today's Progress**
+
+• Look into operator precedence on MDN docs to understand order that JS reads specific expressions annd logical operators. Comes handy when using ex. `this.someArray.length;`.
+
+• Go through tip calculator challenge (pt.1) in Jonas' course. Understand use of `this` in JavaScript, the `i` counter variable and its usability. 
+
+**Link(s) to work**
+
+1. [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+2. [Tip Calculator pt. 1)[https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206]
+
+---
