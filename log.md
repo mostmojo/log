@@ -495,7 +495,9 @@
 
 • Look into operator precedence on MDN docs to understand order that JS reads specific expressions and logical operators. Comes handy when using ex. `this.someArray.length;`.
 
-• Go through tip calculator challenge (pt.1) in Jonas' course. Understand use of `this` in JavaScript, the `i` counter variable and its usability. 
+• Go through tip calculator challenge (pt.1) in Jonas' course. Understand use of `this` in JavaScript, the `i` counter variable and its usability.
+
+• Start pt.2 - Apply similar functionality of `obj1` to `obj2` and think of average calculator `function` to apply to both objects.
 
 **Link(s) to work**
 
