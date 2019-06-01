@@ -1,4 +1,4 @@
-⚡️[Previous #100DaysOfCode log](https://twitter.com/most_mojo/status/1085674532982214662)
+👨🏻‍💻 [Previous #100DaysOfCode log](https://twitter.com/most_mojo/status/1085674532982214662)
 
 ---
 
@@ -500,6 +500,6 @@
 **Link(s) to work**
 
 1. [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
-2. [Tip Calculator pt. 1)[https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206]
+2. [Tip Calculator pt. 1](https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206)
 
 ---
