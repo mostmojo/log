@@ -493,7 +493,7 @@
 
 **Today's Progress**
 
-• Look into operator precedence on MDN docs to understand order that JS reads specific expressions annd logical operators. Comes handy when using ex. `this.someArray.length;`.
+• Look into operator precedence on MDN docs to understand order that JS reads specific expressions and logical operators. Comes handy when using ex. `this.someArray.length;`.
 
 • Go through tip calculator challenge (pt.1) in Jonas' course. Understand use of `this` in JavaScript, the `i` counter variable and its usability. 
 
