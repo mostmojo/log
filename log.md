@@ -513,7 +513,7 @@
 
 • Brief intro to `ES5` vs `ES6` syntax, purpose of comp/transpilers ex. `babel` and pros & cons of knowing both syntaxes. 
 
-• 
+• Theory - code execution: `parser` &rarr; abstract `syntax tree` &rarr; conversion to machine code &rarr; code runs.
 
 **Link(s) to work**
 
