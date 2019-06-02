@@ -471,7 +471,7 @@
 
 ---
 
-### Day 28: Friday, 21st May, 2019
+### Day 28: Friday, 31st May, 2019
 
 **Today's Progress**
 
@@ -489,7 +489,7 @@
 
 ---
 
-### Day 29: Saturday, 22nd May, 2019
+### Day 29: Saturday, 1st June, 2019
 
 **Today's Progress**
 
@@ -503,5 +503,20 @@
 
 1. [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 2. [Tip Calculator pt. 1](https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206)
+
+---
+### Day 30: Sunday, 2nd June, 2019
+
+**Today's Progress**
+
+• Complete JS tip calculator challenge. Add reusable `function calcAverage(tips) { ... }` that takes ex. `john.tips` & `mark.tips` argument and can used multiple times while staying DRY. Declare `var sum = 0` outside the loop so value doesn't reset once function is complete. Then `+=` tip values into the variable `sum` and `/ tips.length` to get average.
+
+• 
+
+• 
+
+**Link(s) to work**
+
+1. [Tip Calculator pt. 2](https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206)
 
 ---
