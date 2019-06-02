@@ -511,7 +511,7 @@
 
 • Complete JS tip calculator challenge. Add reusable `function calcAverage(tips) { ... }` that takes ex. `john.tips` & `mark.tips` argument and can be used multiple times while staying DRY. Declare `var sum = 0` outside the loop so value doesn't reset once function is complete. Then `+=` tip values into the variable `sum` and `/ tips.length` to get average.
 
-• 
+• Brief intro to `ES5` vs `ES6` syntax, purpose of comp/transpilers ex. `babel` and pros & cons of knowing both syntaxes. 
 
 • 
 
