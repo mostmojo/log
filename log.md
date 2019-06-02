@@ -513,10 +513,11 @@
 
 • Brief intro to `ES5` vs `ES6` syntax, purpose of comp/transpilers ex. `babel` and pros & cons of knowing both syntaxes. 
 
-• Theory - code execution: `parser` &rarr; abstract `syntax tree` &rarr; conversion to machine code &rarr; code runs.
+• Theory - code execution: `parser` &rarr; abstract `syntax tree` &rarr; conversion to machine code &rarr; code runs. Learn theory on `hoisting` - identify between `function declarations` (don't need to be declared before use) and `variable declarations` (Need to be declared before use). Also, learn about `global execution context` vs `functional execution context`. Ex. if `var age = 23;` is declared in global context, then also identical variable within a function, it'll render as their execution context differs 🤓. 
 
 **Link(s) to work**
 
 1. [Tip Calculator pt. 2](https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206)
+2. [Hoisting](https://github.com/mostmojo/prod/blob/master/javascript-course/script.js)
 
 ---
