@@ -534,8 +534,8 @@
 
 **Link(s) to work**
 
-1. [<figure> | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
-2. [<blockquote> | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+1. [figure| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+2. [blockquote| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
 3. [noopener](https://developers.google.com/web/tools/lighthouse/audits/noopener)
 4. [|trim](https://twig.symfony.com/doc/2.x/filters/trim.html)
 
