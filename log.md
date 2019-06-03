@@ -521,3 +521,23 @@
 2. [Hoisting](https://github.com/mostmojo/prod/blob/master/javascript-course/script.js)
 
 ---
+
+### Day 31: Monday, 3rd June, 2019
+
+**Today's Progress**
+
+• Reuseable `typeset` extensions w/ `.h-1, %heading-style-4 { ...; }` later `@extend` elsewhere. Study `getPrev()` & `getNext()` Craft methods, and the `{%- whitespace controller -%}`. Plus, `|trim('https://', 'left')` twig filter for trimming content.
+
+• Use `<figure>` & `<figcaption>` semantic HTML tags for img + video content and look at video tag with `muted loop autoplay` attributes. Also, the `<blockquote>` accompanied by `<cite>` to be used with `<figure>` for quotes.
+
+• `flex-wrap: wrap` vs `nowrap;` in flexbox, `word-break: break;` properties; the `rel="noopener"` attribute in `<a>` tags to prevent JS in site via global `.window` opening it for *a)* general performance benefits *b)* security benefits - malicious redirect prevention.
+
+**Link(s) to work**
+
+1. [<figure> | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+2. [<blockquote> | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+3. [noopener](https://developers.google.com/web/tools/lighthouse/audits/noopener)
+4. [|trim](https://twig.symfony.com/doc/2.x/filters/trim.html)
+
+---
+
