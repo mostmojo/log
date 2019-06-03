@@ -532,7 +532,7 @@
 
 • `flex-wrap: wrap` vs `nowrap;` in flexbox, `word-break: break;` properties; the `rel="noopener"` attribute in `<a>` tags to prevent JS in site via global `.window` opening it for *a)* general performance benefits *b)* security benefits - malicious redirect prevention.
 
-• Playground with `display: flex` in codepen to practice `flex items`, `columns`, `directions` and `wrap`.
+• Playground with `display: flex` in codepen to practice `flex items`, `columns`, `directions` and `wrap`. Finish JS Theory on local and global `scope`, `scoping chain` and `context`.
 
 **Link(s) to work**
 
@@ -541,6 +541,7 @@
 3. [noopener](https://developers.google.com/web/tools/lighthouse/audits/noopener)
 4. [|trim](https://twig.symfony.com/doc/2.x/filters/trim.html)
 5. [codepen](https://codepen.io/most_mojo/pen/mYoPvv)
+6. [scope](https://github.com/mostmojo/prod/blob/master/javascript-course/script.js)
 
 ---
 
