@@ -505,6 +505,7 @@
 2. [Tip Calculator pt. 1](https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206)
 
 ---
+
 ### Day 30: Sunday, 2nd June, 2019
 
 **Today's Progress**
@@ -545,3 +546,20 @@
 
 ---
 
+### Day 32: Tuesday, 4th June, 2019
+
+**Today's Progress**
+
+• Trace back an error with `twitterUrl()` not recognized. Suggested: `importdb` in terminal or backup db from craft. Then drag/drop into `SequelPro` and distinguish between local testing and staging environments. 
+
+• Styudy relational `field types` in Twig which work the same as `sections` & `channels` when queried.  ex. `{% for project in craft.entries('projects') %}` vs reverse relations using `.relatedTo()` - this avoids data duplication. ex. `{% set relatedProjects = craft.entries.section('projects').relatedTo(entry) %}` where `entry` is the service entry (the one we want to relate to). 
+
+• Create a landing page for practice from `sketch`, using `flexbox`. Tip: use `flex: 1;` for spacing, and keep elements in divs that need to be flexed. Can also change `flex-direction: column;` for mobile responsiveness. `@media screen and (max-width: 1024px) {...}`. Finish by looking into twitter card meta data with image dimensions and relevant `og:titles`.
+
+**Link(s) to work**
+
+1. [Relations](https://straightupcraft.com/articles/introduction-to-relations-and-reverse-relations-in-craft-cms-with-examples)
+2. [laptop-ui site](https://mostmojo.github.io/laptop-ui/)
+3. [Twitter cards](https://twitter.com/most_mojo/status/1136019113942376448)
+
+---
