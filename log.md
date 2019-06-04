@@ -552,7 +552,7 @@
 
 • Trace back an error with `twitterUrl()` not recognized. Suggested: `importdb` in terminal or backup db from craft. Then drag/drop into `SequelPro` and distinguish between local testing and staging environments. 
 
-• Styudy relational `field types` in Twig which work the same as `sections` & `channels` when queried.  ex. `{% for project in craft.entries('projects') %}` vs reverse relations using `.relatedTo()` - this avoids data duplication. ex. `{% set relatedProjects = craft.entries.section('projects').relatedTo(entry) %}` where `entry` is the service entry (the one we want to relate to). 
+• Study relational `field types` in Twig which work the same as `sections` & `channels` when queried.  ex. `{% for project in craft.entries('projects') %}` vs reverse relations using `.relatedTo()` - this avoids data duplication. ex. `{% set relatedProjects = craft.entries.section('projects').relatedTo(entry) %}` where `entry` is the *service* entry (the one we want to relate to). 
 
 • Create a landing page for practice from `sketch`, using `flexbox`. Tip: use `flex: 1;` for spacing, and keep elements in divs that need to be flexed. Can also change `flex-direction: column;` for mobile responsiveness. `@media screen and (max-width: 1024px) {...}`. Finish by looking into twitter card meta data with image dimensions and relevant `og:titles`.
 
