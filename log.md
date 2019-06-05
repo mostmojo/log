@@ -575,7 +575,7 @@
 
 • Study `{% include x %}` components and what `key: value` pairs are passed and how they are used in `Twig`. Research `flex-shrink: 0;` for when flex items exceed container limit. 
 
-• Make small tip calculator with `gradient`, `clip`, `webkit-fill`, the `transform: translateY` property and `calcTip()` JS function paired with `calcAverage()` with CRUD values for two fictional objects. 
+• Make small tip calculator with `gradient`, `clip`, `webkit-fill`, the `transform: translateY` property and `calcTip()` JS function paired with `calcAverage()` (CRUD) for two fictional objects. 
 
 **Link(s) to work**
 
