@@ -566,3 +566,21 @@
 3. [Twitter cards](https://twitter.com/most_mojo/status/1136019113942376448)
 
 ---
+
+### Day 33: Wednesday, 5th June, 2019
+
+**Today's Progress**
+
+• Create a url path using function `url('contact', { contact: entry.project[0].firstName })` to return `site.com/contact?contact=bob` - domain, path, query string hash
+
+• Study `{% include x %}` components and what `key: value` pairs are passed and how they are used in `Twig`. Research `flex-shrink: 0;` for when flex items exceed container limit. 
+
+• Make small tip calculator with `gradient`, `clip`, `webkit-fill`, the `transform: translateY` property and `calcTip()` JS function paired with `calcAverage()` with CRUD values for two fictional objects. 
+
+**Link(s) to work**
+
+1. [URL | MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
+2. [flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink)
+3. [calculator](https://codepen.io/most_mojo/pen/QRRdvw)
+
+---
