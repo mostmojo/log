@@ -556,8 +556,8 @@
 
 • Create a landing page for practice from `sketch`, using `flexbox`. Tip: use `flex: 1;` for spacing, and keep elements in divs that need to be flexed. Can also change `flex-direction: column;` for mobile responsiveness. `@media screen and (max-width: 1024px) {...}`. Finish by looking into twitter card meta data with image dimensions and relevant `og:titles`.
 
-• **Tip:** Add linear gradient to background, then `clip` the text and make the `fill` transparent to get a nice `bg gradient` inside the font - pure gold. `.class { background: linear-gradient(to right, #494964, #6f6f89); -webkit-background-clip: text; -webkit-text-fill-color: transparent;`
--webkit-background-clip: text;
+• **Tip:** Add linear gradient to background, then `clip` the text and make the `fill` transparent to get a nice `bg gradient` inside the font - pure gold. `.class { background: linear-gradient(to right, #494964, #6f6f89); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;`
 
 **Link(s) to work**
 
