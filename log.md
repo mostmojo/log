@@ -584,3 +584,21 @@
 3. [calculator](https://codepen.io/most_mojo/pen/QRRdvw)
 
 ---
+
+### Day 34: Thursday, 6th June, 2019
+
+**Today's Progress**
+
+• Built tip calculator with HTML, CSS & JS that rendered `calcTip()` and `calcAverage()` functions to the console in the DOM. Ensured syntactically to complete the challenge in both `ES5` and `ES6` declaring `key:values` with `this` keyword where appropriate.
+
+• Study `functional` scope vs `class/variable` scope and how functions are read and hoisted depending on where they are invoked.
+
+• Use `animate.css` library to create `zoomIn` & `zoomOut`-type effects in CSS for specific elements. Ensure semantic HTML tags such as `<section>` and `<figure>` were integrated. Once complete, rendered final restaurant bills in the `DOM`. 
+
+**Link(s) to work**
+
+1. [Calculator](https://github.com/mostmojo/tip-calculator)
+2. [Variable scope](https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript)
+3. [Animate.css](https://daneden.github.io/animate.css/)
+
+---
