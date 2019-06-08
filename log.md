@@ -616,7 +616,7 @@
 **Link(s) to work**
 
 1. [Calculator](https://github.com/mostmojo/tip-calculator)
-2. [Bear](https://www.mostmojo.github.io/bear-ui)
+2. [Bear](https://mostmojo.github.io/bear-ui/)
 3. [Accessibility outline](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 
 ---
