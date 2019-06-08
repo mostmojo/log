@@ -629,7 +629,7 @@
 
 • Start build for DOM pig game. Implement `Math.floor(Math.random() * 6) + 1` global function to generate random decimal, round it down to nearest whole and ensure it fulfils 6-number dice roll. 
 
-• Study `getters` vs `setters` with `document.querySelector("#current-" + activePlayer).textContent = dice;` example. Use `concatenation` with JS `type coercion` to set the value of a dice roll to a specific `id` in HTML. If applying HTML tags, use `.innerHTML` and tags in brackets. Ex. `document.querySelector("#current-" + activePlayer).innerHTML = "<em>" + dice + "</em>"`. To hide a CSS class w/ JS: `document.querySelector(".dice").style.display = "none";` (Method, property,value).
+• Study `getters` vs `setters` with `document.querySelector("#current-" + activePlayer).textContent = dice;` example. Use `concatenation` with JS `type coercion` to set the value of a dice roll to a specific `id` in HTML. If applying HTML tags, use `.innerHTML` and tags in brackets. Ex. `document.querySelector("#current-" + activePlayer).innerHTML = "<em>" + dice + "</em>"`. To hide a CSS class w/ JS: `document.querySelector(".dice").style.display = "none";` (Method, property, value).
 
 **Tip**: 1) Shortcut to open console: `cmd + alt + i` 2) this variable is only assigned a value when object calls a method.
 
