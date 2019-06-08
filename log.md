@@ -620,3 +620,22 @@
 3. [Accessibility outline](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 
 ---
+
+### Day 36: Saturday, 8th June, 2019
+
+**Today's Progress**
+
+• Read a detailed explanation of how to creating pure `CSS` images. Distinguishing components, divs, shapes and how the overall layout of each element looks like. 
+
+• Start build for DOM pig game. Implement `Math.floor(Math.random() * 6) + 1` global function to generate random decimal, round it down to nearest whole and ensure it fulfils 6-number dice roll. 
+
+• Study `getters` vs `setters` with `document.querySelector("#current-" + activePlayer).textContent = dice;` example. Use `concatenation` with JS `type coercion` to set the value of a dice roll to a specific `id` in HTML. If applying HTML tags, use `.innerHTML` and tags in brackets. Ex. `document.querySelector("#current-" + activePlayer).innerHTML = "<em>" + dice + "</em>"`. To hide a CSS class w/ JS: `document.querySelector(".dice").style.display = "none";` (Method, property,value).
+
+**Tip**: 1) Shortcut to open console: `cmd + alt + i` 2) this variable is only assigned a value when object calls a method.
+
+**Link(s) to work**
+
+1. [Pure CSS images](https://medium.com/coding-artist/a-beginners-guide-to-pure-css-images-ef9a5d069dd2)
+2. [Pig game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
+
+---
