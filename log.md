@@ -602,3 +602,21 @@
 3. [Animate.css](https://daneden.github.io/animate.css/)
 
 ---
+
+### Day 35: Friday, 7th June, 2019
+
+**Today's Progress**
+
+• Refactored folder architecture of calculator project with `@import url(folder/file`) in `style.css` and added comments.
+
+• Built bear cartoon from scratch using pure HTML `divs` and `css`. Realized the power of subtleties such as `position: absolute` and `border-radius: 100%;`. The use of `border-bottom: 2px solid #000;` property combined with `border-radius: 0% 0% 100% 100%;` to create half-moon shaped elements for a `mouth` was fun to figure out. Use `z-index` to bring elements on top of others. 
+
+• Read blog on accessibility and learn not to use `a:focus { outline: none; }` as people who use no mouse would not be able to toggle that! Best practice: `a:focus { background-color: #000000; color: #FFFFFF; }` - alternate 'hidden' styles.
+
+**Link(s) to work**
+
+1. [Calculator](https://github.com/mostmojo/tip-calculator)
+2. [Bear](https://www.mostmojo.github.io/bear-ui)
+3. [Accessibility outline](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
+
+---
