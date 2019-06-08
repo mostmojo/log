@@ -609,9 +609,9 @@
 
 • Refactored folder architecture of calculator project with `@import url(folder/file`) in `style.css` and added comments.
 
-• Built bear cartoon from scratch using pure HTML `divs` and `css`. Realized the power of subtleties such as `position: absolute` and `border-radius: 100%;`. The use of `border-bottom: 2px solid #000;` property combined with `border-radius: 0% 0% 100% 100%;` to create half-moon shaped elements for a `mouth` was fun to figure out. Use `z-index` to bring elements on top of others. 
+• Built bear cartoon from scratch using pure HTML `divs` and `css`. Utilize the power of subtleties like `position: absolute` and `border-radius: 100%;`. The use of `border-bottom: 2px solid #000;` property combined with `border-radius: 0% 0% 100% 100%;` to create half-moon shaped elements for a `mouth` was fun to figure out. Use `z-index` to bring elements on top of others. 
 
-• Read blog on accessibility and learn not to use `a:focus { outline: none; }` as people who use no mouse would not be able to toggle that! Best practice: `a:focus { background-color: #000000; color: #FFFFFF; }` - alternate 'hidden' styles.
+• Read blog on `accessibility` and learn not to use `a:focus { outline: none; }` as users that navigate using keyboard-only wouldn't able to get there. Best practice: `a:focus { background-color: #000000; color: #FFFFFF; }` - alternate 'hidden' styles.
 
 **Link(s) to work**
 
