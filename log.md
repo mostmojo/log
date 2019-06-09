@@ -646,8 +646,13 @@
 
 • Revise `querySelectors` by creating fun example with `getter` vs `setter`. Use setter with declared variable to change content in HTML with `textContent`. Set italics `<em>` with `.innnerHTML`.
 
+• Set `.addEventListener` with two params: `(click, function() { // do something });` to change img `src` of dice roll to `diceDOM.src = "dice-" + dice + ".png";` and concatenate the class with variable value and suffix.
+
+• Use `.getElementById` to grab scores and change `textContent` to 0. Ex. `document.getElementById("scores").textContent = "0";`.
+
 **Link(s) to work**
 
 1. [querySelector](https://www.instagram.com/p/ByffDbhn3dW/)
+2. [byId | img src](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
 ---
