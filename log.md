@@ -639,3 +639,15 @@
 2. [Pig game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
 ---
+
+### Day 37: Sunday, 9th June, 2019
+
+**Today's Progress**
+
+• Revise `querySelectors` by creating fun example with `getter` vs `setter`. Use setter with declared variable to change content in HTML with `textContent`. Set italics `<em>` with `.innnerHTML`.
+
+**Link(s) to work**
+
+1. [querySelector](https://www.instagram.com/p/ByffDbhn3dW/)
+
+---
