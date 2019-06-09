@@ -648,7 +648,7 @@
 
 • Set `.addEventListener` with two params: `(click, function() { // do something });` to change img `src` of dice roll to `diceDOM.src = "dice-" + dice + ".png";` and concatenate the class with variable value and suffix.
 
-• Use `.getElementById` to grab scores and change `textContent` to 0. Ex. `document.getElementById("scores").textContent = "0";`.
+• Use `.getElementById` to grab scores and change `textContent` to 0. Ex. `document.getElementById("scores").textContent = "0";`. **Remember:** `callback functions` only work when the function/method is called. In `e`.handlers they can also be `anonymous` and belong to the `addEventListener` function as the 2nd parameter - only in that scope.
 
 **Link(s) to work**
 
