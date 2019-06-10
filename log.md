@@ -656,3 +656,20 @@
 2. [byId | img src](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
 ---
+
+### Day 38: Monday, 10th June, 2019
+
+**Today's Progress**
+
+• Create koala component with several divs from scratch. Use `:root` to declare variables and use them with `var(--green);`
+
+• Use `linear-gradient` with `bg-clip` and `text-fill-color: transparent` for modern text styling. Make triangle for koala hair with `clip-path: polygon(50% 0%, 0% 100%, 100% 100%);`
+
+• Build `@keyframes drop` element with states `0-50-100%` and use the `animation: text 1.625s ease 1.5s;` property to render the animation. 
+
+**Link(s) to work**
+
+1. [koala](https://mostmojo.github.io/koala-ui)
+2. [clip-path](https://bennettfeely.com/clippy/)
+
+---
