@@ -663,13 +663,14 @@
 
 • Create koala component with several divs from scratch. Use `:root` to declare variables and use them with `background: var(--green);`
 
-• Use `linear-gradient` with `bg-clip` and `text-fill-color: transparent` for modern text styling. Make triangle for koala hair with `clip-path: polygon(50% 0%, 0% 100%, 100% 100%);`
+• Use `linear-gradient` with `bg-clip` and `text-fill-color: transparent` for modern text styling. Make triangle for koala hair with `clip-path: polygon(50% 0%, 0% 100%, 100% 100%);`. Build `@keyframes drop` element with states `0-50-100%` and use the `animation: text 1.625s ease 1.5s;` property to render the animation. 
 
-• Build `@keyframes drop` element with states `0-50-100%` and use the `animation: text 1.625s ease 1.5s;` property to render the animation. 
+• Add dice roll to `roundScore`, add ternary: `activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;` to switch the players and reset the `roundScore = 0` both in DOM and HTML. Lastly, use `.classList.toggle("active")` to toggle the `classList` between the class `player-0-panel` and `player-1-panel` in the HTML and hide the dice img with .`style.display = "none".` Note: it's important to remember the DOM and HTML. Get JS code to do things in both, as the user will see the interface, not the console. 
 
 **Link(s) to work**
 
 1. [koala](https://mostmojo.github.io/koala-ui)
 2. [clippy](https://bennettfeely.com/clippy/)
+3. [DOM game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
 ---
