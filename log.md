@@ -661,7 +661,7 @@
 
 **Today's Progress**
 
-• Create koala component with several divs from scratch. Use `:root` to declare variables and use them with `var(--green);`
+• Create koala component with several divs from scratch. Use `:root` to declare variables and use them with `background: var(--green);`
 
 • Use `linear-gradient` with `bg-clip` and `text-fill-color: transparent` for modern text styling. Make triangle for koala hair with `clip-path: polygon(50% 0%, 0% 100%, 100% 100%);`
 
@@ -670,6 +670,6 @@
 **Link(s) to work**
 
 1. [koala](https://mostmojo.github.io/koala-ui)
-2. [clip-path](https://bennettfeely.com/clippy/)
+2. [clippy](https://bennettfeely.com/clippy/)
 
 ---
