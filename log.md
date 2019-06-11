@@ -681,9 +681,9 @@
 
 • Make elephant ui component from scratch using CSS. Use `animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);` to create spiralling animation effect. Use `transform: translate(34px, 0)` to move animation blocks on X & Y axis. 
 
-• Read on delayed effects of `cubic bezier` and how to make `infinite` loops using `animation` property. 
+• Read on delayed effects of `cubic bezier` and how to make `infinite` loops using `animation` property. Deep analysis of dice game to understand building blocks of `('.btn-click').addEventListener('click', function() {...})` and relationship between HTML and JS classes. Also, when to reset scores of game both in `DOM` and user interface with use of `classList.toggle('class)`.
 
-• Deep analysis of dice game to understand building blocks of `('.btn-click').addEventListener('click', function() {...})` and relationship between HTML and JS classes. Also, when to reset scores of game both in `DOM` and user interface with use of `classList.toggle('class)`.
+• Continue DOM game and add current score to global score w/ `scores[activePlayer] += roundScore`, update UI w/ `textContent` and check if player won the game then add "Winner!", remove dice with `.style.display = "none"` and add winner class with `.classList.add/remove`. Also, create reusable `function nextPlayer()` to stay DRY. 
 
 **Link(s) to work**
 
@@ -691,6 +691,7 @@
 2. [Cubic bezier](https://github.com/mostmojo/elephant-ui/blob/master/components/keyframes.css)
 3. [Cubic bez keyframes](https://tobiasahlin.com/blog/curved-path-animations-in-css/)
 4. [Dice analysis](https://gist.github.com/mostmojo/fa3e05fa9cde3532ce74f80aebe6cefa)
+5. [DOM game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
 ---
 
