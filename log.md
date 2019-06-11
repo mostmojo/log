@@ -674,3 +674,23 @@
 3. [DOM game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
 ---
+
+### Day 39: Tuesday, 11th June, 2019
+
+**Today's Progress**
+
+• Make elephant ui component from scratch using CSS. Use `animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);` to create spiralling animation effect. Use `transform: translate(34px, 0)` to move animation blocks on X & Y axis. 
+
+• Read on delayed effects of `cubic bezier` and how to make `infinite` loops using `animation` property. 
+
+• Deep analysis of dice game to understand building blocks of `('.btn-click').addEventListener('click', function() {...})` and relationship between HTML and JS classes. Also, when to reset scores of game both in `DOM` and user interface with use of `classList.toggle('class)`.
+
+**Link(s) to work**
+
+1. [Elephant](https://mostmojo.github.io/elephant-ui)
+2. [Cubic bezier](https://github.com/mostmojo/elephant-ui/blob/master/components/keyframes.css)
+3. [Cubic bez keyframes](https://tobiasahlin.com/blog/curved-path-animations-in-css/)
+4. [Dice analysis](https://gist.github.com/mostmojo/fa3e05fa9cde3532ce74f80aebe6cefa)
+
+---
+
