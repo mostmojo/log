@@ -695,3 +695,18 @@
 
 ---
 
+### Day 40: Wednesday, 12th June, 2019
+
+**Today's Progress**
+
+• Read on svg use, ex. `<button class="btn-new"><svg class="x"><use xlink:href="sprite.svg#icon-circle-with-plus"></use></svg>New game</button>` and how to use icomoon icons with a `sprite.svg file` including `fill: red` props for styling.
+
+• Finish iteration of dice game in JS. Refactor code to stay `"DRY"` and create resuable functions `function init()` & `function nextPlayer()`. Add `state` variable `gamePlayer = true/false` to reset game when winner is declared or game hasn't started. Use `document.querySelector(".player-0-panel").classList.remove/add("active");` in reset to ensure red dot is in the right player panel. Also, add idle function `.addEventListener("click", init);` as we want to initialize game upon rolling the dice. 
+
+**Link(s) to work**
+
+1. [svg|use](https://css-tricks.com/svg-use-with-external-reference-take-2/)
+2. [Dice game code](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
+3. [DOM game live](https://mostmojo.github.io/dice-roll/)
+
+
