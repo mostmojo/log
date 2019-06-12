@@ -701,7 +701,9 @@
 
 • Read on svg use, ex. `<button class="btn-new"><svg class="x"><use xlink:href="sprite.svg#icon-circle-with-plus"></use></svg>New game</button>` and how to use icomoon icons with a `sprite.svg file` including `fill: red` props for styling.
 
-• Finish iteration of dice game. Refactor to stay `"DRY"` and create resuable functions `init()` & `nextPlayer()`. Add `state` variable `gamePlayer = true/false` to reset when winner is declared or game hasn't started. Use `document.querySelector(".player-0-panel").classList.remove/add("active");` in reset to ensure red dot is in the right player panel. Also, add idle function `.addEventListener("click", init);` initialized only on dice roll. 
+• Finish iteration of dice game. Refactor to stay `"DRY"` and create resuable functions `init()` & `nextPlayer()`. Add `state` variable `gamePlayer = true/false` to reset when winner is declared or game hasn't started. Use `document.querySelector(".player-0-panel").classList.remove/add("active");` in reset to ensure red dot is in the right player panel. Also, add idle function `.addEventListener("click", init);` initialized only on dice roll.
+
+• Declare global `var lastDice` to save instance of `var dice`, containing `Math.floor(Math.random() * 6) + 1);` and create condition `if (dice === 6 && lastDice === 6)` then set memory & DOM `scores` to 0 and call `nextPlayer()` 🎲. 
 
 **Link(s) to work**
 
