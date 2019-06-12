@@ -703,7 +703,7 @@
 
 • Finish iteration of dice game. Refactor to stay `"DRY"` and create resuable functions `init()` & `nextPlayer()`. Add `state` variable `gamePlayer = true/false` to reset when winner is declared or game hasn't started. Use `document.querySelector(".player-0-panel").classList.remove/add("active");` in reset to ensure red dot is in the right player panel. Also, add idle function `.addEventListener("click", init);` initialized only on dice roll.
 
-• Declare global `var lastDice` to save instance of `var dice`, containing `Math.floor(Math.random() * 6) + 1);` and create condition `if (dice === 6 && lastDice === 6)` then set memory & DOM `scores` to 0 and call `nextPlayer()` 🎲. 
+• Declare global `var lastDice` to save instance of `var dice`, containing `Math.floor(Math.random() * 6) + 1);` and create condition `if (dice === 6 && lastDice === 6)` then set memory & DOM `scores` to 0 and call `nextPlayer()` 🎲. Ensure `lastDice` is global or else data will be lost if declared in functional scope, once function ends.  
 
 **Link(s) to work**
 
