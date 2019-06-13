@@ -721,7 +721,7 @@
 
 • Implement two dice imgs and create slightly more complex conditions for fun. Ensure to hide/show both img vars and include both in conditions like ` if (dice1 !== 1 && dice2 !== 1);` & `document.getElementById("dice-1").style.display = "block/none";`
 
-• Start `treehouse` Fullstack JS route, take skills test and start challenges. Review - script tags, document.write, mongoDB terms, 1-to-many relations and peek through phaser.js gaming library. Tip: `git reset HEAD / git reset --hard` to go back in git! 
+• Start `treehouse` Fullstack JS route, take skills test and start challenges. Review - script tags, `document.write`, mongoDB terms, 1-to-many relations and peek through phaser.js gaming library. **Tip:** `git reset HEAD / git reset --hard` to undo in git! 
 
 **Link(s) to work**
 
