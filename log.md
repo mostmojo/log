@@ -712,3 +712,22 @@
 3. [DOM game live](https://mostmojo.github.io/dice-roll/)
 
 ---
+
+### Day 41: Thursday, 13th June, 2019
+
+**Today's Progress**
+
+• JavaScript, dice rolling & accessing input data! 🙌🏼 Create `input fields` and grab data using `querySelector(".class").value` prop to populate different scores for the game chosen by user.
+
+• Implement two dice imgs and create slightly more complex conditions for fun. Ensure to hide/show both img vars and include both in conditions like ` if (dice1 !== 1 && dice2 !== 1);` & `document.getElementById("dice-1").style.display = "block/none";`
+
+• Start `treehouse` Fullstack JS route, take skills test and start challenges. Review - script tags, document.write, mongoDB terms, 1-to-many relations and peek through phaser.js gaming library. Tip: `git reset HEAD / git reset --hard` to go back in git! 
+
+**Link(s) to work**
+
+1. [Dice game code](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
+2. [DOM game live](https://mostmojo.github.io/dice-roll/)
+3. [phaser.js](https://github.com/photonstorm/phaser)
+4. [To read: git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+
+---
