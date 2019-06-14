@@ -731,3 +731,20 @@
 4. [To read: git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
 ---
+
+### Day 42: Friday, 14th June, 2019
+
+**Today's Progress**
+
+• Primitives (`null, undefined, boolean, number, string`) vs `Constructors`, their `instances` and the `prototype` chain. The way that OOP works, JS interactions and objects. 
+
+• Create constructor objects `Person` and `Pokemon` with related `instances`: John, Mark || Pikachu, Slowbro to experiment with shared `prototype` function `calculateAge()` and `calculateDamage()`. This helped instil understanding of `inheritance`, the parent `object Object` properties ex. `toString()`, `hasOwnProperty()`, etc and **Prototype chain**.
+
+• Use chrome dev tools to log instances and explore showcasing `Person prototype properties` (`__proto__:`) vs `object Object properties`
+
+**Link(s) to work**
+
+1. [Prototypes](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
+2. [Prototype Chain](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/notes.md)
+
+---
