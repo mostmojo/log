@@ -757,6 +757,8 @@
 
 • Make example of `callback function` with for loop, using `.push` to put values of a function within a function into an array var. Ex. `arrResult.push(fn(arr[i]));`
 
+• Build callback function to calculate max heart rate using 1) a generic function w/ a loop over an input array function `arrayCalc(arr, fn) { ... }`, give it a `fn` as input to calculate something based on each element of the array. `Ex. var rates = arrayCalc(ages, maxHeartRate)`, where `maxHeartRate` returns `Math.round(206.9 - (0.67 * element));` only if `ages are >= 18` and is also only called within the loop. Hence, callback successful 🤓. 
+
 **Link(s) to work**
 
 1. [Primitives & Objects](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
