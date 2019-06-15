@@ -736,7 +736,7 @@
 
 **Today's Progress**
 
-• Primitives (`null, undefined, boolean, number, string`) vs `Constructors`, their `instances` and the `prototype` chain. The way that OOP works, JS interactions and objects. 
+• Primitives (`null, undefined, boolean, number, string`) vs `Constructors`, their `instances` and the `prototype` chain. The way that `OOP` works, JS interactions and objects. 
 
 • Create constructor objects `Person` and `Pokemon` with related `instances`: John, Mark || Pikachu, Slowbro to experiment with shared `prototype` function `calculateAge()` and `calculateDamage()`. This helped instil understanding of `inheritance`, the parent `object Object` properties ex. `toString()`, `hasOwnProperty()`, etc and **Prototype chain**.
 
