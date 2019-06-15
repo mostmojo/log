@@ -755,6 +755,8 @@
 
 • Explore order of var declarations, `mutations`, passing `primitives` into functions to create a copy. Passing references of objects and mutating their values.
 
+• Make example of `callback function` with for loop, using `.push` to put values of a function within a function into an array var. Ex. `arrResult.push(fn(arr[i]));`
+
 **Link(s) to work**
 
 1. [Primitives & Objects](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
