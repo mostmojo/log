@@ -748,3 +748,15 @@
 2. [Prototype Chain](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/notes.md)
 
 ---
+
+### Day 43: Saturday, 15th June, 2019
+
+**Today's Progress**
+
+• Explore order of var declarations, `mutations`, passing `primitives` into functions to create a copy. Passing references of objects and mutating their values.
+
+**Link(s) to work**
+
+1. [Primitives & Objects](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
+
+---
