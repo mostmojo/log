@@ -764,3 +764,19 @@
 1. [Primitives & Objects](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 
 ---
+
+### Day 44: Sunday, 16th June, 2019
+
+**Today's Progress**
+
+• Simple refresher on debugging via Treehouse course. Debug a few errors using the console. 
+
+• 
+
+• 
+
+**Link(s) to work**
+
+1. 
+
+---
