@@ -771,12 +771,12 @@
 
 • Simple refresher on debugging via Treehouse course. Debug a few errors using the console. 
 
-• 
+• Study functions that return functions, w/ shorthand syntax, ex. `interviewQuestion('teacher')('Mark');`
 
-• 
+• Immediately invoked function expressions (`IIFE`) - w/ `(function () {...})()` to trick parser that it's an expression and not a declaration. In this case, we create a `private` scope. 
 
 **Link(s) to work**
 
-1. 
+1. [IIFE](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 
 ---
