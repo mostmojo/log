@@ -771,9 +771,9 @@
 
 • Simple refresher on debugging via Treehouse course. Debug a few errors using the console. 
 
-• Study functions that return functions, w/ shorthand syntax, ex. `interviewQuestion('teacher')('Mark');`
+• Study functions that return functions, w/ shorthand syntax, ex. `interviewQuestion('teacher')('Mark');` Immediately invoked function expressions (`IIFE`) - w/ `(function () {...})()` to trick parser that it's an expression and not a declaration. In this case, we create a `private` scope. 
 
-• Immediately invoked function expressions (`IIFE`) - w/ `(function () {...})()` to trick parser that it's an expression and not a declaration. In this case, we create a `private` scope. 
+• Make `closure` function to understand the scope and memory storage. Inner `fn` always has access to vars & params of its outer function, even after outer `fn` has returned, so we can invoke a `fn` with all params.
 
 **Link(s) to work**
 
