@@ -780,3 +780,18 @@
 1. [IIFE](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 
 ---
+
+### Day 45: Monday, 17th June, 2019
+
+**Today's Progress**
+
+• Make question-based closure functions by wrapping the whole function in an `IIFE (function() {...})();`, thus make its scope private. That way if someone else were to use it, and he/she had a var called Question or n, it would not interfere.
+
+• Use `Question.prototype.displayQuestion = function() { .. }` to set object's `this props` to `new` instance of `Question`.  Use `parseInt` to convert ex. `"2"` to integer, not string &rarr; `2`. Finally, use `callbacks` within functions to call other functions to `keepScores`.
+
+• Start plan for budgety app. Make notes on `modules` regarding: `UI`, `Data` and `Controller`.
+
+**Link(s) to work**
+
+1. [Closures](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
+2. [Modules](https://github.com/mostmojo/budgety/blob/master/notes.md)
