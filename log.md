@@ -805,11 +805,14 @@
 
 • Create global `appController` module w/ params `(function(budgetCtrl, UICtrl) {})(budgetController, UIController)` to obtain access to `budgetController` and `UIController` modules. Use `document.addEventListener('keypress', function(event) {..}` to call `ctrlAddItem()` once 'Enter' key is hit. Also, create more scalable code in the `UIController` to add vars (`DOMStrings`) to classes and `return` them so they're accessible in `appController.` - Closures are the fundamentals of React/Vue and modular code 🤯🚀
 
-• 
+• Make `appController.init()` function to start app outside modular scope. Brief look at `every` and `Promise` in JS to lead way into more `async`-based ES6 syntax, `.fetch`, `JSON.stringify`, `state` manipulation and `AJAX`. Finish off with read on web assembly - `binary format`, `compilation speeds` and high level prog. language benefits. 
 
 **Link(s) to work**
 
 1. [Closures](https://lazamar.github.io/closures-private-variables-and-methods-in-javascript/)
 2. [Budgety modules](https://github.com/mostmojo/budgety/blob/master/app.js)
+3. [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+4. [Every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+5. [Web assembly](https://webassembly.org/)
 
 ---
