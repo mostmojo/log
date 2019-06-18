@@ -795,3 +795,21 @@
 
 1. [Closures](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 2. [Modules](https://github.com/mostmojo/budgety/blob/master/notes.md)
+---
+
+### Day 46: Tuesday, 18th June, 2019
+
+**Today's Progress**
+
+• Read on `private` vs `publicly` accessible closures and how the `return` values to a `k:v` become a simple object, and thus can be accessed outside of the function scope, stil within the `(var someName = function()...)();` wrapper as it's immediately invoked at the end, hence the function is not assigned to the variable, but its returning value is. Magic! 🧙‍♂️
+
+• Create global `appController` module w/ params `(function(budgetCtrl, UICtrl) {})(budgetController, UIController)` to obtain access to `budgetController` and `UIController` modules. Use `document.addEventListener('keypress', function(event) {..}` to call `ctrlAddItem()` once 'Enter' key is hit. Also, create more scalable code in the `UIController` to add vars (`DOMStrings`) to classes and `return` them so they're accessible in `appController.` - Closures are the fundamentals of React/Vue and modular code 🤯🚀
+
+• 
+
+**Link(s) to work**
+
+1. [Closures](https://lazamar.github.io/closures-private-variables-and-methods-in-javascript/)
+2. [Budgety modules](https://github.com/mostmojo/budgety/blob/master/app.js)
+
+---
