@@ -816,3 +816,21 @@
 5. [Web assembly](https://webassembly.org/)
 
 ---
+
+### Day 47: Wednesday, 19th June, 2019
+
+**Today's Progress**
+
+• Make `data` object of objects to hold expenses and incomes of app. Use `ID = data.allItems[type][data.allItems[type].length - 1].id + 1;` to add incoming data to the end of the array and assign it an id. 
+
+• Create an `addItems()` public function to push new items into the UIController using `data.allItems[type].push(newItem);`. Use `querySelector` to grab elements, and set template html to them using `''` then `.replace` dummy values with dynamic values and `insertAdjacentHTML` and keyword `beforeend` to the UI.
+
+• Use the `Array.prototype.slice.call(fields);` which is the global constructor `Object` to array-ify the user input values, and then set their current.value to `""` to reset the field. By setting f`ieldsArr[0].focus()` we return back to the wanted element.
+
+**Link(s) to work**
+
+1. [call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+2. [focus](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus)
+3. [preview site](https://mostmojo.github.io/budgety/)
+
+---
