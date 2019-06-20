@@ -847,7 +847,7 @@
 
 • Create `displayBudget()` function to display `calculateBudget` from `budgetController` module to the `UIController` module. Ex. `document.querySelector(DOMStrings.budgetLabel).textContent = obj.budget;` and due to `obj param` being linked via `UICtrl.displayBudget(budget)` and power of closures, all 3 modules are linked with the global `appController`.
 
-• Use event delegation for event bubbling, the big `itemID = (event.target.parentNode.parentNode.parentNode.parentNode.id);` to access elements within the DOM tree **(DOM Traversing)**. Use global `event.target` to get the target. Then isolate values into separate variables using `.split()` method and prepare for deletion 👽. 
+• Use event delegation for event bubbling, the big `itemID = (event.target.parentNode.parentNode.parentNode.parentNode.id);` to access elements within the DOM tree **(DOM Traversing)**. Use global `event.target` to get the target. Then isolate values into separate variables using `.split()` method and prepare for deletion with `.map()` and `splice()` at `indexOf()` a specific array 👽. 
 
 **Link(s) to work**
 
@@ -856,5 +856,7 @@
 3. [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 4. [target](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
 5. [parentNode](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode)
+6. [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+7. [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 ---
