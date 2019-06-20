@@ -838,3 +838,23 @@
 3. [preview site](https://mostmojo.github.io/budgety/)
 
 ---
+
+### Day 48: Thursday, 20th June, 2019
+
+**Today's Progress**
+
+• Extract values from data object w/ `data.budget = data.totals.inc - data.totals.exp;` object syntax to create `calculateBudget` function for `budgetController` module. Also, micro-modularized function ex. `getBudget()` that only retrieved specific data. Simple, reusable functions. 
+
+• Create `displayBudget()` function to display `calculateBudget` from `budgetController` module to the `UIController` module. Ex. `document.querySelector(DOMStrings.budgetLabel).textContent = obj.budget;` and due to `obj param` being linked via `UICtrl.displayBudget(budget)` and power of closures, all 3 modules are linked with the global `appController`.
+
+• Use event delegation for event bubbling, the big `itemID = (event.target.parentNode.parentNode.parentNode.parentNode.id);` to access elements within the DOM tree **(DOM Traversing)**. Use global `event.target` to get the target. Then isolate values into separate variables using `.split()` method and prepare for deletion 👽. 
+
+**Link(s) to work**
+
+1. [preview site](https://mostmojo.github.io/budgety/)
+2. [budget](https://github.com/mostmojo/budgety/blob/master/app.js)
+3. [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+4. [target](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
+5. [parentNode](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode)
+
+---
