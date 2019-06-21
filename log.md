@@ -865,7 +865,7 @@
 
 **Today's Progress**
 
-• Learn how to connect field inputs to numbers using `parseInt(splitID[1]);` wrapper. Also, accessing `parentNodes` and `childNodes` to manipulate & `remove` data in the DOM. Ex. `document.getElementById('income').parentNode
+• Major app functionality works! 🚀 - Learn how to connect field inputs to numbers using `parseInt(splitID[1]);` wrapper. Also, accessing `parentNodes` and `childNodes` to manipulate & `remove` data in the DOM. Ex. `document.getElementById('income').parentNode
     .removeChild(document.getElementById('income'));`. 
 
 • Build `Expense.prototype.calcPercentage = function(totalIncome) { ... }` & `Expense.prototype.getPercentage = function() { ... }` in the `parent Constructor` so enable functions to be accessed by `expense instances`. In budgetController: `data.allItems.exp.forEach(function(x) { x.calculatePercentage(); }`.
