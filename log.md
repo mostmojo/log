@@ -860,3 +860,22 @@
 7. [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 ---
+
+### Day 49: Friday, 21st June, 2019
+
+**Today's Progress**
+
+• Learn how to connect field inputs to numbers using `parseInt(splitID[1]);` wrapper. Also, accessing `parentNodes` and `childNodes` to manipulate & `remove` data in the DOM. Ex. `document.getElementById('income').parentNode
+    .removeChild(document.getElementById('income'));`. 
+
+• Build `Expense.prototype.calcPercentage = function(totalIncome) { ... }` & `Expense.prototype.getPercentage = function() { ... }` in the `parent Constructor` so enable functions to be accessed by `expense instances`. In budgetController: `data.allItems.exp.forEach(function(x) { x.calculatePercentage(); }`.
+
+• Use `forEach()` function for `nodeLists` instead of arrays. (Where all HTML elements are stored in the DOM as `nodes`). This way, a set up for the percentages is set in the `UIController` and displayed to the browser. 
+
+**Link(s) to work**
+
+1. [preview site](https://mostmojo.github.io/budgety/)
+2. [DOM Manipulation](https://blog.garstasio.com/you-dont-need-jquery/dom-manipulation/)
+3. [NodeLists](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)
+4. [YDKJS &orarr; ](https://github.com/getify/You-Dont-Know-JS)
+---
