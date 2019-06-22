@@ -878,4 +878,22 @@
 2. [DOM Manipulation](https://blog.garstasio.com/you-dont-need-jquery/dom-manipulation/)
 3. [NodeLists](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)
 4. [YDKJS &orarr; ](https://github.com/getify/You-Dont-Know-JS)
+
 ---
+
+### Day 50: Saturday, 22nd June, 2019
+
+**Today's Progress**
+
+• Focus on the tiny details 🤗 - The decimal display of the budget app elements. Use `Math.abs()` to get the absolute value of a number. Set the decimal values of the number to two with the **Number prototype** `toFixed(2)` ex. `1,200.00`.
+
+• Divide numbers into substrings using `substr()`, use array data structures to capture integers and decimals with `.length` and set right commas ex. `int = int.substr(0, int.length - 3) + ',' + int.substr(int.length - 3, 3);` to output `23,500.00`.
+
+• 
+
+**Link(s) to work**
+
+1. [preview site](https://mostmojo.github.io/budgety/)
+2. [Math.abs)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs]
+3. [toFixed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
+4. [Substring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
