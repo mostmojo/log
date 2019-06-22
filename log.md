@@ -885,11 +885,12 @@
 
 **Today's Progress**
 
-• Focus on the tiny details 🤗 - The decimal display of the budget app elements. Use `Math.abs()` to get the absolute value of a number. Set the decimal values of the number to two with the **Number prototype** `toFixed(2)` ex. `1,200.00`.
+• Focus on the tiny details 🤗 - **App done!** - The decimal display of the budget app elements. Use `Math.abs()` to get the absolute value of a number. Set the decimal values of the number to two with the **Number prototype** `toFixed(2)` ex. `1,200.00`.
 
 • Divide numbers into substrings using `substr()`, use array data structures to capture integers and decimals with `.length` and set right commas ex. `int = int.substr(0, int.length - 3) + ',' + int.substr(int.length - 3, 3);` to output `23,500.00`.
 
-• Use `new Date()` object constructor with `var month = getMonth // 5` (also zero- based) & `getFullYear` to display it on app header. As these functions are zero-based, create a `months` array `= ['Jan', 'Feb', 'Mar'...]` and set the value as `months[month]` to get **June**. 
+• Use `new Date()` object constructor with `var month = getMonth // 5` (also zero- based) & `getFullYear` to display it on app header. As these functions are zero-based, create a `months` array `= ['Jan', 'Feb', 'Mar'...]` and set the value as `months[month]` to get **June**. Use `document.querySelector(DOMStrings.inputBtn).classList.toggle('red');` for better UX to enable all the fields to change color on toggle, so users can know that red = expense and green = income.
+
 
 **Link(s) to work**
 
