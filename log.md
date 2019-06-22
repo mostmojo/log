@@ -894,6 +894,6 @@
 **Link(s) to work**
 
 1. [preview site](https://mostmojo.github.io/budgety/)
-2. [Math.abs)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs]
+2. [Math.abs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)
 3. [toFixed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 4. [Substring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
