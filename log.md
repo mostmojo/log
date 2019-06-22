@@ -889,7 +889,7 @@
 
 • Divide numbers into substrings using `substr()`, use array data structures to capture integers and decimals with `.length` and set right commas ex. `int = int.substr(0, int.length - 3) + ',' + int.substr(int.length - 3, 3);` to output `23,500.00`.
 
-• 
+• Use `new Date()` object constructor with `var month = getMonth // 5` (also zero- based) & `getFullYear` to display it on app header. As these functions are zero-based, create a `months` array `= ['Jan', 'Feb', 'Mar'...]` and set the value as `months[month]` to get **June**. 
 
 **Link(s) to work**
 
