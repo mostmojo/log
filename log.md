@@ -898,3 +898,22 @@
 2. [Math.abs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)
 3. [toFixed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 4. [Substring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+
+---
+
+### Day 51: Sunday, 23rd June, 2019
+
+**Today's Progress**
+
+• Continue with Jonas course into ES6! Refresher on variable declarations in ES6 (`var`) vs ES6 (`let & const`). 
+
+• Revise `var` variable's functional scope vs `let/const` block scope by running tests into the console. Also look at possibilities of reassignment, overriding and immutability (const). `Global` assignement vs `functional scope` using `var` and `let` would render different results when using a for loop.
+
+• Look at `Blocks` and `IIFEs`. To create private scope variables in ES5 ex. `(function() { var c = 3; })();` the `()` wrapper can simply be transcribed into curly braces - `{ const c = 3; }`. 
+
+
+**Link(s) to work**
+
+1. [ES6 notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
+
+---
