@@ -917,3 +917,20 @@
 1. [ES6 notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
 
 ---
+
+### Day 52: Monday, 24th June, 2019
+
+**Today's Progress**
+
+• Refresher on `template literal` syntax with `${age}`. Run tests in the console to check values in an array with `startsWith`, `endsWith`, `includes` & `.repeat`.
+
+• Arrow function syntax - single vs multiple lines w/ shortcuts excluding `{}`, `returns` and `()` on one liners. Ex. `let age = years.map(year => 2019 - year);`. Also look through functions with eventListeners in ES5 vs ES6 and determine lexical and non-lexical scope. Ex. determine `var self = this` or `.bind(this)` to declare the instance of that variable. ES6, `lexical scope` refers this to the code containing the arrow function. 👽
+
+• `Destructuring` in ES6. Ex. `const [name, age] = ['Joe', 26];` and reassigning destructured objects `const {fName: a, lName: b}` which would still render same results. Learn about `Array.from(boxes).forEach(box => box.style.backgroundColor = 'dodgerblue');` to (**from**) transform `nodeList` into array w/o using `Array.prototype.slice.call(boxes);`.
+
+**Link(s) to work**
+
+1. [ES6 notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
+2. [Notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/notes.md)
+
+---
