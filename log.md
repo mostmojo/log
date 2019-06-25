@@ -945,6 +945,8 @@
 
 • NodeList to array  conversion using ES6's `Array.from(xs).forEach(x => x.style.color = 'red');`vs ES5's longer `Array.prototype.slice.call(args);`. Use `REST params` to collect all remaining elements into an array vs `Spread` - which allows iterables to be expanded into single elements or args vs `Default params` which can have default values set ex. `function newGuy(fName, lName = 'Jackson', age) {...}`. 
 
+• `Hash maps` - (ES6) - use instead of objects to `x.set(key, value);` that can later be retrieved using `x.get(key)`, use `.size` to get length and check logic using `.has()`, `.delete()`, `.clear()`. Ability to loop over w/ `[key, value] of x.entries()`. 
+
 **Link(s) to work**
 
 1. [ES6 notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
@@ -953,5 +955,6 @@
 4. [findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 5. [apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 6. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+7. [Map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#Syntax)
 
 ---
