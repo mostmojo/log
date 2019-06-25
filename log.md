@@ -935,7 +935,7 @@
 
 ---
 
-### Day 53: Wednesday, 25th June, 2019
+### Day 53: Tuesday, 25th June, 2019
 
 **Today's Progress**
 
