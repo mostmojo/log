@@ -934,3 +934,24 @@
 2. [Notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/notes.md)
 
 ---
+
+### Day 53: Wednesday, 25th June, 2019
+
+**Today's Progress**
+
+• Test different ES5 vs ES6 methods of using `continue` & `break` with `for...of` and `includes('blue')` to change content of element if condition is true. Use `find()` & `findIndex()` to display value in an array or index.
+
+• Look into similar method as `call()` &rarr; `apply()` that contains array as arguments. Ex. `addFourAgesTogether.apply(null, ages);` Assigning `this` to `null` as not needed. Look into `spread` operators to combine arrays with dot notation. Ex. `addFourAgesTogether(...ages);` or fuse two arrays together ex. `const famFuse = [famOne, ...famTwo];`
+
+• NodeList to array  conversion using ES6's `Array.from(xs).forEach(x => x.style.color = 'red');`vs ES5's longer `Array.prototype.slice.call(args);`
+
+**Link(s) to work**
+
+1. [ES6 notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
+2. [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+3. [find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+4. [findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+5. [apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+6. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+---
