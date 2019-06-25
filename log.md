@@ -943,7 +943,7 @@
 
 • Look into similar method as `call()` &rarr; `apply()` that contains array as arguments. Ex. `addFourAgesTogether.apply(null, ages);` Assigning `this` to `null` as not needed. Look into `spread` operators to combine arrays with dot notation. Ex. `addFourAgesTogether(...ages);` or fuse two arrays together ex. `const famFuse = [famOne, ...famTwo];`
 
-• NodeList to array  conversion using ES6's `Array.from(xs).forEach(x => x.style.color = 'red');`vs ES5's longer `Array.prototype.slice.call(args);`
+• NodeList to array  conversion using ES6's `Array.from(xs).forEach(x => x.style.color = 'red');`vs ES5's longer `Array.prototype.slice.call(args);`. Use `REST params` to collect all remaining elements into an array vs `Spread` - which allows iterables to be expanded into single elements or args vs `Default params` which can have default values set ex. `function newGuy(fName, lName = 'Jackson', age) {...}`. 
 
 **Link(s) to work**
 
