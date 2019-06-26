@@ -958,3 +958,26 @@
 7. [Map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#Syntax)
 
 ---
+
+### Day 54: Wednesday, 26th June, 2019
+
+**Today's Progress**
+
+• Build super `class Person` with sub `class Athlete` in ES6, ft. `constructor` and understand concept of `Object.create()` &rarr; `Athlete.prototype = Object.create(Person.prototype);` to make the link between the prototype chain in ES5 behind the scenes. Concept of `call(this, x, y, z)` to point to `new` instance.
+
+• Analyze the `super` method in ES6, which fetches all assigned params from parent class, into the sub class, allowing instance ex. `const jimAthleteES6 = new AthleteES6('Jim', 1993, 'swimmer', 3, 10 );` to all functions and props from the prototype chain.
+
+• Do JS challenge w/ Parks and Trees. Use super and sub classes with `hash map` function, `default params` and implement `reduce()` function to calculate the sum of an array argument. Ex. `const sum = array.reduce((prev, current, index) => prev + current, 0);`. 
+
+• Re-read `destructuring` to understand breakdown of arguments. Ex. `const { first, last } = person;` - to pick out props from a `person` object and make a variable out of it rather than: `const first = person.first;`. 
+
+
+**Link(s) to work**
+
+1. [Classes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
+2. [Challenge](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js#L535)
+3. [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+4. [Destructuring](https://wesbos.com/destructuring-objects/)
+
+---
+
