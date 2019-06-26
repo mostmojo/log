@@ -4,7 +4,7 @@
   <img width="120" height="120" src="https://res.cloudinary.com/mostmojo/image/upload/v1560979571/psy.gif">
 </p>
 
----
+-----
 
 ### Day 1: Saturday, 4th May, 2019
 
@@ -20,7 +20,7 @@
 
 1. [Codepen grids](https://codepen.io/most_mojo/pen/RmwKWd)
 
----
+-----
 
 ### Day 2: Sunday, 5th May, 2019
 
@@ -36,7 +36,7 @@
 
 1. [Codepen grids](https://codepen.io/most_mojo/pen/RmwKWd)
 
----
+-----
 
 ### Day 3: Monday, 6th May, 2019
 
@@ -55,7 +55,7 @@
 1. [Codepen grids](https://codepen.io/most_mojo/pen/EzagWr)
 2. [Nexter project](https://github.com/mostmojo/nexter)
 
----
+-----
 
 ### Day 4: Tuesday, 7th May, 2019
 
@@ -72,7 +72,7 @@
 1. [Nexter project](https://github.com/mostmojo/nexter)
 2. [NH - private but it's there!](https://github.com/ten4design/nicholas-hare)
 
----
+-----
 
 ### Day 5: Wednesday, 8th May, 2019
 
@@ -89,7 +89,7 @@
 1. [SASS @extends docs](https://sass-lang.com/documentation/at-rules/extend)
 2. [Schema](https://schema.org/)
 
----
+-----
 
 ### Day 6: Thursday, 9th May, 2019
 
@@ -108,7 +108,7 @@
 1. [Breadcrumbs](https://www.nngroup.com/articles/breadcrumbs/)
 2. [CSS display](https://css-tricks.com/almanac/properties/d/display/)
 
----
+-----
 
 ### Day 7: Friday, 10th May, 2019
 
@@ -126,7 +126,7 @@
 2. [Studio Ramsay](https://www.studioramsay.com/casting)
 3. [Casting commits](https://github.com/ten4design/studio-ramsay/commits?author=mostmojo)
 
----
+-----
 
 ### Day 8: Saturday, 11th May, 2019
 
@@ -142,7 +142,7 @@
 
 1. [Nexter](https://github.com/mostmojo/nexter)
 
----
+-----
 
 ### Day 9: Sunday, 12th May, 2019
 
@@ -160,7 +160,7 @@
 2. [Atomic CSS](https://acss.io/)
 3. [BEM syntax](https://twitter.com/most_mojo/status/1127570130517544962)
 
----
+-----
 
 ### Day 10: Monday, 13th May, 2019
 
@@ -178,7 +178,7 @@
 2. [Twig](https://twig.symfony.com/doc/2.x/templates.html#filters)
 3. [Nexter](https://github.com/mostmojo/nexter)
 
----
+-----
 
 ### Day 11: Tuesday, 14th May, 2019
 
@@ -195,7 +195,7 @@
 1. [NkdTV](https://www.nkdtv.com/)
 2. [Nexter](https://github.com/mostmojo/nexter)
 
----
+-----
 
 ### Day 12: Wednesday, 15th May, 2019
 
@@ -212,7 +212,7 @@
 1. [Craft categories](https://docs.craftcms.com/v3/categories.html#category-groups)
 2. [Nexter](https://github.com/mostmojo/nexter)
 
----
+-----
 
 ### Day 13: Thursday, 16th May, 2019
 
@@ -229,7 +229,7 @@
 1. [Nkdtv](https://www.nkdtv.com/)
 2. [Kanban](https://www.atlassian.com/agile/kanban)
 
----
+-----
 
 ### Day 14: Friday, 17th May, 2019
 
@@ -246,7 +246,7 @@
 1. [Nkdtv](https://www.nkdtv.com/)
 2. [Kanban](https://www.atlassian.com/agile/kanban)
 
----
+-----
 
 ### Day 15: Saturday, 18th May, 2019
 
@@ -263,7 +263,7 @@
 1. [Nexter](https://github.com/mostmojo/nexter)
 2. [Inline & block](https://medium.com/swlh/understanding-css-display-none-block-inline-and-inline-block-63f6510df93)
 
----
+-----
 
 ### Day 16: Sunday, 19th May, 2019
 
@@ -280,7 +280,7 @@
 1. [Nexter github](https://github.com/mostmojo/nexter)
 2. [Nexter desktop](https://mostmojo.github.io/nexter/)
 
----
+-----
 
 ### Day 17: Monday, 20th May, 2019
 
@@ -299,7 +299,7 @@
 3. [Caniuse](https://caniuse.com/#search=css%20grids)
 4. [window.object](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 
----
+-----
 
 ### Day 18: Tuesday, 21st May, 2019
 
@@ -314,7 +314,7 @@
 **Link(s) to work**
 
 
----
+-----
 
 ### Day 19: Wednesday, 22nd May, 2019
 
@@ -332,7 +332,7 @@
 2. [Continue statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
 3. [JS type coercion](https://www.udemy.com/the-complete-javascript-course/learn/lecture/5869094#questions/7082126)
 
----
+-----
 
 ### Day 20: Thursday, 23rd May, 2019
 
@@ -350,7 +350,7 @@
 2. [JS code challenge](https://www.instagram.com/p/Bx0ljjJn8Co/)
 3. [Continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
 
----
+-----
 
 ### Day 21: Friday, 24th May, 2019
 
@@ -366,7 +366,7 @@
 
 1. [Codepen](https://codepen.io/most_mojo/pen/gJeKLK)
 
----
+-----
 
 ### Day 22: Saturday, 25th May, 2019
 
@@ -386,7 +386,7 @@
 4. [Site inspiration](https://konradcodes.github.io/Konrad-Szerszen-Portfolio/)
 5. [*PHP Rest API*](https://www.youtube.com/watch?time_continue=1&v=OEWXbpUMODk) - TraversyMedia must watch
 
----
+-----
 
 ### Day 23: Sunday, 26th May, 2019
 
@@ -403,7 +403,7 @@
 1. [Site](https://mostmojo.github.io)
 2. [Codepen - JS function](https://codepen.io/most_mojo/pen/YbLBMe)
 
----
+-----
 
 ### Day 24: Monday, 27th May, 2019
 
@@ -421,7 +421,7 @@
 2. [Tip Calc](https://twitter.com/most_mojo/status/1132925274520207360)
 3. [Gist BMI](https://gist.github.com/mostmojo/6bdd5805d7780f153fb6d3f425bd4b96)
 
----
+-----
 
 ### Day 25: Tuesday, 28th May, 2019
 
@@ -438,7 +438,7 @@
 1. [Bash alias](https://mijingo.com/blog/creating-bash-aliases)
 2. [?? operator](https://twig.symfony.com/doc/2.x/templates.html)
 
----
+-----
 
 ### Day 26: Wednesday, 29th May, 2019
 
@@ -455,7 +455,7 @@
 1. [Flexbox](https://daveceddia.com/implement-a-design-with-css/)
 2. [Codepen Twitter](https://codepen.io/most_mojo/pen/rgZKpQ)
 
----
+-----
 
 ### Day 27: Thursday, 30th May, 2019
 
@@ -473,7 +473,7 @@
 2. [Twig include](https://craftquest.io/articles/passing-data-with-a-twig-include-statement)
 3. [Site](https://mostmojo.github.io)
 
----
+-----
 
 ### Day 28: Friday, 31st May, 2019
 
@@ -491,7 +491,7 @@
 2. [Git shortcuts](https://ohshitgit.com/)
 3. [Macros](https://www.google.com/amp/s/mijingo.com/blog/using-macros-in-twig-and-craft/amp)
 
----
+-----
 
 ### Day 29: Saturday, 1st June, 2019
 
@@ -508,7 +508,7 @@
 1. [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 2. [Tip Calculator pt. 1](https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206)
 
----
+-----
 
 ### Day 30: Sunday, 2nd June, 2019
 
@@ -525,7 +525,7 @@
 1. [Tip Calculator pt. 2](https://gist.github.com/mostmojo/b31f62ee92e709cb6a9787698ef21206)
 2. [Hoisting](https://github.com/mostmojo/prod/blob/master/javascript-course/script.js)
 
----
+-----
 
 ### Day 31: Monday, 3rd June, 2019
 
@@ -548,7 +548,7 @@
 5. [codepen](https://codepen.io/most_mojo/pen/mYoPvv)
 6. [scope](https://github.com/mostmojo/prod/blob/master/javascript-course/script.js)
 
----
+-----
 
 ### Day 32: Tuesday, 4th June, 2019
 
@@ -569,7 +569,7 @@
 2. [laptop-ui site](https://mostmojo.github.io/laptop-ui/)
 3. [Twitter cards](https://twitter.com/most_mojo/status/1136019113942376448)
 
----
+-----
 
 ### Day 33: Wednesday, 5th June, 2019
 
@@ -587,7 +587,7 @@
 2. [flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink)
 3. [calculator](https://codepen.io/most_mojo/pen/QRRdvw)
 
----
+-----
 
 ### Day 34: Thursday, 6th June, 2019
 
@@ -605,7 +605,7 @@
 2. [Variable scope](https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript)
 3. [Animate.css](https://daneden.github.io/animate.css/)
 
----
+-----
 
 ### Day 35: Friday, 7th June, 2019
 
@@ -623,7 +623,7 @@
 2. [Bear](https://mostmojo.github.io/bear-ui/)
 3. [Accessibility outline](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 
----
+-----
 
 ### Day 36: Saturday, 8th June, 2019
 
@@ -642,7 +642,7 @@
 1. [Pure CSS images](https://medium.com/coding-artist/a-beginners-guide-to-pure-css-images-ef9a5d069dd2)
 2. [Pig game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
----
+-----
 
 ### Day 37: Sunday, 9th June, 2019
 
@@ -659,7 +659,7 @@
 1. [querySelector](https://www.instagram.com/p/ByffDbhn3dW/)
 2. [byId | img src](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
----
+-----
 
 ### Day 38: Monday, 10th June, 2019
 
@@ -677,7 +677,7 @@
 2. [clippy](https://bennettfeely.com/clippy/)
 3. [DOM game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
----
+-----
 
 ### Day 39: Tuesday, 11th June, 2019
 
@@ -697,7 +697,7 @@
 4. [Dice analysis](https://gist.github.com/mostmojo/fa3e05fa9cde3532ce74f80aebe6cefa)
 5. [DOM game](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 
----
+-----
 
 ### Day 40: Wednesday, 12th June, 2019
 
@@ -715,7 +715,7 @@
 2. [Dice game code](https://github.com/mostmojo/prod/blob/master/javascript-course/DOM-pig-game/app.js)
 3. [DOM game live](https://mostmojo.github.io/dice-roll/)
 
----
+-----
 
 ### Day 41: Thursday, 13th June, 2019
 
@@ -734,7 +734,7 @@
 3. [phaser.js](https://github.com/photonstorm/phaser)
 4. [To read: git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
----
+-----
 
 ### Day 42: Friday, 14th June, 2019
 
@@ -751,7 +751,7 @@
 1. [Prototypes](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 2. [Prototype Chain](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/notes.md)
 
----
+-----
 
 ### Day 43: Saturday, 15th June, 2019
 
@@ -767,7 +767,7 @@
 
 1. [Primitives & Objects](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 
----
+-----
 
 ### Day 44: Sunday, 16th June, 2019
 
@@ -783,7 +783,7 @@
 
 1. [IIFE](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 
----
+-----
 
 ### Day 45: Monday, 17th June, 2019
 
@@ -799,7 +799,7 @@
 
 1. [Closures](https://github.com/mostmojo/prod/blob/master/javascript-course/advanced-js/script.js)
 2. [Modules](https://github.com/mostmojo/budgety/blob/master/notes.md)
----
+-----
 
 ### Day 46: Tuesday, 18th June, 2019
 
@@ -819,7 +819,7 @@
 4. [Every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 5. [Web assembly](https://webassembly.org/)
 
----
+-----
 
 ### Day 47: Wednesday, 19th June, 2019
 
@@ -837,7 +837,7 @@
 2. [focus](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus)
 3. [preview site](https://mostmojo.github.io/budgety/)
 
----
+-----
 
 ### Day 48: Thursday, 20th June, 2019
 
@@ -859,7 +859,7 @@
 6. [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 7. [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
----
+-----
 
 ### Day 49: Friday, 21st June, 2019
 
@@ -879,7 +879,7 @@
 3. [NodeLists](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)
 4. [YDKJS &orarr; ](https://github.com/getify/You-Dont-Know-JS)
 
----
+-----
 
 ### Day 50: Saturday, 22nd June, 2019
 
@@ -899,7 +899,7 @@
 3. [toFixed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 4. [Substring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
 
----
+-----
 
 ### Day 51: Sunday, 23rd June, 2019
 
@@ -916,7 +916,7 @@
 
 1. [ES6 notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
 
----
+-----
 
 ### Day 52: Monday, 24th June, 2019
 
@@ -933,7 +933,7 @@
 1. [ES6 notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/script.js)
 2. [Notes](https://github.com/mostmojo/prod/blob/master/javascript-course/ES6/notes.md)
 
----
+-----
 
 ### Day 53: Tuesday, 25th June, 2019
 
@@ -957,7 +957,7 @@
 6. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 7. [Map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#Syntax)
 
----
+-----
 
 ### Day 54: Wednesday, 26th June, 2019
 
@@ -979,5 +979,5 @@
 3. [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 4. [Destructuring](https://wesbos.com/destructuring-objects/)
 
----
+-----
 
