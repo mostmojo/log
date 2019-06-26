@@ -969,7 +969,7 @@
 
 • Do JS challenge w/ Parks and Trees. Use super and sub classes with `hash map` function, `default params` and implement `reduce()` function to calculate the sum of an array argument. Ex. `const sum = array.reduce((prev, current, index) => prev + current, 0);`. 
 
-• Re-read `destructuring` to understand breakdown of arguments. Ex. `const { first, last } = person;` - to pick out props from a `person` object and make a variable out of it rather than: `const first = person.first;`. 
+• Re-read `destructuring` to understand breakdown of arguments. Ex. `const { first, last } = person;` - to pick out props from a `person` object and make a variable out of it 'automatically' rather than have to: `const first = person.first;`. Comes handy with deeply nested properties/values in larger JSON objects derived from APIs.
 
 
 **Link(s) to work**
