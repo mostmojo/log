@@ -981,3 +981,17 @@
 
 -----
 
+### Day 55: Thursday, 27th June, 2019
+
+**Today's Progress**
+
+• `Synchronous` vs `Asynchronous` JavaScript with `setTimeout( () => { ... }, 1000, xParam)` examples to determine the difference between functional `callbacks`, the `callback hell` and reason for `promises`. Study the `global execution context` to understand `event loops` that act as middle man between `Web APIs`, `Message Queue`, `Execution Stack` and `Console`. 
+
+• Deep dive into `promises` to understand `state`: **PENDING &rarr; (EVENT HAPPENS) &rarr; SETTLED/RESOLVED - FULFILLED || REJECTED**. Promises are *produced* and then callbacks can *fulfill* or *reject* data. Promises have `resolve` and `reject` **callback executors**  where `resolve` holds the values of everything that is retrieved from an API for example. `[1, 2, 3]`.
+
+• **Consuming** promises. Any values from the above resolve method are stored in the parameter after `.then` and can be logged, returned, etc. Look into `async & await` to aid in promise consumption. Also, look into `.catch()` method for error handling.
+
+**Link(s) to work**
+
+1. [promise](https://javebratt.com/wtf-promise/)
+2. [notes](https://github.com/mostmojo/prod/blob/master/javascript-course/asynchronous-js/asynchronous.html)
