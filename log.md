@@ -995,3 +995,21 @@
 
 1. [promise](https://javebratt.com/wtf-promise/)
 2. [notes](https://github.com/mostmojo/prod/blob/master/javascript-course/asynchronous-js/asynchronous.html)
+
+-----
+
+### Day 56: Friday, 28th June, 2019
+
+**Today's Progress**
+
+• Make asynchronous network requests using `.fetch()` method on MetaWeather API. To bypass proxy, found cors-anywhere prefix, so didn't have to disable any security feaures in google chrome. 
+
+• On `body: Readable Stream` noticed `.then` needed to consume the data but first `return result.json()` - to convert JSON to JavaScript, readable by browser. `.then(data => {... manipulate data here ...}` and finally `.catch` any errors.
+
+• Repeat the same with `async/await`. Since, `async func` always returns a `promise`, the data returned is the `resolved` value of the promise, accessible using the `then` method.
+
+**Link(s) to work**
+
+1. [notes](https://github.com/mostmojo/prod/blob/master/javascript-course/asynchronous-js/asynchronous.html)
+2. [metaweather](https://www.metaweather.com/api/)
+3. [CORS-anywhere](https://cors-anywhere.herokuapp.com)
