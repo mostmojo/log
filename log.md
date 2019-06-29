@@ -1013,3 +1013,19 @@
 1. [notes](https://github.com/mostmojo/prod/blob/master/javascript-course/asynchronous-js/asynchronous.html)
 2. [metaweather](https://www.metaweather.com/api/)
 3. [CORS-anywhere](https://cors-anywhere.herokuapp.com)
+
+-----
+
+### Day 57: Saturday, 29th June, 2019
+
+Today's Progress
+
+• Refresher on CLI terminal commands. `Install npm`, nodeJS, `webpacker` and `live-dev server`. `Npm init package.json files` with dev dependencies, and node modules for `bundler.js` file.
+
+• Set up webpack `config file` after npm install webpack with `path = require('path'); module.exports` to point exports to `dir__name` for `entry` and `output`. 
+
+•  `npm install webpack-cli --save-dev` for command line interface for webpack as dev dependency, along with `live dev server` config to reload in real time for quicker work flow. 
+
+Link(s) to work
+
+1. [Setup notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
