@@ -1018,7 +1018,7 @@
 
 ### Day 57: Saturday, 29th June, 2019
 
-Today's Progress
+**Today's Progress**
 
 • Refresher on CLI terminal commands. `Install npm`, nodeJS, `webpacker` and `live-dev server`. `Npm init package.json files` with dev dependencies, and node modules for `bundler.js` file.
 
