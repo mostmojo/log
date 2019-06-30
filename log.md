@@ -1029,3 +1029,18 @@
 Link(s) to work
 
 1. [Setup notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+
+### Day 58: Sunday, 30th June, 2019
+
+**Today's Progress**
+
+• Install webpack, dev-server, html-webpack-plugins.
+
+• `npm install babel-core babel-preset-env babel-loader --save dev`
+
+• `npm install babel-polyfill --save` and run into an error which took all day (still not solved!). When I run `npm run dev`, error: `ERROR in multi @babel-polyfill ./src/js/index.js. Module not found: Error: Can't resolve '@babel-polyfill' in '/Users/jacobpapageorgiou/Desktop/Projects/forkify' @ multi @babel-polyfill ./src/js/index.js main[0]
+Child html-webpack-plugin for "index.html":`.
+
+Link(s) to work
+
+1. [Setup notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
