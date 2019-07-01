@@ -1030,6 +1030,8 @@ Link(s) to work
 
 1. [Setup notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 
+-----
+
 ### Day 58: Sunday, 30th June, 2019
 
 **Today's Progress**
@@ -1044,3 +1046,20 @@ Child html-webpack-plugin for "index.html":`.
 Link(s) to work
 
 1. [Setup notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+
+-----
+
+### Day 59: Monday, 1st July, 2019
+
+**Today's Progress**
+
+• Fix nasty `babel polyfill` bug by reinstalling all npm packages from scratch, checking typos and adding most recent updates to `node modules`. Ensure that `modules`, `package.json` files, `compilers` and `webpack CLIs` were installed and targeted properly in `bash` & `nodeJS` syntax.
+
+• Create files to compliment `MVC` model architecture for forkify project. Use `food2fork API` to grab search queries with `axios` for better error handling rather than `.fetch()`.
+
+• Build search model constructor with query params to fetch `this.results`. Create control Search function to be called on `submit event` that - gets a query from view, makes new search object and adds it to state, fetches results from API request and renders results to console. Getting used to the file `import/exports` will take some time! 
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [State](http://jsclass.jcoglan.com/state.html)
