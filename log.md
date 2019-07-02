@@ -1055,7 +1055,7 @@ Link(s) to work
 
 • Fix nasty `babel polyfill` bug by reinstalling all npm packages from scratch, checking typos and adding most recent updates to `node modules`. Ensure that `modules`, `package.json` files, `compilers` and `webpack CLIs` were installed and targeted properly in `bash` & `nodeJS` syntax.
 
-• Create files to compliment `MVC` model architecture for forkify project. Use `food2fork API` to grab search queries with `axios` for better error handling rather than `.fetch()`.
+• Create files to compliment `MVC` model architecture for forkify project. Have `base.js` contain object with `querySelectors`, use `food2fork API` to grab search queries with `axios` for better error handling rather than `.fetch()` as the `model`. Catch `async promise` using `await axios` query string, `catch()` & `alert` any errors.
 
 • Build search model constructor with query params to fetch `this.results`. Create control Search function to be called on `submit event` that - gets a query from view, makes new search object and adds it to state, fetches results from API request and renders results to console. Getting used to the file `import/exports` will take some time! 
 
