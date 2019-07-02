@@ -1063,3 +1063,22 @@ Link(s) to work
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [State](http://jsclass.jcoglan.com/state.html)
+
+-----
+
+### Day 60: Tuesday, 2nd July, 2019
+
+**Today's Progress**
+
+• Create function to renderResults containing renderRecipe &rarr; `recipes.forEach(renderRecipe);` where function contains markup inserted with `insertAdjacentHTML`.
+
+• `limitRecipeTitle()` function using modern `split`, `default params`, `reduce`, `join` and `push` methods to iterate through a string, split it if it's over 17 characters and push it into a `newTitle` array and then render to UI, to have better UI/UX when fetching recipe titles. Lastly, look into loader for when waiting for the fetch. `<svg><use></use></svg>` method with markup and `insertAdjacentHTML` in `base.js`
+
+• Create for-fun spinner to generate a random winner. Pull `jquery` from codepen first try and set it to render results & use `confetti` effect for winner 🎉 `[Math.floor(Math.random()]` - magic.
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [InsertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
+3. [Spinner](https://mostmojo.github.io/spinner/)
+
