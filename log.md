@@ -1092,11 +1092,13 @@ Link(s) to work
 
 • **Pagination**: Create `renderResults()` with `start` and `end` consts, new array using `slice` method to get recipes, `renderButtons` to have pages, `next/prev` buttons with logical operators to render according to condition. `createButton` - to render html with button / ternary operators to determine the type and page number. 
 
-• Explore `e.target.closest` method to target closest element to click event. Use `Math.ceil()` method to round up numbers when using pagination. Make simple card in codepen to practice display flex, layout, positioning and linear gradients. 
+• Explore `e.target.closest` method to target closest element to click event. Use `Math.ceil()` method to round up numbers when using pagination. 
+
+• Make simple card in codepen to practice display flex, layout, positioning and linear gradients. 
 
 Link(s) to work
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [Slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 3. [Transform origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
-4. [codepen card](https://codepen.io/most_mojo/pen/LKrPNQ)
+4. [Codepen card](https://codepen.io/most_mojo/pen/LKrPNQ)
