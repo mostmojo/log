@@ -1082,3 +1082,21 @@ Link(s) to work
 2. [InsertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
 3. [Spinner](https://mostmojo.github.io/spinner/)
 
+-----
+
+### Day 61: Wednesday, 3rd July, 2019
+
+**Today's Progress**
+
+• Grab svg of loader image, add `animation: rotate 1.5s infinite linear;` which responds to 2 states of `@keyframes rotate { 0% { transform: rotate (0); } 100% { transform: rotate (360deg)l }`. Create ` export const renderLoader` function with appropriate styling `<svg><use href="..."></use></svg>` and `insertAdjacentHTML('afterbegin', loader)` and import into controller with `querySelected` class as argument. Make another clearLoader function to removeChild/loader class after the API data is fetched.
+
+• **Pagination**: Create `renderResults()` with `start` and `end` consts, new array using `slice` method to get recipes, `renderButtons` to have pages, `next/prev` buttons with logical operators to render according to condition. `createButton` - to render html with button / ternary operators to determine the type and page number. 
+
+• Explore `e.target.closest` method to target closest element to click event. Use `Math.ceil()` method to round up numbers when using pagination. Make simple card in codepen to practice display flex, layout, positioning and linear gradients. 
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [Slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+3. [Transform origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+4. [codepen card](https://codepen.io/most_mojo/pen/LKrPNQ)
