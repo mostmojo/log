@@ -1094,7 +1094,10 @@ Link(s) to work
 
 • Explore `e.target.closest` method to target closest element to click event. Use `Math.ceil()` method to round up numbers when using pagination. 
 
-• Make simple card in codepen to practice display flex, layout, positioning and linear gradients. 
+• Make simple card in codepen to practice display flex, layout, positioning and linear gradients.
+
+• Make reusable card component with basic `ReactJS` 'architecture' containing a `function Person(props)`, its dynamically inserted `props.name`, etc inside a `return( ... )`; a `var app` containing the instances of the new card components wrapped in `JSX syntax` and all sent to `ReactDOM.render(app, document.querySelector('#app'));` to ship all components to the div with the id `app` in the HTML. Ex. `<div id="app"></div>`
+
 
 Link(s) to work
 
@@ -1102,3 +1105,4 @@ Link(s) to work
 2. [Slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 3. [Transform origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
 4. [Codepen card](https://codepen.io/most_mojo/pen/LKrPNQ)
+5. [React card](https://codepen.io/most_mojo/pen/xozajV)
