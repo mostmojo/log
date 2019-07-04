@@ -1106,3 +1106,23 @@ Link(s) to work
 3. [Transform origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
 4. [Codepen card](https://codepen.io/most_mojo/pen/LKrPNQ)
 5. [React card](https://codepen.io/most_mojo/pen/xozajV)
+
+-----
+
+### Day 62: Thursday, 4th July, 2019
+
+**Today's Progress**
+
+• Create new Recipe class with constructor parameter `id` - that way we can have lots of id instances. In same scope of Recipe class, make asynchronous getRecipe function, using axios to fetch recipe with `https://www.food2fork.com/api/get?key=${key}&rId=${this.id}` - ` key & rId` from documentation.
+
+• Set an `.addEventListener` to the global `window` object, and set it to detect a `hashchange`. Use `const id = window.location.hash;` to use global window object, grab the location (in the search bar) of the hash, anything after the `#` ex. `#334554`; - look at ways to have two event listeners in one line of code: `['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));`
+
+• Create `parseIngredients` function in recipe model to grab uneccessary brackets, long units and convert them to abbreviations ex. tablespoons = tbsp. Use regex `ingredient.replace(/ *\([^)]*\) */g, ' ');` to remove braces and replace with empty string
+
+• Play with `@keyframes` to instil spinning effect using CSS `animation: rotate 1.5s infinite linear;` prop. 
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [Window.location](https://developer.mozilla.org/en-US/docs/Web/API/Window/location)
+3. [codepen - spinner][https://codepen.io/most_mojo/pen/vqaGQQ]
