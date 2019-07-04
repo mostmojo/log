@@ -1125,4 +1125,4 @@ Link(s) to work
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [Window.location](https://developer.mozilla.org/en-US/docs/Web/API/Window/location)
-3. [codepen - spinner][https://codepen.io/most_mojo/pen/vqaGQQ]
+3. [codepen - spinner](https://codepen.io/most_mojo/pen/vqaGQQ)
