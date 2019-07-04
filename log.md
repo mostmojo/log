@@ -1117,7 +1117,7 @@ Link(s) to work
 
 • Set an `.addEventListener` to the global `window` object, and set it to detect a `hashchange`. Use `const id = window.location.hash;` to use global window object, grab the location (in the search bar) of the hash, anything after the `#` ex. `#334554`; - look at ways to have two event listeners in one line of code: `['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));`
 
-• Create `parseIngredients` function in recipe model to grab uneccessary brackets, long units and convert them to abbreviations ex. tablespoons = tbsp. Use regex `ingredient.replace(/ *\([^)]*\) */g, ' ');` to remove braces and replace with empty string
+• Create `parseIngredients` function in recipe model to grab uneccessary brackets, long units and convert them to abbreviations ex. tablespoons = tbsp. Use regex `ingredient.replace(/ *\([^)]*\) */g, ' ');` to remove braces and replace with empty string. **Consider fixing `slice` error/bug**.
 
 • Play with `@keyframes` to instil spinning effect using CSS `animation: rotate 1.5s infinite linear;` prop. 
 
