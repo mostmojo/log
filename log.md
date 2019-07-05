@@ -1126,3 +1126,23 @@ Link(s) to work
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [Window.location](https://developer.mozilla.org/en-US/docs/Web/API/Window/location)
 3. [codepen - spinner](https://codepen.io/most_mojo/pen/vqaGQQ)
+
+-----
+
+### Day 63: Friday, 5th July, 2019
+
+**Today's Progress**
+
+• Parse ingredients into count, unit and ingredient places. Use `.findIndex(el2 => unitShort.includes(el2));` &rarr; a new ES7 method to find the index of any element, which `includes()` that element. Ex. Does the array include an element called 'ounces', what's its index?
+
+• Use `eval()` to evaluate numbers and add them up if they are obscure. `4 + 1/2 = 4.5`, use `slice()` to slice methods up at a given index, and later `join()` them with `(' ')` empty space.
+
+• Make a recipeViews to renderRecipe with `.map()` and `${recipe.ingredients.map(el => createIngredient(el)).join('')}` and call `elements.recipe.insertAdjacentHTML('afterbegin', markup);` to render it. Link the recipe controller to the view. 
+
+• Clone existing craft site via github, and import the database into `mySequelPro`, add `env` files and integrate `docker` links. Add new nav bar element to existing site with key:value pair to determine `slug` vs `title content`. Look at git and terminal command shortcuts to quicken work flow. Install `code .` to open files in VS Code via terminal 😊
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [Unix cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
+3. [Nav element](https://www.casarotto.co.uk/)
