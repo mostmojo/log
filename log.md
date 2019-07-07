@@ -1146,3 +1146,23 @@ Link(s) to work
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [Unix cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
 3. [Nav element](https://www.casarotto.co.uk/)
+
+-----
+
+### Day 64: Saturday, 6th July, 2019
+
+**Today's Progress**
+
+• Integrate fractionJS small library for doing simple arithmetic. Use destructuring to separate integer and decimal using `const [int, dec] = count.toString().split('.').map(el => parseInt(el, 10));` for ex. `count = 2.5 => [2, 5]` and use `return ${int} ${fr.numerator}/${fr.denominator} // 2 1/2` numerator/denom from library to render necessary ouput.
+
+• Teach at `CoderBrixton` 🙂. Used `HTML, CSS, JS` to create an interface for a math game. Install `jQuery CDN` to use shorthand query selectors. Build markup for title, score, maths sections and status bar with up/down buttons and enter key and style. (Math calculating game with status bars).
+
+• Use JS to select all status bar elements by id, and set `classList.add(visibility, hidden);` Make modular functions, imported with script tags to select id and concatenate `variableName + 1` expression result, on event click. Using `callback functions` to trigger the `moveUp` and `moveDown` button events. Ex. `document.querySelector('moveUpButton').addEventListener('click', moveButtonUpFunc);`
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [coderbrixton](http://coderbrixton.com)
+3. [JS Math game](http://www.garethshapiro.com/item/teaching-beginner-programmers-how-to-code)
+4. [Destructuring](https://wesbos.com/destructuring-objects/)
+6. [fractionJS](https://github.com/ekg/fraction.js/)
