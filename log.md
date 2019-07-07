@@ -1153,7 +1153,7 @@ Link(s) to work
 
 **Today's Progress**
 
-• Integrate fractionJS small library for doing simple arithmetic. Use destructuring to separate integer and decimal using `const [int, dec] = count.toString().split('.').map(el => parseInt(el, 10));` for ex. `count = 2.5 => [2, 5]` and use `return ${int} ${fr.numerator}/${fr.denominator} // 2 1/2` numerator/denom from library to render necessary ouput.
+• Integrate `fractionJS`, small library for doing simple arithmetic in Forkify project. Use destructuring to separate integer and decimal using `const [int, dec] = count.toString().split('.').map(el => parseInt(el, 10));` for ex. `count = 2.5 => [2, 5]` and use `return ${int} ${fr.numerator}/${fr.denominator} // 2 1/2` numerator/denom from library to render necessary ouput.
 
 • Teach at `CoderBrixton` 🙂. Used `HTML, CSS, JS` to create an interface for a math game. Install `jQuery CDN` to use shorthand query selectors. Build markup for title, score, maths sections and status bar with up/down buttons and enter key and style. (Math calculating game with status bars).
 
@@ -1161,7 +1161,7 @@ Link(s) to work
 
 Link(s) to work
 
-1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+1. [formatCount()](https://github.com/mostmojo/forkify/blob/master/src/js/views/recipeView.js#L8)
 2. [coderbrixton](http://coderbrixton.com)
 3. [JS Math game](http://www.garethshapiro.com/item/teaching-beginner-programmers-how-to-code)
 4. [Destructuring](https://wesbos.com/destructuring-objects/)
