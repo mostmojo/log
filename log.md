@@ -1166,3 +1166,20 @@ Link(s) to work
 3. [JS Math game](http://www.garethshapiro.com/item/teaching-beginner-programmers-how-to-code)
 4. [Destructuring](https://wesbos.com/destructuring-objects/)
 6. [fractionJS](https://github.com/ekg/fraction.js/)
+
+-----
+
+### Day 65: Sunday, 7th July, 2019
+
+**Today's Progress**
+
+• Make `updateServings(type)` function with types `'dec'` and `'inc'`, with ternary operator assigning a `+/- 1`. Loop through ingredients with `forEach` and update count with `ing.count *= (newServings / this.servings);` before setting `newServings` to `this.servings;`. - All in recipe.js model
+
+• `AddEventListener` on click to check if `e.target.matches('.btn-decreases, .btn-decreases *')` class and update the `state.recipe` object with `updateServings()` function results. Do the same for `'increases'` class in `if/else statement.` - All in index.js controller
+
+• Create `updateServingsIngredients` variable in UI which holds a `recipe` parameter. Use `querySelector` to replace `textContent` with `recipe.servings`. Use `Array.from` to select `recipe__count class`, loop through all the elements and set the textContent to `recipe.ingredients[i].count` which basically sets the counter number to the relevant ingredient, as wrapped with `formatCount` function from previous `fractional.js library`. - All in recipeView.js - this completes the recipe section.
+
+Link(s) to work
+
+1. [formatCount()](https://github.com/mostmojo/forkify/blob/master/src/js/views/recipeView.js#L8)
+2. [matches(https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
