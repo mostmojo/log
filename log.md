@@ -1182,4 +1182,4 @@ Link(s) to work
 Link(s) to work
 
 1. [formatCount()](https://github.com/mostmojo/forkify/blob/master/src/js/views/recipeView.js#L8)
-2. [matches(https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
+2. [matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
