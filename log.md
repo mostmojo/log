@@ -1196,6 +1196,8 @@ Link(s) to work
 
 • Make a `listView` view to render markup of selected shopping item dynamically w/ `elements.shopping.insertAdjacentHTML('beforeend', markup);`- also delete item functionality with `item.parentElement.removeChild(item);` since the elements are not present on page load and are nodes in the DOM. 
 
+• Participate to open source HTML Handbook by editing some code/explanations.
+
 Link(s) to work
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
@@ -1203,3 +1205,4 @@ Link(s) to work
 3. [github fork](https://dev.to/ceri_anneblog/how-to-fork-and-contribute-to-a-github-repo-5bfp)
 4. [VS shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)  🙏🏼 @michailb
 5. [uniqid](https://github.com/adamhalasz/uniqid)
+6. [HTML Handbook - Flavio](https://github.com/flaviocopes/html-handbook)
