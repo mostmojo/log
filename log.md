@@ -1183,3 +1183,23 @@ Link(s) to work
 
 1. [formatCount()](https://github.com/mostmojo/forkify/blob/master/src/js/views/recipeView.js#L8)
 2. [matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
+
+-----
+
+### Day 66: Monday, 8th July, 2019
+
+**Today's Progress**
+
+• Look into various VS Code & git shortcuts to quicken workflow. 
+
+• Create new list model and build a list class with a constructor pointing to an empty array. Create `addItem` function with params `count, unit, ingredient` and set an item object to `count: count, unit: unit and ingredient: ingredient`. Install `uniqid` library and import it to list model. Add CRUD functionality to model and controller to delete & update items. 
+
+• Make a `listView` view to render markup of selected shopping item dynamically w/ `elements.shopping.insertAdjacentHTML('beforeend', markup);`- also delete item functionality with `item.parentElement.removeChild(item);` since the elements are not present on page load and are nodes in the DOM. 
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [git amend](https://www.atlassian.com/git/tutorials/rewriting-history)
+3. [github fork](https://dev.to/ceri_anneblog/how-to-fork-and-contribute-to-a-github-repo-5bfp)
+4. [VS shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)  🙏🏼 @michailb
+5. [uniqid](https://github.com/adamhalasz/uniqid)
