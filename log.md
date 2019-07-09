@@ -1219,9 +1219,8 @@ Link(s) to work
 
 • Start first group project with `kanban` for architect client. This involved planning using invision mockup designs, segmenting `sections`, `fields`, `channels`, etc in `Craft CMS` and `Kanban Flow` chart, `startsite` in terminal/docker scripts, downloadable databases in `mySequelPro` and start planning structure of components, fonts, styling, colors. 
 
-• **Tips:** 1. `cmd + ->` , to hop from beginning to end of code line, `cmd + shift + -> ` , to hop and highlight.
-
-            2. `.some__class[href*="#${id}"]` &rarr; select an element with an attribute `href` whose value contains at             least one occurrence of `${id}` (it will be replaced with a specific number) within the string.
+• **Tips:** 1. `cmd + ->` , to hop from beginning to end of code line, `cmd + shift + -> ` , to hop and highlight. <br/>
+2.`.some__class[href*="#${id}"]` &rarr; select an element with an attribute `href` whose value contains at             least one occurrence of `${id}` (it will be replaced with a specific number) within the string.
 
 
 Link(s) to work
