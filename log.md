@@ -1206,3 +1206,26 @@ Link(s) to work
 4. [VS shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)  🙏🏼 @michailb
 5. [uniqid](https://github.com/adamhalasz/uniqid)
 6. [HTML Handbook - Flavio](https://github.com/flaviocopes/html-handbook)
+
+-----
+
+### Day 67: Tuesday, 9th July, 2019
+
+**Today's Progress**
+
+• Merged HTML handbook open source participation 🎉. Learned a lot in doing so about `input types`, `iframes`, `video`, `src`, `meta` data tags, `block` vs `inline` style, `get/post` requests, `tables` and `accessibility`. 
+
+• Contine with forkify project, create `likesView` and `listView` views with specific `markup` renders to the browser and also integrated with the `likes` controller. Kept everything outside of functional scope to ensure data was 'saved' in memory. Ex. `likesView.toggleLikeMenu(state.likes.getNumLikes());`.
+
+• Start first group project with `kanban` for architect client. This involved planning using invision mockup designs, segmenting `sections`, `fields`, `channels`, etc in `Craft CMS` and `Kanban Flow` chart, `startsite` in terminal/docker scripts, downloadable databases in `mySequelPro` and start planning structure of components, fonts, styling, colors. 
+
+• **Tips:** 1. `cmd + ->` , to hop from beginning to end of code line, `cmd + shift + -> ` , to hop and highlight.
+
+            2. `.some__class[href*="#${id}"]` &rarr; select an element with an attribute `href` whose value contains at             least one occurrence of `${id}` (it will be replaced with a specific number) within the string.
+
+
+Link(s) to work
+
+1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
+2. [HTML Handbook - Flavio](https://github.com/flaviocopes/html-handbook))
+3. [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
