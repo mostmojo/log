@@ -1226,5 +1226,5 @@ Link(s) to work
 Link(s) to work
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
-2. [HTML Handbook - Flavio](https://github.com/flaviocopes/html-handbook))
+2. [HTML Handbook - Flavio](https://github.com/flaviocopes/html-handbook)
 3. [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
