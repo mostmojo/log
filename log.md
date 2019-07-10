@@ -1228,3 +1228,22 @@ Link(s) to work
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [HTML Handbook - Flavio](https://github.com/flaviocopes/html-handbook)
 3. [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+-----
+
+### Day 68: Wednesday, 10th July, 2019
+
+**Today's Progress**
+
+• Learn about `Kanban flow` and `Agile/Waterfall` methodologies. Install `composer`, `craft CMS` and start first team project.
+
+• Segment design into resusable components and follow through craft entries, fields, sections. Once implemented, create first component using `for loops`, set variables, and use ex. entry.title to query DB, `{% for item in entry.listingImageOrVideo.all() %}`, `{{ image( item.image[0], 'listingImage', null, 'card__image' ) }}`, render it to the browser using `index.twig` file and `include` method : `{% include 'template.html' with {'entry': 'something'} %}`
+
+• Finish `forkify` app and use `localStorage` to ensure data is encapsulated on reload, within memory. Explore `JSON.parse` and `stringify` methods to convert data to and from strings to `JavaScript objects`. Run into small build error with `bundle.js` not rendering to github but will figure out the build script in `package.json`.
+
+
+Link(s) to work
+
+1. [Forkify repo](https://github.com/mostmojo/forkify)
+2. [include](https://twig.symfony.com/doc/2.x/tags/include.html)
+
