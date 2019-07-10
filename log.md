@@ -1237,7 +1237,7 @@ Link(s) to work
 
 • Learn about `Kanban flow` and `Agile/Waterfall` methodologies. Install `composer`, `craft CMS` and start first team project.
 
-• Segment design into resusable components and follow through craft entries, fields, sections. Once implemented, create first component using `for loops`, set variables, and use ex. entry.title to query DB, `{% for item in entry.listingImageOrVideo.all() %}`, `{{ image( item.image[0], 'listingImage', null, 'card__image' ) }}`, render it to the browser using `index.twig` file and `include` method : `{% include 'template.html' with {'entry': 'something'} %}`
+• Segment design into resusable components and follow through craft entries, fields, sections. Once implemented, create first component using `for loops`, set variables, and use ex. `entry.title` to query DB, and get some data from Craft's backend &rarr; some query examples: `{% for item in entry.listingImageOrVideo.all() %}`, `{{ image( item.image[0], 'listingImage', null, 'card__image' ) }}`, render it to the browser using `index.twig` file and `include` method : `{% include 'template.html' with {'entry': 'something'} %}`
 
 • Finish `forkify` app and use `localStorage` to ensure data is encapsulated on reload, within memory. Explore `JSON.parse` and `stringify` methods to convert data to and from strings to `JavaScript objects`. Run into small build error with `bundle.js` not rendering to github but will figure out the build script in `package.json`.
 
