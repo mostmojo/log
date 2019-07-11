@@ -1247,3 +1247,20 @@ Link(s) to work
 1. [Forkify repo](https://github.com/mostmojo/forkify)
 2. [include](https://twig.symfony.com/doc/2.x/tags/include.html)
 
+-----
+
+### Day 69: Thursday, 11th July, 2019
+
+**Today's Progress**
+
+• Start building components with twig syntax, html & SASS. Ensure to use `{% extends base %}` to bring content into another file from base, and use `{% include.x_file with 'entry': 'x' %}` 
+
+• Learn about targeting `input[type='text']` elements in forms, `::after` pseudo classes for adding arrows after designated class, transform props, and modifiers vs element nesting.  
+
+• Class naming for reusability, `placeholder` text in forms, `hover & focus` classes and using `Tower` for git commit management. 
+
+
+Link(s) to work
+
+1. [class names](http://chir.ag/projects/name-that-color/#6195ED)
+
