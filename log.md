@@ -1264,3 +1264,18 @@ Link(s) to work
 
 1. [class names](http://chir.ag/projects/name-that-color/#6195ED)
 
+-----
+
+### Day 70: Friday, 12th July, 2019
+
+**Today's Progress**
+
+• Continue with team project. Create individual components such as `channel-card` with `macro` imports for `images`, `loops` with `switch` statements to check whether image or video is present and reusable CSS classes to style similar components. 
+
+• Learn about `accessibile` & `semantic`, `invisible` headers. Use `::before` pseudo class to insert icons, `@include` and `@extend` CSS magic. 
+
+• Use twig's include within a grid system to render components in other templates. Use pagination macro to set pages up depending on their required listings. Use `( loop.index % 4 == 3 or loop.index % 4 == 0 )` to render images in a specific grid depending on their loop index positions.
+
+Link(s) to work
+
+1. [KA - private](https://github.com/ten4design/knight-architects)
