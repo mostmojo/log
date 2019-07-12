@@ -1276,6 +1276,10 @@ Link(s) to work
 
 • Use twig's `include` `with:` within a `grid` system to render components in other templates. Use `pagination macro` to set pages up with limits (ex. 9 images) depending on their required listings. Use `( loop.index % 4 == 3 or loop.index % 4 == 0 )` to render images in a specific `grid layout` depending on their loop index positions.
 
+• Intro to Node.js with `file system`, `http` and `url` packages, `JSON.parse` some data into a JS object, create a local server with `http req` and `res` and implement responses with `writeHead` and `end` with `200 / 404` responses. Write callback to listen at port `server.listen(1337, '127.0.0.1')`. Install `nodemon` utility, that monitors for any changes in your source and automatically restart your server.
+
 Link(s) to work
 
 1. [KA - private](https://github.com/ten4design/knight-architects)
+2. [laptop-store](https://github.com/mostmojo/laptop-store-nodejs/blob/master/index.js)
+3. [nodemon](https://nodemon.io/)
