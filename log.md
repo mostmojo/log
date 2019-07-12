@@ -1274,7 +1274,7 @@ Link(s) to work
 
 • Learn about `accessibile` & `semantic`, `invisible` headers. Use `::before` pseudo class to insert icons, `@include` and `@extend` CSS magic. 
 
-• Use twig's include within a grid system to render components in other templates. Use pagination macro to set pages up depending on their required listings. Use `( loop.index % 4 == 3 or loop.index % 4 == 0 )` to render images in a specific grid depending on their loop index positions.
+• Use twig's `include` `with:` within a `grid` system to render components in other templates. Use `pagination macro` to set pages up with limits (ex. 9 images) depending on their required listings. Use `( loop.index % 4 == 3 or loop.index % 4 == 0 )` to render images in a specific `grid layout` depending on their loop index positions.
 
 Link(s) to work
 
