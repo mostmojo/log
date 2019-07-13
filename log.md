@@ -1283,3 +1283,19 @@ Link(s) to work
 1. [KA - private](https://github.com/ten4design/knight-architects)
 2. [laptop-store](https://github.com/mostmojo/laptop-store-nodejs/blob/master/index.js)
 3. [nodemon](https://nodemon.io/)
+
+-----
+
+### Day 71: Saturday, 13th July, 2019
+
+**Today's Progress**
+
+• Continue with nodeJS laptop store app. Create reuseable function to `replaceOriginalHtml` with `let output = originalHtml.replace(/{%PRODUCTNAME%}/g, laptop.productName);` 
+
+• Use regex to determine image file types and serve them with `res.writeHead` method and `((/\.(jpg|jpeg|png|gif)$/i).test(pathName))` test. 
+
+• Create callback within callback function to `fs.readFile(`${__dirname}/templates..` extract the data and create new array with `laptopData.map(el => replaceTemplate(data, el)).join(''); console.log(cardsOutput);` and use the newly made html from card component and push it into each iteration of the JSON object with `replace` method.
+
+Link(s) to work
+
+1. [Laptop-nodejs ](https://github.com/mostmojo/laptop-store-nodejs/blob/master/index.js)
