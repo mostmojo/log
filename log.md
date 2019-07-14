@@ -1294,8 +1294,25 @@ Link(s) to work
 
 • Use regex to determine image file types and serve them with `res.writeHead` method and `((/\.(jpg|jpeg|png|gif)$/i).test(pathName))` test. 
 
-• Create callback within callback function to `fs.readFile(`${__dirname}/templates..` extract the data and create new array with `laptopData.map(el => replaceTemplate(data, el)).join(''); console.log(cardsOutput);` and use the newly made html from card component and push it into each iteration of the JSON object with `replace` method.
+• Create callback within callback function to `fs.readFile(${__dirname}/templates..` extract the data and create new array with `laptopData.map(el => replaceTemplate(data, el)).join(''); console.log(cardsOutput);` and use the newly made html from card component and push it into each iteration of the JSON object with `replace` method.
 
 Link(s) to work
 
 1. [Laptop-nodejs ](https://github.com/mostmojo/laptop-store-nodejs/blob/master/index.js)
+
+-----
+
+### Day 72: Sunday, 14th July, 2019
+
+**Today's Progress**
+
+• Look into node modules permissions error and change the owner from root to myself to allow access to `create-react-app` module to configure. Use `whoami` to find out details and `sudo chown -R ownerName: /usr/local/lib/node_modules` to ammend. Look into bash script `alias` for shortcuts. Update `lodash` vulnerability. 
+
+• Install `create-react-app` and `npm` modules and start new **youtube-react** project. Import `React`, `ReactDOM` and `App` into `index.js` file and set `ReactDOM` to render on `#root id` with `document.querySelector`. Get `semantic ui` `cdn` for quicker CSS styling. 
+
+• Create `app class` component and inject `SearchBar` component with basic container styling. Create SearchBar class component that `render() { return ( ... ) }` a form with label and input field. Set the value of the input to `this.state.searchTerm` and make a `this.onInputChange` event handler function that'll change the text from the input field. *Revisiting is so much better after intense JavaScript course! :)*
+
+Link(s) to work
+
+1. [Node module error](https://stackoverflow.com/questions/48910876/error-eacces-permission-denied-access-usr-local-lib-node-modules-react)
+2. [Youtube-react](https://github.com/mostmojo/youtube-react)
