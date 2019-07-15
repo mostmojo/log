@@ -1316,3 +1316,21 @@ Link(s) to work
 
 1. [Node module error](https://stackoverflow.com/questions/48910876/error-eacces-permission-denied-access-usr-local-lib-node-modules-react)
 2. [Youtube-react](https://github.com/mostmojo/youtube-react)
+
+-----
+
+### Day 73: Monday, 15th July, 2019
+
+**Today's Progress**
+
+• More component driven development in `Craft CMS`. Look at `relatedEntry` fields to pull data through other entries such as related blogs or news from channel section. Always check to see if it's present: `{% if entry.relatedArticle|length > 0`. %
+
+• Look at the `loop.index` of a project entry and use the `modulo operator` to check for the remainder of the `index` position and give the relevant grid class to position a series of images in a specific order. Use `switch/case` to alternate between image and video content blocks and check if they are there, then apply relevant styling. 
+
+• Finish off with 2 React functions - o`nInputChange` and `onFormSubmit`, to set `this.setState` to `event.target.value` from the UI. Then, use `onFormSubmit` `event.preventDefault` to ensure the page doesn't reload entirely when enter key is pressed.
+
+Link(s) to work
+
+1. [null coalescing](https://twig.symfony.com/doc/2.x/templates.html)
+2/ [loop index](https://github.com/ten4design/knight-architects/blob/master/templates/projects/index.twig#L25)
+2. [Youtube-react](https://github.com/mostmojo/youtube-react)
