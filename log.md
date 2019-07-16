@@ -1343,10 +1343,11 @@ Link(s) to work
 
 • Querying an object with `{% set studio_approach = craft.entries.section( 'studioApproach' ).all() %}`
 
-• Use twig macro to access images with `{{ image( entry.approachHeaderImage[0], 'imageGridFullWidth', '', 'approach__header-image' ) }}` - remember to use `entry.x[0]`
+• Use twig macro to access images with `{{ image( entry.approachHeaderImage[0], 'imageGridFullWidth', '', 'approach__header-image' ) }}` - remember to use `entry.x[0]` to access the image within an entry.
 
-• 
+• Querying a content block to extract `{{ item.itemContent }}` - create a for loop with `{% for item in entry.approachItems.all() %}` - name `item` as it is declared in the `block type` in the `matrix` block.
 
 Link(s) to work
 
 1. [KA - priv](https://github.com/ten4design/knight-architects)
+2. [Matrix blocks](https://docs.craftcms.com/v3/matrix-fields.html#templating)
