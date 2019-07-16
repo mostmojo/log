@@ -1332,5 +1332,21 @@ Link(s) to work
 Link(s) to work
 
 1. [null coalescing](https://twig.symfony.com/doc/2.x/templates.html)
-2/ [loop index](https://github.com/ten4design/knight-architects/blob/master/templates/projects/index.twig#L25)
-2. [Youtube-react](https://github.com/mostmojo/youtube-react)
+2. [loop index](https://github.com/ten4design/knight-architects/blob/master/templates/projects/index.twig#L25)
+3. [Youtube-react](https://github.com/mostmojo/youtube-react)
+
+-----
+
+### Day 74: Tuesday, 15th July, 2019
+
+**Today's Progress**
+
+• Querying an object with `{% set studio_approach = craft.entries.section( 'studioApproach' ).all() %}`
+
+• Use twig macro to access images with `{{ image( entry.approachHeaderImage[0], 'imageGridFullWidth', '', 'approach__header-image' ) }}` - remember to use `entry.x[0]`
+
+• 
+
+Link(s) to work
+
+1. [KA - priv](https://github.com/ten4design/knight-architects)
