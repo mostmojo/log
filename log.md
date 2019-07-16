@@ -1345,7 +1345,9 @@ Link(s) to work
 
 • Use twig macro to access images with `{{ image( entry.approachHeaderImage[0], 'imageGridFullWidth', '', 'approach__header-image' ) }}` - remember to use `entry.x[0]` to access the image within an entry. Querying a content block to extract `{{ item.itemContent }}` - create a for loop with `{% for item in entry.approachItems.all() %}` - name `item` as it is declared in the `block type` in the `matrix` block.
 
-• Use `::after` pseudo class to create media-scrim with SASS' `$colour-media-scrim: transparentize( $colour-black, 0.7 );` method. Use `.class { top: 50%; transform: translateY( -50% ); }` to offset an element to center. 
+• Use `::after` pseudo class to create media-scrim with SASS' `$colour-media-scrim: transparentize( $colour-black, 0.7 );` method. Use `.class { top: 50%; transform: translateY( -50% ); }` to offset an element to center.
+
+• Look into hiding API keys in react app with .env and `const API_KEY =${process.env.REACT_APP_API_KEY};`. Make an `onTermSubmit` function with preconfigured `youtube.get` method where inside, passed is the `/search` query string and `q: term` params. Assign `this.onTermSubmit` to `<SearchBar property />` in `App` component. Pass it into `SearchBar onFormSubmit` function with `this.props` - it's now linked!
 
 Link(s) to work
 
@@ -1353,3 +1355,4 @@ Link(s) to work
 2. [Matrix blocks](https://docs.craftcms.com/v3/matrix-fields.html#templating)
 3. [Tables - Craft](https://docs.craftcms.com/v3/table-fields.html#settings)
 4. [TranslateY offset](https://stackoverflow.com/questions/40530101/why-is-translatey-50-needed-to-center-an-element-which-is-at-top-50)
+5. [Hide API Key React](https://stackoverflow.com/questions/48699820/how-do-i-hide-api-key-in-create-react-app)
