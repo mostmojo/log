@@ -1356,3 +1356,20 @@ Link(s) to work
 3. [Tables - Craft](https://docs.craftcms.com/v3/table-fields.html#settings)
 4. [TranslateY offset](https://stackoverflow.com/questions/40530101/why-is-translatey-50-needed-to-center-an-element-which-is-at-top-50)
 5. [Hide API Key React](https://stackoverflow.com/questions/48699820/how-do-i-hide-api-key-in-create-react-app)
+
+-----
+
+### Day 75: Wednesday, 17th July, 2019
+
+**Today's Progress**
+
+• Look at basic query objects with `{% set query = craft.app.request.getQueryParam( 'q' ) %}` to target search bar and extract the query `https://www.somewebsite.com/search` &rarr; `?q=hello`. Use `search_results|group( 'section' )` and `|lower` to group via related entries and display with JavaScript toggle library, which toggles the `.active` class.
+
+• Pair programming for home page of client's project. Learn about the power of `emmet` and extent of 'nesting' ex. `.section.section--top>.header.header__info>p.name & tab`. Talk about redactor fields and design vs developing points, and focus on `{% include '_partials/_more-news' with { 'relatedNews': recent_news, 'headingOverride': 'News' } %}` for including components from other files and assigning the fields to variables.
+
+• 
+
+Link(s) to work
+
+1. [KA - priv](https://github.com/ten4design/knight-architects)
+2. [YT - React](https://github.com/mostmojo/youtube-react/blob/master/src/components/App.js)
