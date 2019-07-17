@@ -1367,7 +1367,7 @@ Link(s) to work
 
 • Pair programming for home page of client's project. Learn about the power of `emmet` and extent of 'nesting' ex. `.section.section--top>.header.header__info>p.name & tab`. Talk about redactor fields and design vs developing points, and focus on `{% include '_partials/_more-news' with { 'relatedNews': recent_news, 'headingOverride': 'News' } %}` for including components from other files and assigning the fields to variables.
 
-• 
+• Continue YouTube React app. Assign `this.setState({ videos: response.data.items });` and make `App` functional component into `async/await` function with a `response` variable. 
 
 Link(s) to work
 
