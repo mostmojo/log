@@ -1373,3 +1373,21 @@ Link(s) to work
 
 1. [KA - priv](https://github.com/ten4design/knight-architects)
 2. [YT - React](https://github.com/mostmojo/youtube-react/blob/master/src/components/App.js)
+
+-----
+
+### Day 76: Thursday, 18th July, 2019
+
+**Today's Progress**
+
+• Partials and includes in templates (Twig / Craft). When a partial is created and injection into another template will happen, we can set a `headingOverride` if we want an `h2` to appear or not like so: `<h2 class="page__sub">{{ headingOverride ?? 'Featured Projects' }}</h2>`. Include in the relevant template with - `{% include '_partials/_project-image-grid.twig' with { entry: projects, 'headingOverride': 'Featured Projects' } %}` - Remember to set variable up top to `craft.entries.section...`
+
+• Learn about setting `craft.entries` `with` for eager loading - hence, reducing the amount of queries to the server and maintaining performance. 
+
+• Look into using `pagination macro` for `{% paginate projects.limit( 8 ) as projects %}` that contains a **query object** with an as &rarr; `variable` name.
+
+Link(s) to work
+
+1. [KA - priv](https://github.com/ten4design/knight-architects)
+2. [Eager loading](https://docs.craftcms.com/v3/dev/eager-loading-elements.html#eager-loading-image-transform-indexes)
+3. [Pagination](https://docs.craftcms.com/v3/dev/tags/paginate.html#parameters)
