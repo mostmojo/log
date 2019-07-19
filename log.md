@@ -1380,9 +1380,9 @@ Link(s) to work
 
 **Today's Progress**
 
-• Partials and includes in templates (Twig / Craft). When a partial is created and injection into another template will happen, we can set a `headingOverride` if we want an `h2` to appear or not like so: `<h2 class="page__sub">{{ headingOverride ?? 'Featured Projects' }}</h2>`. Include in the relevant template with - `{% include '_partials/_project-image-grid.twig' with { entry: projects, 'headingOverride': 'Featured Projects' } %}` - Remember to set variable up top to `craft.entries.section...`
+• Partials and includes in templates (Twig / Craft). When a partial is created and injection into another template will happen, we can set a `headingOverride` an `h2` will appear or not, like so: `<h2 class="page__sub">{{ headingOverride ?? 'Featured Projects' }}</h2>`. Include in the relevant template with - `{% include '_partials/_project-image-grid.twig' with { entry: projects, 'headingOverride': 'Featured Projects' } %}` - Remember to set variable up top to `craft.entries.section...`
 
-• Learn about setting `craft.entries` `with` for eager loading - hence, reducing the amount of queries to the server and maintaining performance. 
+• Learn about setting `craft.entries` `with` for `eager loading` - hence, reducing the amount of queries to the server and maintaining performance. 
 
 • Look into using `pagination macro` for `{% paginate projects.limit( 8 ) as projects %}` that contains a **query object** with an as &rarr; `variable` name.
 
