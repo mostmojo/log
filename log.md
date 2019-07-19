@@ -1387,3 +1387,20 @@ Child html-webpack-plugin for "index.html":`.
 1. [KA - priv](https://github.com/ten4design/knight-architects)
 2. [Eager loading](https://docs.craftcms.com/v3/dev/eager-loading-elements.html#eager-loading-image-transform-indexes)
 3. [Pagination](https://docs.craftcms.com/v3/dev/tags/paginate.html#parameters)
+
+-----
+
+### Day 77: Friday, 19th July, 2019
+
+**Today's Progress**
+
+• Implement a `slideshow` in JavaScript with pips. Ensure folder architecture is correct with vendor files all linked and `.pips` classes for active and non active images or videos in the slideshow. Set `data-slide-interval="4000" data-pips-container-id="slideshow-pips`
+
+• Check to see if `slideshowImageOrVideo|length` exists in the CMS field. Implement conditionals to check `{% if entry.headerImageOrVideo[0].type == 'video' and entry.headerImageOrVideo[0].vimeoId %}` & `{% elseif entry.headerImageOrVideo[0].type == 'image' and entry.headerImageOrVideo[0].image|length %}` and set media variables for both image and video like so: `{% set header_media = entry.headerImageOrVideo[0].vimeoId %}` & `{% set header_media = entry.headerImageOrVideo[0].image[0] %}`.
+
+• Apply relevant styling depending on if the media variable is defined and exists. Remember that video positioning requires `absolute` properties and backdrop lineargradient filter. Use `<iframe>` tags for video. Use `image` macro for images. Finish the day with little tweaks on company website - spacing, font sizes and styling form inputs and discover: `label { &:last-child { xxx } }` 👶🏼
+
+**Link(s) to work**
+
+1. [KA - priv](https://github.com/ten4design/knight-architects)
+2. [:last-child](https://css-tricks.com/almanac/selectors/l/last-child/)
