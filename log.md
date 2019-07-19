@@ -1026,7 +1026,7 @@
 
 •  `npm install webpack-cli --save-dev` for command line interface for webpack as dev dependency, along with `live dev server` config to reload in real time for quicker work flow. 
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Setup notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 
@@ -1043,7 +1043,7 @@ Link(s) to work
 • `npm install babel-polyfill --save` and run into an error which took all day (still not solved!). When I run `npm run dev`, error: `ERROR in multi @babel-polyfill ./src/js/index.js. Module not found: Error: Can't resolve '@babel-polyfill' in '/Users/jacobpapageorgiou/Desktop/Projects/forkify' @ multi @babel-polyfill ./src/js/index.js main[0]
 Child html-webpack-plugin for "index.html":`.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Setup notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 
@@ -1059,7 +1059,7 @@ Link(s) to work
 
 • Build search model constructor with query params to fetch `this.results`. Create control Search function to be called on `submit event` that - gets a query from view, makes new search object and adds it to state, fetches results from API request and renders results to console. Getting used to the file `import/exports` will take some time! 
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [State](http://jsclass.jcoglan.com/state.html)
@@ -1076,7 +1076,7 @@ Link(s) to work
 
 • Create for-fun spinner to generate a random winner. Pull `jquery` from codepen first try and set it to render results & use `confetti` effect for winner 🎉 `[Math.floor(Math.random()]` - magic.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [InsertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
@@ -1098,8 +1098,7 @@ Link(s) to work
 
 • Make reusable card component with basic `ReactJS` 'architecture' containing a `function Person(props)`, its dynamically inserted `props.name`, etc inside a `return( ... )`; a `var app` containing the instances of the new card components wrapped in `JSX syntax` and all sent to `ReactDOM.render(app, document.querySelector('#app'));` to ship all components to the div with the id `app` in the HTML. Ex. `<div id="app"></div>`
 
-
-Link(s) to work
+**Link(s) to work**
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [Slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
@@ -1121,7 +1120,7 @@ Link(s) to work
 
 • Play with `@keyframes` to instil spinning effect using CSS `animation: rotate 1.5s infinite linear;` prop. 
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [Window.location](https://developer.mozilla.org/en-US/docs/Web/API/Window/location)
@@ -1141,7 +1140,7 @@ Link(s) to work
 
 • Clone existing craft site via github, and import the database into `mySequelPro`, add `env` files and integrate `docker` links. Add new nav bar element to existing site with key:value pair to determine `slug` vs `title content`. Look at git and terminal command shortcuts to quicken work flow. Install `code .` to open files in VS Code via terminal 😊
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [Unix cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
@@ -1159,7 +1158,7 @@ Link(s) to work
 
 • Use JS to select all status bar elements by id, and set `classList.add(visibility, hidden);` Make modular functions, imported with script tags to select id and concatenate `variableName + 1` expression result, on event click. Using `callback functions` to trigger the `moveUp` and `moveDown` button events. Ex. `document.querySelector('moveUpButton').addEventListener('click', moveButtonUpFunc);`
 
-Link(s) to work
+**Link(s) to work**
 
 1. [formatCount()](https://github.com/mostmojo/forkify/blob/master/src/js/views/recipeView.js#L8)
 2. [coderbrixton](http://coderbrixton.com)
@@ -1179,7 +1178,7 @@ Link(s) to work
 
 • Create `updateServingsIngredients` variable in UI which holds a `recipe` parameter. Use `querySelector` to replace `textContent` with `recipe.servings`. Use `Array.from` to select `recipe__count class`, loop through all the elements and set the textContent to `recipe.ingredients[i].count` which basically sets the counter number to the relevant ingredient, as wrapped with `formatCount` function from previous `fractional.js library`. - All in recipeView.js - this completes the recipe section.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [formatCount()](https://github.com/mostmojo/forkify/blob/master/src/js/views/recipeView.js#L8)
 2. [matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
@@ -1198,7 +1197,7 @@ Link(s) to work
 
 • Participate to open source HTML Handbook by editing some code/explanations.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [git amend](https://www.atlassian.com/git/tutorials/rewriting-history)
@@ -1222,8 +1221,7 @@ Link(s) to work
 • **Tips:** 1. `cmd + ->` , to hop from beginning to end of code line, `cmd + shift + -> ` , to hop and highlight. <br/>
 2.`.some__class[href*="#${id}"]` &rarr; select an element with an attribute `href` whose value contains at             least one occurrence of `${id}` (it will be replaced with a specific number) within the string.
 
-
-Link(s) to work
+**Link(s) to work**
 
 1. [Notes](https://github.com/mostmojo/forkify/blob/master/src/notes.md)
 2. [HTML Handbook - Flavio](https://github.com/flaviocopes/html-handbook)
@@ -1241,8 +1239,7 @@ Link(s) to work
 
 • Finish `forkify` app and use `localStorage` to ensure data is encapsulated on reload, within memory. Explore `JSON.parse` and `stringify` methods to convert data to and from strings to `JavaScript objects`. Run into small build error with `bundle.js` not rendering to github but will figure out the build script in `package.json`.
 
-
-Link(s) to work
+**Link(s) to work**
 
 1. [Forkify repo](https://github.com/mostmojo/forkify)
 2. [include](https://twig.symfony.com/doc/2.x/tags/include.html)
@@ -1259,8 +1256,7 @@ Link(s) to work
 
 • Class naming for reusability, `placeholder` text in forms, `hover & focus` classes and using `Tower` for git commit management. 
 
-
-Link(s) to work
+**Link(s) to work**
 
 1. [class names](http://chir.ag/projects/name-that-color/#6195ED)
 
@@ -1278,7 +1274,7 @@ Link(s) to work
 
 • Intro to Node.js with `file system`, `http` and `url` packages, `JSON.parse` some data into a JS object, create a local server with `http req` and `res` and implement responses with `writeHead` and `end` with `200 / 404` network requests. Ensure to understand `routing`, `pathnames` and `query strings`. Ex. `github.com/products?id=4&name=bob`. Write callbacks to listen at port `server.listen(1337, '127.0.0.1')`. Install `nodemon` utility, that monitors for any changes in your source and automatically restart your server.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [KA - private](https://github.com/ten4design/knight-architects)
 2. [laptop-store](https://github.com/mostmojo/laptop-store-nodejs/blob/master/index.js)
@@ -1296,7 +1292,7 @@ Link(s) to work
 
 • Create callback within callback function to `fs.readFile(${__dirname}/templates..` extract the data and create new array with `laptopData.map(el => replaceTemplate(data, el)).join(''); console.log(cardsOutput);` and use the newly made html from card component and push it into each iteration of the JSON object with `replace` method.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Laptop-nodejs ](https://github.com/mostmojo/laptop-store-nodejs/blob/master/index.js)
 
@@ -1312,7 +1308,7 @@ Link(s) to work
 
 • Create `app class` component and inject `SearchBar` component with basic container styling. Create SearchBar class component that `render() { return ( ... ) }` a form with label and input field. Set the value of the input to `this.state.searchTerm` and make a `this.onInputChange` event handler function that'll change the text from the input field. *Revisiting is so much better after intense JavaScript course! :)*
 
-Link(s) to work
+**Link(s) to work**
 
 1. [Node module error](https://stackoverflow.com/questions/48910876/error-eacces-permission-denied-access-usr-local-lib-node-modules-react)
 2. [Youtube-react](https://github.com/mostmojo/youtube-react)
@@ -1329,7 +1325,7 @@ Link(s) to work
 
 • Finish off with 2 React functions - o`nInputChange` and `onFormSubmit`, to set `this.setState` to `event.target.value` from the UI. Then, use `onFormSubmit` `event.preventDefault` to ensure the page doesn't reload entirely when enter key is pressed.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [null coalescing](https://twig.symfony.com/doc/2.x/templates.html)
 2. [loop index](https://github.com/ten4design/knight-architects/blob/master/templates/projects/index.twig#L25)
@@ -1349,7 +1345,7 @@ Link(s) to work
 
 • Look into hiding API keys in react app with .env and `const API_KEY =${process.env.REACT_APP_API_KEY};`. Make an `onTermSubmit` function with preconfigured `youtube.get` method where inside, passed is the `/search` query string and `q: term` params. Assign `this.onTermSubmit` to `<SearchBar property />` in `App` component. Pass it into `SearchBar onFormSubmit` function with `this.props` - it's now linked!
 
-Link(s) to work
+**Link(s) to work**
 
 1. [KA - priv](https://github.com/ten4design/knight-architects)
 2. [Matrix blocks](https://docs.craftcms.com/v3/matrix-fields.html#templating)
@@ -1369,7 +1365,7 @@ Link(s) to work
 
 • Continue YouTube React app. Assign `this.setState({ videos: response.data.items });` and make `App` functional component into `async/await` function with a `response` variable. 
 
-Link(s) to work
+**Link(s) to work**
 
 1. [KA - priv](https://github.com/ten4design/knight-architects)
 2. [YT - React](https://github.com/mostmojo/youtube-react/blob/master/src/components/App.js)
@@ -1386,7 +1382,7 @@ Link(s) to work
 
 • Look into using `pagination macro` for `{% paginate projects.limit( 8 ) as projects %}` that contains a **query object** with an as &rarr; `variable` name.
 
-Link(s) to work
+**Link(s) to work**
 
 1. [KA - priv](https://github.com/ten4design/knight-architects)
 2. [Eager loading](https://docs.craftcms.com/v3/dev/eager-loading-elements.html#eager-loading-image-transform-indexes)
