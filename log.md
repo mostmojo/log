@@ -1413,11 +1413,12 @@ Child html-webpack-plugin for "index.html":`.
 
 • Finish off the development of React application. Create `onVideoSelect` with `this.setState({ selectedVideo: video });` and understand concept of passing `props` from parent `App` down to its children. Also, understand deeply nested `callback functions` to send items back up to the parent. 
 
-• 
+• Use `semantic ui` grids in order to style the relevant `rows`, `columns` and `grids` to display the `videoList` and the `videoItem` components like Youtube.
 
-• 
+• Understand concept of destructuring to avoid props.paramName and simply use curly braces. Use YT's embed feature within an `iframe` tag to insert the `src` from the object. 
 
 **Link(s) to work**
 
 1. [YT - React](https://github.com/mostmojo/youtube-react)
+2. [Semantic UI grids](https://semantic-ui.com/collections/grid.html)
 
