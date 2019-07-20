@@ -1404,3 +1404,20 @@ Child html-webpack-plugin for "index.html":`.
 
 1. [KA - priv](https://github.com/ten4design/knight-architects)
 2. [:last-child](https://css-tricks.com/almanac/selectors/l/last-child/)
+
+-----
+
+### Day 78: Saturday, 20th July, 2019
+
+**Today's Progress**
+
+• Finish off the development of React application. Create `onVideoSelect` with `this.setState({ selectedVideo: video });` and understand concept of passing `props` from parent `App` down to its children. Also, understand deeply nested `callback functions` to send items back up to the parent. 
+
+• 
+
+• 
+
+**Link(s) to work**
+
+1. [YT - React](https://github.com/mostmojo/youtube-react)
+
