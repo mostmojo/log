@@ -1432,8 +1432,11 @@ Child html-webpack-plugin for "index.html":`.
 
 • Theory on `Redux` - state management for React app. Learn about Insurance company form flow - form, receiver, departments, and central company repository vs how it relates to `Redux` with `Action creator`, `action`, `dispatch`, `reducers` and `state`.
 
+• Create `Action Creators` and `Action` for `createPolicy`, `deletePolicy` and `createClaim`, with `types` and `payloads`, following caps convention and returning plain JS object with `k:v` pairs and params. 
+
 **Link(s) to work**
 
 1. [YT - React](https://github.com/mostmojo/youtube-react)
 2. [YT - site](https://dreamy-nobel-9542ac.netlify.com/)
+3. [Codepen](https://codepen.io/most_mojo/pen/qedQXZ?editors=0010)
 
