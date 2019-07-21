@@ -1422,3 +1422,18 @@ Child html-webpack-plugin for "index.html":`.
 1. [YT - React](https://github.com/mostmojo/youtube-react)
 2. [Semantic UI grids](https://semantic-ui.com/collections/grid.html)
 
+-----
+
+### Day 79: Sunday, 20th July, 2019
+
+**Today's Progress**
+
+• Finish React YT clone and use `npm run build` from `create-react-app` preferences to create a `bundle` folder ready for production. Use `netlify` to host the project.
+
+• Theory on `Redux` - state management for React app. Learn about Insurance company form flow - form, receiver, departments, and central company repository vs how it relates to `Redux` with `Action creator`, `action`, `dispatch`, `reducers` and `state`.
+
+**Link(s) to work**
+
+1. [YT - React](https://github.com/mostmojo/youtube-react)
+2. [YT - site](https://dreamy-nobel-9542ac.netlify.com/)
+
