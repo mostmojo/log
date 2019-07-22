@@ -1450,7 +1450,7 @@ Child html-webpack-plugin for "index.html":`.
 
 • Fix `slideshow` implementation with small slideshow library. Ensure classes matched with relevant `add/removeClassLists`. Create linear-gradient using `::before` pseudo class on a `slideshow__slide` class. Ensure to use `content: '';` otherwise the `before` pseudoclass doesn't work!
 
-• Create 3 `reducer`s in `Redux` for mock up departments that take existing data & actions, modify and return that data based on the contents of the action. Learn about spread syntax `[...oldListOfClaims]` to return _new_ array with additional `action.payload` values. Use `return listOfPolicies.filter(name => name !== action.payload.name);` to return mock 'deleted' _new_ array of policies should the name param _not_ equal one in `payload` array. Hence, if it does equal, then assume policy to be deleted.
+• Create 3 `reducers` in `Redux` for mock up departments that take existing data & actions, modify and return that data based on the contents of the action. Learn about spread syntax `[...oldListOfClaims]` to return _new_ array with additional `action.payload` values. Use `return listOfPolicies.filter(name => name !== action.payload.name);` to return mock 'deleted' _new_ array of policies should the name param _not_ equal one in `payload` array. Hence, if it does equal, then assume policy to be deleted.
 
 **Link(s) to work**
 
