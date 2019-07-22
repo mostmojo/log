@@ -1448,6 +1448,9 @@ Child html-webpack-plugin for "index.html":`.
 
 • Install existing craft project and manage errors with `ImageMagick`, `.env` files and `docker`. Add `file` to `Standard.json` to enable `PDF` file uploads in redactor `matrix blocks`.
 
+• Fix `slideshow` implementation with small slideshow library. Ensure classes matched with relevant `add/removeClassLists`. Create linear-gradient using `::before` pseudo class on a `slideshow__slide` class. Ensure to use `content: '';` otherwise the `before` pseudoclass doesn't work!
+
 **Link(s) to work**
 
 1. [PDF - redactor](https://craftcms.stackexchange.com/questions/13410/how-can-i-link-to-an-asset-from-the-rich-text-editor)
+2. [::before - gradient](https://stackoverflow.com/questions/23375638/gradient-on-pseudo-elements)
