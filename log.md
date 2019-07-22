@@ -1440,3 +1440,14 @@ Child html-webpack-plugin for "index.html":`.
 2. [YT - site](https://dreamy-nobel-9542ac.netlify.com/)
 3. [Codepen](https://codepen.io/most_mojo/pen/qedQXZ?editors=0010)
 
+-----
+
+### Day 80: Monday, 21st July, 2019
+
+**Today's Progress**
+
+• Install existing craft project and manage errors with `ImageMagick`, `.env` files and `docker`. Add `file` to `Standard.json` to enable `PDF` file uploads in redactor `matrix blocks`.
+
+**Link(s) to work**
+
+1. [PDF - redactor](https://craftcms.stackexchange.com/questions/13410/how-can-i-link-to-an-asset-from-the-rich-text-editor)
