@@ -1424,7 +1424,7 @@ Child html-webpack-plugin for "index.html":`.
 
 -----
 
-### Day 79: Sunday, 20th July, 2019
+### Day 79: Sunday, 21st July, 2019
 
 **Today's Progress**
 
@@ -1442,7 +1442,7 @@ Child html-webpack-plugin for "index.html":`.
 
 -----
 
-### Day 80: Monday, 21st July, 2019
+### Day 80: Monday, 22nd July, 2019
 
 **Today's Progress**
 
@@ -1450,7 +1450,11 @@ Child html-webpack-plugin for "index.html":`.
 
 • Fix `slideshow` implementation with small slideshow library. Ensure classes matched with relevant `add/removeClassLists`. Create linear-gradient using `::before` pseudo class on a `slideshow__slide` class. Ensure to use `content: '';` otherwise the `before` pseudoclass doesn't work!
 
+• Create 3 `reducer`s in `Redux` for mock up departments that take existing data & actions, modify and return that data based on the contents of the action. Learn about spread syntax `[...oldListOfClaims]` to return _new_ array with additional `action.payload` values. Use `return listOfPolicies.filter(name => name !== action.payload.name);` to return mock 'deleted' _new_ array of policies should the name param _not_ equal one in `payload` array. Hence, if it does equal, then assume policy to be deleted.
+
 **Link(s) to work**
 
 1. [PDF - redactor](https://craftcms.stackexchange.com/questions/13410/how-can-i-link-to-an-asset-from-the-rich-text-editor)
 2. [::before - gradient](https://stackoverflow.com/questions/23375638/gradient-on-pseudo-elements)
+3. [Spread syntax](https://codeburst.io/javascript-es6-the-spread-syntax-f5c35525f754)
+4. [Redux - insurance](https://codepen.io/most_mojo/pen/qedQXZ?editors=0010)
