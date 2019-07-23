@@ -1469,8 +1469,11 @@ Child html-webpack-plugin for "index.html":`.
 
 • Look into CSS loading spinners with `::before` & `::after` pseudo-classes, `@keyframes` with `transform: rotate(0deg)`
 
+• Build fictional interior design page with `@keyframes`, `display: flex` properties and practice div nesting, `flex: 1`, and `-webkit-background-clip: text;`, amongst `position: absolute` and deeply flexed elements.
+
 **Link(s) to work**
 
 1. [Loadomatic - priv](https://github.com/ten4design/ten4-framework/tree/master/addons/loadomatic)
 2. [Loadomatic - int - priv](https://github.com/ten4design/ten4-2019/commit/c04f0105ab3245b6a56c745111a74fe506c7c88a)
 3. [CSS loading spinner](https://projects.lukehaas.me/css-loaders/)
+4. [Interior site](https://mostmojo.github.io/fictional-studio/)
