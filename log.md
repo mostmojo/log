@@ -1458,3 +1458,19 @@ Child html-webpack-plugin for "index.html":`.
 2. [::before - gradient](https://stackoverflow.com/questions/23375638/gradient-on-pseudo-elements)
 3. [Spread syntax](https://codeburst.io/javascript-es6-the-spread-syntax-f5c35525f754)
 4. [Redux - insurance](https://codepen.io/most_mojo/pen/qedQXZ?editors=0010)
+
+-----
+
+### Day 81: Tuesday, 23rd July, 2019
+
+**Today's Progress**
+
+• Integrate `loadomatic` JS library to `lazy load` more entries on click with an `Ajax` request. Also, consider `pagination` as fallback in case user doesn't use JS. 
+
+• Look into CSS loading spinners with `::before` & `::after` pseudo-classes, `@keyframes` with `transform: rotate(0deg)`
+
+**Link(s) to work**
+
+1. [Loadomatic - priv](https://github.com/ten4design/ten4-framework/tree/master/addons/loadomatic)
+2. [Loadomatic - int - priv](https://github.com/ten4design/ten4-2019/commit/c04f0105ab3245b6a56c745111a74fe506c7c88a)
+3. [CSS loading spinner](https://projects.lukehaas.me/css-loaders/)
