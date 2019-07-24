@@ -1480,3 +1480,16 @@ Child html-webpack-plugin for "index.html":`.
 3. [CSS loading spinner](https://projects.lukehaas.me/css-loaders/)
 4. [Interior site](https://mostmojo.github.io/fictional-studio/)
 5. [Redux - dispatch](https://codepen.io/most_mojo/pen/qedQXZ?editors=0010)
+
+-----
+
+### Day 82: Wednesday, 24th July, 2019
+
+**Today's Progress**
+
+• Solve the `loadomatic` JS library bug by tracing back behaviour of AJAX call, which needed a `preventDefault()` on click event, inside the loadomatic constructor class.  `this.trigger.addEventListener( 'click', ( event ) => { this.loadMore();
+event.preventDefault(); } );`
+
+**Link(s) to work**
+
+1. [Loadomatic - tweak](https://github.com/ten4design/ten4-framework/tree/master/addons/loadomatic)
