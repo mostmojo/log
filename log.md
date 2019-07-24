@@ -1492,7 +1492,10 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Look at implementation of play / pause button with timer on slideshow. Utilize `svg unicode` from icomoon, and the JS `performance.now()` method with `Timer JS` library - with `pause`, `play`, `ended` and `reset` callback function params. 
 
+• Read up on `lazy loaded` images with `data-src` attributes, using vanilla JS to `add/remove eventListners`.
+
 
 **Link(s) to work**
 
 1. [Loadomatic - tweak](https://github.com/ten4design/ten4-framework/tree/master/addons/loadomatic)
+2. [Lazy loading](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
