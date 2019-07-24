@@ -1490,6 +1490,9 @@ Child html-webpack-plugin for "index.html":`.
 • Solve the `loadomatic` JS library bug by tracing back behaviour of AJAX call, which needed a `preventDefault()` on click event, inside the loadomatic constructor class.  `this.trigger.addEventListener( 'click', ( event ) => { this.loadMore();
 event.preventDefault(); } );` - otherwise page would reload entirely when `load-more` spinner was pressed, instead of render more content just beneath!
 
+• Look at implementation of play / pause button with timer on slideshow. Utilize `svg unicode` from icomoon, and the JS `performance.now()` method with `Timer JS` library - with `pause`, `play`, `ended` and `reset` callback function params. 
+
+
 **Link(s) to work**
 
 1. [Loadomatic - tweak](https://github.com/ten4design/ten4-framework/tree/master/addons/loadomatic)
