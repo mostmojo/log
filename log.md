@@ -1488,7 +1488,7 @@ Child html-webpack-plugin for "index.html":`.
 **Today's Progress**
 
 • Solve the `loadomatic` JS library bug by tracing back behaviour of AJAX call, which needed a `preventDefault()` on click event, inside the loadomatic constructor class.  `this.trigger.addEventListener( 'click', ( event ) => { this.loadMore();
-event.preventDefault(); } );`
+event.preventDefault(); } );` - otherwise page would reload entirely when `load-more` spinner was pressed, instead of render more content just beneath!
 
 **Link(s) to work**
 
