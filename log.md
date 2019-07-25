@@ -1494,8 +1494,11 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Read up on `lazy loaded` images with `data-src` attributes, using vanilla JS to `add/remove eventListners`.
 
+• Model `create-react-app songs` boiler plate with `ReactDOM`, `React App` component and render it on `#root` inside `index.js` - plan Redux to manage state
+
 
 **Link(s) to work**
 
 1. [Loadomatic - tweak](https://github.com/ten4design/ten4-framework/tree/master/addons/loadomatic)
 2. [Lazy loading](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
+3. [songs](https://github.com/mostmojo/songs)
