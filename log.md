@@ -1517,3 +1517,4 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 1. [Lazyload - priv](https://github.com/ten4design/knight-architects/commit/71f0ff4b66dd9ba8d9c558b04bb20fa14389cd89)
 2. [cubic bez - easein](https://easings.net/en#easeInOutQuint)
+3. [lazyload.js](https://github.com/mostmojo/lazyload)
