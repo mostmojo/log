@@ -1502,3 +1502,18 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 1. [Loadomatic - tweak](https://github.com/ten4design/ten4-framework/tree/master/addons/loadomatic)
 2. [Lazy loading](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
 3. [songs](https://github.com/mostmojo/songs)
+
+-----
+
+### Day 83: Thursday, 25th July, 2019
+
+**Today's Progress**
+
+• Implement own small `lazy loading` JS library to add/remove `classList( .lazy )` on `scroll`, `orientationChange` and `resize`.
+
+• Add `.lazy-fade` class upon removal of `lazy loading` with `@keyframes`, using `animation: drop 1.825s cubic-bezier(0.86, 0, 0.07, 1);`. Had to explore cubic bezier animation speed to get a feel for what was possible. Resulted in picking an animation with a slow start and gradual acceleration.
+
+**Link(s) to work**
+
+1. [Lazyload - priv](https://github.com/ten4design/knight-architects/commit/71f0ff4b66dd9ba8d9c558b04bb20fa14389cd89)
+2. [cubic bez - easein](https://easings.net/en#easeInOutQuint)
