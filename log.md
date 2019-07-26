@@ -1529,6 +1529,9 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Ensure the `outline:none` of a specific animated loader disappears on click, for better UX. Further, look into company `grid system` with responsive `breakpoints`, minimizing a `12-12` to `6-6` grid, to adjust to screen size, specifically for mobile.
 
+• Make `action creators` for songs app to `selectSong` with `type: 'SONG_SELECTED'` which will be read in with `selectedSongsReducer` and return `action.payload;` should the song be selected. Also, make a `songsReducer` with a hardcoded array of objects with song `titles` and `durations` for the sake of understandig `Redux`! Ensure both `/reducers` and `/actions` directories have an `index.js` (where the above code is written into) as React automatically reads index files so thus, no need to write more code when importing/exporting! 
+
 **Link(s) to work**
 
 1. [mixin](https://sass-lang.com/documentation/at-rules/mixin)
+2. [songs](https://github.com/mostmojo/songs)
