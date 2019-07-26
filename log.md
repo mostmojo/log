@@ -1518,3 +1518,17 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 1. [Lazyload - priv](https://github.com/ten4design/knight-architects/commit/71f0ff4b66dd9ba8d9c558b04bb20fa14389cd89)
 2. [cubic bez - easein](https://easings.net/en#easeInOutQuint)
 3. [lazyload.js](https://github.com/mostmojo/lazyload)
+
+-----
+
+### Day 84: Friday, 26th July, 2019
+
+**Today's Progress**
+
+• Look at mixin creation for responsive layout: `@mixin media( $max-width-or-breakpoint ) { @media only screen and ( max-width: get-breakpoint( $max-width-or-breakpoint ) ) { @content; } }` which later used as: `@include media( 1066px ) { } `.
+
+• Ensure the `outline:none` of a specific animated loader disappears on click, for better UX. Further, look into company `grid system` with responsive `breakpoints`, minimizing a `12-12` to `6-6` grid, to adjust to screen size, specifically for mobile.
+
+**Link(s) to work**
+
+1. [mixin](https://sass-lang.com/documentation/at-rules/mixin)
