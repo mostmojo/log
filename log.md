@@ -1511,7 +1511,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Implement own small `lazy loading` JS library to add/remove `classList( .lazy )` on `scroll`, `orientationChange` and `resize`.
 
-• Add `.lazy-fade` class upon removal of `lazy loading` with `@keyframes`, using `animation: drop 1.825s cubic-bezier(0.86, 0, 0.07, 1);`. Had to explore cubic bezier animation speed to get a feel for what was possible. Resulted in picking an animation with a slow start and gradual acceleration.
+• Add `.lazy-fade` class upon removal of `lazy loading` with `@keyframes`, using `animation: drop 1.825s cubic-bezier(0.86, 0, 0.07, 1);`. Had to explore `cubic bezier` animation speed to get a feel for what was possible. Resulted in picking an animation with a slow start and gradual acceleration.
 
 **Link(s) to work**
 
