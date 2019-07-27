@@ -1535,3 +1535,20 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 1. [mixin](https://sass-lang.com/documentation/at-rules/mixin)
 2. [songs](https://github.com/mostmojo/songs)
+
+-----
+
+### Day 85: Saturday, 27th July, 2019
+
+**Today's Progress**
+
+•  Recap on `::before` & `::after` pseudo elements, with must have `content: '';` attribute and `background-image: linear-gradient` to display bg.
+
+•  Responsive media queries using `mixins` and includes to make mobile-designs. Examine grid system with `flexbox` wrappers, `flex: wrap` and `flex: 1`.
+
+•  With React-redux - remember action controllers (payload), reducers and component driven development to manage state. 
+
+**Link(s) to work**
+
+1. [songs](https://github.com/mostmojo/songs)
+
