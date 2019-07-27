@@ -1527,7 +1527,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Look at mixin creation for responsive layout: `@mixin media( $max-width-or-breakpoint ) { @media only screen and ( max-width: get-breakpoint( $max-width-or-breakpoint ) ) { @content; } }` which later used as: `@include media( 1066px ) { } `.
 
-• Ensure the `outline:none` of a specific animated loader disappears on click, for better UX. Further, look into company `grid system` with responsive `breakpoints`, minimizing a `12-12` to `6-6` grid, to adjust to screen size, specifically for mobile.
+• Ensure the `outline:none` of a specific animated loader disappears on click, for better UX. Further, look into company `grid system` with responsive `breakpoints`, minimizing a `12-12` to `6-6` grid, to adjust to screen size, specifically for mobile. (`a12-12 -> f6-6`).
 
 • Make `action creators` for songs app to `selectSong` with `type: 'SONG_SELECTED'` which will be read in with `selectedSongsReducer` and return `action.payload;` should the song be selected. Also, make a `songsReducer` with a hardcoded array of objects with song `titles` and `durations` for the sake of understandig `Redux`! Ensure both `/reducers` and `/actions` directories have an `index.js` (where the above code is written into) as React automatically reads index files so thus, no need to write more code when importing/exporting! 
 
