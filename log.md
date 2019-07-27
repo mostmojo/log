@@ -1546,7 +1546,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 •  Responsive media queries using `mixins` and includes to make mobile-designs. Examine grid system with `flexbox` wrappers, `flex: wrap` and `flex: 1`.
 
-•  With React-redux - action creators (payload), reducers and component driven development to manage state. 
+•  React-redux recap- action creators & reducers and component driven development to manage state. 
 
 **Link(s) to work**
 
