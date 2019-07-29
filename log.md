@@ -1580,3 +1580,4 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 **Link(s) to work**
 
 1. [codepen](https://codepen.io/most_mojo/pen/NQdyZE)
+2. [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
