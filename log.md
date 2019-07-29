@@ -1568,3 +1568,15 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 1. [songs](https://github.com/mostmojo/songs)
 
+
+-----
+
+### Day 87: Monday, 29th July, 2019
+
+**Today's Progress**
+
+•  Work to improve dev-weakness - CSS layouting. Imitate a design from scratch, and understand fundamentals of structure and layout. Brush up on semantics such as `blockquote`, `cite`, `nav`, `section`, `header` - the little things! Keep CSS3 - `display: flex`, `justify-content: space-between` and `margins` always from parent elements downwards.
+
+**Link(s) to work**
+
+1. [codepen](https://codepen.io/most_mojo/pen/NQdyZE)
