@@ -1552,3 +1552,19 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 1. [songs](https://github.com/mostmojo/songs)
 
+-----
+
+### Day 86: Sunday, 28th July, 2019
+
+**Today's Progress**
+
+•  Continue songs app. Tie in `semantic-ui` for quick CSS in app.js, with grids, to display `SongList class` elements nicely.
+
+•  Import/export default `connect` from `react-redux` library with `mapStateToProps` and `selectSong` object as params.
+
+• Import/export `combineReducers` method from `redux` library with songs & selectedSongReducer as k:v pairs in an object. Wrap the ReactDOM render method's `<App />` in `<Provider store={createStore(reducers}>` which talks to the `app's` state.
+
+**Link(s) to work**
+
+1. [songs](https://github.com/mostmojo/songs)
+
