@@ -1577,7 +1577,14 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 •  Work to improve dev-weakness - CSS layouting. Imitate a design from scratch, and understand fundamentals of structure and layout. Brush up on semantics such as `blockquote`, `cite`, `nav`, `section`, `header` - the little things! Keep CSS3 - `display: flex`, `justify-content: space-between` and `margins` always from parent elements downwards.
 
+• Utilize `background-size: contain` to scale the image as large as possible without cropping or stretching the image as part of a header logo element.
+
+• Pair programming to re-implement `lazy loading JS` function with the more modern `intersection observer API`, which asynchronously observes changes in the intersection of a target element with an ancestor element or with a top-level document's viewport - by targeting `[data-lazy-iframe], [data-lazy-src]` and `element.appendChild( image );` into the parent `div`.
+
+
 **Link(s) to work**
 
 1. [codepen](https://codepen.io/most_mojo/pen/NQdyZE)
 2. [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+3. [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+4. [Lazy loading](https://github.com/ten4design/knight-architects/blob/master/raw/js/main.js#L28)
