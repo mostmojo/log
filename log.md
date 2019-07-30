@@ -1599,7 +1599,9 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • More layout practice! Imitate architect site with 3 image components. Use `height: calc(100vh - 90px)` to keep page in same view port when applying margins outside of the `section` that impact the layout.
 
-• Look into toggle handling for a desktop to mobile navigation bar. Basic functionality such as adding/removing a class like so:  `togglees[i].classList.remove( 'toggled' );` and inserting an `x` SVG or hamburger menu on click event. 
+• Look into toggle handling for a desktop to mobile navigation bar. Basic functionality such as adding/removing a class like so:  `togglees[i].classList.remove( 'toggled' );` and inserting an `x` SVG or hamburger menu on click event.
+
+• Revist `matrix blocks` in twig, with switch statements to check whether the `block type` is either `text` or a `quote` and inject the content accordingly like so: `{{ contentBlock.text }}`.
 
 **Link(s) to work**
 
