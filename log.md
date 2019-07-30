@@ -1597,7 +1597,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 •  `Lazyload` meets `loadmore` JS lib - with `window.IntersectionObserver`, with `.hasAttribute`, `appendChild`, `removeAttribute`, `continue`, `typeof` `observe` & `unobserve`.
 
-• More layout practice! Imitate architect site with 3 image components. Use calc(100vh - 90px) to keep page in same view port. 
+• More layout practice! Imitate architect site with 3 image components. Use `height: calc(100vh - 90px)` to keep page in same view port when applying margins outside of the `section` that impact the layout. 
 
 
 **Link(s) to work**
