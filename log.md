@@ -1595,11 +1595,13 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 **Today's Progress**
 
-•  `Lazyload` meets `loadmore` JS lib - with `window.IntersectionObserver`, with `.hasAttribute`, `appendChild`, `removeAttribute`, `continue`, `typeof` `observe` & `unobserve`.
+• `Lazyload` meets `loadmore` JS lib - with `window.IntersectionObserver`, with `.hasAttribute`, `appendChild`, `removeAttribute`, `continue`, `typeof` `observe` & `unobserve`.
 
-• More layout practice! Imitate architect site with 3 image components. Use `height: calc(100vh - 90px)` to keep page in same view port when applying margins outside of the `section` that impact the layout. 
+• More layout practice! Imitate architect site with 3 image components. Use `height: calc(100vh - 90px)` to keep page in same view port when applying margins outside of the `section` that impact the layout.
 
+• Look into toggle handling for a desktop to mobile navigation bar. Basic functionality such as adding/removing a class like so:  `togglees[i].classList.remove( 'toggled' );` and inserting an `x` SVG or hamburger menu on click event. 
 
 **Link(s) to work**
 
 1. [codepen](https://codepen.io/most_mojo/pen/jgBKNL)
+2. [Toggler func](https://github.com/ten4design/ten4-framework/blob/master/addons/toggler/libs/toggler.js)
