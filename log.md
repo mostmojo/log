@@ -1588,3 +1588,18 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 2. [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
 3. [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 4. [Lazy loading](https://github.com/ten4design/knight-architects/blob/master/raw/js/main.js#L28)
+
+-----
+
+### Day 88: Tuesday, 30th July, 2019
+
+**Today's Progress**
+
+•  `Lazyload` meets `loadmore` JS lib - with `window.IntersectionObserver`, with `.hasAttribute`, `appendChild`, `removeAttribute`, `continue`, `typeof` `observe` & `unobserve`.
+
+• More layout practice! Imitate architect site with 3 image components. Use calc(100vh - 90px) to keep page in same view port. 
+
+
+**Link(s) to work**
+
+1. [codepen](https://codepen.io/most_mojo/pen/jgBKNL)
