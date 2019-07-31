@@ -1620,9 +1620,12 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Study use of `relatedTo` parameter in `Craft CMS`, to return elements related to given elements, also, with an additional object with a sourceElement and field tag if needed. i.e. - `{% set relatedDrinks = craft.entries.section('drinks').relatedTo(drink).all() %}` & `{% set ingredients = craft.entries.section('ingredients').relatedTo({ sourceElement: drink, field: 'ingredients'}) %}`.
 
+• Create a card element. Place a `.card__overlay` wrapper around an `<img src="image.png">` - set a `position: relative` to the `.card__overlay` as it's the parent, and create a pseudo class `::before` to absolutely position a background property linear gradient and make it invisible with `opacity: 0;`. Outside the `before block`, inside the `.card__overlay` block target the `:hover` state's `::before` pseudo class and set it to `opacity: 1;`. Additionally, add `.card__title` inside the `.card__overlay`'s `hover` state, that way making the title text visible when a user hovers anywhere on the card, and not only where the title is placed! 👾
+
 **Link(s) to work**
 
 1. [Accessibility](http://wave.webaim.org/report#/https://www.knight-architects.ten4dev.com/)
 2. [PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
 3. [Touch devices](https://css-tricks.com/touch-devices-not-judged-size/#article-header-id-2)
 4. [relatedTo](https://docs.craftcms.com/v3/relations.html#templating)
+5. [Codepen - card](https://codepen.io/most_mojo/pen/rXmgZq)
