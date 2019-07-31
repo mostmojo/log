@@ -1607,3 +1607,19 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 1. [codepen](https://codepen.io/most_mojo/pen/jgBKNL)
 2. [Toggler func](https://github.com/ten4design/ten4-framework/blob/master/addons/toggler/libs/toggler.js)
+
+-----
+
+### Day 89: Wednesday, 31st July, 2019
+
+**Today's Progress**
+
+• Look into QA testing, `accessibility` and `page speed` along with `Aria-labels` to prepare for page production. Ensure, to keep a look out for `Nginx CGI cache` for lightning speed sites, of course, without enabling it where there is user sensitive data - i.e log in details, passwords. 
+
+• Research touch devices to consider hover states vs no hover states. i.e - `@media ( hover: none ) { opacity: 1; }` where applicable, due to the evergrowing trend of both small and most recently, large screen, touch devices. Distinguish between `fine` (mouse) & `coarse` (finger). For pointers - i.e - `@media (pointer: coarse) { ... }`
+
+**Link(s) to work**
+
+1. [Accessibility](http://wave.webaim.org/report#/https://www.knight-architects.ten4dev.com/)
+2. [PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
+3. [Touch devices](https://css-tricks.com/touch-devices-not-judged-size/#article-header-id-2)
