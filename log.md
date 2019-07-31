@@ -1618,8 +1618,11 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Research touch devices to consider hover states vs no hover states. i.e - `@media ( hover: none ) { opacity: 1; }` where applicable, due to the evergrowing trend of both small and most recently, large screen, touch devices. Distinguish between `fine` (mouse) & `coarse` (finger). For pointers - i.e - `@media (pointer: coarse) { ... }`
 
+• Study use of `relatedTo` parameter in `Craft CMS`, to return elements related to given elements, also, with an additional object with a sourceElement and field tag if needed. i.e. - `{% set relatedDrinks = craft.entries.section('drinks').relatedTo(drink).all() %}` & `{% set ingredients = craft.entries.section('ingredients').relatedTo({ sourceElement: drink, field: 'ingredients'}) %}`.
+
 **Link(s) to work**
 
 1. [Accessibility](http://wave.webaim.org/report#/https://www.knight-architects.ten4dev.com/)
 2. [PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
 3. [Touch devices](https://css-tricks.com/touch-devices-not-judged-size/#article-header-id-2)
+4. [relatedTo](https://docs.craftcms.com/v3/relations.html#templating)
