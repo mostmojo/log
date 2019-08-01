@@ -1640,6 +1640,8 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Build hamburger menu navigation with a couple of `<li>` items. Use `position:fixed` to keep circular `bg` elements in place and unaffected by scrolling, `background-position` to move a background image (or gradient) around within its container. Use `&, &::before` & `&::after` pseudo elements to absolutely position the three lines and `transform: rotate(135deg);` them when checkbox is `:checked`. Utilize `~` selector to more generally target elements that follow a specific tag, i.e - `h4 ~ p { do something.. };`
 
+• Use `Browser Stack` to run browser tests and see how things as viewed on IE11, FireFox, Safari, Chrome, etc. 
+
 **Link(s) to work**
 
 1. [Codepen - menu](https://codepen.io/most_mojo/pen/dxRKBy)
@@ -1647,3 +1649,4 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 3. [position: fixed](https://css-tricks.com/almanac/properties/p/position/)
 4. [background-position](https://css-tricks.com/almanac/properties/b/background-position/)
 5. [ ~ tilde selector ](https://www.cssportal.com/blog/what-does-and-do-in-css/)
+6. [Browser Stack](https://live.browserstack.com)
