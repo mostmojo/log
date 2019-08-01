@@ -1638,11 +1638,11 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Make `mixin` to manage breakpoints, with modern `@if` logical operator in `SASS`. Like so: `@mixin respond($breakpoint) { @if $breakpoint == phone { @media only screen and (max-width: 37.5em) { // 600px / 16 @content; } }` and when necessary, instead of rewriting the whole thing, use `@include respond(phone) { };`
 
-• 
-
-• 
+• Build hamburger menu navigation with a couple of `<li>` items. Use `position:fixed` to keep circular `bg` elements in place and unaffected by scrolling, `background-position` to move a background image (or gradient) around within its container. Use `&, &::before` & `&::after` pseudo elements to absolutely position the three lines and `transform: rotate(135deg);` them when checkbox is `:checked`.
 
 **Link(s) to work**
 
 1. [Codepen - menu](https://codepen.io/most_mojo/pen/dxRKBy)
 2. [Mixin - breakpoints](https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/)
+3. [position: fixed](https://css-tricks.com/almanac/properties/p/position/)
+4. [background-position](https://css-tricks.com/almanac/properties/b/background-position/)
