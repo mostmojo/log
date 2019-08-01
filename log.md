@@ -1629,3 +1629,20 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 3. [Touch devices](https://css-tricks.com/touch-devices-not-judged-size/#article-header-id-2)
 4. [relatedTo](https://docs.craftcms.com/v3/relations.html#templating)
 5. [Codepen - card](https://codepen.io/most_mojo/pen/rXmgZq)
+
+-----
+
+### Day 90: Thursday, 1st August, 2019 🎉
+
+**Today's Progress**
+
+• Make `mixin` to manage breakpoints, with modern `@if` logical operator in `SASS`. Like so: `@mixin respond($breakpoint) { @if $breakpoint == phone { @media only screen and (max-width: 37.5em) { // 600px / 16 @content; } }` and when necessary, instead of rewriting the whole thing, use `@include respond(phone) { };`
+
+• 
+
+• 
+
+**Link(s) to work**
+
+1. [Codepen - menu](https://codepen.io/most_mojo/pen/dxRKBy)
+2. [Mixin - breakpoints](https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/)
