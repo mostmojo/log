@@ -1650,3 +1650,20 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 4. [background-position](https://css-tricks.com/almanac/properties/b/background-position/)
 5. [ ~ tilde selector ](https://www.cssportal.com/blog/what-does-and-do-in-css/)
 6. [Browser Stack](https://live.browserstack.com)
+
+-----
+
+### Day 91: Friday, 2nd August, 2019
+
+**Today's Progress**
+
+• Look into blog related to performance, image handling and critical css. 
+
+• 
+
+• 
+
+**Link(s) to work**
+
+1. [Performance](https://www.smashingmagazine.com/2019/07/web-on-50mb-budget/)
+2. [Critical CSS](https://github.com/pocketjoso/penthouse)
