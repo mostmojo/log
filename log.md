@@ -1657,13 +1657,11 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 **Today's Progress**
 
-• Look into blog related to performance, image handling and critical css. 
+• Look into blog related to performance, image handling and critical css. Also, deep dive into HTML form styling, and understand `get/post`, `type=""`, `labels` & form `ids`.
 
-• 
-
-• 
 
 **Link(s) to work**
 
 1. [Performance](https://www.smashingmagazine.com/2019/07/web-on-50mb-budget/)
 2. [Critical CSS](https://github.com/pocketjoso/penthouse)
+3. [Styling HTML forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)
