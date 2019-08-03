@@ -1657,7 +1657,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 **Today's Progress**
 
-• Look into blog related to performance, image handling and critical css. Also, deep dive into HTML form styling, and understand `get/post`, `type=""`, `labels` & form `ids`.
+• Look into blog related performance, image handling and critical css. Also, deep dive into HTML form styling, and understand `get/post`, `type=""`, `labels` & form `ids`.
 
 • Go over `inline` and `block` elements to understand when to utilize the `display: block` property. Also, refresh on SASS folder architecture with the correct imports and create a script with `npm`, in a `package.json` file to enable everything to serve locally and also build for 'production' with `prefixer` & `compressors`.
 
