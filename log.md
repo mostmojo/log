@@ -1679,7 +1679,10 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 •  Read about basics of setting up `Jest` for testing JS, with `sum.js` file, importing it into `sum.test.js`, applying script to `package.json` and running test in CLI with `yarn/npm`.
 
+•  Look into another test example with `test('Fake test', () => { expect(true).toBeTruthy });` to familiarise myself with syntax. Using `expect`, aka an `assertion` with a result.
+
 **Link(s) to work**
 
 1. [Jest](https://github.com/facebook/jest)
+2. [LevelUpTuts](https://youtu.be/b3VJVwQzw_Q)
 
