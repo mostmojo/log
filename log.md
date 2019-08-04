@@ -1670,3 +1670,16 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 2. [Critical CSS](https://github.com/pocketjoso/penthouse)
 3. [Styling HTML forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)
 4. [Log in form](https://mostmojo.github.io/login-form/)
+
+-----
+
+### Day 92: Sunday, 4th August, 2019
+
+**Today's Progress**
+
+•  Read about basics of setting up `Jest` for testing JS, with `sum.js` file, importing it into `sum.test.js`, applying script to `package.json` and running test in CLI with `yarn/npm`.
+
+**Link(s) to work**
+
+1. [Jest](https://github.com/facebook/jest)
+
