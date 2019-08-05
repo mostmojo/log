@@ -1686,3 +1686,18 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 1. [Jest](https://github.com/facebook/jest)
 2. [LevelUpTuts](https://youtu.be/b3VJVwQzw_Q)
 
+-----
+
+### Day 93: Monday, 5th August, 2019
+
+**Today's Progress**
+
+• Look into `categories`, `matrix blocks `and relational DBs in CraftCMS and understand `source` vs `target` relationships with `entry types`. 
+
+•  Fix `docker` update issue in `CLI` by declaring the port where the local server should be served. 
+
+• Create component with `ternary operators`, `logic` to check if certain conditions are met in `twig`, to then pull out `entry.title || entry.subtitle`, etc. Use `Invision's` inspect to gauge designs and commence build implementation for a project. 
+
+**Link(s) to work**
+
+1. [Relations](https://docs.craftcms.com/v3/relations.html)
