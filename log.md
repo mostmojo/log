@@ -1714,7 +1714,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Use `aria-label="CompanyX on Instagram" rel="noopener"` for accessibility and `noopener` to prevent malicious redirects when clicking a link to new page.
 
-• With SASS, ensure to think simplistically, apply general styling (color, padding, etc), a container, then go deeper into elements whether left or right, item, link, :hover&focus states.
+• With SASS, ensure to think simplistically, apply general styling (color, padding, etc), a container, then go deeper into elements whether left or right, item, link, `:hover & focus` states.
 
 • When building components, understand that there are various checks in a CMS setting that should be applied. i.e. - `{% set image = entry.listingImage|length ? entry.listingImage[0] : entry.primaryImage|length ? entry.primaryImage[0] ?? null %}`, giving the client more space to do as they wish. The styling in the component will _not_ include layout. The grid & general appearance should be integrated inside the `listing page` where the element/card, etc will be rendered into. 
 
