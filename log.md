@@ -1701,3 +1701,21 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 **Link(s) to work**
 
 1. [Relations](https://docs.craftcms.com/v3/relations.html)
+
+-----
+
+### Day 94: Tuesday, 6th August, 2019
+
+**Today's Progress**
+
+• Create footer with tailwind-like reusable classes for `flex`. Use: `<div class="grid flex flex--align-center">` as shorthand props to the well known `display: flex`, `align-items: center;` & utilize flexbox's `row/col` relationship with `grid` & `grid__item a6-12`, for example. Understand that a 12-column grid that doesn't necessarily have 12 columns will also wrap everything accordingly. Use `.container` with `max-width` properties to determine layout initially. 
+
+•  Understand purpose of `{% cache globally using key 'legal-entries' %}` to prevent requests being made continuously for legal items - i.e. - privacy, cookies, etc. Use classes like so to apply correct styling: `<li class="footer__item"><a class="footer__link" href="{{ item.url }}">{{ item.title }}</a></li>` and Twig's shorthand syntax to query the entries for the appropriate url & titles. 
+
+• Use `aria-label="CompanyX on Instagram" rel="noopener"` for accessibility and `noopener` to prevent malicious redirects when clicking a link to new page.
+
+• With SASS, ensure to think simplistically, apply general styling (color, padding, etc), a container, then go deeper into elements whether left or right, item, link, :hover&focus states.
+
+**Link(s) to work**
+
+1. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
