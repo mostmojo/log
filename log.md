@@ -1721,3 +1721,19 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 **Link(s) to work**
 
 1. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+-----
+
+### Day 95: Tuesday, 7th August, 2019
+
+**Today's Progress**
+
+• Use `includes` in Twig for component driven development. Create an agnostic component with a declared variable like: `cta` that queries `cta.name`, etc. In the desired template, use `include ... with { cta: entry.callToAction[0] }` being the name of the field and array position.
+
+• Reuse general SASS components and nest with BEM modifiers, apply `@extends %class-name` for styling. 
+
+• Start React-based form with `Material-UI` dependency for quick CSS. Use `state` and pass down props to child components. 
+
+**Link(s) to work**
+
+1. [React form](https://github.com/mostmojo/react-form)
