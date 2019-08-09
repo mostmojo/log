@@ -1746,10 +1746,14 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 • Continue with `includes`. Fuse two components into one by interpreting design and logical operators. Ensure to keep variable naming general for reusability.
 
-• Use flexbox with grid system to apply a design layout for 3 images and use `flex reverse` on `light switch` click from CMS.
+• Use flexbox with grid system to apply a design layout for 3 images and use `flex reverse` on `light switch` click from CMS. Continue with SASS nesting and modifier reusability, and look into the purpose of the `parent selector`.
 
-• Continue with SASS nesting and modifier reusability.
+• Look into new chrome `loading attribute`, used in an image like so: `<img src="image.png" loading="lazy" alt="…" width="200" height="200">`, which will prevent the use of JavaScript for lazy loading images (performance measure). 
+
+• Use Craft's in-built `focal point` feature but also aware of cache busting bug.
 
 **Link(s) to work**
 
-1. [React form](https://github.com/mostmojo/react-form)
+1. [& - parent selector](https://sass-lang.com/documentation/style-rules/parent-selector)
+2. [Loading attribute](https://web.dev/native-lazy-loading)
+3. [Cache busting bug](https://github.com/craftcms/cms/issues/3685)
