@@ -1757,3 +1757,21 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 1. [& - parent selector](https://sass-lang.com/documentation/style-rules/parent-selector)
 2. [Loading attribute](https://web.dev/native-lazy-loading)
 3. [Cache busting bug](https://github.com/craftcms/cms/issues/3685)
+
+-----
+
+### Day 97: Friday, 9th August, 2019
+
+**Today's Progress**
+
+• Piece together several components in Twig, using `{% include '_component/_generic-intro' with { 'headline: entry.pageHeadline, 'media: entry.pageImageOrVideo[0] ?? null', 'stacked': true } %}`. Ensure to `{% set jobs = craft.entries.section( 'careers' ).all() %}` prior to conducting a loop so Craft can relate to the section where it will be queried. 
+
+• Run through `container--bleed` classes to understand layouting and how they work with `flex` helper classes, alongside `flex-direction: column;`, `align-items: center;`
+
+• Create a `{% if stacked is defined and stacked == 'true' %}` *stacked* variable inside the `general-component` to provide a different layout with these logical checks. Another example of a ternary operator check: `{{ stacked is defined and stacked == 'true' ? ' mb-1' }}` within a div, to apply a `margin-bottom` helper class.
+
+• Work on reusable `SASS` classes such as `card_title`, to nest `card_title--alt` modifiers within, that will take presidence due to specificity.
+
+**Link(s) to work**
+
+1. [includes](https://twig.symfony.com/doc/2.x/tags/include.html)
