@@ -1724,7 +1724,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 -----
 
-### Day 95: Tuesday, 7th August, 2019
+### Day 95: Wednesday, 7th August, 2019
 
 **Today's Progress**
 
@@ -1733,6 +1733,22 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 • Reuse general SASS components and nest with BEM modifiers, apply `@extends %class-name` for styling. 
 
 • Start React-based form with `Material-UI` dependency for quick CSS. Use `state` and pass down props to child components. 
+
+**Link(s) to work**
+
+1. [React form](https://github.com/mostmojo/react-form)
+
+-----
+
+### Day 96: Thursday, 8th August, 2019
+
+**Today's Progress**
+
+• Continue with `includes`. Fuse two components into one by interpreting design and logical operators. Ensure to keep variable naming general for reusability.
+
+• Use flexbox with grid system to apply a design layout for 3 images and use `flex reverse` on `light switch` click from CMS.
+
+• Continue with SASS nesting and modifier reusability.
 
 **Link(s) to work**
 
