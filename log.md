@@ -1775,3 +1775,22 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 **Link(s) to work**
 
 1. [includes](https://twig.symfony.com/doc/2.x/tags/include.html)
+
+-----
+
+### Day 98 & 99: Saturday & Sunday, 9th & 10th August, 2019
+
+**Today's Progress**
+
+• Research UI/UX and best way to create a user form. Chose `MaterialUI`, installed via `npm` as a project dependency in `package.json` file. 
+
+• Created a react app using `create-react-app` that resembled a 4-part user journey with `UserForm` being the parent component that holds the state. Used `destructuring` to extract steps to go to `nextStep` and `prevStep`. Render it all in a switch statement for various page cases like so: `<Privacy nextStep={this.nextStep} prevStep={this.prevStep} handleChange={this.handleChange} />`, with `handleChange` containing all the `event.target.value`s.
+
+• Explore material UI styles for labels, and controls with `control={ <Checkbox /> } label="Receive communication by email for other products created by the team" style={styles.mb}`, `onClick={this.continue}` in React and creating objects to style elements in CSS like so: `const styles = { button: { margin: 15 }`.
+
+**Link(s) to work**
+
+1. [React form](https://vigilant-kirch-c0de1d.netlify.com/)
+2. [Form source code](https://github.com/mostmojo/react-form)
+3. [Material UI](https://material-ui.com/)
+
