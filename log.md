@@ -1782,7 +1782,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 **Today's Progress**
 
-• Research UI/UX and best way to create a user form. Chose `MaterialUI`, installed via `npm` as a project dependency in `package.json` file. 
+• Research UI/UX and best way to create a user form. Chose `MaterialUI`, installed via `$ npm install @material-ui/core` as a project dependency in `package.json` file. 
 
 • Created a react app using `create-react-app` that resembled a 4-part user journey with `UserForm` being the parent component that holds the state. Used `destructuring` to extract steps to go to `nextStep` and `prevStep`. Render it all in a switch statement for various page cases like so: `<Privacy nextStep={this.nextStep} prevStep={this.prevStep} handleChange={this.handleChange} />`, with `handleChange` containing all the `event.target.value`s.
 
