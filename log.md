@@ -1778,7 +1778,7 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 
 -----
 
-### Day 98 & 99: Saturday & Sunday, 9th & 10th August, 2019
+### Day 98 & 99: Saturday & Sunday, 10th & 11th August, 2019
 
 **Today's Progress**
 
@@ -1793,4 +1793,21 @@ event.preventDefault(); } );` - otherwise page would reload entirely when `load-
 1. [React form](https://vigilant-kirch-c0de1d.netlify.com/)
 2. [Form source code](https://github.com/mostmojo/react-form)
 3. [Material UI](https://material-ui.com/)
+
+-----
+
+### Day 100 🎉: Monday, 12th August, 2019
+
+**Today's Progress**
+
+• Create an `Awards page` for client using individual components in Twig. Ensure to `{% set awards = craft.entries.section( 'awards' ).all() %}` to later be able to query the objects in a loop.
+
+• Look into the `dump` PHP variable to check whether looping through an array, object, etc - handy!
+
+• Loop through a matrix block using `{% for block in entry.awards.all() %}` and use `loop.index` to apply `flex-direction: row-reverse` to all entries that are odd like so: `<div class="block{{ loop.index % 2 == 0 ? ' block--reverse' }} grid">`. Use ternary operators to also check whether the `block.image|length ? ' a6-12' : 'a12-12'` and apply relevant rows/cols. Learn how to get a related entry's url with: `href="{{ block.relatedProject[0].url }}`.
+
+**Link(s) to work**
+
+1. [Matrix fields](https://docs.craftcms.com/v3/matrix-fields.html)
+2. [Dump](https://twig.symfony.com/doc/2.x/functions/dump.html)
 
