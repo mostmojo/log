@@ -39,7 +39,11 @@
 
 • Learn and apply ternary operators inside of divs to be able to implement 12-point grids like so: `<div class="grid__item{{ entry.section.handle == 'people' ? ' a12-12' : ' a6-12' }}">`
 
-• Setting `{% set is_people = entry.section.handle == 'people' ? true %}` enables a check, to apply specific styles according to whether the page is on '`people`' or not. That way, in component-drive development, when using `{% include listing_card with { 'class': is_people ? 'card--centred card--flat' : 'card--flat' } %}`, different styles can be applied if the `is_people` is set to `true` and/or false. Explained: This will search for the appropriate image if is_people is set to true. This will also apply the `card—centred card—flat` classes if is_people is true, and just apply `card—flat` if it's `false`/not defined. 
+• Setting `{% set is_people = entry.section.handle == 'people' ? true %}` enables a check, to apply specific styles according to whether the page is on '`people`' or not. That way, in component-drive development, when using `{% include listing_card with { 'class': is_people ? 'card--centred card--flat' : 'card--flat' } %}`, different styles can be applied if the `is_people` is set to `true` and/or false. Explained: This will search for the appropriate image if is_people is set to true. This will also apply the `card—centred card—flat` classes if is_people is true, and just apply `card—flat` if it's `false`/not defined.
+
+• Loop through some related entries field and output the related entry titles like so: `{% for entry in entry.keySkills.all() %} --> keySkills being the related entries field 
+		<a class="a key-skills__link" href="{{ entry.url }}">{{ entry.title }}</a>
+{% endfor %}`. Learn to distinguish how to access matrix blocks, i.e - `{%  for block in entry.offices.all() %}`, where the block is `offices` inside the `entry`. 
 
 **Link(s) to work**
 
