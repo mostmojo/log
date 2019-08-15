@@ -31,3 +31,16 @@
 1. [Batch](https://twig.symfony.com/doc/2.x/filters/batch.html)
 2. [Levels](https://docs.craftcms.com/v3/dev/element-queries/entry-queries.html#parameters)
 
+-----
+
+### Day 3: Thursday, 16th August, 2019
+
+**Today's Progress**
+
+• Learn and apply ternary operators inside of divs to be able to implement 12-point grids like so: `<div class="grid__item{{ entry.section.handle == 'people' ? ' a12-12' : ' a6-12' }}">`
+
+• Setting `{% set is_people = entry.section.handle == 'people' ? true %}` enables a check, to apply specific styles according to whether the page is on '`people`' or not. That way, in component-drive development, when using `{% include listing_card with { 'class': is_people ? 'card--centred card--flat' : 'card--flat' } %}`, different styles can be applied if the `is_people` is set to `true` and/or false. Explained: This will search for the appropriate image if is_people is set to true. This will also apply the `card—centred card—flat` classes if is_people is true, and just apply `card—flat` if it's `false`/not defined. 
+
+**Link(s) to work**
+
+1. [Handle](https://craftcms.stackexchange.com/questions/1682/get-the-current-section-handle)
