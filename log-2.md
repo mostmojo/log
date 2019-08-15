@@ -43,7 +43,7 @@
 
 • Loop through some related entries field and output the related entry titles like so: `{% for entry in entry.keySkills.all() %} --> keySkills being the related entries field 
 		<a class="a key-skills__link" href="{{ entry.url }}">{{ entry.title }}</a>
-{% endfor %}`. Learn to distinguish how to access matrix blocks, i.e - `{%  for block in entry.offices.all() %}`, where the block is `offices` inside the `entry`. 
+{% endfor %}`. Learn to distinguish how to access matrix blocks, i.e - `{%  for block in entry.offices.all() %}`, where the block is `offices` inside the `entry`, then accessing each field - `{{  block.city }}` - for example.
 
 **Link(s) to work**
 
