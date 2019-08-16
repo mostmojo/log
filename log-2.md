@@ -1,6 +1,6 @@
 -----
 
-### Day 1 : Tuesday, 14th August, 2019
+### Day 1 : Tuesday, 13th August, 2019
 
 **Today's Progress**
 
@@ -16,7 +16,7 @@
 
 -----
 
-### Day 2: Wednesday, 15th August, 2019
+### Day 2: Wednesday, 14th August, 2019
 
 **Today's Progress**
 
@@ -33,7 +33,7 @@
 
 -----
 
-### Day 3: Thursday, 16th August, 2019
+### Day 3: Thursday, 15th August, 2019
 
 **Today's Progress**
 
@@ -48,3 +48,20 @@
 **Link(s) to work**
 
 1. [Handle](https://craftcms.stackexchange.com/questions/1682/get-the-current-section-handle)
+
+-----
+
+### Day 4: Friday, 16th August, 2019
+
+**Today's Progress**
+
+• Pair program - take a design from `inVision` - outline `UI/UX` and bring it into `Craft CMS`.
+
+• Consider - `sections`, common `fields`, restrict images to `limit(1)`, find reocurring patterns, outline the `redactor config` to `standard/simple`, add groups i.e - `common`. Look at the entry types and utilize components where possible. Lastly, outline the `matrix blocks` eg. `eventContent` (`block types` with their `fields`)
+
+• Spend the day looking into form building with the Craft plugin.
+
+**Link(s) to work**
+
+1. [Form](https://github.com/craftcms/contact-form)
+
