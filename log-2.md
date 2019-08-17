@@ -60,6 +60,7 @@
 • Consider - `sections`, common `fields`, restrict images to `limit(1)`, find reocurring patterns, outline the `redactor config` to `standard/simple`, add groups i.e - `common`. Look at the entry types and utilize components where possible. Lastly, outline the `matrix blocks` eg. `eventContent` (`block types` with their `fields`)
 
 • Spend the day looking into form building with the Craft plugin. Also, learn 'trick' in CSS to overlay an `input type='radio'` button with `::before` & `::after pseudo` classes using `<label>` since inputs are self closing divs and don't have pseudo classes - must be wrapped in labels! :)
+
 **Link(s) to work**
 
 1. [Form](https://github.com/craftcms/contact-form)
