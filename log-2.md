@@ -55,7 +55,7 @@
 
 **Today's Progress**
 
-• Pair program - take a design from `inVision` - outline `UI/UX` and bring it into `Craft CMS`.
+• Pair program - take a design from `inVision` - outline `UI/UX` and bring it into `Craft CMS` with entry types, fields, sections & design layout.
 
 • Consider - `sections`, common `fields`, restrict images to `limit(1)`, find reocurring patterns, outline the `redactor config` to `standard/simple`, add groups i.e - `common`. Look at the entry types and utilize components where possible. Lastly, outline the `matrix blocks` eg. `eventContent` (`block types` with their `fields`)
 
