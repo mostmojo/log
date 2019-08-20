@@ -65,3 +65,15 @@
 
 1. [Form](https://github.com/craftcms/contact-form)
 
+-----
+
+### Day 5 & 6: Monday & Tuesday, 20th August, 2019
+
+**Today's Progress**
+
+• Twig includes, content blocks, matrix blocks and conditional logic to render generic components.
+
+• `@extend %typeset;` for cleaner SCSS. 
+
+• Switch blocks for `block.text`, `block.images`, `block.imageOrVideo` and the use of `smartdate` with a Craft plugin to generate events. 
+
