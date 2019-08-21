@@ -89,7 +89,7 @@
 
 • Use `<div class="a6-12 d5-12 f6-6">` within divs to place the grids in the right col width to move from desktop to mobile. 
 
-• Ensure that when using composer having `ignore` in `composer install --ignore-platform-reqs` to forget the errors. Remember with includes use `{% include listing_card with { 'image': is_people ? entry.personThumbnail[0] ?? null : entry.primaryImage[0] ?? null } %}`.
+• Ensure that when using composer having `ignore` in `composer install --ignore-platform-reqs` to forget the errors. Remember with `includes` use `{% include listing_card with { 'image': is_people ? entry.personThumbnail[0] ?? null : entry.primaryImage[0] ?? null } %}`.
 
 1. [Object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
