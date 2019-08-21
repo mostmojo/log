@@ -85,11 +85,11 @@
 
 • Focus on responsive design. Use `@include media( f ) { @include font-size( delta ); margin-bottom: 0.6rem; }` break points with CSS media queries and `@include` to change from desktop to mobile. 
 
-• Use `object-fit: cover` to place the image and make it sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit. E.g. `.event-card__image { height: 100%; img { height: 100%; object-fit: cover; } }`
+• Use `object-fit: cover` to place the image and make it sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit. E.g. `.event-card__image { height: 100%; img { height: 100%; object-fit: cover; } }`. With `:hover` states ensure to use `transition: color 0.2s;` for slick UX.
 
 • Use `<div class="a6-12 d5-12 f6-6">` within divs to place the grids in the right col width to move from desktop to mobile. 
 
-• Ensure that when using composer having `ignore` in `composer install --ignore-platform-reqs` to forget the errors. Remember with includes use `{% include listing_card with { 'image': is_people ? entry.personThumbnail[0] ?? null : entry.primaryImage[0] ?? null } %}`
+• Ensure that when using composer having `ignore` in `composer install --ignore-platform-reqs` to forget the errors. Remember with includes use `{% include listing_card with { 'image': is_people ? entry.personThumbnail[0] ?? null : entry.primaryImage[0] ?? null } %}`.
 
 1. [Object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
