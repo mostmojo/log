@@ -101,8 +101,8 @@
 
 • Remember when inside an entry template, and looping through a matrix block, use: `{% for block in entry.imageOrVideo.all() %}` and utilize `{% switch block.type %}` to check for `image` and/or `video` fields which can be grabbed with a macro like so: `{{ image( block.image[0], 'homePageListing', '', 'intro__media' ) }}`.
 
-• When not using grid system,, remember absolutely positioned images/divs can have `box-sizing: border-box;` to calc. any padding within their 'walls'. 
+• When not using grid system, remember absolutely positioned images/divs can have `box-sizing: border-box;` to calc. any padding within their 'walls'. 
 
-• 
+• To rid any side padding, can use: `right: $container-side-padding-wide * -1;` inside a class that is `position: absolute`.
 
-1. [Object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+1. [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
