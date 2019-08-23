@@ -117,7 +117,7 @@
 
 • Use `float: right` and `float: none` to position elements correctly when moving from desktop to mobile. Use smaller sized grids for mobile layout like so: `<div class="a7-12 e12-12 g6-6">`. Use `display: flex; flex-direction: column;` to change the layout direction too. Handy to use `background-repeat` property to set how background images are repeated. A background image can be repeated along the horizontal and vertical axes. `repeat-x` will repeat an image on the x-axis. 
 
-• When cloning projects using `npm`, errors regarding `sudo` and `permissions` can occur.
+• When cloning projects using `npm`, errors regarding `sudo` and `permissions` can occur. List of error management [here](https://github.com/mostmojo/fictional-studio)
 
 1. [Resolve Permission](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally%5D)
 2. [Fictional Project Scripts](https://github.com/mostmojo/fictional-studio)
