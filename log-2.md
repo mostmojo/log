@@ -119,6 +119,6 @@
 
 • When cloning projects using `npm`, errors regarding `sudo` and `permissions` can occur.
 
-1. [Resolve Permission](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally%5D(https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
+1. [Resolve Permission](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally%5D)
 2. [Fictional Project Scripts](https://github.com/mostmojo/fictional-studio)
 3. [background-repeat: repeat-x](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
