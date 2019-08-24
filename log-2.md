@@ -113,7 +113,7 @@
 
 **Today's Progress**
 
-• Ensure to add checks to see if images exist prior to styling to prevent errors if they don't exist. E.g. `{% if image is defined and image|length %}`. When fetching related entries for CTAs, ensure to have `.url` at the end of the query to get the URL and not the title like so: `<a href="{{ entry.introCallToActionLink[0].url }}" class="intro__info">`
+• Ensure to add checks to see if images exist prior to styling to prevent errors if they don't exist. Ex. `{% if image is defined and image|length %}`. When fetching related entries for CTAs, ensure to have `.url` at the end of the query to get the URL and not the title like so: `<a href="{{ entry.introCallToActionLink[0].url }}" class="intro__info">`
 
 • Use `float: right` and `float: none` to position elements correctly when moving from desktop to mobile. Use smaller sized grids for mobile layout like so: `<div class="a7-12 e12-12 g6-6">`. Use `display: flex; flex-direction: column;` to change the layout direction too. Handy to use `background-repeat` property to set how background images are repeated. A background image can be repeated along the horizontal and vertical axes. `repeat-x` will repeat an image on the x-axis. 
 
