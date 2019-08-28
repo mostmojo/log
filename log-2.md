@@ -122,3 +122,17 @@
 1. [Resolve Permission](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally%5D)
 2. [Fictional Project Scripts](https://github.com/mostmojo/fictional-studio)
 3. [background-repeat: repeat-x](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
+
+-----
+
+### Day 10: Tuesday, 28th August, 2019
+
+**Today's Progress**
+
+• Play with the design of a fictional studio, decrease size of navigation bar and add animation effects. Also try to position paragraph with `display: flex;` & `flex-end` properties.
+
+• Learn about form redirects with: `{% if not order or order.isCompleted == false %}{% redirect 'events' %}{% redirect 'events' %}{% endif #}{% endif %}`.
+
+• Work with helper classes like `mb` or `separated-less` to create space between BEM styled elements by wrapping around them without changing semantics. 
+
+1. [Fictional studio](https://mostmojo.github.io/fictional-studio/)
