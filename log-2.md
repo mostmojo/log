@@ -160,3 +160,22 @@
 **Link(s) to work**
 
 1. [document.cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
+
+-----
+
+### Day 12: Thursday, 29th August, 2019
+
+**Today's Progress**
+
+• Look into importing sprite files with icomoon.
+
+• Using icomoon to use `symbol-defs.svg` to `sprite.svg` and implement all the files within a project architecture. In `HTML` use `<svg class="icon icon--9"><use xlink:href="{{ uncache( 'assets/img/sprite.svg#icon-paint---4' ) }}"></use>
+</svg>` and use `fill: $colour-icon-dark-pink;` for colors.
+
+• Due to the nature of the assets, when styling in a `raw` file, all assets are processed in a `public` file so therefore, using `assets/img` will display the files.
+
+**Link(s) to work**
+
+1. [Sprite](https://gist.github.com/mostmojo/8b7de71d82cfe5c85b8470913b411d16)
+2. [Icomoon](https://icomoon.io/app/#/select)
+
