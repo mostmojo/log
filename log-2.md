@@ -91,6 +91,8 @@
 
 • Ensure that when using composer having `ignore` in `composer install --ignore-platform-reqs` to forget the errors. Remember with `includes` use `{% include listing_card with { 'image': is_people ? entry.personThumbnail[0] ?? null : entry.primaryImage[0] ?? null } %}`.
 
+**Link(s) to work**
+
 1. [Object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
 -----
@@ -104,6 +106,8 @@
 • When not using grid system, remember absolutely positioned images/divs can have `box-sizing: border-box;` to calc. any padding within their 'walls'. 
 
 • To rid any side padding, can use: `right: $container-side-padding-wide * -1;` inside a class that is `position: absolute`.
+
+**Link(s) to work**
 
 1. [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 
@@ -119,13 +123,15 @@
 
 • When cloning projects using `npm`, errors regarding `sudo` and `permissions` can occur. List of error management - [here](https://github.com/mostmojo/fictional-studio)
 
+**Link(s) to work**
+
 1. [Resolve Permission](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally%5D)
 2. [Fictional Project Scripts](https://github.com/mostmojo/fictional-studio)
 3. [background-repeat: repeat-x](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
 
 -----
 
-### Day 10: Tuesday, 28th August, 2019
+### Day 10: Tuesday, 27th August, 2019
 
 **Today's Progress**
 
@@ -135,4 +141,22 @@
 
 • Work with helper classes like `mb` or `separated-less` to create space between BEM styled elements by wrapping around them without changing semantics. 
 
+**Link(s) to work**
+
 1. [Fictional studio](https://mostmojo.github.io/fictional-studio/)
+
+-----
+
+### Day 11: Wednesday, 28th August, 2019
+
+**Today's Progress**
+
+• Build a `notice banner` with cookie-like behavior. Ensure to have `display: flex` and `display: none` classes to be toggled with JavaScript. As svg icons act like font, `@extend %icon-pseudo` brings them in and then they can be treated like `text` with `color` and `font-size` property alterations. Semantically, in HTML a `<button></button>` will do the job.
+
+• JS: `addEventListener` on `'click'` to `classList.add` & `classList.remove` the toggled classes. 
+
+• `document.cookie` looks like a variable but it's not. A cookie is created in the browser which persists until it expires or you remove it. `http` requests are stateless, so we need a cookie to 'save' the fact that a user has seen the notice without the cookie, the message would always appear, it's only because you've got it already that commenting the line out doesn't do anything.
+
+**Link(s) to work**
+
+1. [document.cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
