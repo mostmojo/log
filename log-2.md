@@ -185,7 +185,7 @@
 
 **Today's Progress**
 
-• Work with svg motifs to absolutely position them within a multi-page layout. Create multiple layouts that correspond to design. ensure to keep `fill` properties and use `@include media( f ) { }` breakpoints to go from desktop to mobile responsiveness. Experiment with `transform: rotate( 180deg );`.
+• Work with `svg` motifs to absolutely position them within a multi-page layout. Create multiple layouts that correspond to design. ensure to keep `fill` properties and use `@include media( f ) { }` breakpoints to go from desktop to mobile responsiveness. Experiment with `transform: rotate( 180deg );`.
 
 **Link(s) to work**
 
