@@ -190,3 +190,20 @@
 **Link(s) to work**
 
 1. [Rotate](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
+
+-----
+
+### Day 14: Monday, 2nd September, 2019
+
+**Today's Progress**
+
+• Look into `filter: brightness(150%);` property for chrome & mozilla to apply to images and enhance their brightness. Also, read into Imager for Craft CMS using `{% set transformedImage = craft.imager.transformImage(image, { width: 500, effects: { modulate: [100, 20, 100] } }) %}`. 
+
+• Tweak a few client sites to add `{% if entry.phoneNumber %}<p>{{ entry.phoneNumber }}</p>{% endif %}`, fix positioning of `quote` in `imageBlock`. Make quote grids wider to fit wireframe, by playing with `grid__items` `a8-12`, `a6-12`, etc. 
+
+• Use `@include media( d ) { padding: 2rem 0; }` to ensure slick shift from desktop to mobile.
+
+**Link(s) to work**
+
+1. [Filter](https://til.hashrocket.com/posts/4jhm8rrq7c-lighten-and-darken-with-css-brightness-filter)
+2. [Imager](https://github.com/aelvan/Imager-Craft)
