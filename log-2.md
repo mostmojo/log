@@ -218,7 +218,7 @@
 
 • Use `transition: opacity 3.7s ease-out;` to slow down overlay effect for client page.
 
-• Focus on `search-bar` functionality in Twig template. With server-side querying use: `{% set query = craft.app.request.getQueryParam( 'q' ) %}`, and the results set to `{% set search_results = craft.entries.section( sections ).search( query ).orderBy( 'score' ).all() %}`, which will later be toggled with some JavaScript. 
+• Focus on `search-bar` functionality in Twig template. With server-side querying use: `{% set query = craft.app.request.getQueryParam( 'q' ) %}`, and the results set to `{% set search_results = craft.entries.section( sections ).search( query ).orderBy( 'score' ).all() %}`, which will later be toggled with some JavaScript, and/or potentially displayed with an `element api`.
 
 **Link(s) to work**
 
