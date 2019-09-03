@@ -207,3 +207,20 @@
 
 1. [Filter](https://til.hashrocket.com/posts/4jhm8rrq7c-lighten-and-darken-with-css-brightness-filter)
 2. [Imager](https://github.com/aelvan/Imager-Craft)
+
+-----
+
+### Day 15: Tuesday, 3rd September, 2019
+
+**Today's Progress**
+
+• Add `imageLazy` macro to lazy load client's images on a project page with `{{ imageLazy( header_media, 'headerMediaImage', '', 'header-media__image' ) }}`. 
+
+• Use `transition: opacity 3.7s ease-out;` to slow down overlay effect for client page.
+
+• Focus on `search-bar` functionality in Twig template. With server-side querying use: `{% set query = craft.app.request.getQueryParam( 'q' ) %}`, and the results set to `{% set search_results = craft.entries.section( sections ).search( query ).orderBy( 'score' ).all() %}`, which will later be toggled with some JavaScript. 
+
+**Link(s) to work**
+
+1. [KA - Search](https://github.com/ten4design/knight-architects/blob/master/templates/search.twig)
+
