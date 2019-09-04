@@ -224,3 +224,20 @@
 
 1. [KA - Search](https://github.com/ten4design/knight-architects/blob/master/templates/search.twig)
 
+-----
+
+### Day 16: Wednesday, 4th September, 2019
+
+**Today's Progress**
+
+• Look into `element API` and use `composer` to `composer require craftcms/element-api` and install the plugin using `./craft install/plugin element-api`.  Add API endpoints with `'section' => 'approach, expertise, careers, awards, projects'` inside the config file. 
+
+• When using icons, `search-box--close { &::before { @extend %icon-pseudo; @extend %icon-pseudo--close; }` ensure that the `::before` pseudo class is used on a class that is **NOT** an `input` field, as they won't work on those. Then use `position: absolute` to place it according to the design.
+
+• In twig syntax to redirect to a specific place, use the following syntax: `<button class="search-box search-box--icon"><a href="{{ url( 'search' ) }}" aria-label="Search"></a></button>` having an 'empty' button, with no text, can have the `url( 'search' )` to redirect it to the specific page. If it's home, use empty string. 
+
+**Link(s) to work**
+
+1. [Search bar](https://github.com/ten4design/goppion/compare/search-bar?expand=1)
+2. [Element API](https://github.com/craftcms/element-api)
+
