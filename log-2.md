@@ -241,3 +241,27 @@
 1. [Search bar](https://github.com/ten4design/goppion/compare/search-bar?expand=1)
 2. [Element API](https://github.com/craftcms/element-api)
 
+-----
+
+### Day 17: Thursday, 5th September, 2019
+
+**Today's Progress**
+
+• Build search-box functionality on the side of a canvas/page. To do this, build a component like so:
+```
+<div class="search-box">
+	<form class="search-box__form search-box__form--icon" action="{{ url( 'search' ) }}">
+		<label for="search-box" class="invisible">Search</label>
+		<input type="text" id="search-box" name="q" placeholder="Search" class="search-box__text-input" value="{{ query ?? '' }}">
+	</form>
+</div>
+```
+
+• 
+
+• 
+
+**Link(s) to work**
+
+1. [Search bar](https://github.com/ten4design/goppion/compare/search-bar?expand=1)
+
