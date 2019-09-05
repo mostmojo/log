@@ -259,7 +259,7 @@
 
 • Within the `search-box` class ensure to use `position: fixed` and `box-shadow: -20px 0 20px 1px $colour-searchbox-shadow;`  and use `right: -100%;` with a `width: 70%; & z-index: 1;` to ensure that it occupies that much of the screen space. Ensure to add the search icon inside the after pseudo class: `&::after { @extend %icon-pseudo; @extend %icon-pseudo--search; }`. 
 
-• 
+• Use JavaScript toggle function to grab data attributes `var togglees = document.querySelectorAll( toggler.getAttribute( 'data-togglees' ) );` and add `toggler.classList.add( 'toggler--b' );` adding the `right: 0%;` to make the pane visible/invisible on click.
 
 **Link(s) to work**
 
