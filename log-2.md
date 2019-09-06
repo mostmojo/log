@@ -301,7 +301,19 @@
 	} )();
 ```
 
-• The above JS function selects all the attributes with `data-togglees` , checks to see if the `toggler` class exists and replaces the modifier class `--a` with `--b` which is the `closing` vs the `search` icon.
+• The above JS function selects all the attributes with `data-togglees` , checks to see if the `toggler` class exists and replaces the modifier class `--a` with `--b` which is the `closing` vs the `search` icon. Mark up:
+```
+<div class="search-box">
+	<form class="search-box__form search-box__form--icon" action="{{ url( 'search' ) }}">
+		<label for="search-box" class="invisible">Search</label>
+		<input type="text" id="search-box" name="q" placeholder="Search" class="search-box__text-input" value="{{ query ?? '' }}">
+	</form>
+</div>
+
+and
+
+<button class="header__search toggler" data-togglees=".search-box" aria-label="Search"></button>
+```
 
 • When absolutely positioned elements, ensure that the icon is moving according to specific breakpoints like so. Remember that icons act like fonts so sizing and color can be altered the same way as fonts with `color` and `font-size`: 
 
