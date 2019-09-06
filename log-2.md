@@ -303,6 +303,38 @@
 
 • The above JS function selects all the attributes with `data-togglees` , checks to see if the `toggler` class exists and replaces the modifier class `--a` with `--b` which is the `closing` vs the `search` icon.
 
+• When absolutely positioned elements, ensure that the icon is moving according to specific breakpoints like so. Remember that icons act like fonts so sizing and color can be altered the same way as fonts with `color` and `font-size`: 
+
+```
+.search-box__form {
+	&--icon {
+		&::after {
+			@extend %icon-pseudo;
+			@extend %icon-pseudo--search;
+			@include font-size( epsilon );
+			color: $colour-search-icon;
+			position: absolute;
+			right: 31.5rem;
+			top: 12.5rem;
+			@include media( c ) {
+				right: 24.5rem;
+			}
+			@include media( d ) {
+				right: 20.5rem;
+			}
+			@include media( e ) {
+				right: 16.5rem;
+			}
+			@include media( f ) {
+				right: 4.5rem;
+			}
+			@include media( g ) {
+				right: 1.5rem;
+			}
+		}
+	}
+}
+```
 
 **Link(s) to work**
 
