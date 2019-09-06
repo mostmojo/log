@@ -265,3 +265,46 @@
 
 1. [Search bar](https://github.com/ten4design/goppion/compare/search-bar?expand=1)
 
+-----
+
+### Day 18: Friday, 6th September, 2019
+
+**Today's Progress**
+
+• Examine the `toggler` function for adding/removing classes, for search vs closing icons.
+```
+( function () {
+		// Toggle handling
+		function handleToggle( toggler ) {
+			var togglees = document.querySelectorAll( toggler.getAttribute( 'data-togglees' ) );
+			return function () {
+				for ( var i = 0; i < togglees.length; i += 1 ) {
+					if ( togglees[i].classList.contains( 'toggled' ) ) {
+						togglees[i].classList.remove( 'toggled' );
+						continue;
+					}
+					togglees[i].classList.add( 'toggled' );
+				}
+				if ( toggler.classList.contains( 'toggler--a' ) ) {
+					toggler.classList.remove( 'toggler--a' );
+					toggler.classList.add( 'toggler--b' );
+					return;
+				}
+				toggler.classList.remove( 'toggler--b' );
+				toggler.classList.add( 'toggler--a' );
+			};
+		}
+		var togglers = document.querySelectorAll( '.toggler' );
+		for ( var i = 0; i < togglers.length; i += 1 ) {
+			togglers[i].addEventListener( 'click', handleToggle( togglers[i] ) );
+		}
+	} )();
+```
+
+• The above JS function selects all the attributes with `data-togglees` , checks to see if the `toggler` class exists and replaces the modifier class `--a` with `--b` which is the `closing` vs the `search` icon.
+
+
+**Link(s) to work**
+
+1. [Toggler](https://github.com/ten4design/goppion/blob/master/raw/js/main.js#L68)
+
