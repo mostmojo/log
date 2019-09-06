@@ -309,9 +309,9 @@
 		<input type="text" id="search-box" name="q" placeholder="Search" class="search-box__text-input" value="{{ query ?? '' }}">
 	</form>
 </div>
-
+```
 and
-
+```
 <button class="header__search toggler" data-togglees=".search-box" aria-label="Search"></button>
 ```
 
