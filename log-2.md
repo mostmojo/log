@@ -315,7 +315,7 @@ and
 <button class="header__search toggler" data-togglees=".search-box" aria-label="Search"></button>
 ```
 
-• When absolutely positioned elements, ensure that the icon is moving according to specific breakpoints like so. Remember that icons act like fonts so sizing and color can be altered the same way as fonts with `color` and `font-size`: 
+• When `position: absolute` elements, ensure that the icon is moving according to specific breakpoints like so. Remember that icons act like fonts so sizing and color can be altered the same way as fonts with `color` and `font-size`: 
 
 ```
 .search-box__form {
