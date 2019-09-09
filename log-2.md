@@ -4,7 +4,7 @@
 
 **Today's Progress**
 
-• Develop a client's page where a straight line was needed from the design. Utilize `::before` & `::after` pseudo classes on a parent div to accurately portray the line. Lesson: Do not use pseudo classes on a parent `<img>` div as that's self closing and does not have pseudo classes!
+• Develop a client page where a straight line was needed from the design. Utilize `::before` & `::after` pseudo classes on a parent div to accurately portray the line. Lesson: Do not use pseudo classes on a parent `<img>` div as that's self closing and does not have pseudo classes!
 
 • Learn about pulling dates from craft with `{{ entry.postDate | date("M d, Y") }}` and their various formats.
 
