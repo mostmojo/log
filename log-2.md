@@ -301,7 +301,7 @@
 	} )();
 ```
 
-• The above JS function selects all the attributes with `data-togglees` , checks to see if the `toggler` class exists and replaces the modifier class `--a` with `--b` which is the `closing` vs the `search` icon. Mark up:
+• This JS function selects all the attributes with `data-togglees` , checks to see if the `toggler` class exists and replaces the modifier class `--a` with `--b` which is the `closing` vs the `search` icon. Mark up:
 ```
 <div class="search-box">
 	<form class="search-box__form search-box__form--icon" action="{{ url( 'search' ) }}">
