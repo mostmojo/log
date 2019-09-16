@@ -350,5 +350,5 @@ and
 
 **Link(s) to work**
 
-1. [Toggler](https://github.com/ten4design/goppion/blob/master/raw/js/main.js#L68)
+1. [Togglers](https://github.com/ten4design/goppion/blob/master/raw/js/main.js#L68)
 
