@@ -358,7 +358,7 @@ and
 
 **Today's Progress**
 
-• Dive into python via codecademy to get a taste of syntax/basics. Basic variable declarations with `color=red` and `imports` for external libraries. E.g. `str(), int(), float()` conversions and `print`. 
+• Dive into python via codecademy to get a taste of syntax/basics. Basic variable declarations with `color=red` and value converters (integers to strings or floats). Ex. `str(), int(), float()` conversions and `print`. 
 
 • Download/install Anaconda GUI and play with jupyter notebook. 
 
