@@ -352,3 +352,27 @@ and
 
 1. [Togglers](https://github.com/ten4design/goppion/blob/master/raw/js/main.js#L68)
 
+-----
+
+### Day 19: Friday, 18th October, 2019
+
+**Today's Progress**
+
+• Dive into python via codecademy to get a taste of syntax/basics. Basic variable declarations with `color=red` and `imports` for external libraries. E.g. `str(), int(), float()` conversions and `print`. 
+
+• Download/install Anaconda GUI and play with jupyter notebook. 
+
+• Use python's replacement operator `%02d` and import dates from its external `datetime` library like so:
+```
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+```
+
+• Look further into django docs for quick web app builds.
+
+**Link(s) to work**
+
+1. [Django docs](https://docs.djangoproject.com/en/2.2/)
+
