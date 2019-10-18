@@ -354,7 +354,7 @@ and
 
 -----
 
-### Day 19: Friday, 18th October, 2019
+### Day 19: Friday, 18th October, 2019 (Learning resumes! Yay)
 
 **Today's Progress**
 
@@ -366,7 +366,6 @@ and
 ```
 from datetime import datetime
 now = datetime.now()
-
 print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
 ```
 
