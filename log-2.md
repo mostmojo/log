@@ -375,3 +375,32 @@ print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour,
 
 1. [Django docs](https://docs.djangoproject.com/en/2.2/)
 
+-----
+
+### Day 20: Tuesday, 22nd October, 2019
+
+**Today's Progress**
+
+• Comparators `> < = !=`, Booleans ( `True False`), Conditionals (with python syntax - `elif, ():`)
+```
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80:
+        return "B"
+    elif grade >= 70:
+        return "C"
+    elif grade >= 65:
+        return "D"
+    else:
+        return "F"
+```
+• Skin out company infrastructure via consultation to understand needs and create entire architecture using cloud services, etc.
+
+• Volunteer for JS-based talk in Cyprus
+
+**Link(s) to work**
+
+1. [CC - Python](https://www.codecademy.com/learn/learn-python)
+2. [CyprusJS](https://cyprusjs.org/)
+
