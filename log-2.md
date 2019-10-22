@@ -399,8 +399,11 @@ def grade_converter(grade):
 
 • Volunteer for JS-based talk in Cyprus
 
+• Look into DataSci track for self-learning via DataCamp
+
 **Link(s) to work**
 
 1. [CC - Python](https://www.codecademy.com/learn/learn-python)
 2. [CyprusJS](https://cyprusjs.org/)
+3. [DataCamp](https://www.datacamp.com/tracks/data-scientist-with-python)
 
