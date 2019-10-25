@@ -407,3 +407,21 @@ def grade_converter(grade):
 2. [CyprusJS](https://cyprusjs.org/)
 3. [DataCamp](https://www.datacamp.com/tracks/data-scientist-with-python)
 
+-----
+
+### Day 21: Friday, 25th October, 2019 
+
+**Today's Progress**
+
+• Look into React Native docs for potential iOS/Android app build. 
+
+• Use RN syntax, which is like JSX to write/fetch styling in App.js like so: ` <Text style={styles.paragraph}>`, paragraph being an object with key/value pairs in the `styles` variable. 
+
+• Create separate component for styling the app image and text. Use `export default class AssetExample extends React.Component` to export it into the App.js parent. Import it like so: `import AssetExample from './components/AssetExample';` - Same shizzle as React! :) 
+
+**Link(s) to work**
+
+1. [App](https://snack.expo.io/Byj8kQecH)
+2. [RN docs](https://facebook.github.io/react-native/docs/getting-started)
+
+-----
