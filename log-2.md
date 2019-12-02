@@ -430,7 +430,7 @@ def grade_converter(grade):
 
 **Today's Progress**
 
-• Start DataCamp's Data Analyst w/ Python route. Learn about `Data Frames` and dot notation to query rows in a data set with `print(credit_records.head())` to show first 5 results.
+• Start DataCamp's Data Analyst w/ Python route. Learn about `Data Frames` and dot notation to query rows in a data set with `print(credit_records.head())` to show first 5 results. Environment: `pandas` for data structures and tabular manipulation.
 
 • Query `cols` with `[]` in case they have spaces or special characters like so: `suspect = credit_records['suspect'].` If they don't use dot notation; `price = credit_records.price`. Use `.inspect` to check out your DB.
 
