@@ -434,6 +434,8 @@ def grade_converter(grade):
 
 • Query `cols` with `[]` in case they have spaces or special characters like so: `suspect = credit_records['suspect'].` If they don't use dot notation; `price = credit_records.price`. Use `.inspect` to check out your DB.
 
+• Apply logic to Data Frames to query specific data: `credit_records[credit_recrods.price > 20.00]`
+
 
 **Link(s) to work**
 
