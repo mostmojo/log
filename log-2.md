@@ -426,7 +426,7 @@ def grade_converter(grade):
 
 -----
 
-### Day 22: Monday, 2nd December, 2019 
+### Day 22: Monday, 2nd December, 2019 [Commence Data Camp Studies 🌀]
 
 **Today's Progress**
 
