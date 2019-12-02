@@ -436,10 +436,11 @@ def grade_converter(grade):
 
 • Apply logic to Data Frames to query specific data: `credit_records[credit_recrods.price > 20.00]`. If Column has more than two words, to query it use this notation: `not_poodle = mpr[mpr['Dog Breed'] != "Poodle"]` - notice the use of two square brackets.
 
+• Learn about `matplotlib` to print 2D graphs using the following package: `from matplotlib import pyplot as plt`, then we can do: `plt.plot(x_values, y_values)` and `plt.show`. For example: `plt.plot(ransom.letter, ransom.frequency)` where ransom is the data frame and anything after the `.` is the col name which will match the x & y axis from above arguments.
+
 
 **Link(s) to work**
 
 1. [DC](https://datacamp.com)
-
 
 -----
