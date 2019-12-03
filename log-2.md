@@ -451,6 +451,8 @@ def grade_converter(grade):
 **Today's Progress**
 
 • Use `plt.plot(deshaun.day_of_week, deshaun.hours_worked)` to query cols on deshaun's data frame to solve a 'case'.
-• 
+
+• Adding text to plots using: `plt.xlabel("Letter")` & `plt.ylabel("Frequency")` to add horizontal and vertical labels to plot.
+
 • 
 
