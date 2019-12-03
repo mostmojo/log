@@ -452,7 +452,7 @@ def grade_converter(grade):
 
 • Use `plt.plot(deshaun.day_of_week, deshaun.hours_worked)` to query cols on deshaun's data frame to solve a 'case'.
 
-• Adding text to plots using: `plt.xlabel("Letter")` & `plt.ylabel("Frequency")` to add horizontal and vertical labels to plot. Finally, use `plt.title("Ransom Note Letters")` to give it a title.
+• Adding text to plots using: `plt.xlabel("Letter")` & `plt.ylabel("Frequency")` to add horizontal and vertical labels to plot. Finally, use `plt.title("Ransom Note Letters")` to give it a title. To make reading plots easier, use `plt.plot(deshaun.days, deshaun.cases, label="Deshaun")` followed by `plt.legend()` to plot little lines that resemble the labels, that way the reader can easily distinguish what line does what when the graph is plotted.
 
 • 
 
