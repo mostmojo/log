@@ -444,3 +444,13 @@ def grade_converter(grade):
 1. [DC](https://datacamp.com)
 
 -----
+
+
+### Day 23: Tuesday, 3rd December, 2019 
+
+**Today's Progress**
+
+• Use `plt.plot(deshaun.day_of_week, deshaun.hours_worked)` to query cols on deshaun's data frame to solve a 'case'.
+• 
+• 
+
