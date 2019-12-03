@@ -454,5 +454,7 @@ def grade_converter(grade):
 
 • Adding text to plots using: `plt.xlabel("Letter")` & `plt.ylabel("Frequency")` to add horizontal and vertical labels to plot. Finally, use `plt.title("Ransom Note Letters")` to give it a title. To make reading plots easier, use `plt.plot(deshaun.days, deshaun.cases, label="Deshaun")` followed by `plt.legend()` to plot little lines that resemble the labels, that way the reader can easily distinguish what line does what when the graph is plotted.
 
-• Plot arbitrary text on graphs: `plt.text(xcoord, ycoord, "Text")` - e.g. `plt.text(5, 9, "Low Frequency")`. Modify text color with args: `plt.title("Title", fontsize=20, color="green")`
+• Plot arbitrary text on graphs: `plt.text(xcoord, ycoord, "Text")` - e.g. `plt.text(5, 9, "Low Frequency")`. Modify text color with args: `plt.title("Title", fontsize=20, color="green")`.
+
+• Style graph color: `plt.plot(x, y1, color="violet")`, `linewidth=7`, `linestyle="--"`, `marker="x"` - all ways to alter line styles. Also, `plt.style.use('default')` or seaborn, ggplot are "template" examples of plotting styles.
 
