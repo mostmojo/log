@@ -458,3 +458,4 @@ def grade_converter(grade):
 
 • Style graph color: `plt.plot(x, y1, color="violet")`, `linewidth=7`, `linestyle="--"`, `marker="x"` - all ways to alter line styles. Also, `plt.style.use('default')` or seaborn, ggplot are "template" examples of plotting styles.
 
+-----
