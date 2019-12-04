@@ -463,7 +463,9 @@ def grade_converter(grade):
 
 **Today's Progress**
 
-• Use `print(plt.style.available)` in console to see available 'template' styles, prior to applying `plt.style.use('<insert style here>')`
+• Use `print(plt.style.available)` in console to see available 'template' styles, prior to applying `plt.style.use('<insert style here>')`.
+
+• Remember that plotting consists of the following `plt.plot(ransom.letter, ransom.frequency, label="Ransom", linestyle=':', color='gray')` - plotting letters on x axis, frequency on y axis, with labels and linestyle. Then use `plt.show()` to execute.
 
 -----
 
