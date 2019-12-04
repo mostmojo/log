@@ -463,7 +463,7 @@ def grade_converter(grade):
 
 **Today's Progress**
 
-• Use `print(plt.style.available)` in console to see available 'template' styles
+• Use `print(plt.style.available)` in console to see available 'template' styles, prior to applying `plt.style.use('<insert style here>')`
 
 -----
 
