@@ -445,7 +445,6 @@ def grade_converter(grade):
 
 -----
 
-
 ### Day 23: Tuesday, 3rd December, 2019 
 
 **Today's Progress**
@@ -459,3 +458,12 @@ def grade_converter(grade):
 • Style graph color: `plt.plot(x, y1, color="violet")`, `linewidth=7`, `linestyle="--"`, `marker="x"` - all ways to alter line styles. Also, `plt.style.use('default')` or seaborn, ggplot are "template" examples of plotting styles.
 
 -----
+
+### Day 24: Wednesday, 4th December, 2019 
+
+**Today's Progress**
+
+• Use `print(plt.style.available)` in console to see available 'template' styles
+
+-----
+
