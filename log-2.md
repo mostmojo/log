@@ -488,5 +488,13 @@ plt.show()
 • Bar chart plot: `plt.bar(df.precinct, df.pets_abducted, yerr=df.error)`, followed by `plt.ylabel('Pet Abductions')
 ` where ylabel only needed since xlabel is given. `yerr` is to define errors w/ standard deviation.
 
+• Stacked bar chart plots define two elements in one column. E.g. 
+```
+plt.bar(df.precinct, df.dog, label='Dog')
+plt.bar(df.precinct, df.cat, bottom=df.dog, label='Cat')
+
+plt.legend()
+plt.show()
+```
 -----
 
