@@ -485,8 +485,8 @@ plt.xlabel('Longitude')
 plt.show()
 ```
 
-• Bar chart plot: `plt.bar(df.precinct, df.pets_abducted)`, followed by `plt.ylabel('Pet Abductions')
-` where ylabel only needed since xlabel is given.
+• Bar chart plot: `plt.bar(df.precinct, df.pets_abducted, yerr=df.error)`, followed by `plt.ylabel('Pet Abductions')
+` where ylabel only needed since xlabel is given. `yerr` is to define errors w/ standard deviation.
 
 -----
 
