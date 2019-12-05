@@ -475,7 +475,7 @@ def grade_converter(grade):
 
 • Scatter plot: `plt.scatter(df.age, df.height)` - same as `plt.plot` where arg 1 is x axis and arg 2 is y axis. Labeling is also identical: `plt.xlabel('Age (in months)')` & `plt.ylabel('Heightc(in inches)')` followed by `plt.show()`.
 
-• 
+• Marker transparency as an arg can be used like so: `alpha=0.1` - `plt.scatter(df.age, df.height, alpha=0.1)` to avoid chaotic graphs when there's an excess of data plotted.
 
 -----
 
