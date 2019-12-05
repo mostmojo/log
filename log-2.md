@@ -469,3 +469,13 @@ def grade_converter(grade):
 
 -----
 
+### Day 25: Thurssday, 5th December, 2019 
+
+**Today's Progress**
+
+• Scatter plot: `plt.scatter(df.age, df.height)` - same as `plt.plot` where arg 1 is x axis and arg 2 is y axis. Labeling is also identical: `plt.xlabel('Age (in months)')` & `plt.ylabel('Heightc(in inches)')` followed by `plt.show()`.
+
+• 
+
+-----
+
