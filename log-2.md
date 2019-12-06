@@ -519,10 +519,16 @@ plt.show()
 ```
 • Histograms w/ `matplotlib`. Use `plt.hist(gravel.mass) & plt.show()` to plot a histogram. To change the # of bins - `plt.hist(data, bins=nbins)`, eg. `plt.hist(gravel.mass, bins=40)`. To change the range: `plt.hist(data, range=(xmin, xmax))`, eg. `plt.hist(gravel.mass, range=(50, 100))`. To normalize histograms set `sum of bar area=1` using `density=True`- `plt.hist(male_weight, density=True)` & `plt.hist(female_weight, density=True)`.
 
-* Note: 
+Note: 
 
 `range` sets the minimum and maximum datapoints that we will include in our histogram.
 
 `bins` sets the number of points in our histogram.
+
+• Recap: Modules: `import pandas as pd` and `import numpy as np` - data frames that store tabular data. `.head()` and `.info()` can be called. Row selection w/ logic: `reports[report.suspect == 'Freddy' ]`. Line plots: `from matplotlib import pyplot as plt`, `plt.plot()` w/ args, labels, legends. Also, used `plt.scatter(), .bar(), .hist()` to solve the case of the missing doggy! :)
+
+**Link(s) to work**
+
+1. [Complete Intro to Data Science in Python](https://www.datacamp.com/statement-of-accomplishment/course/e80ec36b188511b2d2a0b0c749615cf08dc76a5c)
 
 -----
