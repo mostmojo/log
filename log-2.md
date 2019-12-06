@@ -503,6 +503,7 @@ plt.show()
 **Today's Progress**
 
 • Finish bars & stacked bars with a refresher exercise on hours vs desk/field work to determine which officer put in most labor and where.Ensure to query the `hours data frame`, with the correct `cols` and `labels`, which then call for `.legend()` & `.show()` to display like so:
+
 ```
 # Plot the number of hours spent on desk work
 plt.bar(hours.officer, hours.desk_work, label='Desk Work')
@@ -516,4 +517,6 @@ plt.legend()
 # Display the plot
 plt.show()
 ```
+• Histograms w/ `matplotlib`. Use `plt.hist(gravel.mass) & plt.show()` to plot a histogram. To change the # of bins - `plt.hist(data, bins=nbins)`, eg. `plt.hist(gravel.mass, bins=40)`. To change the range: `plt.hist(data, range=(xmin, xmax))`, eg. `plt.hist(gravel.mass, range=(50, 100))`. To normalize histograms set `sum of bar area=1` using `density=True`- `plt.hist(male_weight, density=True)` & `plt.hist(female_weight, density=True)`.
+
 -----
