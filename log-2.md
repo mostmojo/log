@@ -520,8 +520,9 @@ plt.show()
 • Histograms w/ `matplotlib`. Use `plt.hist(gravel.mass) & plt.show()` to plot a histogram. To change the # of bins - `plt.hist(data, bins=nbins)`, eg. `plt.hist(gravel.mass, bins=40)`. To change the range: `plt.hist(data, range=(xmin, xmax))`, eg. `plt.hist(gravel.mass, range=(50, 100))`. To normalize histograms set `sum of bar area=1` using `density=True`- `plt.hist(male_weight, density=True)` & `plt.hist(female_weight, density=True)`.
 
 * Note: 
--`range` sets the minimum and maximum datapoints that we will include in our histogram.
 
-- `bins` sets the number of points in our histogram.
+`range` sets the minimum and maximum datapoints that we will include in our histogram.
+
+`bins` sets the number of points in our histogram.
 
 -----
