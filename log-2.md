@@ -469,7 +469,7 @@ def grade_converter(grade):
 
 -----
 
-### Day 25: Thurssday, 5th December, 2019 
+### Day 25: Thursday, 5th December, 2019 
 
 **Today's Progress**
 
