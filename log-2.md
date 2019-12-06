@@ -498,3 +498,22 @@ plt.show()
 ```
 -----
 
+### Day 26: Friday, 6th December, 2019 
+
+**Today's Progress**
+
+• Finish bars & stacked bars with a refresher exercise on hours vs desk/field work to determine which officer put in most labor and where.Ensure to query the `hours data frame`, with the correct `cols` and `labels`, which then call for `.legend()` & `.show()` to display like so:
+```
+# Plot the number of hours spent on desk work
+plt.bar(hours.officer, hours.desk_work, label='Desk Work')
+
+# Plot the hours spent on field work on top of desk work
+plt.bar(hours.officer, hours.field_work, bottom=hours.desk_work, label='Field Work')
+
+# Add a legend
+plt.legend()
+
+# Display the plot
+plt.show()
+```
+-----
