@@ -532,3 +532,11 @@ Note:
 1. [Complete Intro to Data Science in Python](https://www.datacamp.com/statement-of-accomplishment/course/e80ec36b188511b2d2a0b0c749615cf08dc76a5c)
 
 -----
+
+### Day 27: Saturday, 7th December, 2019 
+
+**Today's Progress**
+
+• Recap of Intro to Data Science in python with mobile exercise challenges.
+
+-----
