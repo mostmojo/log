@@ -434,7 +434,7 @@ def grade_converter(grade):
 
 • Query `cols` with `[]` in case they have spaces or special characters like so: `suspect = credit_records['suspect'].` If they don't use dot notation; `price = credit_records.price`. Use `.inspect` to check out your DB.
 
-• Apply logic to Data Frames to query specific data: `credit_records[credit_recrods.price > 20.00]`. If Column has more than two words, to query it use this notation: `not_poodle = mpr[mpr['Dog Breed'] != "Poodle"]` - notice the use of two square brackets.
+• Apply logic to Data Frames to query specific data: `credit_records[credit_records.price > 20.00]`. If Column has more than two words, to query it use this notation: `not_poodle = mpr[mpr['Dog Breed'] != "Poodle"]` - notice the use of two square brackets.
 
 • Learn about `matplotlib` to print 2D graphs using the following package: `from matplotlib import pyplot as plt`, then we can do: `plt.plot(x_values, y_values)` and `plt.show`. For example: `plt.plot(ransom.letter, ransom.frequency)` where ransom is the data frame and anything after the `.` is the col name which will match the x & y axis from above arguments. Then use: `plt.show()` to open graph in new window.
 
@@ -546,6 +546,9 @@ Note:
 **Today's Progress**
 
 • Recap of data visualization library `matplotlib` and remember `import matplotlib.pyplot as plt` to bring it in, and `plt.show()` fn at the end to reveal.
+
+• `print(year[-1])` to access the last element in the years array. 
+
 
 **Link(s) to work**
 
