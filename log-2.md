@@ -549,6 +549,8 @@ Note:
 
 • `print(year[-1])` to access the last element in the years array. 
 
+• Displaying data on a logarithmic scale: `plt.xscale('log')`, on a scatter plot.
+
 
 **Link(s) to work**
 
