@@ -553,6 +553,8 @@ Note:
 
 • `help(plt.hist)` to view more info in terminal. When plotting a histogram, add bins next to value of `x` - `hist(x, bins=10)`
 
+• `plt.clf()` will just clear the figure - you can still paint another plot onto it. Goes hand in hand with `plt.show()`
+
 
 **Link(s) to work**
 
