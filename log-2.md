@@ -553,7 +553,9 @@ Note:
 
 • `help(plt.hist)` to view more info in terminal. When plotting a histogram, add bins next to value of `x` - `hist(x, bins=10)`
 
-• `plt.clf()` will just clear the figure - you can still paint another plot onto it. Goes hand in hand with `plt.show()`
+• `plt.clf()` will just clear the figure - you can still paint another plot onto it. Goes hand in hand with `plt.show()`.
+
+• Add historical data to line plot: if `year = [2000, 2001, 2002, ..., 2019]`, adding more data is easy: `year = [2020] + year`. That reassignment will add next element to array. `plt.xticks & plt.yticks` can be used to match/rename axis labels with arrays. E.g. `plt.yticks([2, 4, 6], ['2B', '4B', '6B'])` will add the 'B's to the elements of that array and match them, to showcase 'billions of years'.
 
 
 **Link(s) to work**
