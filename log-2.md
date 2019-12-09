@@ -551,7 +551,7 @@ Note:
 
 • Displaying data on a logarithmic scale: `plt.xscale('log')`, on a scatter plot.
 
-• `help(plt.hist)` to view more info in terminal
+• `help(plt.hist)` to view more info in terminal. When plotting a histogram, add bins next to value of `x` - `hist(x, bins=10)`
 
 
 **Link(s) to work**
