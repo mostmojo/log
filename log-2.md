@@ -551,6 +551,8 @@ Note:
 
 • Displaying data on a logarithmic scale: `plt.xscale('log')`, on a scatter plot.
 
+• `help(plt.hist)` to view more info in terminal
+
 
 **Link(s) to work**
 
