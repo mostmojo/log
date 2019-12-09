@@ -540,3 +540,11 @@ Note:
 • Recap of Intro to Data Science in python with mobile exercise challenges.
 
 -----
+
+### Day 28: Monday, 8th December, 2019 
+
+**Today's Progress**
+
+• Recap of data visualization library `matplotlib` and remember `import matplotlib.pyplot as plt` to bring it in, and `plt.show()` fn at the end to reveal.
+
+-----
