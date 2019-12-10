@@ -568,7 +568,7 @@ Note:
 
 **Today's Progress**
 
-• Continue data visualizations with `numpy`. 
+• Continue data visualizations with `numpy`. Below is a recap of `sizing` and using numpy arrays to double up the scale of dots.
 ```
 # Import numpy as np
 import numpy as np
