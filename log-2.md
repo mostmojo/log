@@ -607,3 +607,5 @@ world= { "afghanistan: 30, "albania": 3, "algeria": 39 }
 world["albania"] = 3 (much quicker and more efficient to use)
 ```
 • python method `dictionary.keys()` reveals all keys in a dictionary (aka object).
+
+•  Keys have to be immutable. Select, Update, Remove is just like objects in JS: `world['sealand']=0.000027` - adds this value to the world dictionary. `world['sealand']=0.000028` updates it. `del(world['sealand'])` deletes it. Lists are better when collection of values, order matters and entire subset is to be selected vs Dictionaries - when lookup table necessary with unique values - faster.
