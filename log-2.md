@@ -615,3 +615,5 @@ world["albania"] = 3 (much quicker and more efficient to use)
 • `pandas` - used for high level data manipulation, with multiple data types, built on numpy. Cols resemble variables. Rows resemble observations. Keys act as col labels, values -> data, column by column. `import pandas as pd` `brics = pd.DataFrame(dict)`. DFs have automatic indexes which can be replaced like so: `brics.index=["BR", "RU", "IN"]`.
 
 • Reading from CSV file: `brics= pd.read_csv("path/to/brics.csv", index_col=0)` - removes the automatically placed column.
+
+•  Build dataframe from dictionary(object): `cars = pd.DataFrame(my_dict)`
