@@ -593,3 +593,16 @@ plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
 plt.show()
 ```
 • Adding additional customizations to plots is as easy as continuing the arguments. E.g. `plt.scatter(x=gdp_cap, y=life_exp, s=np.array(pop) * 2, c=col, alpha=0.8)` - making it easier to interpret. Adding grid lines: `plt.grid(True)` before `plt.show()`.
+
+• Normal **lists** are long and inconvenient as accessing 'arrays' needs more code. E.g. - 
+```
+pop=[30, 3, 39]
+countries=["afghanistan", "albania", "algeria"]
+index_albania= countries.index("albania") = 1 (to grab the index)
+pop[index_albania]=3 (to get the same index from pop array)
+```
+• **Dictionaries** (like objects in JS) have `key:value` pairs that can be accessed with curly braces.
+```
+world= { "afghanistan: 30, "albania": 3, "algeria": 39 }
+world["albania"] = 3 (much quicker and more efficient to use)
+```
