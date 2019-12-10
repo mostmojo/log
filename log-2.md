@@ -606,3 +606,4 @@ pop[index_albania]=3 (to get the same index from pop array)
 world= { "afghanistan: 30, "albania": 3, "algeria": 39 }
 world["albania"] = 3 (much quicker and more efficient to use)
 ```
+• python method `dictionary.keys()` reveals all keys in a dictionary (aka object).
