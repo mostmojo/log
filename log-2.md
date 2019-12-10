@@ -592,4 +592,4 @@ plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
 # Display the plot
 plt.show()
 ```
-
+• Adding additional customizations to plots is as easy as continuing the arguments. E.g. `plt.scatter(x=gdp_cap, y=life_exp, s=np.array(pop) * 2, c=col, alpha=0.8)` - making it easier to interpret. Adding grid lines: `plt.grid(True)` before `plt.show()`.
