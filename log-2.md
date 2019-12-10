@@ -541,7 +541,7 @@ Note:
 
 -----
 
-### Day 28: Monday, 8th December, 2019 
+### Day 28: Monday, 9th December, 2019 
 
 **Today's Progress**
 
@@ -563,3 +563,33 @@ Note:
 1. [Python for Data Sci cheat sheet](https://datacamp-community-prod.s3.amazonaws.com/e30fbcd9-f595-4a9f-803d-05ca5bf84612)
 
 -----
+
+### Day 29: Tuesday, 10th December, 2019 
+
+**Today's Progress**
+
+• Continue data visualizations with `numpy`. 
+```
+# Import numpy as np
+import numpy as np
+
+# Store pop as a numpy array: np_pop
+np_pop = np.array(pop)
+
+# Double np_pop --> Because np_pop is a Numpy array, each array element will be doubled.
+np_pop = np_pop * 2
+
+# Update: set s argument to np_pop
+plt.scatter(gdp_cap, life_exp, s = np_pop)
+
+# Previous customizations
+plt.xscale('log') 
+plt.xlabel('GDP per Capita [in USD]')
+plt.ylabel('Life Expectancy [in years]')
+plt.title('World Development in 2007')
+plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
+
+# Display the plot
+plt.show()
+```
+
