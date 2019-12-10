@@ -611,3 +611,7 @@ world["albania"] = 3 (much quicker and more efficient to use)
 •  Keys have to be immutable. Select, Update, Remove is just like objects in JS: `world['sealand']=0.000027` - adds this value to the world dictionary. `world['sealand']=0.000028` updates it. `del(world['sealand'])` deletes it. Lists are better when collection of values, order matters and entire subset is to be selected vs Dictionaries - when lookup table necessary with unique values - faster.
 
 • Accessing dictionaries within dictionaries (objects w/i objects) uses *chaining*. Same as dot notation in JS. `europe['spain']['capital]` - accesses a key within a key to get the value 'madrid'.
+
+• `pandas` - used for high level data manipulation, with multiple data types, built on numpy. Cols resemble variables. Rows resemble observations. Keys act as col labels, values -> data, column by column. `import pandas as pd` `brics = pd.DataFrame(dict)`. DFs have automatic indexes which can be replaced like so: `brics.index=["BR", "RU", "IN"]`.
+
+• Reading from CSV file: `brics= pd.read_csv("path/to/brics.csv", index_col=0)` - removes the automatically placed column.
