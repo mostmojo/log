@@ -616,4 +616,4 @@ world["albania"] = 3 (much quicker and more efficient to use)
 
 • Reading from CSV file: `brics= pd.read_csv("path/to/brics.csv", index_col=0)` - removes the automatically placed column.
 
-•  Build dataframe from dictionary(object): `cars = pd.DataFrame(my_dict)`
+•  Build dataframe from dictionary(object): `cars = pd.DataFrame(my_dict)`.
