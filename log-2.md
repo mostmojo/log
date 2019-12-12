@@ -636,4 +636,6 @@ world["albania"] = 3 (much quicker and more efficient to use)
 
 •  Subdata Frames: `print(cars.loc[['RU', 'MOR'],['country', 'drives_right']])` - where first set of `[]` is `index labels` and second set is `col titles`.
 
+• Select `cols` only with `loc/iloc` - `cars.loc[:, 'country']` & `cars.iloc[:, 1]` (series) & `cars.loc[:,['country']]` & `cars.iloc[:,[1]]`
+
 -----
