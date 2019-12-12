@@ -617,3 +617,21 @@ world["albania"] = 3 (much quicker and more efficient to use)
 • Reading from CSV file: `brics= pd.read_csv("path/to/brics.csv", index_col=0)` - removes the automatically placed column.
 
 •  Build dataframe from dictionary(object): `cars = pd.DataFrame(my_dict)`.
+
+-----
+
+### Day 30: Thursday, 12th December, 2019 
+
+**Today's Progress**
+
+• Select column from DataFrame in CSV: `cars['cars_per_cap']` -> Panda Series
+
+• `cars[['cars_per_cap']]` -> Pandas DataFrame
+
+•  Reminder importing: `import pandas as pd` & `cars = pd.read_csv('cars.csv', index_col=0)`
+
+•  Selecting rows(observation) via indexing: `cars[0:5]`
+
+•  Selecting rows via `loc` & `iloc`: loc -> label based -> `cars.loc['RU']`. iloc -> integer based -> `cars.iloc[4]`
+
+-----
