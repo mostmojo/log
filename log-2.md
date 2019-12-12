@@ -630,8 +630,10 @@ world["albania"] = 3 (much quicker and more efficient to use)
 
 •  Reminder importing: `import pandas as pd` & `cars = pd.read_csv('cars.csv', index_col=0)`
 
-•  Selecting rows(observation) via indexing: `cars[0:5]`
+•  Select rows(observation) via indexing: `cars[0:5]`
 
-•  Selecting rows via `loc` & `iloc`: loc -> label based -> `cars.loc['RU']`. iloc -> integer based -> `cars.iloc[4]`
+•  Select rows via `loc` & `iloc`: loc -> label based -> `cars.loc['RU']`. iloc -> integer based -> `cars.iloc[4]`
+
+•  Subdata Frames: `print(cars.loc[['RU', 'MOR'],['country', 'drives_right']])` - where first set of `[]` is `index labels` and second set is `col titles`.
 
 -----
