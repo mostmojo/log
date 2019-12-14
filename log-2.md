@@ -639,3 +639,9 @@ world["albania"] = 3 (much quicker and more efficient to use)
 • Select `cols` only with `loc/iloc` - `cars.loc[:, 'country']` & `cars.iloc[:, 1]` (series) & `cars.loc[:,['country']]` & `cars.iloc[:, [1]]` (dataframes)
 
 -----
+
+### Day 31: Saturday, 14th December, 2019 
+
+**Today's Progress**
+
+• Comparisson operators - same as JS
