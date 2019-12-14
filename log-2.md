@@ -655,5 +655,5 @@ if condition :
 elif condition :
 	expression
 else :
-	condition
+	expression
 ```
