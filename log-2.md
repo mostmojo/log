@@ -646,4 +646,14 @@ world["albania"] = 3 (much quicker and more efficient to use)
 
 • Comparisson operators - same as JS
 
-• Numpy operators - querying an array: w/ `logical_and()`, `logical_or()`, `logical_not()`. E.g. `np.logical_and(bmi > 21, bmi < 22)`. 
+• Numpy operators - querying an array: w/ `logical_and()`, `logical_or()`, `logical_not()`. E.g. `np.logical_and(bmi > 21, bmi < 22)`.
+
+• Conditional operators (same as JS but diff syntax):
+```
+if condition :
+	expression
+elif condition :
+	expression
+else :
+	condition
+```
