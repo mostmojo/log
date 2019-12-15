@@ -657,3 +657,14 @@ elif condition :
 else :
 	expression
 ```
+
+-----
+
+### Day 32: Sunday, 15th December, 2019 
+
+**Today's Progress**
+
+• Filtering pandas dataframe. **1. Get column**: To get panda series, select df's column: `brics["area"]` or w/ alternatives: `brics.loc[:, "area"]` & `brics.iloc[:, 2]` would render same result. **2. Compare**: Then: `is_huge = brics["area"] > 8` to print a series of booleans. **3. Subset DF**: Saving result to a variable to later pass into square brackets: `brics[is_huge]` to only print the rows needed.  Alternatively, shorthand: `brics[brics["area"] > 8]`. 
+
+• Use boolean operators for selective results: `brics[np.logical_and(brics["area"] > 8, brics["area"] < 10)]` 
+
