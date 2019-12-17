@@ -668,3 +668,10 @@ else :
 
 • Use boolean operators for selective results: `brics[np.logical_and(brics["area"] > 8, brics["area"] < 10)]` 
 
+-----
+
+### Day 33: Tuesday, 17th December, 2019 
+
+**Today's Progress**
+
+• Recap of shorthand structure for Pandas Series: `sel = cars[cars['drives_right']]` - create var, store cars dataframe's column results, to later print it. 
