@@ -701,3 +701,14 @@ while error > 1:
 	error = error / 4
 	print(error)
 ```
+• Adding if/else statements in while loop:
+```
+offset = -6
+while offset != 0:
+	print("correcting...")
+	if offset  > 0:
+		offset = offset - 1
+	else:
+		offset = offset + 1
+	print(offset)
+```
