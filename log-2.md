@@ -681,10 +681,12 @@ else :
 cpc = cars["cars_per_cap"]
 many_cars = cpc > 500
 car_maniac = cars[many_cars]
+print(car_maniac)
 ```
 • Use numpy logical operators with `and` to select elements within a range.
 ```
 cpc = cars['cars_per_cap']
 between = np.logical_and(cpc > 100, cpc < 500)
 medium = cars[between]
+print(medium)
 ```
