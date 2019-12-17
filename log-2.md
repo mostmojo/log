@@ -690,3 +690,14 @@ between = np.logical_and(cpc > 100, cpc < 500)
 medium = cars[between]
 print(medium)
 ```
+• While loop (same as JS) - syntax: 
+```
+while condition: 
+	expression
+	
+e.g. 
+error = 50.0
+while error > 1:
+	error = error / 4
+	print(error)
+```
