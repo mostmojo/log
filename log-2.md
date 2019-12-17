@@ -675,3 +675,10 @@ else :
 **Today's Progress**
 
 • Recap of shorthand structure for Pandas Series: `sel = cars[cars['drives_right']]` - create var, store cars dataframe's column results, to later print it. 
+
+• Select observations with `cpc over 500` which is a `boolean series`. Store results in var and pass it into cars data frame to create a subset `many_cars` to render results. 
+```
+cpc = cars["cars_per_cap"]
+many_cars = cpc > 500
+car_maniac = cars[many_cars]
+```
