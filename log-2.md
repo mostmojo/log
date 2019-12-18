@@ -718,7 +718,7 @@ while offset != 0:
 
 **Today's Progress**
 
-• For loops (similar to JS) but with an index requires `enumerate`. 
+• For loops (similar to JS) but with an index requires `enumerate`. Ensure to always convert indices and variables to strings.
 ```
 for var in seq:
 	expression
@@ -731,7 +731,7 @@ for height in fam:
 	
 e.g. (with index)
 for index, height in enumerate(fam):
-	print("index " + str(index) + " :" + str(height)
+	print("index " + str(index) + " :" + str(height))
 ```
 
 -----
