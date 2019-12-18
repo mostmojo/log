@@ -712,3 +712,12 @@ while offset != 0:
 		offset = offset + 1
 	print(offset)
 ```
+-----
+
+### Day 34: Wednesday, 18th December, 2019 
+
+**Today's Progress**
+
+• 
+
+-----
