@@ -718,6 +718,20 @@ while offset != 0:
 
 **Today's Progress**
 
-• 
+• For loops (similar to JS) but with an index requires `enumerate`. 
+```
+for var in seq:
+	expression
+
+
+e.g. (without an index)
+fam = [1, 2, 3]
+for height in fam:
+	print(height)
+	
+e.g. (with index)
+for index, height in enumerate(fam):
+	print("index " + str(index) + " :" + str(height)
+```
 
 -----
