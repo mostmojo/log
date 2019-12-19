@@ -739,3 +739,20 @@ for x, y in house:
 ```
 
 -----
+
+### Day 34: Thursday, 19th December, 2019 
+
+**Today's Progress**
+
+• Looping through data structures as objects requires a key/value pair. By using method `.items()` on object, errors are prevented.
+
+```
+world = {
+"cyprus": "23.2",
+"greece": "33.1"
+}
+
+for k, v in world.items() :
+	print(k + "---" + str(v))
+
+```
