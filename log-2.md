@@ -744,7 +744,7 @@ for x, y in house:
 
 **Today's Progress**
 
-• Looping through data structures as objects requires a key/value pair. By using method `.items()` on object, errors are prevented.
+• Looping through data structures as dictionaries (objects) requires a key/value pair. By using method `.items()` on object, errors are prevented.
 
 ```
 world = {
@@ -756,3 +756,4 @@ for k, v in world.items() :
 	print(k + "---" + str(v))
 
 ```
+• Iterate over numpy array (Data Sci equivalent to python lists) use the following function: `for value in np.nditer(my_array)`
