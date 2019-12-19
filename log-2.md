@@ -732,6 +732,10 @@ for height in fam:
 e.g. (with index)
 for index, height in enumerate(fam):
 	print("index " + str(index) + " :" + str(height))
+
+for x, y in house:
+    print("the " + str(x) + " is " + str(y) + " sqm")
+    
 ```
 
 -----
