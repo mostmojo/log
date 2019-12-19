@@ -756,7 +756,7 @@ for k, v in world.items() :
 	print(k + "---" + str(v))
 
 ```
-• Iterate over numpy array (Data Sci equivalent to python lists) use the following function: `for value in np.nditer(my_array)`. See iteration of 2D numpy array.
+• Iterate over numpy array (Data Sci equivalent to python lists) use the following function: `for value in np.nditer(my_array)`. See iteration of 1D and 2D numpy array.
 ```
 import numpy as np
 for x in np_height :
