@@ -764,3 +764,21 @@ for x in np_height :
 for x in np.nditer(np.baseball) :
 	print(x)
 ```
+-----
+
+### Day 35: Monday, 23rd December, 2019 
+
+**Today's Progress**
+
+• Using pandas to loop through data structures with `for loops` and the `apply function`.
+```
+for lab, row in brics.iterrows() :
+	print(lab + ": " + row["capital"])
+```
+• Take each label and each row in a dataframe, iterate over the rows and find the number of characters per row, per country. Then assign these values to the column name_length using loc.
+```
+for lab, row in brics.iterrows() :
+	brics.loc[lab, "name_length"] = len(row["country"])
+print(brics)
+```
+• Shorthand, apply function. `brics["name_length"] = brics["country"].apply(len)`. Where `brics` is the dataframe, country is the `column title` and `len` is the function containing the length of characters, all assigned to a new column called `name_length`.
