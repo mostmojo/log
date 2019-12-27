@@ -797,3 +797,30 @@ for lab, row in cars.iterrows() :
 	cars.loc[lab, "COUNTRY"] = row["country"].upper()
 print(cars)
 ```
+
+-----
+
+### Day 36: Friday, 27th December, 2019
+
+**Today's Progress**
+
+• Random Generators.
+```
+import numpy as np
+np.random.rand()
+0.95382264
+```
+
+• Pseudo random numbers start from a seed. They are random but consistent. `np.random.seed(123)` e.g. -> 0.6987
+
+• Coin toss example
+```
+import numpy as np
+np.random.seed(123)
+coin = np.random.randint(0,2)
+print(coin) # 0
+if coin == 0:
+	print("heads")
+else:
+	print("tails")
+```
