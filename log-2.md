@@ -804,14 +804,14 @@ print(cars)
 
 **Today's Progress**
 
-• Random Generators.
+• Random Generators. `rand()` generates a random float b/w 0 and 1.
 ```
 import numpy as np
 np.random.rand()
 0.95382264
 ```
 
-• Pseudo random numbers start from a seed. They are random but consistent. `np.random.seed(123)` e.g. -> 0.6987
+• Pseudo random numbers start from a *seed*. `seed()` sets the random seed, so that results are reproducible between simulation. `np.random.seed(123)` e.g. -> 0.6987
 
 • Coin toss example
 ```
