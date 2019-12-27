@@ -835,3 +835,42 @@ for x in range(10) :
 	tails.append(tails[x] + coin)
 print(tails)
 ```
+
+-----
+
+### Day 36: Friday, 27th December, 2019
+
+**Today's Progress**
+
+• Random Generators. `rand()` generates a random float b/w 0 and 1.
+```
+import numpy as np
+np.random.rand()
+0.95382264
+```
+
+• Pseudo random numbers start from a *seed*. `seed()` sets the random seed, so that results are reproducible between simulation. `np.random.seed(123)` e.g. -> 0.6987
+
+• Coin toss example
+```
+import numpy as np
+np.random.seed(123)
+coin = np.random.randint(0,2)
+print(coin) # 0
+if coin == 0:
+	print("heads")
+else:
+	print("tails")
+```
+
+• Heads or tails - Random Walk
+```
+import numpy as np
+np.random.seed(123)
+tails = [0]
+for x in range(10) :
+	coin = np.random.randint(0,2)
+	tails.append(tails[x] + coin)
+print(tails)
+```
+• use `max()` to prevent steps from going below zero. `step = max(0, step - 1)`.
