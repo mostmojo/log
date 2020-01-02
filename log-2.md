@@ -890,3 +890,34 @@ for x in range(10000) :
 plt.hist(final_tails, bins = 10)
 plt.show()
 ```
+-----
+
+### Day 37: Monday, 2nd January, 2020
+
+**Today's Progress**
+
+• User defined functions. How to define a function
+```
+def square() :
+	new_value = 4 ** 2
+	print(new_value)
+square()
+```
+• Add function parameters. Inside the function, parameters. When function is called, arguments. Same as JS.
+```
+def square(value) :
+	new_value = value ** 2
+	print(new_value)
+square(4)
+16
+```
+• Return values from functions
+```
+def square(value) :
+	new_value = value ** 2
+	return new_value
+num = square(4)
+print(num)
+16
+```
+• `Docstrings` are descriptions placed under the function header between triple quotes ` '''...'''`
