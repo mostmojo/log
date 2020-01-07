@@ -947,4 +947,4 @@ result = raise_both(2, 3)
 print(result)
 (8,9)
 ```
-• Unpacking `nums` into `num1`, `num2`, `num3`: `num1, num2, num3 = nums` & constructing even nums: `even_nums = (2, num2, num3)` where the first value in the tuple is replaced with `2`. The other two values will be derived from the preloaded exercise.
+• Unpacking `nums` into `num1`, `num2`, `num3`: `num1, num2, num3 = nums` & constructing even_nums **tuple**: `even_nums = (2, num2, num3)` where the first value in the tuple is replaced with `2`. The other two values will be derived from the preloaded exercise.
