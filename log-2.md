@@ -921,3 +921,30 @@ print(num)
 16
 ```
 • `Docstrings` are descriptions placed under the function header between triple quotes ` '''...'''`
+
+-----
+
+### Day 38: Tuesday, 3rd January, 2020
+
+**Today's Progress**
+
+• Multiple parameters to return values.
+```
+def raise_to_power(v1, v2):
+	'''Raise v1 to the power of v2'''
+	new_value = v1 ** v2
+	return new_value
+```
+• Tuples are immutable. Thus, unmodifiable. Tuples used to display two outcomes with return. Always in brackets.
+```
+def raise_both(v1, v2):
+	'''Raise v1 to the power of v2 and vice versa'''
+	new_v1 = v1 ** v2
+	new_v2 = v2 ** v1
+	new_tuple = (new_v1, new_v2)
+	return new_tuple
+result = raise_both(2, 3)
+print(result)
+(8,9)
+```
+• Unpacking `nums` into `num1`, `num2`, `num3`: `num1, num2, num3 = nums` & constructing even nums: `even_nums = (2, num2, num3)` where the first value in the tuple is replaced with `2`. The other two values will be derived from the preloaded exercise.
