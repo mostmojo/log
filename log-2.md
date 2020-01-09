@@ -1036,7 +1036,7 @@ square(3)
 
 100
 ```
-• Altering using global
+• Altering using `global`. Keyword `nonlocal` can also be used to alter scope of inner functions rather than outer.
 ```
 # Create a string: team
 team = "teen titans"
