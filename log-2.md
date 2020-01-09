@@ -1062,3 +1062,18 @@ print(team)
 teen titans
 justice league
 ```
+• `import builtins` gives many built in methods like sum, minus to use.
+
+• Nested functions example. Similar to a `closure`
+```
+def mod2plus5(x1, x2, x3)
+	'''Returns remainder plus five of three values'''
+	def inner(x):
+		'''Returns remainder plus five of a value'''
+		return x % 2 + 5
+	return(inner(x1), inner(x2), inner(x3))
+print(mod2plus5(1, 2, 3))
+
+(6, 5, 6)
+	
+```
