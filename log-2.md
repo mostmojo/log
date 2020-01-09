@@ -1018,4 +1018,21 @@ print(result)
 
 {'en': 97, 'et': 1, 'und': 2}
 ```
+-----
 
+### Day 40: Thursday, 9th January, 2020
+
+**Today's Progress**
+
+• Scope and user defined functions. Not all objects are accessible everywhere in script. Scope consists of `global`, `local` and `built-in` scopes where python looks for local first, then global then built-in. If the keyword `global` is used to access global name, then that will replace the local scope and thus the value of the local call() will not work. E.g. `square(3)` below won't print 9, but 100.
+```
+new_val = 10
+def square(value):
+	'''Return square number'''
+	global new_val
+	new_val = new_val ** 2
+	return new_val
+square(3)
+
+100
+```
