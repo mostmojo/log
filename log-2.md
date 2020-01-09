@@ -1072,6 +1072,7 @@ def mod2plus5(x1, x2, x3)
 		'''Returns remainder plus five of a value'''
 		return x % 2 + 5
 	return(inner(x1), inner(x2), inner(x3))
+	
 print(mod2plus5(1, 2, 3))
 
 (6, 5, 6)
