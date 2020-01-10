@@ -1078,3 +1078,33 @@ print(mod2plus5(1, 2, 3))
 (6, 5, 6)
 	
 ```
+-----
+
+### Day 41: Friday, 10th January, 2020
+
+**Today's Progress**
+
+• Nested functions. Closures. Call the word hello a twice then thrice, with a closure.
+```
+# Define echo
+def echo(n):
+    """Return the inner_echo function."""
+
+    # Define inner_echo
+    def inner_echo(word1):
+        """Concatenate n copies of word1."""
+        echo_word = word1 * n
+        return echo_word
+
+    # Return inner_echo
+    return inner_echo
+
+# Call echo: twice
+twice = echo(2)
+
+# Call echo: thrice
+thrice = echo(3)
+
+# Call twice() and thrice() then print
+print(twice('hello'), thrice('hello'))
+```
