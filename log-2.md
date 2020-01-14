@@ -1138,3 +1138,41 @@ def echo_shout(word):
 # Call function echo_shout() with argument 'hello'
 echo_shout('hello')
 ```
+-----
+
+### Day 43: Tuesday, 14th January, 2020
+
+**Today's Progress**
+
+• Default and flexible arguments. E.g. `Default`
+```
+def power(num, pow=1):
+	'''Raise num to power of pow'''
+	new_val = num ** pow
+	return new_val
+	power(9,2)
+	81
+	power(9)
+	9, 1 # uses default value 1 if 2nd param not assigned
+```
+• E.g. `flexible` using `*args` in case number of args is unknown, can put many and `*args` keyword will handle
+```
+def all_args(*args):
+	'''Sum all values in *args together'''
+	# initialize sum
+	sum_all = 0
+	# Accumulate sum
+	for num in args:
+		sum_all += num
+	return sum_all
+```
+
+• E.g. `flexible` using `**kwargs` for key:value pairs which utilizes a dictionary
+```
+def print_all(**kwargs)
+	'''Print out key:val pairs in **kwargs'''
+	# Print out k:v pairs
+	for key, value in kwargs.items():
+	print(key + \" : \" + value)
+print_all(name="dumbledore", job="headmaster")	
+```
