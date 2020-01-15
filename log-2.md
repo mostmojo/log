@@ -1209,3 +1209,38 @@ print(big_no_echo)
 HEYHEYHEYHEYHEY!!!
 Hey!!!
 ```
+-----
+
+### Day 44: Wednesday, 15th January, 2020
+
+**Today's Progress**
+
+• Functions with variable length arguments `(*args)`. Remember: `args` are `tuples` - like `lists` but immutable. E.g.
+```
+# Define gibberish
+def gibberish(*args):
+    """Concatenate strings in *args together."""
+
+    # Initialize an empty string: hodgepodge
+    hodgepodge = ""
+
+    # Concatenate the strings in args
+    for word in args:
+        hodgepodge += word
+
+    # Return hodgepodge
+    return hodgepodge
+
+# Call gibberish() with one string: one_word
+one_word = gibberish("luke")
+
+# Call gibberish() with five strings: many_words
+many_words = gibberish("luke", "leia", "han", "obi", "darth")
+
+# Print one_word and many_words
+print(one_word)
+print(many_words)
+
+luke
+lukeleiahanobidarth
+```
