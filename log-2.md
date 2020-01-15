@@ -1324,3 +1324,16 @@ result2 = count_entries(tweets_df, 'lang', 'source')
 print(result1)
 print(result2)
 ```
+• `lambda` functions - quicker way to write functions w/o `def`. E.g.
+```
+raise_to_power = lambda x,y: x ** y
+raise_to_power(2,3)
+8
+```
+• Anonymous functions with `map` using `lambda`. Map takes 2 arguments. The function and the sequence -> `map(func, seq)` E.g.
+```
+nums = [48, 6, 9, 21, 1]
+square_all = map(lambda num: num ** 2, nums)
+print(list(square_all))
+[2304, 36, 81, 441, 1]
+```
