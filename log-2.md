@@ -1280,4 +1280,7 @@ result2 = count_entries(tweets_df, col_name='source')
 # Print result1 and result2
 print(result1)
 print(result2)
+{'en': 97, 'et': 1, 'und': 2}
+{'<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>': 24, '<a href="http://www.facebook.com/twitter" rel="nofollow">Facebook</a>': 1, ..... }
+
 ```
