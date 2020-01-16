@@ -1337,3 +1337,25 @@ square_all = map(lambda num: num ** 2, nums)
 print(list(square_all))
 [2304, 36, 81, 441, 1]
 ```
+-----
+
+### Day 45: Thursday, 16th January, 2020
+
+**Today's Progress**
+
+• Use `filter()` to filter out elements from a list that doesn't satisfy criteria. Remember that `lambda` functions take a function & sequence as args. E.g.
+
+```
+# Create a list of strings: fellowship
+fellowship = ['frodo', 'samwise', 'merry', 'pippin', 'aragorn', 'boromir', 'legolas', 'gimli', 'gandalf']
+
+# Use filter() to apply a lambda function over fellowship: result
+result = filter(lambda member: len(member) > 6 , fellowship)
+
+# Convert result to a list: result_list
+result_list = list(result)
+
+# Print result_list
+print(result_list)
+['samwise', 'aragorn', 'boromir', 'legolas', 'gandalf']
+```
