@@ -1373,3 +1373,24 @@ result = reduce(lambda item1, item2: item1 + item2, stark)
 # Print the result
 print(result)
 ```
+• Error handling. `Exceptions` caught during execution with `try/except`.
+```
+def sqrt(x):
+	try:
+		return x ** 0.5
+	except TypeError:
+		print('x must be int or float')
+sqrt(4)
+2.0
+```
+• `raise` - don't print/work if condition not met. E.g.
+```
+def sqrt(x):
+	'''Returns sqrt of a num'''
+	if x < 0
+		raise ValueError('x must be non-negative')
+	try: 
+		return x ** 0.5
+	except TypeError: 
+	print('x must be int or float')
+```
