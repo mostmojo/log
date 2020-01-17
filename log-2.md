@@ -1521,3 +1521,29 @@ FROM reviews;
 SELECT COUNT(DISTINCT birthdate)  # selects unique values from birthdate column in people table and displays count.
 FROM people; 
 ```
+• SQL filtering w/ numeric values. Remember `<>` means `not equal` by SQL standards. Also PostgreSQL uses single quotes.
+```
+SELECT title
+FROM films
+WHERE title = 'Metropolis';
+
+SELECT title
+FROM films
+WHERE release_year > 2000;
+
+SELECT COUNT(title)
+FROM films
+WHERE release_year < 2000;
+```
+
+• SQL filtering w/ text values. Date format in ISO uses `('YYYY-MM-DD')`.
+```
+SELECT *
+FROM films
+WHERE language = 'French';
+
+SELECT name, birthdate
+FROM people
+WHERE birthdate = ('1974-11-11');
+```
+ 
