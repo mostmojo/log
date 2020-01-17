@@ -1545,5 +1545,11 @@ WHERE language = 'French';
 SELECT name, birthdate
 FROM people
 WHERE birthdate = ('1974-11-11');
+
+SELECT *
+FROM films
+WHERE language = 'Spanish'
+AND release_year > 2000
+AND release_year < 2010;	# each AND query must be re-written per condition needed
 ```
  
