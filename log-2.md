@@ -1504,3 +1504,20 @@ result1 = count_entries(tweets_df, 'lang')
 # Print result1
 print(result1)
 ```
+• Start Intro to SQL module. `row = record`. `col = field`. `Query` = request data from DB. 
+```
+SELECT name FROM people; # name = column, people = table.
+
+SELECT *    # selects all cols from people table and displays only 10.
+FROM people
+LIMIT 10;
+
+SELECT DISTINCT role # selects unique mentions of role in roles table.
+FROM roles;
+
+SELECT COUNT(*) # selects entire reviews table and gives count of rows
+FROM reviews;
+
+SELECT COUNT(DISTINCT birthdate)  # selects unique values from birthdate column in people table and displays count.
+FROM people; 
+```
