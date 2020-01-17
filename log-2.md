@@ -1452,3 +1452,19 @@ def shout_echo(word1, echo=1):
 # Call shout_echo
 shout_echo("particle", echo=3)
 ```
+• Using a lambda function to filter out tweets that contain 'RT' as first two characters. Create a list and print the retweets.
+```
+# Select retweets from the Twitter DataFrame: result
+result = filter(lambda x: x[0:2] == 'RT', tweets_df['text'])
+
+# Create list from filter object result: res_list
+res_list = list(result)
+
+# Print all retweets in res_list
+for tweet in res_list:
+    print(tweet)
+    
+RT @BIackPplTweets: Young Donald trump meets his neighbor  https://t.co/RFlu17Z1eE
+RT @trumpresearch: @WaitingInBagdad @thehill Trump supporters have selective amnisia.
+RT @HouseCracka: 29,000+ PEOPLE WATCHING TRUMP LIVE ON ONE STREAM!!!
+```
