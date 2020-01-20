@@ -1612,3 +1612,19 @@ SELECT title, certification
 FROM films
 WHERE certification IN ('NC-17', 'R');
 ```
+• Using the `NULL & IS NULL` selector alongside the others learned. `NULL` is a missing/unknown value. To count the missing birthdates in `people` table w/ `IS NULL`.
+```
+SELECT COUNT(*)
+FROM people
+WHERE birthdate IS NULL;
+```
+• Filter missing values to get filled results w/ `IS NOT NULL`
+```
+SELECT name
+FROM people
+WHERE birthdate IS NOT NULL;
+
+SELECT COUNT(*)
+FROM films
+WHERE language IS NULL; 
+```
