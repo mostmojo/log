@@ -1580,3 +1580,20 @@ AND release_year < 2000
 AND (language = 'Spanish' OR language = 'French')
 AND gross >= 2000000;
 ```
+• Using the `BETWEEN` selector alongside the others learned.
+```
+SELECT title
+FROM films
+WHERE release_year BETWEEN 1994 AND 2000;
+
+SELECT name
+FROM kids
+WHERE age BETWEEN 2 AND 12
+AND nationality = 'USA';
+
+SELECT title, release_year
+FROM films
+WHERE release_year BETWEEN 1990 AND 2000
+AND budget > 100000000
+AND (language = 'Spanish' OR language = 'French')
+```
