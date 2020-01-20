@@ -1553,3 +1553,30 @@ AND release_year > 2000
 AND release_year < 2010;	# each AND query must be re-written per condition needed
 ```
  
+-----
+
+### Day 47: Monday, 20th January, 2020
+
+**Today's Progress**
+
+• Using the `OR` selector in SQL. Use parentheses when using it with `AND` due to SQL's precedence detection.
+```
+SELECT title 
+FROM films
+WHERE release_year = 1994
+OR release_year = 2000;
+```
+```
+SELECT title
+FROM films
+WHERE (release_year = 1994 OR release_year = 1995)
+AND (certification = 'PG' OR certification = 'R');
+```
+```
+SELECT title, release_year
+FROM films
+WHERE release_year >= 1990
+AND release_year < 2000
+AND (language = 'Spanish' OR language = 'French')
+AND gross >= 2000000;
+```
