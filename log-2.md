@@ -1597,3 +1597,18 @@ WHERE release_year BETWEEN 1990 AND 2000
 AND budget > 100000000
 AND (language = 'Spanish' OR language = 'French')
 ```
+• Using the `IN` selector alongside the others learned.
+```
+SELECT name
+FROM kids
+WHERE age IN (2, 4, 6, 8, 10);
+
+# instead of 
+WHERE age = 2
+OR age = 4
+OR age = 6 ...etc
+
+SELECT title, certification
+FROM films
+WHERE certification IN ('NC-17', 'R');
+```
