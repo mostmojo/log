@@ -1666,5 +1666,28 @@ WHERE release_year >= 2000;
 SELECT MAX(gross)
 FROM films
 WHERE release_year BETWEEN 2000 AND 2002;
+```
+• Arithmetic
+```
+SELECT ( 4 * 3 );
 
+SELECT ( 4 / 3); # 1. Specify float for precision
+
+SELECT ( 4.0 / 3.0 ); # 1.333
+```
+
+• Aliasing w/ keyword `AS`
+```
+SELECT MAX(budget) AS max_budget
+       MAX(duration) AS max_duration
+FROM films;
+
+SELECT AVG(duration) / 60.0 AS avg_duration_hours
+FROM films;
+
+SELECT title, gross - budget AS net_profit
+FROM films;
+
+SELECT title, duration / 60.0 AS duration_hours
+FROM films;
 ```
