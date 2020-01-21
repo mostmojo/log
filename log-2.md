@@ -1628,3 +1628,23 @@ SELECT COUNT(*)
 FROM films
 WHERE language IS NULL; 
 ```
+-----
+
+### Day 48: Tuesday, 21st January, 2020
+
+**Today's Progress**
+
+• `LIKE / NOT LIKE` keywords in SQL can be used with 'wildcards' to match parts of a string. The `%` wildcard matches 0, 1+ characters, whereas the `_` matches a single character. E.g.
+```
+SELECT name
+FROM companies
+WHERE name LIKE 'Data%';
+
+SELECT name
+FROM companies
+WHERE name LIKE 'DataC_mp'
+
+SELECT name
+FROM companies
+WHERE name NOT LIKE '_r%';	# Won't include names with 'r' as 2nd character.
+```
