@@ -1648,3 +1648,23 @@ SELECT name
 FROM companies
 WHERE name NOT LIKE '_r%';	# Won't include names with 'r' as 2nd character.
 ```
+• Aggregate functions using predetermined keywords, also with `WHERE`.
+```
+SELECT AVG(budget)
+FROM films;
+
+SELECT MAX(budget)	# Also use MIN
+FROM films;
+
+SELECT SUM(budget)
+FROM films;
+
+SELECT SUM(budget)
+FROM films
+WHERE release_year >= 2000;
+
+SELECT MAX(gross)
+FROM films
+WHERE release_year BETWEEN 2000 AND 2002;
+
+```
