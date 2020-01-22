@@ -1712,7 +1712,7 @@ FROM films;
 SELECT (MAX(release_year) - MIN(release_year) / 10.0 AS number_of_decades
 FROM films;
 ```
-•  `ORDER BY` - sorts by asc/dec order. Default ascending. Use keyword `DESC` otherwise. Some examples that fuse learnings all together:
+• `ORDER BY` - sorts by asc/dec order. Default ascending. Use keyword `DESC` otherwise. Some examples that fuse learnings all together:
 ```
 SELECT title
 FROM films
@@ -1735,4 +1735,31 @@ SELECT title, gross
 FROM films
 WHERE title like 'M%'
 ORDER BY title;
+```
+```
+SELECT imdb_score, film_id
+FROM reviews
+ORDER BY imdb_score DESC;
+```
+```
+SELECT name, birthdate
+FROM people
+ORDER BY name, birthdate 	# multiple col sorting - will sort by name A-Z and birthdate - oldest to newest. Col order matters!
+```
+• `GROUP BY`
+```
+SELECT sex, count(*)
+FROM employees
+GROUP BY sex;	# works well with COUNT + MAX/MIN
+```
+```
+SELECT sex, count(*)
+FROM employees
+GROUP BY sex
+ORDER BY count DESC;
+```
+```
+SELECT imdb_score, count(*)
+FROM reviews
+GROUP BY imdb_score;
 ```
