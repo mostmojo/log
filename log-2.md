@@ -1691,3 +1691,24 @@ FROM films;
 SELECT title, duration / 60.0 AS duration_hours
 FROM films;
 ```
+-----
+
+### Day 49: Wednesday, 22nd January, 2020
+
+**Today's Progress**
+
+• Get % of dead people, alias result. Remember to use 100.0 decimal to render correct calculation as per SQL standards.
+```
+SELECT COUNT(deathdate) * 100.0 / COUNT(*) AS percentage_dead
+FROM people;
+```
+• Use MAX/MIN
+```
+SELECT MAX(release_year) - MIN(release_year) AS difference
+FROM films;
+```
+• Using parentheses to enclose calculations with MIN/MAX 
+```
+SELECT (MAX(release_year) - MIN(release_year) / 10.0 AS number_of_decades
+FROM films;
+```
