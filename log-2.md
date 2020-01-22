@@ -1712,3 +1712,27 @@ FROM films;
 SELECT (MAX(release_year) - MIN(release_year) / 10.0 AS number_of_decades
 FROM films;
 ```
+•  `ORDER BY` - sorts by asc/dec order. Default ascending. Use keyword `DESC` otherwise. Some examples that fuse learnings all together:
+```
+SELECT title
+FROM films
+ORDER BY release_year DESC;
+```
+```
+SELECT title
+FROM films
+WHERE release_year IN (2000, 2012)
+ORDER BY release_year;
+```
+```
+SELECT *
+FROM films
+WHERE release_year <> 2015
+ORDER by duration;
+```
+```
+SELECT title, gross
+FROM films
+WHERE title like 'M%'
+ORDER BY title;
+```
