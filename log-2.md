@@ -1800,3 +1800,11 @@ ORDER BY country
 -- limit to only show 5 results
 LIMIT 5
 ```
+• Introducing `JOIN` for multiple table joins to grab data from two tables.
+```
+SELECT title, imdb_score
+FROM films
+JOIN reviews
+ON films.id = reviews.film_id
+WHERE title = 'To Kill a Mockingbird';
+```
