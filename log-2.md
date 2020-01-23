@@ -1763,3 +1763,26 @@ SELECT imdb_score, count(*)
 FROM reviews
 GROUP BY imdb_score;
 ```
+-----
+
+### Day 50: Thursday, 23rd January, 2020
+
+**Today's Progress**
+
+• `HAVING` clause. Used because aggregate functions cannot be used in `WHERE` clauses.
+```
+SELECT release_year
+FROM films
+GROUP BY release_year
+HAVING COUNT(title) > 10;
+```
+
+• Big query containing everything learned so far
+```
+SELECT release_year, AVG(budget) AS avg_budget, AVG(gross) AS avg_gross
+FROM films
+WHERE release_year > 1990 
+GROUP BY release_year
+HAVING AVG(budget) > 60000000
+ORDER BY AVG(gross) DESC;
+```
