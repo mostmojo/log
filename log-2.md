@@ -1808,3 +1808,23 @@ JOIN reviews
 ON films.id = reviews.film_id
 WHERE title = 'To Kill a Mockingbird';
 ```
+-----
+
+### Day 51: Friday, 24th January, 2020
+
+**Today's Progress**
+
+• `INNER JOIN` - matches IDs from keys in tables.
+
+```
+SELECT * 
+FROM left_table
+INNER JOIN right_table
+ON left_table.id = right_table.id
+```
+```
+SELECT cities.name AS city, countries.name AS country, countries.region
+FROM cities
+INNER JOIN countries
+ON cities.country_code = countries.code;
+```
