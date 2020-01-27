@@ -1850,3 +1850,17 @@ SELECT c.code, name, region, e.year, fertility_rate, unemployment_rate
   INNER JOIN economies AS e
     ON c.code = e.code AND p.year = e.year;
 ```
+
+• `USING` clause to shorten query typing when common field names are present
+```
+SELECT * 
+FROM countries
+INNER JOIN economies
+ON countries.code = economies.code;
+```
+```
+SELECT *
+FROM countries
+INNER JOIN economies
+USING(code);
+```
