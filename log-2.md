@@ -1835,3 +1835,18 @@ FROM cities AS c1
 INNER JOIN countries AS c2
 ON c1.country_code = c2.code;
 ```
+-----
+
+### Day 52: Monday, 27th January, 2020
+
+**Today's Progress**
+
+• Inner joins continued with double joins to prevent scattering of data.
+```
+SELECT c.code, name, region, e.year, fertitlity_rate, unemployment_rate
+FROM countries AS c
+INNER JOIN population AS p
+ON c.code = p.country_code
+INNER JOIN economies AS e
+ON c.code = e.code AND p.year = e.year
+```
