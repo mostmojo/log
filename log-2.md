@@ -1864,3 +1864,27 @@ FROM countries
 INNER JOIN economies
 USING(code);
 ```
+-----
+
+### Day 53: Tuesday, 28th January, 2020
+
+**Today's Progress**
+
+• Self joins - join tables to themselves
+```
+SELECT p1.country AS country1, p2.country AS country2, p1.continent
+FROM prime_ministers AS p1
+INNER JOIN prime_ministers AS p2
+ON p1.continent = p2.continent AND p1.country <> p2.country
+LIMIT 14;
+```
+• `CASE/WHEN` for multiple if/else statements
+```
+SELECT name, continent, indep_year
+CASE WHEN indep_year < 1900 THEN 'before 1900'
+     WHEN indep_year <= 19300 THEN 'between 1900 and 1930'
+     ELSE 'after 1930' END
+     AS indep_year_group
+FROM states
+ORDER BY indep_year_group;
+```
