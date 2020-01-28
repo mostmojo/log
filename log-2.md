@@ -1903,6 +1903,7 @@ FROM populations AS p1
         -- 5. and year (with calculation)
         AND p1.year = p2.year - 5;
 ```
+• Use of `INTO` clause to create new table from existing one with new column group. Use new col `popsize_group` to select other elements. 
 ```
 SELECT country_code, size,
   CASE WHEN size > 50000000
