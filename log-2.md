@@ -1950,3 +1950,16 @@ WHERE year = 2010
 GROUP BY region
 ORDER BY avg_gdp DESC;
 ```
+•  `FULL JOIN` - joins both tables and displays each side, showing empty cells for non-ID related cells. E.g.
+```
+SELECT left_table.id AS L_id, right_table.id AS R_id, left_table.val AS L_val, right_table.val AS R_val
+FROM left_table
+FULL JOIN right_table
+USING(id);
+```
+```
+SELECT p1.country AS pm_co, p2.country AS pres_co, prime_minister, president
+FROM prime_ministers AS p1
+FULL JOIN presidents AS p2
+ON p1.country = p2.country;
+```
