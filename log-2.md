@@ -1941,3 +1941,12 @@ LEFT JOIN countries AS c2
 ON c1.country_code = c2.code
 ORDER BY code DESC;
 ```
+```
+SELECT region, AVG(gdp_percapita) AS avg_gdp
+FROM countries AS c
+  LEFT JOIN economies AS e
+    ON c.code = e.code
+WHERE year = 2010
+GROUP BY region
+ORDER BY avg_gdp DESC;
+```
