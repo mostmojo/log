@@ -1981,3 +1981,4 @@ WHERE year = 2010
 ORDER BY life_exp
 LIMIT 5;
 ```
+•  `CROSS JOIN` joins the IDs of left table to every possible combination on a table to that of the right side.
