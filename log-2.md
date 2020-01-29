@@ -1927,3 +1927,17 @@ ON c.code = p.country_code
 -- 4. Order the table    
 ORDER BY geosize_group;
 ```
+-----
+
+### Day 54: Wednesday,29th January, 2020
+
+**Today's Progress**
+
+• Outer Joins consist of `LEFT & RIGHT` joins, which behave similar to `INNER JOINS`. Though when paired, if IDs on LEFT/RIGHT tables don't match, then the table records(rows) will be blank.
+```
+SELECT c1.name AS city, code, c2.name AS country, region, city_proper_prop
+FROM cities AS c1
+LEFT JOIN countries AS c2
+ON c1.country_code = c2.code
+ORDER BY code DESC;
+```
