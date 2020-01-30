@@ -1998,3 +1998,12 @@ SELECT *
   FROM economies2015
 ORDER BY code, year;
 ```
+• `UNION ALL` clause to fuse together economies and populations tables, with duplicate results, ordered by code, year.
+```
+SELECT code, year
+  FROM economies
+	UNION ALL
+SELECT country_code, year
+  FROM populations
+ORDER BY code, year;
+```
