@@ -1989,7 +1989,7 @@ LIMIT 5;
 
 **Today's Progress**
 
-• `UNION` clause to fuse together two tables, without including duplicates
+• `UNION` (theory) clause to fuse together two tables, without including duplicates
 ```
 SELECT *
 FROM economies2010
