@@ -1929,7 +1929,7 @@ ORDER BY geosize_group;
 ```
 -----
 
-### Day 54: Wednesday,29th January, 2020
+### Day 54: Wednesday, 29th January, 2020
 
 **Today's Progress**
 
@@ -1981,4 +1981,20 @@ WHERE year = 2010
 ORDER BY life_exp
 LIMIT 5;
 ```
-•  `CROSS JOIN` joins the IDs of left table to every possible combination on a table to that of the right side.
+• `CROSS JOIN` joins the IDs of left table to every possible combination on a table to that of the right side.
+
+-----
+
+### Day 55: Thursday, 30th January, 2020
+
+**Today's Progress**
+
+• `UNION` clause to fuse together two tables, without including duplicates
+```
+SELECT *
+FROM economies2010
+	UNION
+SELECT *
+  FROM economies2015
+ORDER BY code, year;
+```
