@@ -2022,3 +2022,12 @@ SELECT country_code, year
 FROM populations
 ORDER BY code, year; 
 ```
+• `EXCEPT` - shows only records that are in 1 table but not the other.
+```
+SELECT city.name
+FROM cities AS city
+EXCEPT
+SELECT country.capital
+FROM countries AS country
+ORDER BY name;
+```
