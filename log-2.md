@@ -2007,3 +2007,18 @@ SELECT country_code, year
   FROM populations
 ORDER BY code, year;
 ```
+-----
+
+### Day 56: Friday, 3rd February, 2020
+
+**Today's Progress**
+
+• `INTERSECT` combines common fields in a query and only shows those. 
+```
+SELECT code, year
+FROM economies
+INTERSECT
+SELECT country_code, year
+FROM populations
+ORDER BY code, year; 
+```
