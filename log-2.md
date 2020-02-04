@@ -2009,7 +2009,7 @@ ORDER BY code, year;
 ```
 -----
 
-### Day 56: Friday, 3rd February, 2020
+### Day 56: Monday, 3rd February, 2020
 
 **Today's Progress**
 
@@ -2029,5 +2029,26 @@ FROM cities AS city
 EXCEPT
 SELECT country.capital
 FROM countries AS country
+ORDER BY name;
+```
+-----
+
+### Day 57: Tuesday, 4th February, 2020
+
+**Today's Progress**
+
+• Semi joins - writing sub-queries within queries to provide more refined results. First, select names from languages table, where the code from countries(the other table) identifies the region as 'Middle East'. 
+```
+-- Select distinct fields
+SELECT DISTINCT name
+  -- From languages
+  FROM languages
+-- Where in statement
+WHERE code IN
+  -- Subquery
+  (SELECT code 
+    FROM countries
+    WHERE region='Middle East')
+-- Order by name
 ORDER BY name;
 ```
