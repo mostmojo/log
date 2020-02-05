@@ -2067,7 +2067,7 @@ SELECT code, name
   	(SELECT code 
   	FROM currencies);
 ```
-• Using mutiple theory clauses with UNION and EXCEPT to query three tables to identify the country codes that are included in either `economies` or `currencies` but not in `populations`.
+• Using sub-queries and mutiple theory clauses with UNION and EXCEPT to query three tables to identify the country codes that are included in either `economies` or `currencies` but not in `populations`.
 ```
 -- Select the city name
 SELECT c1.name
