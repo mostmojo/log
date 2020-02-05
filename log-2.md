@@ -2052,3 +2052,21 @@ WHERE code IN
 -- Order by name
 ORDER BY name;
 ```
+-----
+
+### Day 58: Wednesday, 5th February, 2020
+
+**Today's Progress**
+
+• Diagnosing errors with antijoins
+```
+SELECT code, name
+  FROM countries
+  WHERE continent = 'Oceania'
+  	-- 1. And code not in
+  	AND code NOT IN
+  	-- 2. Subquery
+  	(SELECT code 
+  	FROM currencies
+    );
+```
