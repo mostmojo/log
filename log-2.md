@@ -2063,10 +2063,7 @@ ORDER BY name;
 SELECT code, name
   FROM countries
   WHERE continent = 'Oceania'
-  	-- 1. And code not in
   	AND code NOT IN
-  	-- 2. Subquery
   	(SELECT code 
-  	FROM currencies
-    );
+  	FROM currencies);
 ```
