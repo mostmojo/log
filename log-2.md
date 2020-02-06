@@ -2111,3 +2111,13 @@ FROM states
 WHERE prime_ministers.continent = state.continent) AS countries_num
 FROM prime_ministers
 ```
+• Select all fields from populations with records corresponding to larger than 1.15 times the average in 2015 with a subquery.
+```
+SELECT *
+FROM populations
+WHERE life_expectancy > 1.15 *
+    (SELECT AVG(life_expectancy)
+    FROM populations
+    WHERE year = 2015)
+    AND year = 2015;
+```
