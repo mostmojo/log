@@ -2121,3 +2121,11 @@ WHERE life_expectancy > 1.15 *
     WHERE year = 2015)
     AND year = 2015;
 ```
+```
+SELECT name, country_code, urbanarea_pop
+  FROM cities
+WHERE cities.name IN
+  (SELECT countries.capital
+   FROM countries)
+ORDER BY urbanarea_pop DESC;
+```
