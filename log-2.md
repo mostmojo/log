@@ -2089,3 +2089,25 @@ SELECT c1.name
     FROM populations AS p
 );
 ```
+-----
+
+### Day 59: Thursday, 6th February, 2020
+
+**Today's Progress**
+
+•  Subqueries inside WHERE & SELECT.
+```
+SELECT name, fert_rate
+FROM states
+WHERE continent = 'Asia'
+AND fert_rate <
+(SELECT AVG(fert_rate)
+FROM states);
+```
+```
+SELECT DISTINCT continent,
+(SELECT COUNT(*)
+FROM states
+WHERE prime_ministers.continent = state.continent) AS countries_num
+FROM prime_ministers
+```
