@@ -2156,3 +2156,13 @@ FROM countries
 ORDER BY cities_num DESC, country
 LIMIT 9;
 ```
+•  FROM clause subqueries
+```
+SELECT DISTINCT monarchs.continent, subquery.mex_perc
+FROM monarchs,
+(SELECT continent, MAX(women_parli_perc) AS max_perc
+FROM states
+GROUP BY continent) AS subquery
+WHERE monarchs.continent = subquery.continent
+ORDER BY continent;
+```
