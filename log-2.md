@@ -2186,5 +2186,21 @@ SELECT local_name, subquery.lang_num
   WHERE countries.code = subquery.code
 -- Order by descending number of languages
 ORDER BY lang_num DESC;
-
+```
+Advanced subquery.
+```
+SELECT name, continent, inflation_rate
+FROM countries
+INNER JOIN economies
+ON countries.code = economies.code
+WHERE year = 2015
+    AND inflation_rate IN (
+        SELECT MAX(inflation_rate) AS max_inf
+        FROM (
+             SELECT name, continent, inflation_rate
+             FROM countries
+             INNER JOIN economies
+             ON countries.code = economies.code
+             WHERE year = 2015) AS subquery
+        GROUP BY continent);
 ```
