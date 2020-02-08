@@ -2132,7 +2132,7 @@ ORDER BY urbanarea_pop DESC;
 ```
 -----
 
-### Day 60: Friay, 7th February, 2020
+### Day 60: Friday, 7th February, 2020
 
 **Today's Progress**
 
@@ -2165,4 +2165,26 @@ FROM states
 GROUP BY continent) AS subquery
 WHERE monarchs.continent = subquery.continent
 ORDER BY continent;
+```
+-----
+
+### Day 61: Saturday, 8th February, 2020
+
+**Today's Progress**
+
+•  FROM clause subqueries continued. Create a subquery after FROM statement, selecting the code and the count of the names of the countries aliased as lang_num from the languages table. Group them by code and name and alias as subquery. Ensure that the countries.code is matched with the subquery.code of the countries, thus creating a join. On outer SELECT, local_name of country and the number of languages from the subquery.
+```
+-- Select fields
+SELECT local_name, subquery.lang_num
+  -- From countries
+  FROM countries,
+  	-- Subquery (alias as subquery)
+(SELECT code, COUNT(name) AS lang_num
+    FROM languages
+    GROUP BY code) as subquery
+  -- Where codes match
+  WHERE countries.code = subquery.code
+-- Order by descending number of languages
+ORDER BY lang_num DESC;
+
 ```
