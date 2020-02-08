@@ -2187,7 +2187,7 @@ SELECT local_name, subquery.lang_num
 -- Order by descending number of languages
 ORDER BY lang_num DESC;
 ```
-Advanced subquery.
+•  Advanced subquery.
 ```
 SELECT name, continent, inflation_rate
 FROM countries
@@ -2203,4 +2203,20 @@ WHERE year = 2015
              ON countries.code = economies.code
              WHERE year = 2015) AS subquery
         GROUP BY continent);
+```
+•  Use a subquery to get 2015 economic data for countries that do not have `gov_form` of 'Constitutional Monarchy' or
+'Republic' in their gov_form.
+```
+-- Select fields
+SELECT code, inflation_rate, unemployment_rate
+  -- From economies
+  FROM economies
+  -- Where year is 2015 and code is not in
+  WHERE year = 2015 AND code NOT IN
+  	-- Subquery
+  	(SELECT code
+   FROM countries
+   WHERE (gov_form = 'Constitutional Monarchy' OR gov_form LIKE '%Republic'))
+-- Order by inflation rate
+ORDER BY inflation_rate;
 ```
