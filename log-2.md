@@ -2244,3 +2244,13 @@ WHERE official = 'True'
 WHERE region = 'Central America' AND year = 2015
 ORDER BY c.name;
 ```
+•  Calculate the average fertility rate for each region in 2015
+```
+SELECT c.region, c.continent, AVG(p.fertility_rate) AS avg_fert_rate
+  FROM countries AS c
+    INNER JOIN populations AS p
+      ON c.code = p.country_code
+  WHERE year = 2015
+GROUP BY region, continent
+ORDER BY avg_fert_rate;
+```
