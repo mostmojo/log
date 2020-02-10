@@ -2220,3 +2220,27 @@ SELECT code, inflation_rate, unemployment_rate
 -- Order by inflation rate
 ORDER BY inflation_rate;
 ```
+-----
+
+### Day 62: Monday, 10th February, 2020
+
+**Today's Progress**
+
+• Recap of SQL terms. `JOIN` combines cols from one or more tables in a relational database via lookup processes. `INNER JOIN` - keeps records in which key is in both tables. `LEFT JOIN` if key doesn't exist in right table, it'll show it as missing data. `RIGHT JOIN` - same as left, but vice versa. `FULL JOIN` - Both L & R w/ missing values will be shown. `CROSS JOIN` - matches all records from fields specified in one table w/ others specified in another. 
+
+• `UNION` - includes every record but doesn't double count. `UNION ALL` - replicates and includes all in both tables. `INTERSECT` - gives only those records found in both of the two tables. `EXCEPT` - records in one table but not the other. `Semi join` - filter first table based on conditions set on a second table. `Anti join` - Good for diagnosing problems w/ other joins, will render all conditions not met. Subqueries - common in WHERE, SELECT, FROM and ON clauses.
+
+• Get the country names and other 2015 data in the economies table and the countries table for Central American countries with an official language.
+```
+SELECT DISTINCT c.name, e.total_inv, e.imports
+FROM countries AS c
+LEFT JOIN economies AS e
+ON (c.code = e.code
+AND c.code IN (
+SELECT l.code
+FROM languages AS l
+WHERE official = 'True'
+) )
+WHERE region = 'Central America' AND year = 2015
+ORDER BY c.name;
+```
