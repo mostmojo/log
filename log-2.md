@@ -2254,3 +2254,17 @@ SELECT c.region, c.continent, AVG(p.fertility_rate) AS avg_fert_rate
 GROUP BY region, continent
 ORDER BY avg_fert_rate;
 ```
+•  Determine the top 10 capital cities in Europe and the Americas in terms of a calculated percentage using city_proper_pop and metroarea_pop in cities.
+```
+SELECT name, country_code, city_proper_pop, metroarea_pop,  
+      city_proper_pop / metroarea_pop * 100 AS city_perc
+FROM cities
+WHERE name IN
+  (SELECT capital
+   FROM countries
+   WHERE (continent = 'Europe'
+      OR continent LIKE '%America'))
+     AND metroarea_pop IS NOT NULL
+ORDER BY city_perc DESC
+LIMIT 10;
+```
