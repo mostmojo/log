@@ -2268,3 +2268,30 @@ WHERE name IN
 ORDER BY city_perc DESC
 LIMIT 10;
 ```
+-----
+
+### Day 63: Tuesday, 11th February, 2020
+
+**Today's Progress**
+
+• Query `information_scheme` w/ `SELECT`
+```
+SELECT table_name
+FROM information_schema.columns
+WHERE table_schema = 'public';
+```
+• CREATE TABLE
+```
+CREATE TABLE table_name(
+col_a data_type,
+col_b data_type,
+col_c data_type
+);
+```
+```
+CREATE TABLE weather (
+clouds text,
+temperature numeric,
+weather_station char(5)
+);
+```
