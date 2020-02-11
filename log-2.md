@@ -2295,3 +2295,21 @@ temperature numeric,
 weather_station char(5)
 );
 ```
+•  To print data from a table simply use
+```
+SELECT *
+FROM table_name
+```
+•  To add columns to an existing table
+```
+ALTER TABLE table_name
+ADD COLUMN column_name data_type;
+
+e.g.
+
+ALTER TABLE professors
+ADD COLUMN university_shortname text;
+
+SELECT *
+FROM professors;
+```
