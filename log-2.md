@@ -2280,7 +2280,7 @@ SELECT table_name
 FROM information_schema.columns
 WHERE table_schema = 'public';
 ```
-• CREATE TABLE
+• `CREATE TABLE`
 ```
 CREATE TABLE table_name(
 col_a data_type,
@@ -2313,7 +2313,7 @@ ADD COLUMN university_shortname text;
 SELECT *
 FROM professors;
 ```
-•  If DB structure changes, INSERT DISTINCT records into new tables like so:
+•  If DB structure changes, `INSERT DISTINCT` records into new tables like so:
 ```
 INSERT INTO table_name(col_a, col_b)
 VALUES ("value_a", "value_b");
@@ -2324,12 +2324,12 @@ SELECT DISTINCT organization,
 organization_sector
 FROM university_professors;
 ```
-•  Rename a column like so: 
+•  `RENAME` a column like so: 
 ```
 ALTER TABLE table_name
 RENAME COLUMN old_name TO new_name;
 ```
-•  DROP a column like so:
+•  `DROP` a column like so:
 ```
 ALTER TABLE table_name
 DROP COLUMN column_name;
