@@ -2361,3 +2361,20 @@ FROM table;
 SELECT transaction_date, amount + CAST(fee AS integer) AS net_amount
 FROM transactions;
 ```
+• Data types consist of: `text, varchar[(x)], char[(x)], boolean, date/time, numeric, integers`. E.g. of type declarations:
+```
+CREATE TABLE students (
+ssn integer,
+name varchar(64),
+dob date,
+average_grade numeric(3,2) -- e.g 5.24
+tuition_paid boolean
+);
+```
+• Alter types after table creation and round number upwards.
+```
+ALTER TABLE students
+ALTER COLUMN average_grade
+TYPE integer
+USING ROUND(average_grade);
+```
