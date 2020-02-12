@@ -2340,7 +2340,7 @@ DROP COLUMN column_name;
 
 **Today's Progress**
 
-•  Migrate data with `INSERT INTO` and `SELECT DISTINCT`
+•  Migrate data with `INSERT INTO` and `SELECT DISTINCT`. Then `DROP` (Delete) unecessary `university_professors` table.
 ```
 INSERT INTO affiliations
 SELECT DISTINCT firstname, lastname, function, organization
@@ -2348,4 +2348,7 @@ FROM university_professors;
 
 SELECT * 
 FROM affiliations;
+
+DROP TABLE university_professors;
 ```
+
