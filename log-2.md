@@ -2378,3 +2378,10 @@ ALTER COLUMN average_grade
 TYPE integer
 USING ROUND(average_grade);
 ```
+• Using substrings to _truncate_ values
+```
+ALTER TABLE professors
+ALTER COLUMN firstname
+TYPE varchar(16)
+USING SUBSTRING(firstname FROM 1 FOR 16);
+```
