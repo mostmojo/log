@@ -2351,5 +2351,13 @@ FROM affiliations;
 
 DROP TABLE university_professors;
 ```
+•  Better data quality w/ constraints. Integrity constraints are 1) `Attribute Constraints` - e.g. data types on columns. 2) `Key constraints` - e.g. primary keys. 3) `Referential integrity constraints` - enforced by foreign keys. Constraints give data structure, help w/ consistency and data quality, are data science prerequisites, and postgreSQL helps with enforcement.
 
-•  Better data quality w/ constraints. Integrity constraints are 1) `Attribute Constraints` - e.g. data types on columns. 2) `Key constraints` - e.g. primary keys. 3) `Referential integrity constraints` - enforced by foreign keys. Constraints give data structure, help w/ consistency and data quality, are data science prerequisites, and postgreSQL helps with enforcement. 
+•  CAST convert text based values into integers to perform calculations
+```
+SELECT CAST(some_col AS integer)
+FROM table;
+
+SELECT transaction_date, amount + CAST(fee AS integer) AS net_amount
+FROM transactions;
+```
