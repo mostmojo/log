@@ -2334,3 +2334,18 @@ RENAME COLUMN old_name TO new_name;
 ALTER TABLE table_name
 DROP COLUMN column_name;
 ```
+-----
+
+### Day 64: Wednesday, 12th February, 2020
+
+**Today's Progress**
+
+•  Migrate data with `INSERT INTO` and `SELECT DISTINCT`
+```
+INSERT INTO affiliations
+SELECT DISTINCT firstname, lastname, function, organization
+FROM university_professors;
+
+SELECT * 
+FROM affiliations;
+```
