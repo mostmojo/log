@@ -2410,3 +2410,12 @@ ALTER TABLE students
 ALTER COLUMN ssn
 DROP NOT NULL;
 ```
+• Adding `UNIQUE` constraint
+```
+CREATE TABLE table_name (
+column_name UNIQUE
+);
+
+ALTER TABLE table_name
+ADD CONSTRAINT some_name UNIQUE(column_name);
+```
