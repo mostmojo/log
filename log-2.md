@@ -2419,3 +2419,8 @@ column_name UNIQUE
 ALTER TABLE table_name
 ADD CONSTRAINT some_name UNIQUE(column_name);
 ```
+• `Keys` are attributes that identify a record uniquely. `Superkey` attributes can be removed, `candidate key` - only one can be the chosen key. Below, a `candidate key` is identified by the f&lastname columns from the professors table, as they uniquely define the record. Anything else will bring duplicates and/or can be removed.
+```
+SELECT COUNT(DISTINCT(lastname, firstname)) 
+FROM professors;
+```
