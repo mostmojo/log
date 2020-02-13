@@ -2387,7 +2387,7 @@ USING SUBSTRING(firstname FROM 1 FOR 16);
 ```
 -----
 
-### Day 64: Wednesday, 12th February, 2020
+### Day 65: Thursday, 13th February, 2020
 
 **Today's Progress**
 
