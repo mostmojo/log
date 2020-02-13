@@ -2385,3 +2385,28 @@ ALTER COLUMN firstname
 TYPE varchar(16)
 USING SUBSTRING(firstname FROM 1 FOR 16);
 ```
+-----
+
+### Day 64: Wednesday, 12th February, 2020
+
+**Today's Progress**
+
+•  `NOT NULL` and unique constraints - disallow NULL values on given column. Must hold true for current state. E.g.
+```
+CREATE TABLE students (
+ssn integer not null,
+lastname varchar(64) not null,
+home_phone integer,
+office_phone integer
+);
+```
+After table has been created, it can be altered to insert `NOT NULL` or `DROP` constraints like so:
+```
+ALTER TABLE students
+ALTER COLUMN home_phone
+SET NOT NULL;
+
+ALTER TABLE students
+ALTER COLUMN ssn
+DROP NOT NULL;
+```
