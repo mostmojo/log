@@ -2424,3 +2424,14 @@ ADD CONSTRAINT some_name UNIQUE(column_name);
 SELECT COUNT(DISTINCT(lastname, firstname)) 
 FROM professors;
 ```
+• `Primary keys` -  chosen from candidate keys as unique identifiers to DB table. i.e. - `license_no, id`. To create primary key & alter existing table:
+```
+CREATE TABLE products (
+product_no integer PRIMARY KEY,
+name text,
+price numeric
+);
+
+ALTER TABLE table_name
+ADD CONSTRAINT some_name PRIMARY KEY(column_name);
+```
