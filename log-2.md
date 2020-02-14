@@ -2490,3 +2490,12 @@ ADD CONSTRAINT id_pk PRIMARY KEY(id);
 -- Have a look at the table
 SELECT * FROM cars;
 ```
+• Example using UNIQUE social security numbers with 9 characters. Remember: `CHAR` is used for Fixed Length.
+`VARCHAR` is used for Variable Length.
+```
+CREATE TABLE students (
+lastname varchar(128) NOT NULL,
+ssn integer[9] UNIQUE,
+phone_no char(12)
+);
+```
