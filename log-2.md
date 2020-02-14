@@ -2522,3 +2522,11 @@ ALTER TABLE a
 ADD CONSTRAINT a_fkey FOREIGN KEY (b_id)
 REFERENCES b (id);
 ```
+• Notet: FK referencing a PK w/ `id` is named `x_id` where `x` is the name of the referencing table in singular form. E.g. `university_id` would be the foreign key column in another table, referencing the `id` of the universities table. E.g.
+```
+ALTER TABLE professors
+RENAME COLUMN univ_shortname TO university_id;
+
+ALTER TABLE professors
+ADD CONSTRAINT professors_fkey FOREIGN KEY(university_id) REFERENCES universities(id);
+```
