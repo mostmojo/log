@@ -2494,8 +2494,8 @@ SELECT * FROM cars;
 `VARCHAR` is used for Variable Length.
 ```
 CREATE TABLE students (
-lastname varchar(128) NOT NULL,
+lastname varchar(128) NOT NULL, # Up to 128 chars
 ssn integer[9] UNIQUE,
-phone_no char(12)
+phone_no char(12) # Fixed at 12
 );
 ```
