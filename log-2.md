@@ -2499,3 +2499,26 @@ ssn integer[9] UNIQUE,
 phone_no char(12) # Fixed at 12
 );
 ```
+• 1:N relationships require `Foreign keys`, which point to the PK of another table. 
+```
+CREATE TABLE manufacturers (
+name varchar(255) PRIMARY KEY
+);
+
+INSERT INTO manufacturers
+VALUES ('Ford'), ('VW'), ('GM');
+
+CREATE TABLE cars (
+model varchar(255) PRIMARY KEY,
+manufacturer_name integer REFERENCES manufacturer(name)
+);
+
+INSERT INTO cars
+VALUES ('Ranger', 'Ford'), ('Beetle', 'VW');
+```
+• To alter existing table
+```
+ALTER TABLE a
+ADD CONSTRAINT a_fkey FOREIGN KEY (b_id)
+REFERENCES b (id);
+```
