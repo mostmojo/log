@@ -2457,3 +2457,15 @@ SET col_c = CONCAT(col_a, col_b);
 ALTER TABLE table_name
 ADD CONSTRAINT pk PRIMARY KEY(col_c);
 ```
+•  Add an ID column to a table and make it a pk. Query DB to check results. `Serial` - turns `cols` into auto incrementing number.
+```
+ALTER TABLE professors
+ADD COLUMN id serial;
+
+ALTER TABLE professors
+ADD CONSTRAINT professors_pkey PRIMARY KEY(id);
+
+SELECT *
+FROM professors
+LIMIT 10;
+```
