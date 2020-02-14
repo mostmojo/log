@@ -2435,3 +2435,25 @@ price numeric
 ALTER TABLE table_name
 ADD CONSTRAINT some_name PRIMARY KEY(column_name);
 ```
+-----
+
+### Day 66: Friday, 14th February, 2020
+
+**Today's Progress**
+
+• `Surrogate keys` - are essentially primary keys, built from other columns. Usually, `ids` to better define records. To add surrogate key w/ serial data type:
+```
+ALTER TABLE cars
+ADD COLUMN id serial PRIMARY KEY;
+```
+• Make two columns a surrogate key, and make that one concatenated column a `pk` like so:
+```
+ALTER TABLE table_name
+ADD COLUMN col_c varchar(256);
+
+UPDATE table_name
+SET col_c = CONCAT(col_a, col_b);
+
+ALTER TABLE table_name
+ADD CONSTRAINT pk PRIMARY KEY(col_c);
+```
