@@ -2530,3 +2530,18 @@ RENAME COLUMN univ_shortname TO university_id;
 ALTER TABLE professors
 ADD CONSTRAINT professors_fkey FOREIGN KEY (university_id) REFERENCES universities (id);
 ```
+-----
+
+### Day 67: Saturday, 15th February, 2020
+
+**Today's Progress**
+
+• Start DevEd's course. Form simple `header` with `nav` & follow up `section`.
+
+• Refresher on `display: flex` properties, justifications, alignment and positioning. 
+
+• Media queries, anchoring, linear gradient background effects, and background (size, cover, repeat) properties. Fun! 🤓
+
+**Link(s) to work**
+
+1. [Travelly](https://github.com/mostmojo/travelly)
