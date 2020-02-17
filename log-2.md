@@ -2545,3 +2545,20 @@ ADD CONSTRAINT professors_fkey FOREIGN KEY (university_id) REFERENCES universiti
 **Link(s) to work**
 
 1. [Travelly](https://github.com/mostmojo/travelly)
+
+-----
+
+### Day 68: Monday, 17th February, 2020
+
+**Today's Progress**
+
+• Continue `Travelly` build to further expore HTML & CSS structure of individual components.
+
+• Refresher on JOINING queries in PostgreSQL. Select all professors working for universities in the city of Zurich.
+```
+SELECT professors.lastname, universities.id, universities.university_city
+FROM professors
+JOIN universities
+ON professors.university_id = universities.id
+WHERE universities.university_city = 'Zurich';
+```
