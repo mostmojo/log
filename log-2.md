@@ -2562,3 +2562,20 @@ JOIN universities
 ON professors.university_id = universities.id
 WHERE universities.university_city = 'Zurich';
 ```
+-----
+
+### Day 69: Tuesday, 18th February, 2020
+
+**Today's Progress**
+
+• Continue `Travelly` and input `@keyframes` to use `animation: cloudsAnimation 3s infinite alternate ease-in-out;` property and move clouds around.
+```
+@keyframes cloudsAnimation {
+	from {
+		transform: translate(10%, -10%);
+	}
+	to {
+		transform: translate(0%, 0%);
+	}
+}
+```
