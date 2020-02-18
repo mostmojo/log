@@ -2579,3 +2579,9 @@ WHERE universities.university_city = 'Zurich';
 	}
 }
 ```
+Use `linear gradient` with `clip` and `text-fill` properties to for the `h3` as a 'hack' to create appealing text background.
+```
+	background: linear-gradient(#131c27, #663b34);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+```
