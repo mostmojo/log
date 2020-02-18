@@ -2585,3 +2585,4 @@ WHERE universities.university_city = 'Zurich';
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 ```
+• Play with components' `position: relative` & `position: absolute` to position clouds accordingly. Insert `z-index` in `@media screen and (max-width: 932px) { }` to ensure clouds are further in the background on smaller screens. Use `overflow: hidden;` to prevent clouds from overlapping other components when animation is applied.
