@@ -2586,3 +2586,21 @@ WHERE universities.university_city = 'Zurich';
 	-webkit-text-fill-color: transparent;
 ```
 • Play with components' `position: relative` & `position: absolute` to position clouds accordingly. Insert `z-index` in `@media screen and (max-width: 932px) { }` to ensure clouds are further in the background on smaller screens. Use `overflow: hidden;` to prevent clouds from overlapping other components when animation is applied.
+
+-----
+
+### Day 70 - 75: Wednesday - Sunday, 23rd February, 2020
+
+**Today's Progress**
+
+• Build website for dietary supplement in HTML, CSS & JS.
+
+• Read on bootstrap classes for quick prototyping, add responsive layout and spacing classes.
+
+• Implement tracking cookies with Geoplugin API, capture scrolling site behavior and create timer function.
+
+**Link(s) to work**
+
+1. [Keto](https://github.com/mostmojo/keto_challenge)
+2. [JavaScript functions](https://github.com/mostmojo/keto_challenge/blob/master/js/scripts.js)
+3. [Geoplugin](www.geoplugin.net)
