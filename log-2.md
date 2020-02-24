@@ -2595,7 +2595,7 @@ WHERE universities.university_city = 'Zurich';
 
 • Build website for dietary supplement in HTML, CSS & JS.
 
-• Read on bootstrap classes for quick prototyping, add responsive layout and spacing classes.
+• Read on bootstrap classes for quick prototyping, add responsive layout and spacing classes. Utilize in product build.
 
 • Implement tracking cookies with Geoplugin API, capture scrolling site behavior and create timer function.
 
