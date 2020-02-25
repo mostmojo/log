@@ -2589,7 +2589,7 @@ WHERE universities.university_city = 'Zurich';
 
 -----
 
-### Day 70 - 75: Wednesday 19th February - Sunday, 23rd February, 2020
+### Day 70 - 76: Wednesday 19th February - Monday, 24th February, 2020
 
 **Today's Progress**
 
