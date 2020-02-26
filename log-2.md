@@ -2615,6 +2615,14 @@ WHERE universities.university_city = 'Zurich';
 
 • Add relative padding for correct spacing and add `required` fields on `<input>` classes to ensure emails are caught correctly.
 
+• Use `background` properties to position images with `linear gradient`.
+
+```
+background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('/img/contact-mountain.png');
+background-size: cover;
+background-repeat: no-repeat;
+```
+
 **Link(s) to work**
 
 1. [Travelly](https://github.com/mostmojo/travelly)
