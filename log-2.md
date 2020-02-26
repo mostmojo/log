@@ -2611,7 +2611,9 @@ WHERE universities.university_city = 'Zurich';
 
 **Today's Progress**
 
-• Continue with Travelly site build. Implement `<form>` with flexbox, to ensure it's responsive. Add relative padding for correct spacing and add `required` fields on `<input>` classes to ensure emails are caught correctly.
+• Continue with Travelly site build. Implement `<form>` with flexbox, to ensure it's responsive. 
+
+• Add relative padding for correct spacing and add `required` fields on `<input>` classes to ensure emails are caught correctly.
 
 **Link(s) to work**
 
