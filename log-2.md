@@ -2604,3 +2604,15 @@ WHERE universities.university_city = 'Zurich';
 1. [Keto](https://github.com/mostmojo/keto_challenge)
 2. [JavaScript functions](https://github.com/mostmojo/keto_challenge/blob/master/js/scripts.js)
 3. [Geoplugin](www.geoplugin.net)
+
+-----
+
+### Day 77: Tuesday, 25th February, 2020
+
+**Today's Progress**
+
+• Continue with Travelly site build. Implement `<form>` with flexbox, to ensure it's responsive. Add relative padding for correct spacing and add `required` fields on `<input>` classes to ensure emails are caught correctly.
+
+**Link(s) to work**
+
+1. [Travelly](https://github.com/mostmojo/travelly)
