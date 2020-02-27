@@ -2667,7 +2667,45 @@ button:focus {
 	outline-color: #7598c3;
 }
 ```
+
+• Add `@font-face` property to `style.css` to import downloaded fonts from a fonts folder on new photography site.
+```
+@font-face {
+	font-family: 'Vibes';
+	src: url('./fonts/GreatVibes-Regular.ttf');
+}
+```
+• Use variables to make styling more scalable and resuable. 
+```
+html {
+	font-size: 62.5%;
+	--header1: calc(2rem + 1vw);
+	--header2: calc(3.5rem + 1vw);
+	--header3: calc(3rem + 1vw);
+	--header4: calc(2.4rem + 1vw);
+	--text: calc(1.5rem + 1vw);
+	--big-text: calc(2.4rem + 1vw);
+	--special-color: #906272;
+	--background-color: #414141;
+	--grey-text: #525252;
+}
+
+...
+
+h1 {
+	font-size: var(--header1);
+}
+```
+• Use classes like `.flex` to apply them regularly without having to type out the whole load of CSS. Hax 🤓
+```
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+```
 **Link(s) to work**
 
 1. [Travelly](https://github.com/mostmojo/travelly)
-
+2. [Photography site](https://github.com/mostmojo/photography-site)
