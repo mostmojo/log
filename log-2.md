@@ -2640,3 +2640,34 @@ background-repeat: no-repeat;
 <form action="https://formspree.io/xayjolzr" method="POST">
 ```
 • Use `position: sticky; top: 0px; z-index: 3;` on `.main-header` class to make nav bar scrollable but stay on top.
+
+-----
+
+### Day 79: Thursday, 27th February, 2020
+
+**Today's Progress**
+
+• Use Mozilla Dev tools to scout for accessibility perks. Implement higher opacity on `background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url('./img/landing-page.jpg');`
+
+• Use semantic HTML5 tags `<header>, <footer>, <nav>, <main>` to cater for screen readers. Apply `line-height: 1.8` property to `.card` text for better readability. 
+
+• Add `alt` tags in case images don't render: `<a href="#" title="twitter-social-media"><img src="./icons/twitter.svg" alt="twitter-social-media"/></a>`
+
+• Add matching `for` and `id` form values so labels will point to inputs when clicked, like so:
+
+```
+<label for="email">Email:</label>
+<input id="email" type="email" required name="_replyto">
+```
+• Add `:focus` pseudo class to button to insert `outline-style` and `outline-color` for accessibility.
+```
+button:focus {
+	background: #2c3f57;
+	outline-style: solid;
+	outline-color: #7598c3;
+}
+```
+**Link(s) to work**
+
+1. [Travelly](https://github.com/mostmojo/travelly)
+
