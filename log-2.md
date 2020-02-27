@@ -2622,14 +2622,21 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('/img/contact-
 background-size: cover;
 background-repeat: no-repeat;
 ```
-• Use `formspree` to implement `POST` request in form with the following properties:
-```
-<form action="https://formspree.io/xayjolzr" method="POST">
-```
-• Use `position: sticky; top: 0px; z-index: 3;` on `.main-header` class to make nav bar scrollable but stay on top.
 
 **Link(s) to work**
 
 1. [Travelly](https://github.com/mostmojo/travelly)
 2. [formspree](https://formspree.io/)
 3. [Site](https://mostmojo.github.io/Travelly/)
+
+-----
+
+### Day 78: Wednesday, 26th February, 2020
+
+**Today's Progress**
+
+• Use `formspree` to implement `POST` request in form with the following properties:
+```
+<form action="https://formspree.io/xayjolzr" method="POST">
+```
+• Use `position: sticky; top: 0px; z-index: 3;` on `.main-header` class to make nav bar scrollable but stay on top.
