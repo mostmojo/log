@@ -2739,7 +2739,7 @@ h1 {
 }
 
 ```
-• Install gitbash on Windows and work out how to work it, create git shortcuts with `alias gst='git status'`/
+• Install gitbash on Windows and connect SSH keys with Github, create git shortcuts with `alias gst='git status'`
 
 **Link(s) to work**
 
