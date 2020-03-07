@@ -2709,3 +2709,38 @@ h1 {
 
 1. [Travelly](https://github.com/mostmojo/travelly)
 2. [Photography site](https://github.com/mostmojo/photography-site)
+
+-----
+
+### Day 80: Saturday, 7th March, 2020
+
+**Today's Progress**
+
+• Use `flex: 1 1 40rem` to position items in a flexbox to take up x amount of space
+
+• Use `@keyframes` to create animations on classes like so:
+```
+@keyframes opening {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes plant-entrance {
+	from {
+		transform: translateY(10%) rotateZ(-10deg);
+	}
+	to {
+		transform: translateY(0%) rotateZ(0deg);
+	}
+}
+
+```
+• Install gitbash on Windows and work out how to work it, create git shortcuts with `alias gst='git status'`/
+
+**Link(s) to work**
+
+1. [Gitbash](https://www.pluralsight.com/guides/using-git-and-github-on-windows)
