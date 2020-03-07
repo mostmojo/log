@@ -2739,6 +2739,35 @@ h1 {
 }
 
 ```
+• Create advanced animations to shake plant `png` image like so:
+```
+@keyframes plant-entrance {
+	from {
+		transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
+	}
+	to {
+		transform: translateY(0%) rotateZ(0deg) rotateX(0deg);
+	}
+}
+
+@keyframes plant-shake {
+	from {
+		transform: rotateZ(-5deg);
+	}
+
+	to {
+		transform: rotateZ(0deg);
+	}
+}
+
+// Add to a class .plant ->
+
+	animation: plant-entrance 1.5s ease-in-out 0.5s forwards,
+	plant-shake 2.5s infinite ease alternate-reverse 2s;
+	transform-origin: bottom;
+
+```
+
 • Install gitbash on Windows and connect SSH keys with Github, create git shortcuts with `alias gst='git status'`
 
 **Link(s) to work**
