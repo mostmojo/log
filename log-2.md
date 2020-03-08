@@ -2773,3 +2773,118 @@ h1 {
 **Link(s) to work**
 
 1. [Gitbash](https://www.pluralsight.com/guides/using-git-and-github-on-windows)
+
+-----
+
+### Day 81: Sunday, 8th March, 2020
+
+**Today's Progress**
+
+• Create a hidden checkbox overlaying three spans that make a burger menu/ When the state of the checkbox is checked, then implement the mobile navigation style menu.
+```
+		<nav>
+			<h1 id="logo">Artemis</h1>
+			<input type="checkbox" class="menu-check" />
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div class="burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
+		
+		...
+@media screen and (max-width: 842px) {
+
+	.hero {
+		width: 100%;
+	}
+
+	.hero-introduction p {
+		padding: 5rem 3rem;
+	}
+
+	/* Burger menu */
+
+	.burger {
+		position: relative;
+		display: block;
+	}
+
+	.burger span {
+		padding: 0.2rem 2rem;
+		background: var(--grey-text);
+		margin: 0.5rem 0rem;
+		display: block;
+		transition: all 0.5s ease;
+	}
+
+	.nav-links a {
+		color: white;
+		font-size: var(--header3);
+		text-decoration: underline;
+	}
+
+	.nav-links {
+		background: var(--background-color);
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 100%;
+		flex-direction: column;
+		align-items: center;
+		transition: transform 1s ease;
+	}
+
+	.menu-check {
+		display: block;
+		position: absolute;
+		top: 50%;
+		right: 5%;
+		transform: translate(5%, -50%);
+		width: 5rem;
+		height: 5rem;
+		cursor: pointer;
+		opacity: 0;
+		z-index: 100;
+	}
+
+	/* When menu-check, which is an `input type checkbox`, is checked, then alter the nav-links class plox */
+	.menu-check:checked + .nav-links {
+		transform: translateX(-100%);
+	}
+
+	/* When menu-check, which is an `input type checkbox`, is checked, then alter the burger span class to make the menu white */
+	.menu-check:checked ~ .burger span {
+		background-color: white;
+	}
+
+	/* When menu-check, which is an `input type checkbox`, is checked, then alter the burger span class to tilt and form an `X` */
+	.menu-check:checked ~ .burger span:nth-child(1) {
+		transform: rotateZ(45deg) translateY(300%);
+	}
+
+	.menu-check:checked ~ .burger span:nth-child(2) {
+		opacity: 0;
+	}
+
+	.menu-check:checked ~ .burger span:nth-child(3) {
+		transform: rotateZ(-45deg) translateY(-300%);
+	}
+
+}
+		
+```
+• To change the three spans to make an `X` shape, use `nth-child(1)` to select the spans and rotate or translate them like so:
+```
+/* When menu-check, which is an `input type checkbox`, is checked, then alter the nav-links class plox */
+
+	.menu-check:checked ~ .burger span:nth-child(1) {
+		transform: rotateZ(45deg) translateY(300%);
+	}
+```
