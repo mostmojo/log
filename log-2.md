@@ -2888,3 +2888,37 @@ h1 {
 		transform: rotateZ(45deg) translateY(300%);
 	}
 ```
+-----
+
+### Day 82-85: Monday, 9th March - 12th March, 2020
+
+**Today's Progress**
+
+• Create slot machine game in JS, JQuery, HTML & CSS
+
+• Implement responsive layouts and use firefox dev tools to debug
+
+• Use xcode's simulator for mobile responsiveness & browser stack
+
+• Snippet from jQuery 
+```
+    /* On click, hide the welcome banner and reveal the slot machine */
+
+    $('.go-button').click(function () {
+
+        $('#mod' + (clk + 1)).fadeOut(100, function () {
+            /*$('#lol').fadeIn(100);*/
+            $('#lol').fadeTo(300, 100);
+        });
+        if (clk === 1) {
+            counter_update(0, 7);
+        } else if (clk === 2) {
+            counter_update(7, 90);
+        }
+        $('#scoreboard').show('fast');
+    });
+```
+
+**Link(s) to work**
+
+1. [slot](https://github.com/mostmojo/mp-slot)
