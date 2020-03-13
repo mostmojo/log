@@ -2890,7 +2890,7 @@ h1 {
 ```
 -----
 
-### Day 82-85: Monday, 9th March - 12th March, 2020
+### Day 82-85: Monday, 9th March - Thursday, 12th March, 2020
 
 **Today's Progress**
 
@@ -2922,3 +2922,37 @@ h1 {
 **Link(s) to work**
 
 1. [slot](https://github.com/mostmojo/mp-slot)
+
+-----
+
+### Day 86: Monday, 13th March, 2020
+
+**Today's Progress**
+
+• Implement `confetti` with jQuery inside a modal like so:
+```
+function modal3() {
+	$('#lol').fadeOut(50);
+	$('#scoreboard').fadeOut(50);
+
+	$('#mod4').fadeIn(50);
+	console.log('Click: ' + clk);
+	$(document).ready(function() {
+		$('body').css({
+			'background-image': 'url("./assets/confetti.gif")',
+			'background-repeat': 'repeat',
+			'background-color': '#000'
+		});
+	});
+}
+```
+• Use fadeIn/fadeOut to show and hide specific elements from HTML like so:
+```
+//Handle The Game End
+$('#fin_btn').click(function() {
+	$('#sl_machine').fadeOut(50);
+	$('#mod4').fadeOut(50);
+	$('#fp').fadeIn(50);
+	$('#mod5').fadeIn(50);
+});
+```
