@@ -2925,7 +2925,7 @@ h1 {
 
 -----
 
-### Day 86: Monday, 13th March, 2020
+### Day 86: Friday, 13th March, 2020
 
 **Today's Progress**
 
@@ -2954,5 +2954,62 @@ $('#fin_btn').click(function() {
 	$('#mod4').fadeOut(50);
 	$('#fp').fadeIn(50);
 	$('#mod5').fadeIn(50);
+});
+```
+-----
+
+### Day 87-88: Saturday, 14th March, Sunday, 15th March 2020
+
+**Today's Progress**
+
+• Work on completing photography site, responsively in HTML, CSS & JS. Utilise the power of flexbox and %s for width adaptivity. E.g.
+```
+.hero {
+	min-height: 90vh;
+	width: 95%;
+	margin: 0 0 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+```
+
+• Use the `flex: 1  1 20rem;` attribute to space out flex'd items like so:
+```
+nav {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	min-height: 10vh;
+	padding: 2rem 0;
+}
+
+#logo {
+	flex: 1 1 20rem;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	flex: 1 1 20rem;
+}
+```
+Use JS (` .querySelector `&` .classList.toggle ` & `.addEventListener`) to grab the nav bar, reveal it and connect it to links on the page like so:
+```
+const nav = document.querySelector('.nav-links');
+const burger = document.querySelector('.burger');
+const links = nav.querySelectorAll('a');
+
+burger.addEventListener('click', () => {
+	nav.classList.toggle('nav-open');
+	burger.classList.toggle('toggle');
+});
+
+links.forEach(link => {
+	link.addEventListener('click', () => {
+		nav.classList.toggle('nav-open');
+		burger.classList.toggle('toggle');
+	});
 });
 ```
