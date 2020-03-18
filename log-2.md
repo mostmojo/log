@@ -3060,6 +3060,19 @@ submit.addEventListener('click', () => {
 ````
 • Research and utilise media queries for all devices.
 
+• Create video tags for custom video player with play/pause buttons. Research video preload to avoid performance issues.
+```
+<head> 
+...
+<link rel="preload" href="./assets/animation-video.mp4" as="video" type="video/mp4">
+</head>
+<video id="video1" class="bg-video__content" autoplay preload loop>
+	<source src="./assets/animation-video.mp4" type="video/mp4" />
+	<source src="./assets/animation-video.mp4" type="video/ogg" />
+	Your browser does not support the video tag.
+</video>
+```
+
 **Link(s) to work**
 
 1. [Media queries](https://gist.github.com/mostmojo/23db2f7a8b7c2a349f204089bef2ab79)
