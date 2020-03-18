@@ -3016,3 +3016,51 @@ links.forEach(link => {
 **Link(s) to work**
 
 1. [site](https://mostmojo.github.io/photography-site/)
+
+-----
+
+### Day 89-91: Monday, 16th March, Wednesday, 18th March 2020
+
+**Today's Progress**
+
+• Create PIN lock in jQ and Vanilla JS, with modules to 'Try again' and 'Congrats' upon successfully guessing the password. Use `getElementById and .querySelector` to grab classes and ids and trigger events like so:
+```
+// Function to make TRY AGAIN modal disappear when GO button is clicked
+
+const goButton = document.querySelector('.fail-go');
+const failContainer = document.querySelector('.fail-container');
+
+goButton.addEventListener('click', () => {
+	failContainer.classList.remove('toggle-show');
+	failContainer.classList.add('toggle-hide');
+	attempt++;
+	document.querySelector('.pinly-highlight').style.backgroundColor = '#3e8f77';
+	console.log(attempt);
+});
+```
+```
+// Function to hide CONGRATS & PINLY module and reveal THANK YOU module on email submission
+
+const submit = document.querySelector('.congrats-submit');
+const congrats = document.querySelector('.congrats');
+const thanks = document.querySelector('.thankyou');
+const pinlyWrap = document.querySelector('.pinly-wrap');
+
+submit.addEventListener('click', () => {
+	// Hide Congrats
+	pinlyWrap.classList.add('toggle-hide');
+	congrats.classList.add('toggle-hide');
+	// Show Thank you
+	thanks.classList.add('toggle-show-1');
+	setTimeout(function() {
+		thanks.classList.remove('toggle-show-1');
+	}, 4000);
+	// thanks.classList.add('toggle-hide-1');
+});
+````
+• Research and utilise media queries for all devices.
+
+**Link(s) to work**
+
+1. [Media queries](https://gist.github.com/mostmojo/23db2f7a8b7c2a349f204089bef2ab79)
+2. [Vault](https://github.com/mostmojo/vault-sp)
