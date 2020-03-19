@@ -3077,3 +3077,17 @@ submit.addEventListener('click', () => {
 
 1. [Media queries](https://gist.github.com/mostmojo/23db2f7a8b7c2a349f204089bef2ab79)
 2. [Vault](https://github.com/mostmojo/vault-sp)
+
+-----
+
+### Day 92: Thursday, 19th March, 2020
+
+**Today's Progress**
+
+• Continue with Rock, Paper, Scissors game. Learn about `position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);` to center an element in the center. Hallelujah! @dkouvdis. 
+
+• Destructuring in JS, to create a counter to ensure user wins on the 3rd time the game is played and launch an alert. Use data attributes inside HTML to grab elements. Thanks to @hannahwoodward & @mio31337 for assistance.  
+
+• Make pulsating effects in CSS with @keyframes for 'bubbly' titles.
+
+• Read about responsive and fluid typography with `vh` and `vw` units using: `html { font-size: calc(1em + 1vw); }`
