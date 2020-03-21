@@ -3111,7 +3111,7 @@ submit.addEventListener('click', () => {
 		display: inline-block;
 	}
 ```
-• Create a mixin for `display: flex` properties with arguments in SASS like so: 
+• Create a `mixin` for `display: flex` properties with arguments in SASS like so: 
 ```
 @mixin flex($justify, $align, $direction) {
 	display: flex;
@@ -3130,3 +3130,7 @@ submit.addEventListener('click', () => {
 	flex-wrap: wrap;
 }
 ```
+• Remember: `flex: 1 1 40rem;` is shorthand for `flex-grow`, `flex-shrink`, and `flex-basis.`
+**Link(s) to work**
+
+1. [Repo](https://github.com/mostmojo/folio)
