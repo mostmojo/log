@@ -3091,3 +3091,42 @@ submit.addEventListener('click', () => {
 • Make pulsating effects in CSS with @keyframes for 'bubbly' titles.
 
 • Read about responsive and fluid typography with `vh` and `vw` units using: `html { font-size: calc(1em + 1vw); }`
+
+-----
+
+### Day 93-94: Friday, 20th March, Saturday, 21st March, 2020
+
+**Today's Progress**
+
+• Build two websites with `<video>` tags, learn about `autoplay` & `preload` and ensure mobile responsiveness and performance is good. Use `transform: translateY(2px);` to make buttons look animated with `transition: all 0.4s ease;`.
+
+• Continue with Dev Ed's course and build final portfolio page. Use `background, clip-text and text-fill` properties to create a gradient-like background for the `h2` like so:
+```
+	h2 {
+		font-size: 8rem;
+		padding-top: 2rem;
+		background: linear-gradient(left, #38d39f, #38a4d3);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		display: inline-block;
+	}
+```
+• Create a mixin for `display: flex` properties with arguments in SASS like so: 
+```
+@mixin flex($justify, $align, $direction) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+
+...
+
+.intro {
+	@include flex(space-between, center, row);
+	min-height: 90vh;
+	width: 90%;
+	margin: auto;
+	flex-wrap: wrap;
+}
+```
