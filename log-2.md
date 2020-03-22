@@ -3134,3 +3134,35 @@ submit.addEventListener('click', () => {
 **Link(s) to work**
 
 1. [Repo](https://github.com/mostmojo/folio)
+
+-----
+
+### Day 95: Sunday, 22nd March, 2020
+
+**Today's Progress**
+
+• Continue with portfolio site. Learn about `transform` properties to utilise positioning like so:
+```
+#clock-arrow {
+	animation: clock 1.5s infinite linear;
+	transform-box: fill-box;
+	transform-origin: bottom;
+}
+```
+• Use @keyframes with `rotateZ` for 3D rotation, of a specific point:
+```
+@keyframes me {
+	from {
+		transform: rotateZ(-2.5deg);
+	}
+	to {
+		transform: rotateZ(2.5deg);
+	}
+}
+```
+
+• Explore `three.js` by researching and forking a game.
+
+**Link(s) to work**
+
+1. [Carrot hunt](https://mostmojo.github.io/carrot-hunt/)
