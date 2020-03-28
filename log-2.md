@@ -3166,3 +3166,20 @@ submit.addEventListener('click', () => {
 **Link(s) to work**
 
 1. [Carrot hunt](https://mostmojo.github.io/carrot-hunt/)
+
+-----
+
+### Day 96 - 100: Saturday, 28th March, 2020
+
+**Today's Progress**
+
+• Spend the week creating various websites for client featuring HTML, CSS & JavaScript.
+
+• Create a counterdown timer for a page with vanilla JS and ensure sites are mobile responsive on all platforms.
+
+• Use Wistia service for responsive video tags to ensure cross browser and cross-device compatibility.
+
+**Link(s) to work**
+
+1. [Countdown timer](https://twitter.com/most_mojo/status/1243219113201356800?s=20)
+2. [Video tags](https://twitter.com/most_mojo/status/1240302686374895618?s=20)
