@@ -3169,7 +3169,7 @@ submit.addEventListener('click', () => {
 
 -----
 
-### Day 96 - 100: Saturday, 28th March, 2020
+### Day 96 - 101: Monday 23rd March - Saturday, 28th March, 2020 :)
 
 **Today's Progress**
 
