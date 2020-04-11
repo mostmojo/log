@@ -167,7 +167,7 @@
 
 **Today's Progress**
 
-• Look into importing sprite files with icomoon.
+• Look into importing sprite files with `icomoon`.
 
 • Using icomoon to use `symbol-defs.svg` to `sprite.svg` and implement all the files within a project architecture. In `HTML` use `<svg class="icon icon--9"><use xlink:href="{{ uncache( 'assets/img/sprite.svg#icon-paint---4' ) }}"></use>
 </svg>` and use `fill: $colour-icon-dark-pink;` for colors.
