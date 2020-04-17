@@ -71,7 +71,7 @@
 
 **Today's Progress**
 
-• Twig includes, content blocks, matrix blocks and conditional logic to render generic components.
+• Twig includes, content blocks, matrix blocks & conditional logic to render generic components.
 
 • `@extend %typeset;` for cleaner SCSS. 
 
