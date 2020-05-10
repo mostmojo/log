@@ -139,7 +139,7 @@
 
 • Learn about form redirects with: `{% if not order or order.isCompleted == false %}{% redirect 'events' %}{% redirect 'events' %}{% endif #}{% endif %}`.
 
-• Work with helper classes like `mb` or `separated-less` to create space between BEM styled elements by wrapping around them without changing semantics. 
+• Work with helper classes like `mb` or `separated-less` to create space between BEM styled elements by wrapping around them w/o changing semantics. 
 
 **Link(s) to work**
 
