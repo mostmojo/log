@@ -234,7 +234,7 @@
 
 • When using icons, `search-box--close { &::before { @extend %icon-pseudo; @extend %icon-pseudo--close; }` ensure that the `::before` pseudo class is used on a class that is **NOT** an `input` field, as they won't work on those. Then use `position: absolute` to place it according to the design.
 
-• In twig syntax to redirect to a specific place, use the following syntax: `<button class="search-box search-box--icon"><a href="{{ url( 'search' ) }}" aria-label="Search"></a></button>` having an 'empty' button, with no text, can have the `url( 'search' )` to redirect it to the specific page. If it's home, use empty string. 
+• In twig syntax to redirect to a specific place, use the following syntax: `<button class="search-box search-box--icon"><a href="{{ url( 'search' ) }}" aria-label="Search"></a></button>` having an 'empty' button, w/ no text, can have the `url( 'search' )` to redirect it to the specific page. If it's home, use empty string. 
 
 **Link(s) to work**
 
