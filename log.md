@@ -1,4 +1,4 @@
-👨🏻‍💻 [Previous #100DaysOfCode log](https://twitter.com/most_mojo/status/1085674532982214662)
+👨🏻‍💻 [Previous 100DaysOfCode log](https://twitter.com/most_mojo/status/1085674532982214662)
 
 <p align="center">
   <img width="120" height="120" src="https://res.cloudinary.com/mostmojo/image/upload/v1560979571/psy.gif">
