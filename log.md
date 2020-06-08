@@ -65,7 +65,7 @@
 
 • Looked into yarn builds, compilers, SASS variables, the asset pipeline and began to break down Twig logic. 
 
-• Worked on layout of Nexter project. Used `line names` within `grid-column` property in practice to align sections. Ex. `grid-column: col-start 7 / full-end;`
+• Worked on layout of Nexter. Used `line names` within `grid-column` property in practice to align sections. Ex. `grid-column: col-start 7 / full-end;`
 
 **Link(s) to work**
 
