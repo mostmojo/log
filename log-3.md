@@ -6,11 +6,11 @@
 
 •  Create flask app in python for client music recording studio app after watching a Flask Blog series (8 episodes thus far) of Corey Schafer on YouTube.
 
-• Set up package with `if __name__ == '__main__': app.run(debug=True)`, `__init__.py`, `routes`, `templates` and `static files`
+• Set up package with `if __name__ == '__main__': app.run(debug=True)`, `__init__.py`, `routes`, `templates` and `static files`. Ensure to understand package cycle in flask from run.py instantiation of app, to init, importing of flask and calling classes to save into app variable, and import routes, that way routes can be utilised with their functions i.e. `@app.route('/') def home(): return render_template('/home.html', title='Home')`. Finally, utilise the `from flask import render_template, url_for, flash, redirect, request` flask methods for ease of use when developing.
 
-• Look into Jinja2 extends vs include terms for: `{% extends 'layout.html' %}` & `{% include 'partials/guitar_block.html' %}`
+• Look into Jinja2 extends vs include terms for: `{% extends 'layout.html' %}` & `{% include 'partials/guitar_block.html' %}`.
 
-• Read on Python Anywhere deployment via Github and create account
+• Read on Python Anywhere deployment via Github and create account.
 
 **Link(s) to work**
 
