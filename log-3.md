@@ -18,3 +18,25 @@
 2. [Python Anywhere Deployment](https://medium.com/@tossia13/lets-take-it-online-deploying-your-flask-application-to-pythonanywhere-3ab87c1c851c)
 
 -----
+
+### Day 2 : Monday, 2nd November, 2020
+
+**Today's Progress**
+
+•  Jose Portilla Python course, with immutable strings, string methods and basic concatenations. E.g. `x.split()`, `x.lower()`, `x.upper()`.
+
+• Use the python operators for fun to refresh, with indexing.
+
+```
+name = 'Sam'
+last_letters = name[1:]
+print(last_letters)
+# 'am'
+print('P' + last_letters)
+# 'Pam'
+```
+• Look into Bootstrap for larger scale application and start developing components for client (Zen).
+
+**Link(s) to work**
+
+1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388532#announcements)
