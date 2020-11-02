@@ -36,6 +36,14 @@ print('P' + last_letters)
 # 'Pam'
 ```
 • Look into Bootstrap for larger scale application and start developing components for client (Zen).
+• Continue Jose's course and into string formatting, aka `string interpolation` using `format()` and `f-strings`. E.g. - `print('The {q} {b} {f}'.format(f='fox',b='brown', q='quick'))` => The quick brown fox.
+• Use `f strings` aka `Formated String Literals` for a more modern, easier approach, using the `f` and variables within a string, like so:
+```
+name = 'Jose'
+age = '3'
+print(f'Hi, my name is {name}. I am {age} years old')
+# Hi, my name is Jose. I am 3 years old
+```
 
 **Link(s) to work**
 
