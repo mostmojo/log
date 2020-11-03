@@ -50,3 +50,15 @@ print(f'Hi, my name is {name}. I am {age} years old')
 **Link(s) to work**
 
 1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388532#announcements)
+
+-----
+
+### Day 3 : Tuesday, 3rd November, 2020
+
+**Today's Progress**
+
+•  Continue Pieran course, on Python `lists` and learn about `.append()` & `.sort()` & `.reverse()` & `.pop()` methods.
+
+**Link(s) to work**
+
+1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388536#announcements)
