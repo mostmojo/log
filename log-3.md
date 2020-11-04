@@ -83,6 +83,10 @@ d['key1'][2].upper()
 
 •  Utilize this with ZEN Studios client website `{% for title, description in microphones_dict.items() %}` with Jinja2 templating, to get the title and description within a microphones dictionary and render the title tags within a dictionary in the `routes.py` folder.
 
+•  `Tuples` - written in () but similar to [] lists, just immutable. e.g. `t = (1,2,3)`. If we try to reassign `t[0] = 222` -> `Type Error`. Tuples have 2 methods - `index` & `count`. E.g. `t.count(1)` -> `1`.
+
+•  `Sets` - unordered collections of unique elements, e.g. - `mylist = [1,1,1,2,2]`, `set(mylist)`, `{1,2}`. The are rendered in square brackets like dictionaries but just have the unique values. You can also use .add() method to add anything to a set variable.
+
 **Link(s) to work**
 
 1. [JS Obfuscator](https://obfuscator.io/)
