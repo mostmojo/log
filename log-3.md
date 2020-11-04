@@ -1,6 +1,6 @@
 -----
 
-### Day 1 : Sunday, 1st November, 2020
+### Day 1: Sunday, 1st November, 2020
 
 **Today's Progress**
 
@@ -19,7 +19,7 @@
 
 -----
 
-### Day 2 : Monday, 2nd November, 2020
+### Day 2: Monday, 2nd November, 2020
 
 **Today's Progress**
 
@@ -53,7 +53,7 @@ print(f'Hi, my name is {name}. I am {age} years old')
 
 -----
 
-### Day 3 : Tuesday, 3rd November, 2020
+### Day 3: Tuesday, 3rd November, 2020
 
 **Today's Progress**
 
@@ -62,3 +62,27 @@ print(f'Hi, my name is {name}. I am {age} years old')
 **Link(s) to work**
 
 1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388536#announcements)
+
+
+-----
+
+### Day 4 : Wednesday, 4th November, 2020
+
+**Today's Progress**
+
+•  Learn about JavaScript obfuscation to 'hide' functions by reprocessing them to prevent people from taking your work
+
+•  Python dictionaries (JS Objects) - learn shorthand querying, while using Py's methods, like so: 
+```
+d = {'key1': ['a', 'b', 'c']}
+d['key1'][2].upper()
+# 'C'
+```
+•  Update dictionary `d['k1'] = 13`. Also use `d.keys()`, `d.values()`, `d.items()` to showcase the `dict_keys`, `dict_values` & `dict_items`. Remember that
+`items()` are rendered as tuples ( normal brackets ) and their values can be manipulated accordingly. E.g. - `dict_items([('k1', 100), ('k2', '200')])`.
+
+•  Utilize this with ZEN Studios client website `{% for title, description in microphones_dict.items() %}` with Jinja2 templating, to get the title and description within a microphones dictionary and render the title tags within a dictionary in the `routes.py` folder.
+
+**Link(s) to work**
+
+1. [JS Obfuscator](https://obfuscator.io/)
