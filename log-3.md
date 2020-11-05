@@ -90,3 +90,31 @@ d['key1'][2].upper()
 **Link(s) to work**
 
 1. [JS Obfuscator](https://obfuscator.io/)
+
+-----
+
+### Day 5: Thursday, 5th November, 2020
+
+**Today's Progress**
+
+•  Look into various nav bar animations for responsive design, @keyframes and how they interact
+
+• Continue Jose's course - go through refresher on comparison operators `2 == 2 --> True | 4 != 5 --> True`
+
+• Logical operators in python `and, or, not` e.g. `'h' == 'h' and 2 == 2 --> True`
+
+• Recap on if, elif and else statements with python's `control flow` syntax containing colons and indentation like so:
+
+```
+name = 'Sam'
+
+if name == 'Frank':
+  print('Hi Frank')
+elif name == 'Alex':
+  print('Hi Alex')
+else:
+  print('What is your name?)
+```
+
+**Link(s) to work**
+1. [W3 Schools Nav](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
