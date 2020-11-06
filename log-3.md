@@ -118,3 +118,17 @@ else:
 
 **Link(s) to work**
 1. [W3 Schools Nav](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+
+-----
+
+### Day 6: Friday, 6th November, 2020
+
+**Today's Progress**
+
+•  Review flask app with run, init and routes pathways and ensure to understand the python package.
+
+**Link(s) to work**
+
+1. [Corey Schafer](https://www.youtube.com/watch?v=u0oDDZrDz9U&t=1562s)
+
+-----
