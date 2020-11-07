@@ -126,9 +126,46 @@ else:
 **Today's Progress**
 
 •  Review flask app with run, init and routes pathways and ensure to understand the python package.
+•  
 
 **Link(s) to work**
 
 1. [Corey Schafer](https://www.youtube.com/watch?v=u0oDDZrDz9U&t=1562s)
 
 -----
+
+-----
+
+### Day 7: Saturday, 7th November, 2020
+
+**Today's Progress**
+
+•  Continue course - Files. Learn file writing syntax to open files in python `myfile = open('myfile.txt')` and `pwd` to check for directory. `myfile.read()` to read files. `myfile.seek()` to reset the cursor. `myfile.readlines()` to get a list that is spaced on individual lines, which can be indexed and manipulated. Use `pwd` to get file path like so: `myfile = open("/Users/jacob/Folder/myfile.txt")` and `myfile.close()` to close file. 
+
+•  New way to `READ` and autoclosing files:
+
+```
+with open(myfile.txt) as my_new_file:
+  contents= my_new_file.read()
+  contents
+```
+
+•  WRITE (overwrites existing file)
+```
+with open('myfile.txt', mode='w') as f:
+  f.write('I CREATED THIS NEW LINE')
+
+with open('myfile.txt', mode='r') as f:
+  print(f.read())
+# I CREATED THIS NEW LINE
+```
+
+•  APPEND (adds to the last line, no overwrite)
+```
+with open('myfile.txt', mode='a') as f:
+  f.write('\n SOMETHING NEW WRITTEN HERE')
+```
+
+**Link(s) to work**
+
+1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388536#announcements)
