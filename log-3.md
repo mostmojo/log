@@ -175,6 +175,16 @@ elif name == 'Sam':
 else:
   print('What\'s your name?')
 ```
+
+• For loops - to iterate through strings, tuples and dictionaries via `tuple unpacking`. To get the full items you need to use the `items()` method on the dictionary for tuple unpacking. for `item in d.items():`.
+```
+d = {'k1':1,'k2':2,'k3':1}
+for item in d
+  print(item)
+# k1
+# k2
+# k3
+```
 **Link(s) to work**
 
 1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388536#announcements)
