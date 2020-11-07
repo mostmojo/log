@@ -165,7 +165,16 @@ with open('myfile.txt', mode='r') as f:
 with open('myfile.txt', mode='a') as f:
   f.write('\n SOMETHING NEW WRITTEN HERE')
 ```
-
+• If, elif, else statements for `control flow` - colons & indentation.
+```
+name = 'Sam'
+if name == 'Frank':
+  print('Hi Frank')
+elif name == 'Sam':
+  print('Hi Sam')
+else:
+  print('What\'s your name?')
+```
 **Link(s) to work**
 
 1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388536#announcements)
