@@ -134,8 +134,6 @@ else:
 
 -----
 
------
-
 ### Day 7: Saturday, 7th November, 2020
 
 **Today's Progress**
@@ -188,3 +186,34 @@ for item in d
 **Link(s) to work**
 
 1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9388536#announcements)
+
+-----
+
+### Day 8: Sunday, 8th November, 2020
+
+**Today's Progress**
+
+•  Go over while loops in python and the `break`, `continue`, `pass` statements 
+
+•  Useful operators - `range(3,10,2)`, `enumerate`, which unpacks in tuples, `zip` and `in`, `minmax` and `from random import shuffle` import function + `randint`.
+
+•  Grab user input `result = int(input('Enter a number: '))`. Remember all user input is in `str`. Can either `int(result)`, or `float(result)` post or pre data grabbing.
+
+• Use a for within a for loop for client ZEN, to grab data within a dictionary like so:
+
+```
+routes.py
+guitar_pedals = {
+    "Distortion": {"DT1": {"Distortion pedal with powerful tone": "https://image..."}
+}
+...
+pedals.html
+	{% for pedal_title, description_key in pedal_model.items() %}
+			{% for desc, img_path in description_key.items() %}
+  {% endfor %}
+  {% endfor %}
+```
+
+**Link(s) to work**
+
+1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9407968#content)
