@@ -210,8 +210,8 @@ guitar_pedals = {
 pedals.html
 	{% for pedal_title, description_key in pedal_model.items() %}
 			{% for desc, img_path in description_key.items() %}
-  {% endfor %}
-  {% endfor %}
+	{% endfor %}
+	{% endfor %}
 ```
 
 **Link(s) to work**
