@@ -217,3 +217,36 @@ pedals.html
 **Link(s) to work**
 
 1. [Udemy Pierian Data Course](https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9407968#content)
+
+-----
+
+### Day 9: Monday, 9th November, 2020
+
+**Today's Progress**
+
+•  List comprehension with for loops and one liners. The example below appends a calculation of each temp in celsius into the empty farenheit list. E.g.
+```
+celsius = [0,10,20,34.5]
+farenheit = []
+
+for temp in celsius:
+    farenheit.append((9/5)*temp+32)
+# [32.0,50.0,68.0,94.1]
+```
+or one liners (not as legibile)
+```
+farenheit = [((9/5)*temp +32) for temp in celsius]
+```
+•  Another simpler example
+```
+mystr = "hello"
+mylist=[]
+for letter in mystr:
+  mylist.append(letter)
+mylist
+# ['h','e','l','l', 'o']
+```
+As a one liner 
+```
+mylist=[letter for letter in mystr]
+```
