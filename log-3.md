@@ -250,3 +250,27 @@ As a one liner
 ```
 mylist=[letter for letter in mystr]
 ```
+
+-----
+
+### Day 10: Wednesday, 10th November, 2020
+
+**Today's Progress**
+
+•  Go through solutions of python test with .split(), range(), list comprehension, fizzbuzz task and indexing.
+
+•  Revisit py inbuilt methods .append(), .pop() and dive into function declarations, the print (NoneType - can't be saved) and return statement (allowing saving ability). Start writing logic into functions like so:
+```
+# Return True if any num is even
+def check_even_list(num_list):
+	for number in num_list:
+		if number %2==0:
+			return True
+		else:
+			pass
+check_even_list([2,4,5])
+```
+•  Read into Flask WTForms and Flask Mail
+**Link(s) to work**
+
+1. [Flask Mail & Flask WTForms](https://code.tutsplus.com/tutorials/intro-to-flask-adding-a-contact-page--net-28982)
