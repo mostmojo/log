@@ -253,7 +253,7 @@ mylist=[letter for letter in mystr]
 
 -----
 
-### Day 10: Wednesday, 10th November, 2020
+### Day 10: Tuessday, 10th November, 2020
 
 **Today's Progress**
 
