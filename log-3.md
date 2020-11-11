@@ -253,7 +253,7 @@ mylist=[letter for letter in mystr]
 
 -----
 
-### Day 10: Tuessday, 10th November, 2020
+### Day 10: Tuesday, 10th November, 2020
 
 **Today's Progress**
 
@@ -274,3 +274,23 @@ check_even_list([2,4,5])
 **Link(s) to work**
 
 1. [Flask Mail & Flask WTForms](https://code.tutsplus.com/tutorials/intro-to-flask-adding-a-contact-page--net-28982)
+
+-----
+
+### Day 11: Wednesday, 11th November, 2020
+
+**Today's Progress**
+
+•  Deployed client site test to Python Anywhere using a virtual environment, bash scripts and GitHub.
+
+•  Read about the benefits of virtual environments in Python's Flask framework versus downloading packages globally and effects they have per project.
+
+•  Look into Wagtail CMS docs for client to gauge feasibility of using Python as a backend CMS for a basketball betting blog-based project.
+
+**Link(s) to work**
+
+1. [Python Anywhere](https://www.pythonanywhere.com/user/mostmojo/)
+2. [Py Anywhere Deployment](https://medium.com/@tossia13/lets-take-it-online-deploying-your-flask-application-to-pythonanywhere-3ab87c1c851c)
+3. [Virtual Flask Environment](https://topherpedersen.blog/2019/12/28/how-to-setup-a-new-flask-app-on-a-mac/)
+4. [Wagtail CMS](https://docs.wagtail.io/en/stable/getting_started/tutorial.html)
+5. [Wagtail YT Tuts](https://www.youtube.com/playlist?list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub)
