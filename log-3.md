@@ -294,3 +294,53 @@ check_even_list([2,4,5])
 3. [Virtual Flask Environment](https://topherpedersen.blog/2019/12/28/how-to-setup-a-new-flask-app-on-a-mac/)
 4. [Wagtail CMS](https://docs.wagtail.io/en/stable/getting_started/tutorial.html)
 5. [Wagtail YT Tuts](https://www.youtube.com/playlist?list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub)
+
+-----
+
+### Day 12: Wednesday, 21th November, 2020
+
+**Today's Progress**
+
+• Continue functional logic in python
+```
+def check_even_list(num_list):
+	#return list of even numbers
+
+	#placeholder vars
+	even_numbers = []
+	
+	for number in num_list:
+		if number %2 ==0:
+			even_numbers.append(number)
+		else:
+			pass
+	return even_numbers
+check_even_list([1,2,3,4,5])
+# [2,4]
+
+```
+• Tuple unpacking functions
+```
+work_hours = [('Abbey': 100), ('Chris': 500), ('Rob': 800)]
+
+def employee_check(work_hours):
+	current_max = 0
+	employee_of_month = ""
+	
+	for employee, hours in work_hours:
+		if hours > current_max
+			current_max = hours
+			employeee_of_month = employee
+		else:
+			pass
+	return(employee_of_month, current_max)
+	
+employee_check(work_hours)
+('Rob': 800)
+```
+
+• Return statement in tuple unpacking can be saved in a variable that'll show the tuple like so: ('Rob': 800), or can be saved in its k:v and be manipulated like so: name,hours = employee_check(work_hours) -> name -> 'Rob'
+
+**Link(s) to work**
+
+1. [Python Anywhere](https://www.pythonanywhere.com/user/mostmojo/)
