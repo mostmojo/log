@@ -297,7 +297,7 @@ check_even_list([2,4,5])
 
 -----
 
-### Day 12: Wednesday, 21th November, 2020
+### Day 12: Wednesday, 12th November, 2020
 
 **Today's Progress**
 
