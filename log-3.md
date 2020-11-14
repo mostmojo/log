@@ -297,7 +297,7 @@ check_even_list([2,4,5])
 
 -----
 
-### Day 12: Wednesday, 12th November, 2020
+### Day 12:Thursday, 12th November, 2020
 
 **Today's Progress**
 
@@ -344,3 +344,50 @@ employee_check(work_hours)
 **Link(s) to work**
 
 1. [Python Anywhere](https://www.pythonanywhere.com/user/mostmojo/)
+
+-----
+
+### Day 13: Friday, 14th November, 2020
+
+**Today's Progress**
+
+•  Read Heroku docs and CODEMY to upload ZEN client app to heroku. Utilized Py's virtual environment with `pip3 install virtualenv`, `virtualenv venv --system-site-packages`, `source venv/bin/activate deactivate`. Learned how to `pip freeze > requirements.txt` to ensure app is created in production with all its reqs. 
+
+•  Made a 'Three cup monty game' in python to make different functions interact
+```
+from random import shuffle
+
+def shuffle_list(mylist):
+    shuffle(mylist)
+    return mylist
+
+def player_guess():
+    guess = ''
+    while guess not in ['0', '1', '2']:
+        guess = input('Pick a number. 0, 1, or 2: ')
+    return int(guess)
+
+def check_guess(mylist, guess):
+    if mylist[guess] == 'X':
+        print('Correct! 😊')
+    else:
+        print("Wrong!")
+        print(mylist)
+
+# initialize list
+mylist = ['', 'X', '']
+
+# shuffle list
+mixed_up_list = shuffle_list(mylist)
+
+# check player guess
+player_guess = player_guess()
+
+# check guess
+check_guess(mixed_up_list, player_guess)
+```
+
+**Link(s) to work**
+
+1. [ZEN - Heroku](https://zenstudios.herokuapp.com/)
+2. [Codemy - Heroku tuts](https://www.youtube.com/watch?v=Li0Abz-KT78)
