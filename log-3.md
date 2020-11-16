@@ -391,3 +391,50 @@ check_guess(mixed_up_list, player_guess)
 
 1. [ZEN - Heroku](https://zenstudios.herokuapp.com/)
 2. [Codemy - Heroku tuts](https://www.youtube.com/watch?v=Li0Abz-KT78)
+
+-----
+
+### Day 14 & 15: Friday, Saturday 14th, 15th, November, 2020
+
+**Today's Progress**
+
+•  Continue Pieran Data course. Complete a series of puzzle exercises to strengthen python learning.
+
+```
+1. 
+
+def lesser_of_two_evens(a,b):
+    if a%2 == 0 and b%2 == 0:
+        if a < b:
+            return min(a,b)
+    else: 
+        if a > b:
+            return max(a,b)
+	    
+2. 
+def animal_crackers(text):
+    split_word = text.lower().split()
+    
+    return split_word[0][0] == split_word[0][0]
+
+3. 
+def makes_twenty(n1,n2):
+    return (n1+n2) == 20 or n1 == 20 or n2 == 20
+
+4.
+def old_macdonald(name):
+    first_part = name[:3]
+    second_part = name[3:]
+    
+    return first_part.capitalize() + second_part.capitalize()
+
+5.
+def master_yoda(text):
+    wordlist = text.split()
+    rev_text = wordlist[::-1]
+    return " ".join(rev_text)
+
+6.
+def almost_there(n):
+   return (abs(100-n) <= 10) or (abs(200-n) <= 10)
+```
