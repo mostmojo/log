@@ -97,7 +97,7 @@ d['key1'][2].upper()
 
 **Today's Progress**
 
-•  Look into various nav bar animations for responsive design, @keyframes and how they interact
+•  Look into various navbar animations for responsive design, @keyframes and how they interact
 
 • Continue Jose's course - go through refresher on comparison operators `2 == 2 --> True | 4 != 5 --> True`
 
