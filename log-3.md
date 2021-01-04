@@ -353,7 +353,7 @@ employee_check(work_hours)
 
 •  Read Heroku docs and CODEMY to upload ZEN client app to heroku. Utilized Py's virtual environment with `pip3 install virtualenv`, `virtualenv venv --system-site-packages`, `source venv/bin/activate deactivate`. Learned how to `pip freeze > requirements.txt` to ensure app is created in production with all its reqs. 
 
-•  Made a 'Three cup monty game' in python to make different functions interact
+•  Made 'Three cup monty game' in python to make different functions interact
 ```
 from random import shuffle
 
