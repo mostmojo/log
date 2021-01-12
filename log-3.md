@@ -35,7 +35,7 @@ print(last_letters)
 print('P' + last_letters)
 # 'Pam'
 ```
-• Look into Bootstrap for larger scale application and start developing components for client (Zen).
+• Look into Bootstrap for larger scale app and start developing components for client (Zen).
 
 • Continue Jose's course and into string formatting, aka `string interpolation` using `format()` and `f-strings`. E.g. - `print('The {q} {b} {f}'.format(f='fox',b='brown', q='quick'))` => The quick brown fox.
 
