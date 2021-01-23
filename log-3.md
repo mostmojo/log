@@ -78,7 +78,7 @@ d = {'key1': ['a', 'b', 'c']}
 d['key1'][2].upper()
 # 'C'
 ```
-•  Update dictionary `d['k1'] = 13`. Also use `d.keys()`, `d.values()`, `d.items()` to showcase the `dict_keys`, `dict_values` & `dict_items`. Remember that
+•  Update dict `d['k1'] = 13`. Also use `d.keys()`, `d.values()`, `d.items()` to showcase the `dict_keys`, `dict_values` & `dict_items`. Remember that
 `items()` are rendered as tuples ( normal brackets ) and their values can be manipulated accordingly. E.g. - `dict_items([('k1', 100), ('k2', '200')])`.
 
 •  Utilize this with ZEN Studios client website `{% for title, description in microphones_dict.items() %}` with Jinja2 templating, to get the title and description within a microphones dictionary and render the title tags within a dictionary in the `routes.py` folder.
