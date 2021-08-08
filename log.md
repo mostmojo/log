@@ -6,7 +6,7 @@
 
 -----
 
-### Day 1: Saturday, 4th May, 2019
+### Day 1: Sat, 4th May, 2019
 
 **Today's Progress**
 
