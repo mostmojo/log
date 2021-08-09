@@ -1,6 +1,6 @@
 -----
 
-### Day 1: Sunday, 1st November, 2020
+### Day 1: Sunday, 1st Nov, 2020
 
 **Today's Progress**
 
