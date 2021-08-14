@@ -57,7 +57,7 @@
 
 -----
 
-### Day 4: Tuesday, 7th May, 2019
+### Day 4: Tues, 7th May, 2019
 
 **Today's Progress**
 
